@@ -86,6 +86,31 @@ public class SinglyLinkedList {
     public void getHead(){
         System.out.print(head.getData());
     }
+
+    public void nThNodeFromEndTwoIter(int n){
+        Link current = head;
+        int countOfNodes = 1;
+        int position=0;
+        while (current.getNext()!=null){
+            countOfNodes++;
+            current= current.getNext();
+        }
+        if(countOfNodes<n){
+            System.out.println("Node out of range!");
+        }else{
+            position = countOfNodes-n;
+            countOfNodes=1;
+        }
+        current=head;
+        while (countOfNodes<=position){
+            current=current.getNext();
+            countOfNodes++;
+        }
+        System.out.print(current.getData());
+    }
+    public void nThNodeFromEndDirectAddressTable(){
+
+    }
 }
 
 

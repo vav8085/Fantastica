@@ -13,7 +13,7 @@ public class NthNodeEndLl {
         singlyLinkedList.insertStart(3);
         singlyLinkedList.insertStart(2);
         singlyLinkedList.insertStart(1);
-        singlyLinkedList.nThNodeFromEndTwoIter(2);
+        singlyLinkedList.nThNodeFromEndTwoIter(5);
     }
 
 
