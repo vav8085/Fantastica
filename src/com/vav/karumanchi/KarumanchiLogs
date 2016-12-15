@@ -13,3 +13,19 @@
 	13. Graphs
 	14. Greedy
 	15. Divide and conq
+
+
+	12/15 - Nth Node Hashmap
+	    -Nth node 2 pointers
+	    -check if LL is null terminated or cycle 2 loops
+	    -null or cycles using hashmaps
+	    -solve on O(n) Floyd cyclew finding
+	    -Find the start node of cycle
+	    -Skip problem 12
+	    -Find length of cycle
+	    -Insert node in sorted list
+	    -Reverse a SLL
+	    -Mid of LL all ways
+	    -Display LL ffrom end
+	    -even or odd LL
+	    -Merge LL
