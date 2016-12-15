@@ -98,15 +98,16 @@ public class SinglyLinkedList {
         if(countOfNodes<n){
             System.out.println("Node out of range!");
         }else{
-            position = countOfNodes-n;
+            position = countOfNodes-n+1;
             countOfNodes=1;
+            current=head;
+            while (countOfNodes<position){
+                current=current.getNext();
+                countOfNodes++;
+            }
+            System.out.print(current.getData());
         }
-        current=head;
-        while (countOfNodes<=position){
-            current=current.getNext();
-            countOfNodes++;
-        }
-        System.out.print(current.getData());
+
     }
     public void nThNodeFromEndDirectAddressTable(){
 
