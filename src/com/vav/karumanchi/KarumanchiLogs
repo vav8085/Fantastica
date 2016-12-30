@@ -1,19 +1,23 @@
-	1. Linked List
-	2. Symbol tables
-	3. Hashing
-	4. Stacks
-	5. Queues
-	6. Recursion
-	7. Searching
-	8. Sorting  
-	9. String Algorithms
-	10. Trees
-	11. PQ and Heaps
-	12. Disj Sets   
-	13. Graphs  
-	14. Greedy
-	15. Divide and conq
-	16. Selection Algorithms
+	1.  Introduction
+	2.  Recursion
+	3.  Linked List
+	4.  Stacks
+	5.  queues
+	6.  Trees
+	7.  Priority Queues and heaps
+	8.  Disjoint sets ADT
+	9.  Graph Algo
+	10. Sorting
+	11. Searching
+	12. Selection Algo
+	13. Symbol Tables                   -   Complate
+	14. Hashtables                      -   In Progress
+	15. String Algorithms
+	16. Algorithm design techniques
+	17. Greedy
+	18. Divide and Conquer
+	19. Dynamic programming
+
 
 
 	12/28
