@@ -112,11 +112,36 @@ public class SinglyLinkedList {
     public void nThNodeFromEndDirectAddressTable(){
 
     }
+    public boolean cycleDetectionBf(){
+
+        Link current = head;
+        Link previous = current;
+        while(previous!=null){
+            while (current!=null){
+                if(current.getNext()==previous){
+                    return true;
+                }
+                current=current.getNext();
+            }
+            previous = previous.getNext();
+            current= previous;
+        }
+
+        return false;
+    }
+    public boolean cycleDetectionHashTable(){
+        Link current = head;
+        while(current.getNext()!=null){
+            current = current.getNext();
+        }
+            return false;
+    }
+
 }
 
 
 
-class Link {
+ class Link {
     private int data;
     private Link next;
 
