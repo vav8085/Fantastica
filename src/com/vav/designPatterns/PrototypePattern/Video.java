@@ -1,4 +1,4 @@
-package com.vav.designPatterns.ProxyPattern;
+package com.vav.designPatterns.PrototypePattern;
 
 /**
  * Created by Vaibhav on 1/16/2017.
