@@ -15,9 +15,10 @@ public class BinaryTreeKaru {
     public void preOrderRecursive(BinaryTreeNodeKaru root){
         if(root!=null){
             System.out.println(binaryTreeRootKaru.getData());
+            preOrderRecursive(root.getLeft());
+            preOrderRecursive(root.getRight());
         }
-        preOrderRecursive(root.getLeft());
-        preOrderRecursive(root.getRight());
+
     }
     public ArrayList<Integer> preOrderLoop(BinaryTreeNodeKaru root) {
 
@@ -39,17 +40,55 @@ public class BinaryTreeKaru {
 
         return res;
     }
-    public void inorderRecursive(BinaryTreeNodeKaru root){
-        inorderRecursive(root.getLeft());
-        if(root!=null){
-            System.out.println(root);
+    public void preOrderLoopOld(BinaryTreeNodeKaru root){
+        if (root==null){
+            return;
         }
-        inorderRecursive(root.getRight());
+        Stack<BinaryTreeNodeKaru> stack = new Stack<>();
+        while(true){
+            while(root!=null){
+                stack.push(root);
+                System.out.println(root.getData());
+                root=root.getLeft();
+            }
+            BinaryTreeNodeKaru temp =stack.pop();
+            if(stack.isEmpty()){
+                break;
+            }
+            root=temp.getRight();
+
+        }
+    }
+    public void inorderRecursive(BinaryTreeNodeKaru root){
+        if(root!=null){
+            inorderRecursive(root.getLeft());
+            System.out.println(root);
+            inorderRecursive(root.getRight());
+
+        }
 
     }
-    public ArrayList<Integer> inOrderLoop(BinaryTreeNodeKaru root){
-        ArrayList<Integer> list = new ArrayList<>();
-        return list;
+    public void inOrderLoop(BinaryTreeNodeKaru root){
+        if(root==null){
+            System.out.println("Empty Tree!");
+        }
+        Stack<BinaryTreeNodeKaru> stack = new Stack<>();
+        while(true){
+            while(root!=null){
+                stack.push(root);
+                root=root.getLeft();
+            }
+            if(stack.isEmpty()){
+                break;
+            }
+            root=stack.pop();
+            System.out.println(root.getData());
+            root=root.getRight();
+        }
+        return;
+    }
+    public void addLeft(int data){
+
     }
 
 }
