@@ -1,20 +1,51 @@
 package com.vav.karumanchi.Trees;
 
-import java.util.ArrayList;
-import java.util.Stack;
+import java.util.*;
 
 /**
  * Created by Vaibhav on 1/23/2017.
  */
 public class BinaryTreeKaru {
     BinaryTreeNodeKaru binaryTreeRootKaru;
-
+    int size = 0;
     public BinaryTreeKaru(){
         binaryTreeRootKaru = null;
     }
+    public void add(int data){
+        BinaryTreeNodeKaru temp = new BinaryTreeNodeKaru(data);
+        BinaryTreeNodeKaru current = binaryTreeRootKaru;
+        if(current==null){
+            binaryTreeRootKaru = temp;
+        }else{
+            while(true){
+                if(data<= current.getData()){
+                    if(current.getLeft()!=null) {
+                        current = current.getLeft();
+                    }
+                    else {
+                        current.setLeft(temp);
+                        break;
+                    }
+
+                }else{
+                    if(current.getRight()!=null) {
+                        current = current.getRight();
+                    }
+                    else {
+                        current.setRight(temp);
+                        break;
+                    }
+                }
+
+            }
+        }
+    }
+    public BinaryTreeNodeKaru getRoot(){
+        return binaryTreeRootKaru;
+    }
     public void preOrderRecursive(BinaryTreeNodeKaru root){
         if(root!=null){
-            System.out.println(binaryTreeRootKaru.getData());
+            System.out.println(root.getData());
             preOrderRecursive(root.getLeft());
             preOrderRecursive(root.getRight());
         }
@@ -87,8 +118,121 @@ public class BinaryTreeKaru {
         }
         return;
     }
-    public void addLeft(int data){
+    /*public void levelOrder(BinaryTreeNodeKaru root){
+        BinaryTreeNodeKaru temp ;
+        Queue q = new ArrayDeque();
+        if(root == null){
+            return;
+        }
+        q.add(root);
+        while (!q.isEmpty()){
+            temp = (BinaryTreeNodeKaru) q.poll();
+            System.out.println(temp.getData());
+            if(temp.getLeft()!=null){
+                q.add(temp.getLeft());
+            }
+            if(temp.getRight()!=null){
+                q.add(temp.getRight());
+            }
+        }
+    }*/
+    public void levelOrder(BinaryTreeNodeKaru root){
+        BinaryTreeNodeKaru temp ;
+        Queue q = new ArrayDeque();
+        q.add(root);
+        while(!q.isEmpty()){
+            temp = (BinaryTreeNodeKaru) q.poll();
+            System.out.println(temp.getData());
+            if(temp.getLeft()!=null){
+                q.add(temp.getLeft());
+            }
+            if(temp.getRight()!=null){
+                q.add(temp.getRight());
+            }
+        }
+    }
 
+    //Q1 Max element in tree
+    public int maxElement(BinaryTreeNodeKaru root){
+        int max = 0,left, right ;
+        if(root!=null){
+                left =maxElement(root.getLeft());
+                right =maxElement(root.getRight());
+
+            if(left>right){
+                max = left;
+            }else{
+                max=right;
+            }
+            if(root.getData()< max){
+                return max;
+            }else return root.getData();
+        }
+        return max;
+
+
+    }
+
+    public int maxElementIter(BinaryTreeNodeKaru root){
+        int max = 0;
+        BinaryTreeNodeKaru temp ;
+        Queue q = new ArrayDeque();
+        q.add(root);
+        while(!q.isEmpty()){
+            temp = (BinaryTreeNodeKaru) q.poll();
+            if(max < temp.getData()){
+                max = temp.getData();
+            }
+            if(temp.getLeft()!=null){
+                q.add(temp.getLeft());
+            }
+            if(temp.getRight()!=null){
+                q.add(temp.getRight());
+            }
+        }
+
+        return max;
+    }
+    public boolean searchElement(BinaryTreeNodeKaru root, int data){
+        if(root==null){
+            return false;
+        }
+       if(root.getData()==data){
+           return true;
+       }else{
+           if(searchElement(root.getLeft(),data)){
+               return true;
+           }else
+           return searchElement(root.getRight(),data);
+       }
+    }
+    public boolean searchElementIter(BinaryTreeNodeKaru root, int data){
+        BinaryTreeNodeKaru temp;
+        Queue q = new ArrayDeque();
+        q.add(root);
+        while (!q.isEmpty()){
+            temp = (BinaryTreeNodeKaru) q.poll();
+            if(data == temp.getData()){
+                return true;
+            }
+            if(temp.getLeft()!=null){
+                q.add(temp.getLeft());
+            }
+            if(temp.getRight()!=null){
+                q.add(temp.getRight());
+            }
+
+        }
+        return false;
+    }
+    public int sizeOfTree(BinaryTreeNodeKaru root){
+
+            if(root!=null){
+                size++;
+                sizeOfTree(root.getLeft());
+                sizeOfTree(root.getRight());
+            }
+     return size;
     }
 
 }
