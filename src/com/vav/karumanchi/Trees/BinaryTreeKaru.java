@@ -79,13 +79,14 @@ public class BinaryTreeKaru {
         while(true){
             while(root!=null){
                 stack.push(root);
-                System.out.println(root.getData());
                 root=root.getLeft();
             }
-            BinaryTreeNodeKaru temp =stack.pop();
             if(stack.isEmpty()){
                 break;
             }
+            BinaryTreeNodeKaru temp =stack.pop();
+            System.out.println(temp.getData());
+
             root=temp.getRight();
 
         }
@@ -226,7 +227,6 @@ public class BinaryTreeKaru {
         return false;
     }
     public int sizeOfTree(BinaryTreeNodeKaru root){
-
             if(root!=null){
                 size++;
                 sizeOfTree(root.getLeft());
@@ -234,5 +234,26 @@ public class BinaryTreeKaru {
             }
      return size;
     }
+    public int sizeOfTreeIter(BinaryTreeNodeKaru root){
+        if (root==null){
+            return 0;
+        }
+        Stack<BinaryTreeNodeKaru> stack = new Stack<>();
+        while(true){
+            while(root!=null){
+                stack.push(root);
+                root=root.getLeft();
+            }
+            if(stack.isEmpty()){
+                break;
+            }
+            BinaryTreeNodeKaru temp =stack.pop();
+            size++;
+            root=temp.getRight();
+
+        }
+        return size;
+    }
+
 
 }

@@ -23,6 +23,6 @@ public class BinaryTreeKaruMain {
         //treeKaru.preOrderRecursive(treeKaru.getRoot());
        // treeKaru.levelOrder(treeKaru.getRoot());
         //System.out.print(treeKaru.maxElementIter(treeKaru.getRoot()));;
-        System.out.println(treeKaru.sizeOfTree(treeKaru.getRoot()));
+        System.out.println(treeKaru.sizeOfTreeIter(treeKaru.getRoot()));
     }
 }
