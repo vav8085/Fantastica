@@ -43,6 +43,7 @@ public class BinaryTreeKaru {
     public BinaryTreeNodeKaru getRoot(){
         return binaryTreeRootKaru;
     }
+
     public void preOrderRecursive(BinaryTreeNodeKaru root){
         if(root!=null){
             System.out.println(root.getData());
