@@ -1,0 +1,18 @@
+1. Bubble Sort
+    A. Bubble sort moves the largest element at the end of the list, can do vice versa too.
+    B. We use outer loop from n-1 to 0 where largest value is moved to last cell every iteration of inner loop.
+    C. Inner loop starts from 0- n-1 and compares and swaps n+1 to n every iteration.
+
+2. Selection Sort
+    A. Selection sort is similar to bubble sort but we do not swap every inner loop iteration.
+    B. In selection sort we start outer loop 0-n-1 and inner loop i+1 - n-1.
+    C. Every inner loop we compare every value from i+1 to n-1 with the flagged value.
+    D. if we find any value smaller than flagged value we flag the new value.
+    E. After complete inner loop we find the smallest value and we assign it to ith node.
+
+3. Insertion Sort:
+    A. In Insertion sort we leave the first cell and start from 1 to n-1
+    B. Before starting second loop we save the first value.
+    C. we start the second loop from i -> 0 and we check if i-1 th value is greater than saved value.
+    D. if i-1 th value is greater than saved value then we move the i-1th value to ith and we keep doing it until we reach 0.
+    E. At the end we save the temp value to left most cell left empty.
