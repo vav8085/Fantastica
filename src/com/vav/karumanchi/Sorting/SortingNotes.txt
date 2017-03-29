@@ -25,5 +25,5 @@
     B. Merge sort is based on divide and conquer approach.
     C. You divide a bigger array/linkedlist into smaller parts and you sort them and then merge them into a single array.
     D. This is a stable sort i.e. the order in which equal items appear in the input are received in the output.
-    E. in merge sort you need additional space to save merged array equal to size of actual array.
+    E. In merge sort you need additional space to save merged array equal to size of actual array.
     F.

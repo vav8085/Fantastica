@@ -1,7 +1,7 @@
 package com.vav.karumanchi.Sorting;
 
 /**
- * Created by Vaibhav on 3/25/2017.
+ * Created by Vaibhav on 3/25/201   7.
  */
 public class MergeSort {
     private int[] array;
@@ -26,7 +26,37 @@ public class MergeSort {
 
     private void doMergeSort(int lowerIndex, int upperIndex) {
         if(lowerIndex < upperIndex){
-            int middle = lowerIndex + (upperIndex -lowerIndex)
+            int middle = lowerIndex + (upperIndex -lowerIndex);
+            //call doMergeSort from lower to mid
+            doMergeSort(lowerIndex,middle);
+            //call doMergeSort from mid to high
+            doMergeSort(middle+1,upperIndex);
+            //merging parts
+            merge(lowerIndex,middle,upperIndex);
+        }
+    }
+
+    private void merge(int lowerIndex, int middle, int upperIndex) {
+        for(int i=0;i<=upperIndex;i++){
+            tempArray[i]=array[i];
+        }
+        int i = lowerIndex;
+        int j = middle+1;
+        int k = lowerIndex;
+        while(i<=middle && j<=upperIndex){
+            if(tempArray[i]<=tempArray[j]){
+                array[k]=tempArray[i];
+                i++;
+            }else{
+                array[k]=tempArray[j];
+                j++;
+            }
+            k++;
+        }
+        while(tempArray[i]<=middle){
+            array[k]=tempArray[i];
+            i++;
+            k++;
         }
     }
 }
