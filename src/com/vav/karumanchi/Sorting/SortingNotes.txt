@@ -27,3 +27,6 @@
     D. This is a stable sort i.e. the order in which equal items appear in the input are received in the output.
     E. In merge sort you need additional space to save merged array equal to size of actual array.
     F.
+
+6. Quick Sort:
+    A.
