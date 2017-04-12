@@ -6,9 +6,10 @@
 2. Selection Sort
     A. Selection sort is similar to bubble sort but we do not swap every inner loop iteration.
     B. In selection sort we start outer loop 0-n-1 and inner loop i+1 - n-1.
-    C. Every inner loop we compare every value from i+1 to n-1 with the flagged value.
-    D. if we find any value smaller than flagged value we flag the new value.
-    E. After complete inner loop we find the smallest value and we assign it to ith node.
+    C. We add a flag to the 0th value in the array initially assuming its smallest.
+    D. Every inner loop we compare every value from i+1 to n-1 with the flagged value.
+    E. if we find any value smaller than flagged value we flag the new value.
+    F. After complete inner loop we find the smallest value and we assign it to ith node.
 
 3. Insertion Sort:
     A. In Insertion sort we leave the first cell and start from 1 to n-1
@@ -28,5 +29,16 @@
     E. In merge sort you need additional space to save merged array equal to size of actual array.
     F.
 
-6. Quick Sort:
+6. Partitioning:
+    A. We do partitioning when we want to separate out items less than and greater than a certain item in an array.
+    B. Partitioning is a step in quick sort algorithm.
+    C. We send the algorithm the left most and the right most element of the array.
+    D. We use two pointers one pointing to left=start-1 and other pointing to right=end+1 position of array.
+    E. We start a loop where we keep incrementing and decrementing values from both ends.
+    F. The increment and decrement is done so that left pointer cannot cross right and vice versa. If the left item is
+       greater than pivot or the right item is smaller than pivot we simply increment/decrement them.
+    G. Every step if left<=right we swap the elements.
+
+7. Quick Sort:
     A.
+
