@@ -1,4 +1,4 @@
-package com.vav.karumanchi.Sorting;
+package com.vav.Common.Sorting;
 
 /**
  * Created by Vaibhav on 4/9/2017.

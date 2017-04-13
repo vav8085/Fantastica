@@ -1,0 +1,16 @@
+Hashing:
+1.  HashTables can solve the problems for searching, insertion and sometimes deletion in O(1) time complexity.
+2.  They are based on arrays and arrays have limited capicity and need copying to bigger array for expansion,
+    Hashtables also face same issues.
+3.  Hashmaps are bad if you want to visit elements in an order. you can only visit the element if you have its
+    key value.
+4.  In hashing KEYVALUES are transformed to ARRAYINDICES  using a HASH FUNCTION.
+5.  Hash functions are not always required, sometimes you can use direct addressing.
+6.  A simple hash function is big number % small range = small number.
+7.  Load factor is the ratio of (Number of items in table/size of table).
+8.  Load factor defines when HashTables need rehashing.
+
+Separate Chaining:
+1.  Separate Chaining is a collision resolution technique used in the Hashmaps.
+2.  This works by adding a linked list or an array(bucket) at every cell on hashmap.
+3.
