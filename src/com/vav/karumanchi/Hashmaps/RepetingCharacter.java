@@ -4,6 +4,18 @@ package com.vav.karumanchi.Hashmaps;
  * Created by Vaibhav on 12/25/2016.
  */
 public class RepetingCharacter {
+    public static void main(String arg[]){
+
+        //Repeating character
+        char[] charr= new char[5];
+        charr[0]='r';
+        charr[1]='a';
+        charr[2]='w';
+        charr[3]='r';
+        charr[4]='q';
+        RepetingCharacter.findRepetingCharacterHashmaps(charr);
+
+    }
 
     public static void findRepetingCharacterHashmaps(char[] inputArr){
         //256 ascii chars
