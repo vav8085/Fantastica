@@ -25,4 +25,5 @@ public class RemoveDuplicatesBF_02 {
         return str.substring(0,n);
 
     }
+
 }
