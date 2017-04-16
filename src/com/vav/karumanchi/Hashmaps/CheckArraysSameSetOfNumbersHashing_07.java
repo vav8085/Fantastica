@@ -8,14 +8,14 @@ import java.util.Set;
  */
 public class CheckArraysSameSetOfNumbersHashing_07 {
     public static void main(String arg[]){
-        int[] arr1 = {1,2,3,4,5};
-        int[] arr2 = {5,4,2,3,1};
+        int[] arr1 = {1,5,2,3,4,5,5};
+        int[] arr2 = {1,2,3,4,5,5,5};
         System.out.println(checkArraysSameSetOfNumbersHashing(arr1,arr2));
     }
 
     private static boolean checkArraysSameSetOfNumbersHashing(int[] arr1, int[] arr2) {
         Hashtable hashtable = new Hashtable();
-        for(int k=1;k<6;k++){
+        for(int k=0;k<10;k++){
             hashtable.put(k,0);
         }
         for(int i=0;i<arr1.length;i++){
@@ -24,9 +24,7 @@ public class CheckArraysSameSetOfNumbersHashing_07 {
         }
         for(int j=0;j<arr2.length;j++){
             int arre2= Integer.parseInt(hashtable.get(arr2[j])+"") ;
-            if(hashtable.contains(arr2[j])){
                 hashtable.put(arr2[j],arre2-1);
-            }
         }
         Set<Integer> keys = hashtable.keySet();
         for(Integer key: keys){
