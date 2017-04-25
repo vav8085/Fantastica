@@ -1,6 +1,8 @@
 package com.vav.CTCI.Chapter1;
 
 import java.util.Arrays;
+import java.util.Enumeration;
+import java.util.Hashtable;
 
 /**
  * Created by Vaibhav on 4/24/17.
@@ -8,6 +10,10 @@ import java.util.Arrays;
 public class QX_RemoveDuplicates {
     public static void main(String arg[]){
         System.out.println(removeDuplicatesBF(new String("testeddbybxx")));
+        Enumeration<Character> en = removeDuplicatesHashmaps(new String("testeddbybxx"));
+        while(en.hasMoreElements()){
+            System.out.print(en.nextElement()+"-");
+        }
     }
     //1. Replacing the last character with duplicates O(n2), only replaces duplicates not triples or more
     public static String removeDuplicatesBF(String str){
@@ -45,5 +51,14 @@ public class QX_RemoveDuplicates {
         return new String(chars).substring(0,i+1);
     }
     //3. Remove duplicates using hashmaps O(n)
-
+    private static Enumeration removeDuplicatesHashmaps(String s) {
+        char[] chars = s.toCharArray();
+        Hashtable hashtable = new Hashtable();
+        for(int i=0;i<chars.length;i++){
+            if(!hashtable.containsKey(chars[i])){
+                hashtable.put(chars[i],0);
+            }
+        }
+        return hashtable.keys();
+    }
 }
