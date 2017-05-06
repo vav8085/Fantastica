@@ -7,7 +7,7 @@ public class Q4_OneAway {
     public static void main(String arg[]){
 
     }
-    //Using Hashmaps
+
     public static boolean oneAway(String s1, String s2){
 
 
