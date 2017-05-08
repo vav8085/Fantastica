@@ -1,0 +1,2 @@
+*   If you are incrementing pointer after operation then check for current!=null.
+*   If you are incrementing before then check current.getnext!=null.

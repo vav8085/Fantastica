@@ -13,6 +13,7 @@ public class LinkedList<T> {
         node.setNext(null);
         if(head==null){
             head = node;
+            return;
         }
         Link current = head;
        while(current.getNext()!=null){
@@ -78,6 +79,11 @@ public class LinkedList<T> {
         }
         previous.setNext(current.getNext());
     }
-
+    public Link getHead(){
+        return head;
+    }
+    public void setHead(Link head){
+        this.head = head;
+    }
 
 }
