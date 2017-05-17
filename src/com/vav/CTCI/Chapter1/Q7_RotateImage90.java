@@ -3,7 +3,7 @@ package com.vav.CTCI.Chapter1;
 /**
  * Created by Vaibhav on 5/15/17.
  */
-public class Q6_RotateImage90 {
+public class Q7_RotateImage90 {
 
     public static void rotateMatrix(int[][] matrix, int n){
         int numberOfCycles = n/2;

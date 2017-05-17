@@ -6,7 +6,7 @@ import com.vav.CTCI.Common.LinkedList.LinkedList;
 /**
  * Created by Vaibhav on 5/11/17.
  */
-public class Q5_LoopDetection {
+public class Q8_LoopDetection {
     public Link loopDetection(LinkedList linkedList){
         Link first = linkedList.getHead(), second = linkedList.getHead();
         while(second.getNext().getNext()!=null){

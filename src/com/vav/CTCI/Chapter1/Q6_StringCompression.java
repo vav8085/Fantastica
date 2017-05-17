@@ -6,7 +6,7 @@ import java.util.Map;
 /**
  * Created by Vaibhav on 4/25/17.
  */
-public class Q5_StringCompression {
+public class Q6_StringCompression {
     public static void main(String arg[]){
         System.out.println(stringCompression("aabbabddefffff"));
     }

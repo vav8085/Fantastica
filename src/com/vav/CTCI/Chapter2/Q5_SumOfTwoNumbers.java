@@ -6,7 +6,7 @@ import com.vav.CTCI.Common.LinkedList.LinkedList;
 /**
  * Created by Vaibhav on 5/11/17.
  */
-public class Q4_SumOfTwoNumbers {
+public class Q5_SumOfTwoNumbers {
     public static LinkedList<Integer> sumOfTwoNumbers(Link<Integer> head1, Link<Integer> head2){
         LinkedList<Integer> linkedList = new LinkedList<>();
         int sum = 0,carry = 0;
