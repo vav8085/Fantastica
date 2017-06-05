@@ -1,0 +1,35 @@
+GraphsBasics:
+1.  In Graphs nodes are called vertices.
+2.  Two vertices are adjascent if they are connected with each other with a single edge.
+3.  Path is a connection between any two vertices in a graph, it can consist of additional vertices.
+
+Connected Graph:    A Graph is connected if there exist atleast one path from one vertex to another.
+                    All points on two parallel lines make a non-connected graph.
+
+Directed Graph:     In non directed graph we can go in any direction but in directed graphs edges are
+                    marked with directional arrows and we can parse in only direction of arrows not reverse.
+
+Weighted Graphs:    In some cases we have a number given to every edges, these numbers are called weights.
+                    Weights define properties like distance, time taken to travel etc.
+
+Representing Graph:
+1.  Vertices:   Vertices are usually represented with Objects. THe object can have various information
+                about vertices like visited flag, label etc. Vertices can be stored in an Array and can
+                be referenced using its index.
+2.  Edges:      We can represent edges as NxN arrays called adjacency matrix.
+                *   If an edge is present between two vertices its represented as 1
+                *   If no edge is present its represented by a 0
+                        A B C D
+                    A   0 1 1 1
+                    B   1 0 1 1
+                    C   1 1 0 1
+                    D   1 1 1 0
+                *   Note that the identity digonal is all 0s. This is because a vertex does not connect to itself.
+                *   The values above the identity digonal are same as values below it for undirected graph.
+                *   We always make 2 entries in an adjacency matrix for every new vertex added.
+                We can also represent edges as a list called adjacency list.
+                *   Adjacency list is a linked list that shows to which nodes current node is connected.
+                    A   B->C->D
+                    B   A->D
+                    C   A
+                    D   A->B
