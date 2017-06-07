@@ -20,5 +20,13 @@ public class Graph {
         }
     }
     public void addVertex(char label){
+        vertexList[nVerts++] = new Vertex(label);
+    }
+    public void addEdge(int start, int end){
+        adjMatrix[start][end] = 1;
+        adjMatrix[end][start] = 1;
+    }
+    public void displayVertex(int vertexPosition){
+        System.out.println(vertexList[vertexPosition]);
     }
 }
