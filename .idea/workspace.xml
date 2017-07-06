@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0dc95c9b-b3e3-479e-88e2-7ef2b3d4dd5c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/vav/Common/Graphs/Graph.java" afterPath="$PROJECT_DIR$/src/com/vav/Common/Graphs/Graph.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/vav/Strategies/DataStructuresAndAlgo_ReferCommonForCode/Graphs/01_GraphsBasics" afterPath="$PROJECT_DIR$/src/com/vav/Strategies/DataStructuresAndAlgo_ReferCommonForCode/Graphs/01_GraphsBasics" />
     </list>
     <ignored path="CODE.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,7 +28,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Graph.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Graph.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/vav/Common/Graphs/Graph.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="421">
@@ -44,11 +44,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="01_GraphsBasics" pinned="false" current-in-tab="false">
+      <file leaf-file-name="01_GraphsBasics" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/vav/Strategies/DataStructuresAndAlgo_ReferCommonForCode/Graphs/01_GraphsBasics">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="69" column="0" lean-forward="true" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+            <state relative-caret-position="391">
+              <caret line="70" column="117" lean-forward="false" selection-start-line="70" selection-start-column="117" selection-end-line="70" selection-end-column="117" />
               <folding />
             </state>
           </provider>
@@ -125,8 +125,8 @@
         <option value="$PROJECT_DIR$/src/com/vav/CTCI/Chapter2/Q4_Partition.java" />
         <option value="$PROJECT_DIR$/src/com/vav/CTCI/Chapter3/Q2_MinStack.java" />
         <option value="$PROJECT_DIR$/src/com/vav/CTCI/Chapter3/Q2_StackMin.java" />
-        <option value="$PROJECT_DIR$/src/com/vav/Strategies/DataStructuresAndAlgo_ReferCommonForCode/Graphs/01_GraphsBasics" />
         <option value="$PROJECT_DIR$/src/com/vav/Common/Graphs/Graph.java" />
+        <option value="$PROJECT_DIR$/src/com/vav/Strategies/DataStructuresAndAlgo_ReferCommonForCode/Graphs/01_GraphsBasics" />
       </list>
     </option>
   </component>
@@ -1162,14 +1162,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Strategies/DataStructuresAndAlgo_ReferCommonForCode/Graphs/01_GraphsBasics">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="69" column="0" lean-forward="true" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/vav/Common/Graphs/Graph.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="421">
@@ -1181,6 +1173,14 @@
             <element signature="e#1060#1061#0" expanded="true" />
             <element signature="e#1122#1123#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Strategies/DataStructuresAndAlgo_ReferCommonForCode/Graphs/01_GraphsBasics">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="70" column="117" lean-forward="false" selection-start-line="70" selection-start-column="117" selection-end-line="70" selection-end-column="117" />
+          <folding />
         </state>
       </provider>
     </entry>

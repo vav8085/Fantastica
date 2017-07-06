@@ -68,6 +68,8 @@ Representing Graph:
         3.  If you cannot carry out the rule 2 because the queue is empty then you are done.
         4.  We always print---> pop---> push adjacent.
 
+8.  BFS is used for finding the shortest path to the node. By the time you reach the node using BFS, the path used is shortest path.
+
 
 
 
