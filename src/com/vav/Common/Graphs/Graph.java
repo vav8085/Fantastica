@@ -62,12 +62,27 @@ public class Graph {
                 stack.pop();
             }
         }
-
+        for(int i=0;i<vertexList.length;i++){
+            vertexList[i].setWasVisited(false);
+        }
     }
     public void bfs(){
         vertexList[0].setWasVisited(true);
         displayVertex(0);
         queue.add(0);
-        while(getAdjascentUnvisitedVertex(queue.))
+        int nextVertex;
+        while(!queue.isEmpty()){
+            int adjascentVertex;
+            nextVertex = queue.remove();
+            adjascentVertex = getAdjascentUnvisitedVertex(nextVertex);
+            while(adjascentVertex!=-1){
+                    vertexList[adjascentVertex].setWasVisited(true);
+                    displayVertex(adjascentVertex);
+                    queue.add(adjascentVertex);
+            }
+        }
+        for(int i=0;i<vertexList.length;i++){
+            vertexList[i].setWasVisited(false);
+        }
     }
 }
