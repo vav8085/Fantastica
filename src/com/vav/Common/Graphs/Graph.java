@@ -1,5 +1,7 @@
 package com.vav.Common.Graphs;
 
+import java.util.ArrayDeque;
+import java.util.Queue;
 import java.util.Stack;
 
 /**
@@ -10,8 +12,13 @@ public class Graph {
     private Vertex[] vertexList;
     private int[][] adjacencyMatrix;
     private int nVerts;
+    //Stack for DFS
+    private Stack<Integer> stack;
+    private Queue<Integer> queue;
 
     public Graph(){
+        stack = new Stack<>();
+        queue = new ArrayDeque<>();
         vertexList = new Vertex[MAX_VERTICES];
         adjacencyMatrix = new int[MAX_VERTICES][MAX_VERTICES];
         nVerts = 0;
@@ -32,9 +39,35 @@ public class Graph {
         System.out.println(vertexList[vertexPosition]);
     }
 
-    public void getAdjascentUnvisitedVertex(int v){
+    public int getAdjascentUnvisitedVertex(int v){
         for(int j=0;j<nVerts;j++) {
-            if (adjacencyMatrix[v][j]==1 && )
+            if (adjacencyMatrix[v][j]==1 && vertexList[j].isWasVisited()==false){
+                return j;
+            }
         }
+        return -1;
+    }
+    public void dfs(){
+        vertexList[0].setWasVisited(true);
+        stack.push(0);
+        displayVertex(0);
+        int nextUnvisitedVertexPosition;
+        while(!stack.isEmpty()){
+            nextUnvisitedVertexPosition = getAdjascentUnvisitedVertex(stack.peek());
+            if(nextUnvisitedVertexPosition!=-1){
+                vertexList[nextUnvisitedVertexPosition].setWasVisited(true);
+                displayVertex(nextUnvisitedVertexPosition);
+                stack.push(nextUnvisitedVertexPosition);
+            }else{
+                stack.pop();
+            }
+        }
+
+    }
+    public void bfs(){
+        vertexList[0].setWasVisited(true);
+        displayVertex(0);
+        queue.add(0);
+        while(getAdjascentUnvisitedVertex(queue.))
     }
 }

@@ -55,6 +55,18 @@ Representing Graph:
     f.  Every visited vertex is marked as visited and pushed on to the stack.
     g.  The method returns when there are no vertices left to be parsed
 
+6.  DFS is used for game simulation. Example is tic tac toe, in this game you start with 9 different squares. When you mark a square
+    your opponent has 8 different choices and you have 7 different choices once he marks and the game goes on.
+
+7.  Breadth first search(BFS):
+    a.  Unlike DFS, BFS does not start going deep as long as there are more adjacent nodes to the current node. It first scans all the
+        node at level1 then it goes to level 2 and so on.
+    b.  BFS Rules:
+        1.  Visit the next unvisited vertex adjascent to the current vertex, mark it and add it to the queue.
+        2.  If you cannot carry on the rule 1 because there are no more unvisited vertices then remove a vertex from the queue and
+            make the current vertex.
+        3.  If you cannot carry out the rule 2 because the queue is empty then you are done.
+        4.  We always print---> pop---> push adjacent.
 
 
 
