@@ -70,12 +70,11 @@ public class Graph {
         vertexList[0].setWasVisited(true);
         displayVertex(0);
         queue.add(0);
-        int nextVertex;
+        int currentVertex;
         while(!queue.isEmpty()){
             int adjascentVertex;
-            nextVertex = queue.remove();
-            adjascentVertex = getAdjascentUnvisitedVertex(nextVertex);
-            while(adjascentVertex!=-1){
+            currentVertex = queue.remove();
+            while((adjascentVertex=getAdjascentUnvisitedVertex(currentVertex))!=-1){
                     vertexList[adjascentVertex].setWasVisited(true);
                     displayVertex(adjascentVertex);
                     queue.add(adjascentVertex);
@@ -83,6 +82,35 @@ public class Graph {
         }
         for(int i=0;i<vertexList.length;i++){
             vertexList[i].setWasVisited(false);
+        }
+    }
+    public void dfs1(){
+        vertexList[0].setWasVisited(true);
+        stack.push(0);
+        displayVertex(0);
+        while(!stack.isEmpty()){
+            int nextVertex = getAdjascentUnvisitedVertex(stack.peek());
+            if(getAdjascentUnvisitedVertex(stack.peek())!=-1){
+                vertexList[nextVertex].setWasVisited(true);
+                stack.push(nextVertex);
+                displayVertex(nextVertex);
+            }else{
+                stack.pop();
+            }
+        }
+    }
+    public void bfs1(){
+        vertexList[0].setWasVisited(true);
+        queue.add(0);
+        displayVertex(0);
+        while (!queue.isEmpty()){
+            int currentItem = queue.remove();
+            int nextVertex;
+            while((nextVertex=getAdjascentUnvisitedVertex(currentItem))!=-1){
+                queue.add(nextVertex);
+                displayVertex(nextVertex);
+                vertexList[nextVertex].setWasVisited(true);
+            }
         }
     }
 }
