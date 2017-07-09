@@ -1,0 +1,5 @@
+Warshall Algorithm:
+1.  If we want to parse a directed graph we have to know its connectivity table
+    Once we have connectivity table we have to look through every row that will take O(n) time.
+    To do it in O(1) time we use Warshalls algorithm.
+2.  Warshalls algorithm just modifies the Adjacency matrix so we can connect all vertices.
