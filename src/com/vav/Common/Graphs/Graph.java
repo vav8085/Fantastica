@@ -47,6 +47,8 @@ public class Graph {
         }
         return -1;
     }
+
+    /**********Depth first search**************/
     public void dfs(){
         vertexList[0].setWasVisited(true);
         stack.push(0);
@@ -66,6 +68,8 @@ public class Graph {
             vertexList[i].setWasVisited(false);
         }
     }
+
+    /**********Breadth first search**************/
     public void bfs(){
         vertexList[0].setWasVisited(true);
         displayVertex(0);
@@ -84,6 +88,29 @@ public class Graph {
             vertexList[i].setWasVisited(false);
         }
     }
+
+/**********Minimum spanning tree**************/
+    public void mst(){
+        vertexList[0].setWasVisited(true);
+        stack.push(0);
+        int currentVertex;
+        while (!stack.isEmpty()){
+            currentVertex = stack.peek();
+            int nextVertex = getAdjascentUnvisitedVertex(currentVertex);
+            if(nextVertex !=-1){
+                displayVertex(currentVertex);
+                displayVertex(nextVertex);
+                stack.push(nextVertex);
+                vertexList[nextVertex].setWasVisited(true);
+            }else{
+                stack.pop();
+            }
+        }
+        for(int i=0;i<vertexList.length;i++){
+            vertexList[i].setWasVisited(false);
+        }
+    }
+
     public void dfs1(){
         vertexList[0].setWasVisited(true);
         stack.push(0);
