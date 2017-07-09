@@ -1,0 +1,5 @@
+Connectivity in Directed Graphs:
+1.  In Undirected graphs we can find all the vertices using DFS.
+2.  In Directed graphs we cannot go to every vertex from starting vertex.
+3.  The DFS need to be modified to start at each vertex.
+4.  WHen we will do this each vertex will parse its connected vertices forming a connectivity table.

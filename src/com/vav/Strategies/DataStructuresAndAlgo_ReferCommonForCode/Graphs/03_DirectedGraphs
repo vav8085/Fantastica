@@ -1,0 +1,7 @@
+Directed Graph:
+1.  Directed graph has direction arrows on the edges.
+2.  We can traverse towards the arrow direction but not backwards.
+3.  The adjacency matrix also has 1 for the values in direction of arrow and 0 backwards.
+4.  The add edge method also has only 1 in direction of arrow.
+    addEdge(int start, int end){ adjMatrix[start][end] = 1; }
+5.  Same goes for adjacency list, if A has B in the list then B wont have A in its list.

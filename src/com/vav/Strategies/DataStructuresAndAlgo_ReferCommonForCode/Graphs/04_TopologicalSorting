@@ -1,0 +1,14 @@
+Topological Sorting:
+1.  Sometimes we need sorting our Map in the order of vertex values, The
+    example can be sorting the courses in the order in which they can be taken
+    or the order in which we need to use parts to build a car or any object.
+    The sorting is called Topological Sort.
+2.  We sort items by :
+    A.  Finding the vertex that has no successors(no next vertices that it points to).
+    B.  Delete this vertex and insert it to the first position.
+    C.  Keep repeating it until there are no more vertices left.
+        The final output will be the topologically sorted array.
+    *   This will need deleting the vertex from vertex array and moving all the vertices
+        one space to right to fill up the space.
+    *   This will also need rearranging the adjacency matrix.
+

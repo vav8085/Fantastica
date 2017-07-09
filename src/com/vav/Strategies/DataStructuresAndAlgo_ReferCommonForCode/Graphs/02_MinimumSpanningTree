@@ -1,2 +1,6 @@
 Minimum Spanning Tree:
-1.  
+1.  Minimum spanning tree is the path formed by smallest number of edges that can cover
+    all vertices.
+2.  We can use either DFS or BFS as traversing mechanism.
+3.  There can be many mst depending on the start vertex selected.
+4.  Using DFS when we create a MST we print the path from every start vertex to the next vertex.
