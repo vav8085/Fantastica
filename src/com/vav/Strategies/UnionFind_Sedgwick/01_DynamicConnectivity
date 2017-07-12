@@ -1,0 +1,14 @@
+Dynamic Connectivity:
+
+1.  Dynamic connectivity is the problem statement that Quick find and Union find solve.
+2.  Union - Connect two objects. union(4,3), union (5,6)....
+3.  Find - Find the connection between the objects. connected(4,3), connected(6,9)....
+
+4.  Modeling the objects where union find is applicable-
+    A.  Connected networks.
+    B.  Social Networks.
+    C.  Pixels in a photo.
+    *.  We can give the objects as name from integers 0->n-1 and keep them in an array.
+
+5.  Modeling the connections:
+    A.  

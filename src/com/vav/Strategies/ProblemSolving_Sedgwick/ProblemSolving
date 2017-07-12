@@ -1,0 +1,8 @@
+Problem Solving:
+1.  Steps to develop a useful algorithms:
+        A.  Model the problem - Understand the main elements of the problem.
+        B.  Find the algorithm to solve the problem.
+        C.  Take the Time and Space complexity estimates.
+        D.  If problem complexities are not in required range find another way to solve the problem.
+        E.  Iterate through the steps A->D until problem is solved.
+
