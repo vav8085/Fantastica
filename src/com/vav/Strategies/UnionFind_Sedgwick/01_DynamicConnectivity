@@ -1,4 +1,4 @@
-Dynamic Connectivity:
+Dynamic Connectivity algorithm design:
 
 1.  Dynamic connectivity is the problem statement that Quick find and Union find solve.
 2.  Union - Connect two objects. union(4,3), union (5,6)....
@@ -11,4 +11,24 @@ Dynamic Connectivity:
     *.  We can give the objects as name from integers 0->n-1 and keep them in an array.
 
 5.  Modeling the connections:
-    A.  
+    A.  Connections have following properties.
+        1.  Reflexive property: A is connected to A.
+        2.  Symmetric property: If A is connected to B then B is connected to A.
+        3.  Transitive property: If A is connected to B and B is connected to C then A is
+            connected to C.
+    B.  We have various objects that are connected and these components are called Connected Components.
+        These can be represented as sets {1}, {2,3,4}, {5,6,7,8,9}
+    C.  Find    -   Here find will search if these components are connected in any case and are a part of same component.
+                    connected(1,2)
+    D.  Union   -   Union will connect two objects and thus connect the components they are part of.
+                    union(1,2) will make {1,2,3,4} and will be union of two sets.
+
+6.  Our Goal is to create a data structure that can store the Objects and Connections.
+    A.  There can be very huge number of Objects (N) and Operations (M).
+    B.  We will have a Class called UF which will have a constructor for taking the number of objects.
+    C.  We will have a method called void union(int p, int q) that will connect two objects p and q.
+    D.  We will have an method called boolean connected(int p , int q) which will return a boolean that will tell,
+        if an object p is connected to another object q.
+
+7.  We will also have a client class( with Main method) where we will take two integers from the standard input and
+    check that if they are not connected then we will connect them other wise will just exit.
