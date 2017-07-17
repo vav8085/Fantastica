@@ -1,4 +1,4 @@
-package com.vav.Common;
+package com.vav.Common.LinkedLists;
 
 /**
  * Created by Vaibhav on 11/9/2016.
