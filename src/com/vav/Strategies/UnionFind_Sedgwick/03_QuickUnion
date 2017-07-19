@@ -9,4 +9,5 @@ Quick Union:
 5.  It makes a forest of disconnected trees of vertices.
 6.  Whenever we want to connect some vertices we find the root of first vertex and
     we add it to the the bottom of other vertices root.
-    
+7.  Quick union can be improved if we weight every tree before adding it to the parent
+    trees withe the lower height should be added to tree with more height.
