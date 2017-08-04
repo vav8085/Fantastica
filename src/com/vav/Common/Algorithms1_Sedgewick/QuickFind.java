@@ -13,7 +13,7 @@ public class QuickFind {
             id[i] = i;
         }
     }
-    public boolean connected(int p, int q){
+    public boolean connected(int p, int q){ //this is find operation
         return id[p]==id[q];//?true:false;
     }
     public void union(int p, int q){

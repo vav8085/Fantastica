@@ -1,6 +1,6 @@
 Quick Union:
 
-1.  Quickfind algorithm does the same thing of connecting items and
+1.  Quick union algorithm does the same thing of connecting items and
     finding connections but in a different way.
 2.  We use the same data structure of arrays for storing our items.
 3.  In quick union we do not save the value of the connecting vertex at
