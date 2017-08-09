@@ -1,6 +1,6 @@
 package com.vav.karumanchi.LinkedList;
 
-import com.vav.Common.SinglyLinkedList;
+import com.vav.Common.LinkedLists.SinglyLinkedList;
 
 /**
  * Created by Vaibhav on 12/7/2016.

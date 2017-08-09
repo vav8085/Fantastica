@@ -1,4 +1,4 @@
-package com.vav.Common.Algorithms1_Sedgewick;
+package com.vav.Common.Algorithms1_Sedgewick.UnionFind_01;
 
 /**
  * Created by Vaibhav on 7/14/17.

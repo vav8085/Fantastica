@@ -3,7 +3,7 @@ package com.vav.karumanchi.LinkedList;
 /**
  * Created by Vaibhav on 11/27/2016.
  */
-import com.vav.Common.SinglyLinkedList;
+import com.vav.Common.LinkedLists.SinglyLinkedList;
 public class StackLL {
     public int top;
     SinglyLinkedList list;

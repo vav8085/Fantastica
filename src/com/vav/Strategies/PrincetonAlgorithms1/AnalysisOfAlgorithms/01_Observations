@@ -1,3 +1,6 @@
 Observations:
 
 1.  We need to make observations to calculate the running time of algorithm.
+2.  We can do this manually by using a stopwatch or programmatically.
+3.  We can use the Stopwatch class to calculate the elapsed time.
+4.

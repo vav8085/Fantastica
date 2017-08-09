@@ -1,6 +1,6 @@
 package com.vav.karumanchi;
 
-import com.vav.Common.CircularLinkedList;
+import com.vav.Common.LinkedLists.CircularLinkedList;
 import com.vav.karumanchi.LinkedList.StackLL;
 
 public class Main {
