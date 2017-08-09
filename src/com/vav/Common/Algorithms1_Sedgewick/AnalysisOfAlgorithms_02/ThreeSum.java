@@ -12,9 +12,9 @@ public class ThreeSum {
     public static int findThreeSum(int[] numbers){
         int count =0;
         for(int i=0;i<numbers.length;i++){
-            for(int j=i+1;i<numbers.length;j++){
-                for(int k=j+1;i<numbers.length;k++){
-                    if(numbers[i]+numbers[j]+numbers[k]==0){
+            for(int j=i+1;j<numbers.length;j++){
+                for(int k=j+1;k<numbers.length;k++){
+                    if((numbers[i]+numbers[j]+numbers[k])==0){
                         count++; //Increase the count every time we find a combination that adds up to 0
                     }
                 }
@@ -23,10 +23,10 @@ public class ThreeSum {
         return count;
     }
     public static void main(String arg[]){
-        int[] nums = {-10,-20,30,-40,70};
+        int[] nums = {-10,-20,30,-40,70,-30};
         Stopwatch stopwatch = new Stopwatch();
         System.out.println(findThreeSum(nums));
-        stopwatch.elapsedTime();
+        System.out.println(stopwatch.elapsedTime());
 
     }
 }
