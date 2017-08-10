@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0dc95c9b-b3e3-479e-88e2-7ef2b3d4dd5c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/vav/Common/Algorithms1_Sedgewick/AnalysisOfAlgorithms_02/ThreeSum.java" afterPath="$PROJECT_DIR$/src/com/vav/Common/Algorithms1_Sedgewick/AnalysisOfAlgorithms_02/ThreeSum.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/vav/Strategies/PrincetonAlgorithms1/AnalysisOfAlgorithms/01_Observations" afterPath="$PROJECT_DIR$/src/com/vav/Strategies/PrincetonAlgorithms1/AnalysisOfAlgorithms/01_Observations" />
     </list>
     <ignored path="CODE.iws" />
@@ -29,21 +29,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ThreeSum.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/vav/Common/Algorithms1_Sedgewick/AnalysisOfAlgorithms_02/ThreeSum.java">
+      <file leaf-file-name="03_OrderOfGrowth" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/vav/Strategies/PrincetonAlgorithms1/AnalysisOfAlgorithms/03_OrderOfGrowth">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="25" column="45" lean-forward="true" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="01_Observations" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/vav/Strategies/PrincetonAlgorithms1/AnalysisOfAlgorithms/01_Observations">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+            <state relative-caret-position="75">
+              <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -71,8 +61,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/vav/karumanchi/Hashmaps/RepetingCharacter.java" />
-        <option value="$PROJECT_DIR$/src/com/vav/karumanchi/Hashmaps/RemoveDuplicatesSorting_03.java" />
         <option value="$PROJECT_DIR$/src/com/vav/Common/Sorting/BubbleSort.java" />
         <option value="$PROJECT_DIR$/src/com/vav/CTCI/Chapter2/Q2_KthToLast.java" />
         <option value="$PROJECT_DIR$/src/com/vav/CTCI/Chapter2/Q3_DeleteOnlyNodeAccess.java" />
@@ -122,6 +110,8 @@
         <option value="$PROJECT_DIR$/src/com/vav/karumanchi/LinkedList/NthNodeEndLl.java" />
         <option value="$PROJECT_DIR$/src/com/vav/Common/Algorithms1_Sedgewick/AnalysisOfAlgorithms_02/ThreeSum.java" />
         <option value="$PROJECT_DIR$/src/com/vav/Strategies/PrincetonAlgorithms1/AnalysisOfAlgorithms/01_Observations" />
+        <option value="$PROJECT_DIR$/src/com/vav/Strategies/PrincetonAlgorithms1/AnalysisOfAlgorithms/02_MathemeticalModels" />
+        <option value="$PROJECT_DIR$/src/com/vav/Strategies/PrincetonAlgorithms1/AnalysisOfAlgorithms/03_OrderOfGrowth" />
       </list>
     </option>
   </component>
@@ -832,7 +822,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31360948" sideWeight="0.5617053" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31360948" sideWeight="0.43829468" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31360948" sideWeight="0.43829468" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -962,14 +952,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Strategies/Sorting/SortingNotes.txt" />
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Common/Sorting/InsertionSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/vav/Common/Sorting/MergeSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -1237,6 +1219,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Strategies/PrincetonAlgorithms1/AnalysisOfAlgorithms/01_Observations">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/vav/Common/Algorithms1_Sedgewick/AnalysisOfAlgorithms_02/ThreeSum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -1245,10 +1235,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Strategies/PrincetonAlgorithms1/AnalysisOfAlgorithms/01_Observations">
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Strategies/PrincetonAlgorithms1/AnalysisOfAlgorithms/02_MathemeticalModels">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        <state relative-caret-position="150">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Strategies/PrincetonAlgorithms1/AnalysisOfAlgorithms/03_OrderOfGrowth">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
           <folding />
         </state>
       </provider>
