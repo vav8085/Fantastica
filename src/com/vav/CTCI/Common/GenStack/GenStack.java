@@ -1,0 +1,53 @@
+package com.vav.CTCI.Common.GenStack;
+
+/**
+ * Created by Vaibhav on 8/25/17.
+ * A generic stack that stores a single value
+ */
+public class GenStack<T> {
+    private int count = -1;
+    private int size = 0;
+    private GenStackElement stackArr[];
+
+    public GenStack(int size) {
+        this.size = size;
+        stackArr = new GenStackElement[size];
+    }
+
+    public boolean isFull() {
+        return count >= size ? true : false;
+    }
+
+    public boolean isEmpty() {
+        return count == -1 ? true : false;
+    }
+
+    public void push(T item) throws Exception {
+        if (count < size) {
+            stackArr[++count] = new GenStackElement();
+            stackArr[count].setValue(item);
+        } else {
+            throw new Exception("Stack overflow!");
+        }
+    }
+
+    public T pop() throws Exception {
+        if (count >= -1)
+            return (T) stackArr[count--].getValue();
+        else throw new Exception("No more elements to pop!");
+    }
+
+
+}
+
+class GenStackElement<T> {
+    private T value;
+
+    public void setValue(T value) {
+        this.value = value;
+    }
+
+    public T getValue() {
+        return value;
+    }
+}
