@@ -15,15 +15,15 @@ public class GenStack<T> {
     }
 
     public boolean isFull() {
-        return count >= size ? true : false;
+        return count+1 >= size ? true : false;
     }
 
     public boolean isEmpty() {
-        return count == -1 ? true : false;
+        return count <= -1 ? true : false;
     }
 
     public void push(T item) throws Exception {
-        if (count < size) {
+        if (!isFull()) {
             stackArr[++count] = new GenStackElement();
             stackArr[count].setValue(item);
         } else {
@@ -32,7 +32,7 @@ public class GenStack<T> {
     }
 
     public T pop() throws Exception {
-        if (count >= -1)
+        if (!isEmpty())
             return (T) stackArr[count--].getValue();
         else throw new Exception("No more elements to pop!");
     }
