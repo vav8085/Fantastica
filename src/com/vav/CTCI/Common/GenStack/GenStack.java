@@ -36,7 +36,11 @@ public class GenStack<T> {
             return (T) stackArr[count--].getValue();
         else throw new Exception("No more elements to pop!");
     }
-
+    public T top() throws Exception{
+        if (!isEmpty())
+            return (T) stackArr[count].getValue();
+        else throw new Exception("No more elements to pop!");
+    }
 
 }
 
