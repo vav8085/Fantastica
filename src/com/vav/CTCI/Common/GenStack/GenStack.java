@@ -39,7 +39,7 @@ public class GenStack<T> {
     public T top() throws Exception{
         if (!isEmpty())
             return (T) stackArr[count].getValue();
-        else throw new Exception("No more elements to pop!");
+        else throw new Exception("stack is empty!");
     }
 
 }
