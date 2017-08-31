@@ -1,0 +1,52 @@
+Addition:
+
+1.  Binary addition is similar to decimal addition. The only place where you need to take care of is an example like:
+    1010+0110 this will return 10000 that takes 16 bits that is 8 bit more than the numbers added.
+
+
+Ones Compliment:
+
+1.  To do ones compliment of a number we change all the digits in binary from 1->0 and 0->1.
+2.  So 1010 becomes 0101 and 1000 becomes 0111 and 0000 becomes 1111.
+
+Twos Compliment:
+1.  Twos compliment is used to represent positive and negative values in binary.
+2.  If we two's compliment a positive number it converts the number to negative.
+3.  Twos compliment is done by doing Ones compliment on any number and then adding a 1 to it.
+4.  Adding a number to its twos compliment will give us 0.
+
+Note:   10000011 -3d or is it 131d? There is no way to tell.
+
+Note: When one bit is reserved for the sign bit, then there is one less bit available to store value information.
+      This affects the range of positive values possible with a signed byte.
+      A regular, unsigned byte can represent 256 unique values from 0 to 255 because all eight bits are used to store
+      number data. However, a signed byte consisting of eight bits only has seven bits available to store number data
+      because one bit is reserved for the sign. This reduces the maximum positive value by half, but at the same time, almost an equal
+      number of negative values can be represented.
+
+Subtraction:
+1.  Borrow Method:
+        Binary subtraction can be performed similar to decimal subtraction, just remember that when we add a carry to right digit
+        it becomes 10 that is 2 in decimal. when we subtract 1 from it it becomes 1 in binary and in decimal.
+        eg 0010 - 0001 = 0001 and its not 0000.
+2.  2s Compliment method:
+        We simply take 2s compliment of the subtrahend and add it to minuend. We discard the carry bit if we get any.
+
+Left Shift operation << :
+1.  We simply shift the bits to the left so 00001100 becomes 00011000.
+2.  This is equivilant to multiplying a decimal number with a power of 2 so 12 becomes 12*2 = 24 = 00011000.
+3.  The shifting is non-circular.
+
+Logical Right Shift Operator >>>:
+1.  This is opposite to the Left shift operator so 00001100 becomes 00000110.
+2.  If there is a loss of bits then they are gone. we cannot bring them back by shifting in other direction.
+
+Arithematic Right Shift:
+1.  In this shift we pad the shifted right bits with MSB that is the leftmost bit.
+2.  This way we keep the sign bit intact after shifting after division by the power of 2.
+
+
+
+
+
+

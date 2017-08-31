@@ -23,13 +23,13 @@ public class Q6_AnimalShelter {
     public Animal iLikeAllAnimals(){
         return (Animal) animalLinkedList.getHead();
     }
-    public Animal iLikeCats(){
-        int i=0;
-        while(!((Animal)animalLinkedList.getHead() instanceof Cat)){
-             i++;
-        }
-        if(i=animalLinkedList.)
-    }
+//    public Animal iLikeCats(){
+//        int i=0;
+//        while(!((Animal)animalLinkedList.getHead() instanceof Cat)){
+//             i++;
+//        }
+//        //if(i=animalLinkedList.)
+//    }
 
 
 }
