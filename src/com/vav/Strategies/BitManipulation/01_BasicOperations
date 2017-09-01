@@ -45,6 +45,12 @@ Arithematic Right Shift:
 1.  In this shift we pad the shifted right bits with MSB that is the leftmost bit.
 2.  This way we keep the sign bit intact after shifting after division by the power of 2.
 
+Masking:
+1.  Masking is the way to create a mask of 1s or 0s around or in between some bits.
+2.  If we use an AND operation with a mask then the mask bits of 0s will make other bit 0.
+3.  If we use an OR operation with a mask then the mask bits of 1s will make other bit 1.
+4.  A mask of 1s with an AND will work same as a mask of 0s with OR.
+
 
 
 
