@@ -1,0 +1,25 @@
+This file contains the main topics that i need to cover on trees. I am referring Karumanchi, Princeton Algorithms 1 and Robert Lafore
+for theory and CTCI, Leetcode for Practice.
+
+All the code can be found in Common folder for tree implementations, separate folders for each exercise book.
+
+1.  Trees
+2.  Binary Trees
+3.  Binary Tree Traversal using loops and recursion
+4.  Generic Trees(N ary)
+5.  Threaded Binary trees
+6.  Threaded tree traversal
+7.  Expression Trees
+8.  BST
+9.  BST Operations
+10. Balanced BST
+11. AVL trees
+12. Tree rotations
+13. Red black trees
+14. Binary Heeps
+15. Priority Queues
+16. Heapsort
+17. Symbol table
+18. Tries
+19. Trees as arrays
+20. 2-3-4 Trees basics.

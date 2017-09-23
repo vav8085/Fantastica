@@ -1,0 +1,23 @@
+Priority Queue Basics:
+
+1.  Like queues priority queues also have front and rear.
+2.  Items are removed from the front.
+3.  Items are ordered with a key-value so that the items with the lowest key/ highest key is always at front.
+4.  Items are inserted at proper position by comparing them from front to that position.
+5.  An example could be mail sorting to insert the priority mails somewhere on top.
+6.  Another example can be to find the malicious activity on a credit card by listing down the largest transactions.
+7.  It can also be used for programming tools like finding MST.
+
+Priority Q Implementation:
+
+1.  Using Arrays with sorted insertion - Slow insertion because of moving items and locating place it insert, fast deletion.
+2.  Using array with normal insertion and deletion using searching. - Fast insertion, slow deletion with searching and moving items.
+2.  Using Heaps - Fast insertion.
+
+Implementation using array with sorted insertions:
+
+1.  We create an array with 0th element as rear of queue and n-1th element as front of q or
+    vice versa(not sugested because removing items will be costly).
+2.  Rear remains set at 0 and front moves when items are added or deleted.
+3.  Inserting an items will insert at the position where its smaller. larger than the item above it and it will take O(n) time.
+4.  Deleting an item will be O(1) because the item required will be always at front.

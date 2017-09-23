@@ -1,0 +1,8 @@
+This file contains the main topics that i need to cover on priority queue. I am referring Karumanchi, Princeton Algorithms 1 and Robert Lafore
+for theory and CTCI, Leetcode for Practice.
+
+All the code can be found in Common folder for priority queue implementations, separate folders for each exercise book.
+
+1.  Priority Queue Basics
+2.  Priority Q Implementation
+3.  Implementation using array with sorted insertions
