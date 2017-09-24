@@ -26,3 +26,15 @@ Binary Tree search:
 ****Note: Dont confuse this with Binary search tree where we have left child always smaller than parent and right greater
     than parent and O(nlog(n)) time complexity.
 
+Binary tree operations: ( Not BST)
+
+1. Binary tree has basically 3 operations:
+    -Insert
+    -Search
+    -delete
+
+    A.  Insertion:  An element can be inserted by parsing the tree and looking for left and right position of every node.
+                    If you find an empty left/right position then fill it.
+    B.  Searching:  Searching for a node can be done by doing Inorder, preorder or postorder traversal.
+    C.  Deletion:
+

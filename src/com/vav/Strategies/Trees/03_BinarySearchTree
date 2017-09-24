@@ -1,0 +1,7 @@
+
+
+
+
+Balanced and unbalanced binary search trees:
+1.  A binary tree is unbalanced when it has more nodes on one side of the root than other side. Such things happen when the
+    data is not random and more sequential like 1,2,3,4,5,6...
