@@ -14,5 +14,6 @@ Tree Basics:
 12. Height(Tree)--->The height of a tree is the number of edges parsed from root to the deepest node in the tree
     A tree with only root node got 0 height.
 13. For a tree height and depth return the same value, but for a node it can be different.
+14. You can travel only in one direction in trees, just like linked list if its not doubly.
 
 

@@ -7,8 +7,22 @@ Binary Trees:
     there should be no missing number. Every level is complete except the last one.
 5.  The number of nodes in a full binary tree is 2^(h+1) - 1
 6.  The number of nodes in a complete binary tree is between 2^h and 2^(h+1) - 1
+7.  The applications of binary tree can be an inventory, a family tree, something with a hierarchy and items at a certain level.
 
 Binary Tree Structure:
 
 1.  A binary tree has a data and two links pointing to each child node.
+
+Why to use a binary tree:
+
+*   The advantage of binary tree is that it has goods of both a sorted array and a linked list.
+    You can search a tree very quickly like ordered array and you can also insert and delete quickly
+    like a linked list.
+
+Binary Tree search:
+    To search an element in Binary tree we have to parse all nodes. We can use IOT,PROT or POOT or LOT. It will take o(n) time.
+    We can also use graph searching algorithms like DFS/BFS.
+
+****Note: Dont confuse this with Binary search tree where we have left child always smaller than parent and right greater
+    than parent and O(nlog(n)) time complexity.
 
