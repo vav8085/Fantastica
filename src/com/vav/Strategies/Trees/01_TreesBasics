@@ -1,0 +1,18 @@
+Tree Basics:
+
+1.  Trees are similar to linked lists but every node can point to many different nodes.
+2.  Trees are non linear data structures.
+3.  Tree is an ADT.
+4.  In Trees order of elements is not important. --<<<< Check this point >>>>
+5.  The root of the tree is the node with no parent and there can be only one root.
+6.  An edge is a link from parent to child.
+7.  A Node with no children is called the leaf.
+8.  Nodes with the same parent are called siblings.
+9.  Level(Node)---->Set of nodes at a depth is called level of the tree. Root is at level 0.
+10. Depth(Node)---->The depth of the node is the number of edges you have to parse coming from root to that node.
+11. Height(Node)--->The number of edges parsed from node to deepest node.
+12. Height(Tree)--->The height of a tree is the number of edges parsed from root to the deepest node in the tree
+    A tree with only root node got 0 height.
+13. For a tree height and depth return the same value, but for a node it can be different.
+
+
