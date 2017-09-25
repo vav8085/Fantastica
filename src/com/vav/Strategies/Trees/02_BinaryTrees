@@ -28,13 +28,19 @@ Binary Tree search:
 
 Binary tree operations: ( Not BST)
 
-1. Binary tree has basically 3 operations:
+1. Binary tree has basically 4 operations:
     -Insert
     -Search
     -delete
+    -traversing
 
-    A.  Insertion:  An element can be inserted by parsing the tree and looking for left and right position of every node.
+    A.  Insertion:  An element can be inserted by traversing the tree and looking for left and right position of every node.
                     If you find an empty left/right position then fill it.
     B.  Searching:  Searching for a node can be done by doing Inorder, preorder or postorder traversal.
     C.  Deletion:
+    D:  Parsing: Next topic
+
+
+2.  Traversing:
+    Binary tree can be traversed in 4 ways
 

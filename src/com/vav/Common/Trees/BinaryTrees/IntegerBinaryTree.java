@@ -11,7 +11,12 @@ public class IntegerBinaryTree {
         return -99999;
     }
 
-    public void preorder(){
+    public void preorder(IntegerBinaryTreeNode root){
+        if(root!=null) {
+            System.out.println(root.getData());
+            preorder(root.getLeftNode());
+            preorder(root.getRightNode());
+        }
 
     }
 
