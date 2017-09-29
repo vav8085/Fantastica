@@ -43,6 +43,47 @@ public class IntegerBinaryTree {
           }
       }
     }
+    public void inorder(IntegerBinaryTreeNode root){
+        if(root!=null){
+            inorder(root.getLeftNode());
+            System.out.println(root.getData());
+            inorder(root.getRightNode());
+        }
+    }
+    /*
+        1.  Create a stack
+        2.  keep pushing the elements to the stack until you reach null
+        3.  now pop lower most left element from the stack, print it and check if it has a right node
+        4.  if not then pop another element from the stack, print it and check if it has a right node
+        5.  If right node is found then make it root and push it and all left nodes to the stack
+        6.  while loop will keep following the steps 3,4 and 5
+
+     */
+    public void inorderIterative(IntegerBinaryTreeNode root){
+        Stack<IntegerBinaryTreeNode> stack = new Stack<>();
+         while(root!=null){
+            stack.push(root);
+            root = root.getLeftNode();
+        }
+        while(!stack.isEmpty()){
+            root = stack.pop();
+            System.out.println(root.getData());
+            if(root.getRightNode()!=null){
+                root = root.getRightNode();
+                while(root!=null){
+                    stack.push(root);
+                    root = root.getLeftNode();
+                }
+            }
+        }
+    }
+    public void postOrder(IntegerBinaryTreeNode root){
+        if(root!=null){
+            postOrder(root.getLeftNode());
+            postOrder(root.getRightNode());
+            System.out.println(root);
+        }
+    }
     public void find(int id){
 
     }
