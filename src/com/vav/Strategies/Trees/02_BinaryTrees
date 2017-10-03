@@ -42,5 +42,27 @@ Binary tree operations: ( Not BST)
 
 
 2.  Traversing:
-    Binary tree can be traversed in 4 ways
+    Binary tree can be traversed in 4 ways:
+        A.  Preorder traversal
+        B.  Inorder traversal
+        C.  Postorder traversal
+
+
+*   Preorder traversal:
+    A.  In preorder traversal we visit the root node first.
+    B.  For doing this we create a stack and push the root node on it.
+    C.  Then we pop the root and print it.
+    D.  We then go to its right node and push it onto the stack.
+    E.  We then go to its left node and push it onto the stack.
+    F.  We keep repeating the steps C,D and E until stack is empty.
+
+*   Inorder Traversal:
+    A.  In inorder traversal we start with the root node.
+    B.  We iteratively push the root node to the stack and move to its left until we reach null.
+    C.  Then we iteratively do below steps until stack is empty
+        1.  We pop an element from the stack and print it and check if it has a right node.
+        2.  If it has a right node we iteratively push that node and all its left nodes to the stack.
+
+*   PostOrder Traversal:
+    A.
 
