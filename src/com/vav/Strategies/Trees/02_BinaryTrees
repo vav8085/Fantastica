@@ -64,5 +64,18 @@ Binary tree operations: ( Not BST)
         2.  If it has a right node we iteratively push that node and all its left nodes to the stack.
 
 *   PostOrder Traversal:
-    A.
+    A.  Using 2 stacks
+    B.  We can see that post order traversal is like reverse of preorder traversal.
+    C.  We use two stacks here and start by pushing the root to the first stack.
+    D.  We then use a loop and pop the top of the stack1 and push it to the stack 2 and at the same time we push the
+        children of the element popped to the stack 1.
+    E.  We keep doing the step D until stack 1 is empty.
+    F.  In stack 2 we now have the data post ordered, we just use a loop and pop elements and print them one by one
+        until stack is empty.
+
+*   Level order traversal:
+    A.  In level order traversal we use a queue instead of a stack.
+    B.  We push the root to the queue and while queue is not empty we do below steps:
+        1.  Dequeue an element from the queue and push it left and right children to queue if they are present.
+        2.  Print the element that is dequeue.
 

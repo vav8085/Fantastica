@@ -1,5 +1,7 @@
 package com.vav.Common.Trees.BinaryTrees;
 
+import java.util.ArrayDeque;
+import java.util.Queue;
 import java.util.Stack;
 
 /**
@@ -7,6 +9,10 @@ import java.util.Stack;
  */
 public class IntegerBinaryTree {
     private IntegerBinaryTreeNode root;
+
+    public IntegerBinaryTreeNode getRoot() {
+        return root;
+    }
 
     public int maxNode(){
 
@@ -32,16 +38,16 @@ public class IntegerBinaryTree {
 
         Stack<IntegerBinaryTreeNode> stack = new Stack<>();
         stack.push(root);
-      while(!stack.isEmpty()){
-          IntegerBinaryTreeNode temp = stack.pop();
-          System.out.println(temp.getData());
-          if(temp.getRightNode()!=null){
-              stack.push(temp.getRightNode());
-          }
-          if(temp.getLeftNode()!=null){
-              stack.push(temp.getLeftNode());
-          }
-      }
+        while(!stack.isEmpty()){
+            IntegerBinaryTreeNode temp = stack.pop();
+            System.out.println(temp.getData());
+            if(temp.getRightNode()!=null){
+                stack.push(temp.getRightNode());
+            }
+            if(temp.getLeftNode()!=null){
+                stack.push(temp.getLeftNode());
+            }
+        }
     }
     public void inorder(IntegerBinaryTreeNode root){
         if(root!=null){
@@ -61,7 +67,7 @@ public class IntegerBinaryTree {
      */
     public void inorderIterative(IntegerBinaryTreeNode root){
         Stack<IntegerBinaryTreeNode> stack = new Stack<>();
-         while(root!=null){
+        while(root!=null){
             stack.push(root);
             root = root.getLeftNode();
         }
@@ -103,17 +109,51 @@ public class IntegerBinaryTree {
             System.out.println(stack2.pop().getData());
 
         }
-
-
-
     }
+    public void levelOrderTraversal(IntegerBinaryTreeNode root){
+        Queue<IntegerBinaryTreeNode> queue = new ArrayDeque<>();
+        queue.add(root);
+        while (!queue.isEmpty()){
+            IntegerBinaryTreeNode temp  = queue.remove();
+            System.out.println(temp.getData());
+            if(temp.getLeftNode()!=null){
+                queue.add(temp.getLeftNode());
+            }
+            if(temp.getRightNode()!=null){
+                queue.add(temp.getRightNode());
+            }
+        }
+    }
+
     public void find(int id){
 
     }
     public void delete(int id){
 
     }
-    public void insert( int id){
-
+    public void insert(int id){
+        IntegerBinaryTreeNode node = new IntegerBinaryTreeNode();
+        node.setData(id);
+        if(root==null){
+            root = node;
+            return;
+        }
+        Queue<IntegerBinaryTreeNode> queue = new ArrayDeque<>();
+        queue.add(root);
+        while (!queue.isEmpty()){
+            IntegerBinaryTreeNode temp  = queue.remove();
+            if(temp.getLeftNode()!=null){
+                queue.add(temp.getLeftNode());
+            }else {
+                temp.setLeftNode(node);
+                break;
+            }
+            if(temp.getRightNode()!=null){
+                queue.add(temp.getRightNode());
+            }else {
+                temp.setRightNode(node);
+                break;
+            }
+        }
     }
 }
