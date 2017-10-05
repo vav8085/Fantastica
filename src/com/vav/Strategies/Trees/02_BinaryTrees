@@ -79,3 +79,6 @@ Binary tree operations: ( Not BST)
         1.  Dequeue an element from the queue and push it left and right children to queue if they are present.
         2.  Print the element that is dequeue.
 
+***When you write some statements below the recursive call they are executed starting from bottom most elements in tree.
+***When you write some statements above the recursive call they are executed starting from the topmost element in the tree.
+
