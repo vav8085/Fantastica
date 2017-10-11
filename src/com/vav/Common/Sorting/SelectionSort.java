@@ -11,18 +11,32 @@ public class SelectionSort {
             System.out.println(arr[i]);
         }
     }
-    public static int[] selectionSort(int arr[]){
-        int temp;
-        for(int i=0;i<arr.length;i++){
-            int flag = i;
-            for (int j=i+1;j<arr.length;j++){
-                if(arr[j]<arr[flag]){
-                    flag=j;
+//    public static int[] selectionSort(int arr[]){
+//        int temp;
+//        for(int i=0;i<arr.length;i++){
+//            int flag = i;
+//            for (int j=i+1;j<arr.length;j++){
+//                if(arr[j]<arr[flag]){
+//                    flag=j;
+//                }
+//                temp=arr[i];
+//                arr[i]=arr[flag];
+//                arr[flag]=temp;
+//            }
+//        }
+//        return arr;
+//    }
+    public static int[] selectionSort(int[] arr){
+        for(int i = 0;i<arr.length-1;i++){
+            int smallest = i;
+            for(int j=i+1;j<arr.length;j++){
+                if(arr[j]<arr[smallest]){
+                    smallest = j;
                 }
-                temp=arr[i];
-                arr[i]=arr[flag];
-                arr[flag]=temp;
             }
+            int temp = arr[i];
+            arr[i] = arr[smallest];
+            arr[smallest]= temp;
         }
         return arr;
     }
