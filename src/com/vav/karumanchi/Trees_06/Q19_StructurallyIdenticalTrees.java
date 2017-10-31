@@ -36,14 +36,27 @@ public class Q19_StructurallyIdenticalTrees {
         tree2.insert(78);
         tree2.insert(79);
         tree2.insert(90);
-        tree2.insert(57);
+        //tree2.insert(57);
 
-        areStructurallyIdentical(tree1.getRoot(),tree2.getRoot());
+        System.out.print(areStructurallyIdentical(tree1.getRoot(),tree2.getRoot()));
     }
 
-    private static void areStructurallyIdentical(IntegerBinaryTreeNode root1, IntegerBinaryTreeNode root2) {
-        if(root1!=null){
-
+    /**
+     * A binary tree is structurally identical to another binary tree if the nodes are same and
+     *  the arrangement of the children is same
+     * @param root1
+     * @param root2
+     */
+    private static boolean areStructurallyIdentical(IntegerBinaryTreeNode root1, IntegerBinaryTreeNode root2) {
+        if (root1 == null && root2 == null) {
+            return true;
         }
+        if (root1 != null && root2 != null) {
+            return root1.getData() == root2.getData() &&
+                    areStructurallyIdentical(root1.getLeftNode(), root2.getLeftNode()) &&
+                    areStructurallyIdentical(root1.getRightNode(), root2.getRightNode());
+        }
+        return false;
+
     }
 }
