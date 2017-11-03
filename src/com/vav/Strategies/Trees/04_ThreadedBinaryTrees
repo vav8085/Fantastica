@@ -1,0 +1,10 @@
+Threaded BinaryTree:
+
+1.  Usually binary trees use stacks and queues for inorder, preorder, postorder and level order traversal.
+
+2.  The problem with binary trees is that they have a lot of null pointers and the storage space for stacks and queues is large.
+
+3.  During parsing a usual binary tree we have to find out the successor nodes ( inorder, preorder or postorder) . This is
+    usually difficult to implement using a stack/queues.
+
+4.  
