@@ -24,7 +24,7 @@ public class Q6_SizeOfBinaryTree {
         tree.insert(11);
         tree.insert(25);
         tree.insert(44);
-        System.out.println(sizeOfABinaryTreeIterative(tree.getRoot()));
+        System.out.println(count(tree.getRoot()));
 
     }
 
@@ -48,6 +48,18 @@ public class Q6_SizeOfBinaryTree {
             }
         }
         return count;
+    }
+
+    /**
+     * Recursive
+     */
+
+    public static int count(IntegerBinaryTreeNode root){
+        if(root!=null){
+            int leftCount = count(root.getLeftNode());
+            int rightCount = count(root.getRightNode());
+            return 1+ leftCount + rightCount;
+        }else return 0;
     }
 
 

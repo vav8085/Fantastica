@@ -82,5 +82,16 @@ Binary tree operations: ( Not BST)
 ***When you write some statements below the recursive call they are executed starting from bottom most elements in tree.
 ***When you write some statements above the recursive call they are executed starting from the topmost element in the tree.
 
-*
+***When you think of recursion think of example of parsing a linked list. Its simpler. In binary trees there are two ways
+   to go, left and right. So every time we recurse through elements in both directions.
+
+   A simple example is calculating the count of all nodes of binary tree.
+   count(Node Root){
+      if(root!=null){
+        int leftCount = count(root.left());
+        int rightCount = count(root.right());
+                return leftCount+rightCount +;
+
+        }else return 0;
+   }
 
