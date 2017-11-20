@@ -1,0 +1,29 @@
+Quick Union improvements (Weighted quick union):
+
+1.  The issue with quick union is that sometimes putting a taller tree under a smaller
+    tree can cause the tree to become one sided with n height, just like linked list. This
+    can cause the find operation also to take order of n complexity.
+2.  With weighted quick union we first calculate the size of each trees and then we keep the
+    tree with the smaller size below the tree with the larger size.
+3.  This way we make sure that the tree height does not become too big.
+4.  The complexity of find and union operation becomes log2(n).
+5.  This is because the size of the tree containing the node becomes double every time we add
+    a tree with a node to another larger tree and increase the height by 1.
+6.  This happens at every 1 2 4 8 16...values of n.
+7.  Because there are n nodes the size can double only log2(n) times.
+    A.  When n is 2 the size doubles 1 times and height increases up to 1.
+    B.  When n is 4 the size doubles 2 times and height increases up to 2.
+    C.  When n is 8 the size doubles 3 times and height increases up to 3.
+    D.  When n is 1048576 the size doubles 20 times and height increases up to 20.
+
+Weighted quick union with path compression:
+
+
+
+Reference:
+
+Algorithms 1
+
+Percolation example:
+https://coderanch.com/t/604648/java/Code-review-Percolation-java
+

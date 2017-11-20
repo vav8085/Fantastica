@@ -1,0 +1,14 @@
+Quick Find:
+
+1.  In Quick Find we usually use a datatype of a simple array.
+2.  Whenever we need to check the connectivity of two items, we just parse through
+    the array and check if the items have the same value. If two items have the same
+    value then they are connected.
+3.  For union we put the same value for all the items we want to connect.
+4.  Quick find takes o(n) time to insert, O(n) time to union two items and O(1) time
+    to find an item(using index).
+5.  The problem with quick find is that for n number of items the union will take O(n^2) time.
+    this is very expensive. (We are considering n very huge here).
+
+****The problem with quadratic algorithms is that they dont scale. With better computers and more
+    computing power the quadratic algorithms keep getting slower.
