@@ -1,6 +1,0 @@
-Order of Growth
-
-1.  We have logn, n, nlogn, n^2, n^3 and 2^n functions that suffice to describe
-    order of growth of typical algorithms.
-2.  If the code has a loop where input is divided in half then it will have logarithmic complexity.
-3.  
