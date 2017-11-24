@@ -1,0 +1,20 @@
+Asymptotic Notations:
+
+1.  We can represent an algorithm with a function F(N). The functions G(N) that gives the upper and lower
+    bounds of the F(N) are called its asymptotes.
+2.  This G(N) gives the closest bounds to F(N).
+
+Big O Notation:
+
+1.  The notation that gives the upper bound of a function is called its Big O function.
+2.  F(N) = O(G(n)).
+3.  Example is F(N) = N^4 + N then G(N) will be N^4.
+4.  It also says that there exist a c and a N0 such that  0<=F(N)<=c*G(N) for a certain N>=N0.
+5.  The above statement says that F(N) touches/intersect G(N) for a certain N if G(N) is multiplied by a constant c.
+6.  Notice that we are interested in a certain large values of N where above condition is satisfied.
+7.  Also notice that G(N) could be lower than F(N) at lower values of N but for values bigger than N0, G(N) is always > F(N).
+8.  We discard lower order N terms here because thir rate of growth is not significant and does not impact much at
+    larger values of N.
+
+
+

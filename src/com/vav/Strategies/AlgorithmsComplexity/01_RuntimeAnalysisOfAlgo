@@ -1,0 +1,33 @@
+Runtime Analysis:
+
+1.  Its the process of analysing how to runtime/execution time increases with the size of the problem(Input).
+2.  Execution time is not a good measure of comparing algorithms.
+3.  We also cannot count the statements executed as the execution time as it differs from one programming language to
+    other.
+*** The ideal solution is to define an algorithm as a function that is independent of machine and the language.
+
+Rate of Growth:
+
+1.  The rate at which runtime increases as a function of input.
+
+Some general rate of growths:
+
+1 - Constant - Addition, substraction.
+logN - logarithmic - the problems that gets half each iteration, e.g. finding element in sorted array
+N - Linear - Finding an element in an unsorted array.
+NlogN - LinearLogarithmic - MergeSort
+N^2 - Quadratic - bubblesort
+N^3 - Cubic - Matrix multiplication
+2^N - Exponential
+
+Types of Analysis:
+
+We need to see in which case an algorithm is taking least time and in which case its taking more time.
+The former is called the "best case" and later is called "worst case".
+
+1.  Worst Case: Defines the input when the algorithm runs the slowest.
+2.  Best Case: Defines the input when the algorithm runs the fastest.
+3.  Average Case: Computes the average runtime by averaging over times taken in various runs.
+
+
+
