@@ -26,6 +26,10 @@ public class SinglyLinkedList {
 
     public void insertEnd(int data) {
         Link link = new Link(data);
+        if(head==null){
+            head=link;
+            return;
+        }
         Link current = head;
         while (current.getNext() != null) {
             current = current.getNext();
@@ -64,7 +68,9 @@ public class SinglyLinkedList {
             previous = current;
             current = current.getNext();
         }
+        if(previous!=null)
         previous.setNext(null);
+        else head=null;
 
     }
 
@@ -83,8 +89,8 @@ public class SinglyLinkedList {
             previous.setNext(current.getNext());
         }
     }
-    public void getHead(){
-        System.out.print(head.getData());
+    public Link getHead(){
+        return head;
     }
 
     public void nThNodeFromEndTwoIter(int n){
