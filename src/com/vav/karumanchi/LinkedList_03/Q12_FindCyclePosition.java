@@ -16,28 +16,29 @@ public class Q12_FindCyclePosition {
         link2.setNext(link3);
         link3.setNext(link4);
         link4.setNext(link5);
-        link5.setNext(null);
+        link5.setNext(link1);
         System.out.println(findCyclePosition(link1));
     }
 
     private static int findCyclePosition(Link<Integer> head) {
         Link<Integer> sloPtr = head;
-        Link<Integer> fstPtr = head.getNext();
-
+        Link<Integer> fstPtr = head;
+        boolean loopExist = false;
         while (sloPtr!=null && fstPtr!=null && sloPtr.getNext()!=null && fstPtr.getNext()!=null && fstPtr.getNext().getNext()!=null){
-            if(sloPtr.equals(fstPtr)){
-                sloPtr = head;
-                while (true){
-                    if (sloPtr.equals(fstPtr.getNext())){
-                        return fstPtr.getData();
-                    }
-                    sloPtr = sloPtr.getNext();
-                    fstPtr = fstPtr.getNext();
-                }
-            }
             sloPtr = sloPtr.getNext();
             fstPtr = fstPtr.getNext().getNext();
+            if(sloPtr.equals(fstPtr)){
+                loopExist = true;
+                break;
+            }
         }
-        return -1;
+        if(loopExist) {
+            sloPtr = head;
+            while (!sloPtr.equals(fstPtr)) {
+                sloPtr = sloPtr.getNext();
+                fstPtr = fstPtr.getNext();
+            }
+            return fstPtr.getData();
+        }else return -1;
     }
 }
