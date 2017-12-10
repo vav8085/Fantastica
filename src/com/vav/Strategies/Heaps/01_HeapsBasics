@@ -2,5 +2,6 @@ Heaps Basics:
 
 1.  A heap is a complete binary tree.
 2.  Its last row need not to be full.
-3.  Its usually represented as an array.
-4.
+3.  Its usually stored as an array.
+4.  Its represented as a complete binary tree.
+5.  The roor is the maximum key.
