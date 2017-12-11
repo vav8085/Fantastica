@@ -4,4 +4,15 @@ Heaps Basics:
 2.  Its last row need not to be full.
 3.  Its usually stored as an array.
 4.  Its represented as a complete binary tree.
-5.  The roor is the maximum key.
+5.  The root is the maximum key.
+6.  The heep condition: Every nodes key is larger than the key of its children.
+
+Heaps are weekly ordered:
+
+1.  In Binary Search Tree we know that the left child is smaller than root which is greater than right child.
+    Because of this binary tree is easy to parse and search.
+2.  In Heaps its difficult to search the nodes because the Heap Condition is not as helpful as BST.
+3.  Heap traversal is also not as optimal and can take O(N) when parsing all the nodes to reach the required value.
+4.  But the requirement is Fast Deletion of Maximum node(Root) and Fast Insertion on a new node and that is satisfied by Heap.
+
+
