@@ -15,4 +15,23 @@ Heaps are weekly ordered:
 3.  Heap traversal is also not as optimal and can take O(N) when parsing all the nodes to reach the required value.
 4.  But the requirement is Fast Deletion of Maximum node(Root) and Fast Insertion on a new node and that is satisfied by Heap.
 
+Removal of element:
+
+1.  Removing a node is easy because its the node at the root.
+2.  But once the root node is removed then the real challenge is to find its replacement.
+3.  For this we will take the last node of the tree and put it at first nodes position
+    The last node is also the last element in the array.
+4.  The final step is to trickle the new root to its right position, for this we replace
+    the root with the largest element on its left or right side.
+5.  We keep doing the step 4 until the new root is at its right position.
+6.  Removing the node decreases the size of the array by 1.
+
+Addition of item in a heap:
+
+1.  Addition of an item is done by adding the item to the end of the heap.
+2.  The end of the heap is the last element of the array.
+3.  This item is then compared with the parent and swapped until its at its right position.
+4.  The node may or may not reach the root.
+
+
 
