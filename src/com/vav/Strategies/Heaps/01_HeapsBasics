@@ -33,5 +33,10 @@ Addition of item in a heap:
 3.  This item is then compared with the parent and swapped until its at its right position.
 4.  The node may or may not reach the root.
 
+HeapSort:
+
+1.  As we know that insert and remove both take nlogn time complexity for heaps.
+2.  For heapsort we add these items to the heap and then remove them to get a sorted array.
+
 
 
