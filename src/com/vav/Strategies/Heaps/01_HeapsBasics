@@ -26,17 +26,39 @@ Removal of element:
 5.  We keep doing the step 4 until the new root is at its right position.
 6.  Removing the node decreases the size of the array by 1.
 
+Few important things to know before adding, removing or changing the priority of an item in the heap:
+
+1.  The parent of the current node is always at:
+    parentPosition = (currentNodePosition - 1) / 2
+    When adding a new node this is the (currentArraySize - 1) / 2
+
+2.  Left child of a node is at:
+    leftChildPosition = 2 * parentPosition + 1
+
+3.  Right child of the node is at:
+    rightChildPosition = 2 * parentPosition +2
+
+
 Addition of item in a heap:
 
 1.  Addition of an item is done by adding the item to the end of the heap.
 2.  The end of the heap is the last element of the array.
-3.  This item is then compared with the parent and swapped until its at its right position.
-4.  The node may or may not reach the root.
+3.  This item is then compared with the parent(that is found using formula above) and swapped until its at its right position.
+4.  Know that we dont swap the nodes but just save the currentNode in a temp variable while swapping every parent to currentNodes new position
+    creating a hole there.
+5.  In last step when we do not have any parent node less than the current node key, we just insert temp node at the latest current noide position.
+6.  Using the hole method reduces the number of swap counts/
+4.  The currentNode may or may not reach the root.
 
 HeapSort:
 
 1.  As we know that insert and remove both take nlogn time complexity for heaps.
 2.  For heapsort we add these items to the heap and then remove them to get a sorted array.
+
+****Important - Do not print out heap array thinking that its sorted. The heap array may have the items less
+    than above at lower levels because the tree was like that. So it can be 100-90-80-30-40-70-60....How heapsort
+    works is when both Insert and remove operations use trickleUp and trickleDown operations on new item added or
+    an item deleted and then printed. The remove method will always return items in sorted order.
 
 
 
