@@ -12,10 +12,11 @@ public class HeapMain {
         heap.insert(16);
         heap.insert(5);
         heap.insert(2);
-        System.out.println(heap.remove().getKey());
-        System.out.println(heap.remove().getKey());
-        System.out.println(heap.remove().getKey());
-        System.out.println(heap.remove().getKey());
-        System.out.println(heap.remove().getKey());
+        heap.changeKey(1,19);
+        System.out.println(heap.remove());
+        System.out.println(heap.remove());
+        System.out.println(heap.remove());
+        System.out.println(heap.remove());
+        System.out.println(heap.remove());
     }
 }
