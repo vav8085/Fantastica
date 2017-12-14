@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0dc95c9b-b3e3-479e-88e2-7ef2b3d4dd5c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/vav/Common/Heaps/Heap.java" afterPath="$PROJECT_DIR$/src/com/vav/Common/Heaps/Heap.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/vav/Strategies/Heaps/01_HeapsBasics" afterPath="$PROJECT_DIR$/src/com/vav/Strategies/Heaps/01_HeapsBasics" />
     </list>
     <ignored path="CODE.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,7 +28,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Heap.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Heap.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/vav/Common/Heaps/Heap.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="592">
@@ -43,6 +43,16 @@
                 <element signature="e#3578#3579#0" expanded="true" />
                 <element signature="e#3608#3609#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="01_HeapsBasics" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/vav/Strategies/Heaps/01_HeapsBasics">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="334">
+              <caret line="60" column="131" lean-forward="false" selection-start-line="60" selection-start-column="131" selection-end-line="60" selection-end-column="131" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -135,9 +145,9 @@
         <option value="$PROJECT_DIR$/src/com/vav/Common/Heaps/Heaps.java" />
         <option value="$PROJECT_DIR$/src/com/vav/karumanchi/Sorting_10/Q1_CheckRepetition.java" />
         <option value="$PROJECT_DIR$/src/com/vav/karumanchi/Sorting_10/Q2_CheckRepetitionUsingSorting.java" />
-        <option value="$PROJECT_DIR$/src/com/vav/Strategies/Heaps/01_HeapsBasics" />
         <option value="$PROJECT_DIR$/src/com/vav/Common/Heaps/Heap.java" />
         <option value="$PROJECT_DIR$/src/com/vav/Common/Heaps/HeapMain.java" />
+        <option value="$PROJECT_DIR$/src/com/vav/Strategies/Heaps/01_HeapsBasics" />
       </list>
     </option>
   </component>
@@ -1178,14 +1188,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Strategies/Heaps/01_HeapsBasics">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="60" column="97" lean-forward="false" selection-start-line="60" selection-start-column="97" selection-end-line="60" selection-end-column="97" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/vav/Common/Heaps/HeapMain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -1208,6 +1210,14 @@
             <element signature="e#3578#3579#0" expanded="true" />
             <element signature="e#3608#3609#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Strategies/Heaps/01_HeapsBasics">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="60" column="131" lean-forward="false" selection-start-line="60" selection-start-column="131" selection-end-line="60" selection-end-column="131" />
+          <folding />
         </state>
       </provider>
     </entry>

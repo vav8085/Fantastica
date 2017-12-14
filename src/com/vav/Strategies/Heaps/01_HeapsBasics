@@ -46,19 +46,30 @@ Addition of item in a heap:
 3.  This item is then compared with the parent(that is found using formula above) and swapped until its at its right position.
 4.  Know that we dont swap the nodes but just save the currentNode in a temp variable while swapping every parent to currentNodes new position
     creating a hole there.
-5.  In last step when we do not have any parent node less than the current node key, we just insert temp node at the latest current noide position.
+5.  In last step when we do not have any parent node less than the current node key, we just insert temp node at the latest current node position.
 6.  Using the hole method reduces the number of swap counts/
 4.  The currentNode may or may not reach the root.
+
+Removing an item from heap:
+
+1.  Always the root of the tree that is also the first element of the array is removed.
+2.  To replace its position we always move the last element of the tree to its position.
+3.  Trickle Down starts here - We then save this element to a temp variable.
+4.  We compare this temp with the largest child of current root( this is the root node in first iteration but changes later to largest element)
+5.  If the largest child is less than the root we just exit the loop and assign temp node to this root(its a hole).
+6.  If the largest child is greater than the root then we assign the largest child to the root creating a new hole at the largest child position.
+    root pointer is also moved to the position of the largest child. We keep doing it until we reach condition 5 and exit the loop.
 
 HeapSort:
 
 1.  As we know that insert and remove both take nlogn time complexity for heaps.
 2.  For heapsort we add these items to the heap and then remove them to get a sorted array.
 
-****Important - Do not print out heap array thinking that its sorted. The heap array may have the items less
-    than above at lower levels because the tree was like that. So it can be 100-90-80-30-40-70-60....How heapsort
+****Important - Do not print out heap array thinking that its sorted. The heap array may have the items with values less
+    than their parent at lower levels because the tree was like that. So it can be 100-90-80-30-40-70-60....How heapsort
     works is when both Insert and remove operations use trickleUp and trickleDown operations on new item added or
     an item deleted and then printed. The remove method will always return items in sorted order.
+
 
 
 
