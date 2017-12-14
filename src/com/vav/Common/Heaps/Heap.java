@@ -37,7 +37,7 @@ public class Heap {
     private void trickleUp(int nodePosition) {
         Node temp = heapArray[nodePosition];
         int rootPosition = (nodePosition-1)/2;
-        while(nodePosition>0 && heapArray[rootPosition].getKey()<heapArray[nodePosition].getKey()){
+        while(nodePosition>0 && heapArray[rootPosition].getKey()<temp.getKey()){
             heapArray[nodePosition] = heapArray[rootPosition];
             nodePosition = rootPosition;
             rootPosition = (rootPosition-1)/2;
@@ -51,14 +51,32 @@ public class Heap {
      * Removing an item creates a hole on top that need to be filled. For this we just copy the last element in the
      * array and trickle it down to its correct position.
      */
-    private Node remove(){
+    public Node remove(){
         heapArray[0] = heapArray[--currentSize];
-        trickleDown(heapArray[0]);
+        trickleDown(0);
         return heapArray[0];
     }
 
-    private void trickleDown(Node root) {
-        
+    private void trickleDown(int index) {
+        int largerChild;
+        Node top = heapArray[index];
+        while(index < currentSize/2){
+            int leftCIndex = index * 2 +1;
+            int rightCIndex = leftCIndex +1;
+
+            if(rightCIndex < currentSize && // check if right child exist, if it exist then left child will anyways exist
+                    heapArray[rightCIndex].getKey() > heapArray[leftCIndex].getKey()){ // if right is greater than left
+                largerChild = rightCIndex;
+            }else{
+                largerChild = leftCIndex;
+            }
+            if(heapArray[largerChild].getKey() < top.getKey()){ // if top is greater than larger child then exit, we always compare with top/ the saved element
+                break;
+            }
+            heapArray[index] = heapArray[largerChild]; // if root is smaller than larger child then keep copying larger child at root position
+            index = largerChild;    // Update index
+        }
+        heapArray[index] = top;
     }
 
 }
