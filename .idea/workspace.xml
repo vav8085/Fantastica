@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0dc95c9b-b3e3-479e-88e2-7ef2b3d4dd5c" name="Default" comment="" />
+    <list default="true" id="0dc95c9b-b3e3-479e-88e2-7ef2b3d4dd5c" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/vav/Common/Sorting/CountingSort.java" afterPath="$PROJECT_DIR$/src/com/vav/Common/Sorting/CountingSort.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/vav/Strategies/Sorting/SortingNotes.txt" afterPath="$PROJECT_DIR$/src/com/vav/Strategies/Sorting/SortingNotes.txt" />
+    </list>
     <ignored path="CODE.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -25,12 +28,22 @@
     <favorites_list name="CODE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="CountingSort.java" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="CountingSort.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/vav/Common/Sorting/CountingSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="29" column="25" lean-forward="true" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+            <state relative-caret-position="328">
+              <caret line="29" column="87" lean-forward="false" selection-start-line="29" selection-start-column="87" selection-end-line="29" selection-end-column="87" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SortingNotes.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/vav/Strategies/Sorting/SortingNotes.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="367">
+              <caret line="76" column="4" lean-forward="false" selection-start-line="76" selection-start-column="4" selection-end-line="76" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -115,8 +128,8 @@
         <option value="$PROJECT_DIR$/src/com/vav/Common/Heaps/HeapMain.java" />
         <option value="$PROJECT_DIR$/src/com/vav/Common/Sorting/HeapSort.java" />
         <option value="$PROJECT_DIR$/src/com/vav/Common/PriorityQueue/HeapPriorityQueue.java" />
-        <option value="$PROJECT_DIR$/src/com/vav/Strategies/Sorting/SortingNotes.txt" />
         <option value="$PROJECT_DIR$/src/com/vav/Common/Sorting/CountingSort.java" />
+        <option value="$PROJECT_DIR$/src/com/vav/Strategies/Sorting/SortingNotes.txt" />
       </list>
     </option>
   </component>
@@ -257,36 +270,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Common" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WarPlan" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WarPlan" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vav" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Common" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sorting" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1151,18 +1134,18 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/vav/Common/PriorityQueue/HeapPriorityQueue.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Strategies/Sorting/SortingNotes.txt">
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Common/Sorting/CountingSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="57" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+        <state relative-caret-position="328">
+          <caret line="29" column="87" lean-forward="false" selection-start-line="29" selection-start-column="87" selection-end-line="29" selection-end-column="87" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Common/Sorting/CountingSort.java">
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Strategies/Sorting/SortingNotes.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="29" column="25" lean-forward="true" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+        <state relative-caret-position="367">
+          <caret line="76" column="4" lean-forward="false" selection-start-line="76" selection-start-column="4" selection-end-line="76" selection-end-column="4" />
           <folding />
         </state>
       </provider>

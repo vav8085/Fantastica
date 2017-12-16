@@ -40,7 +40,7 @@
 6. Partitioning:
     A. We do partitioning when we want to separate out items less than and greater than a certain item in an array.
     B. Partitioning is a step in quick sort algorithm.
-    C. We send the algorithm the left most and the right most element of the array.
+    C. We send the algorithm the left most and the right most element of the array as parameters.
     D. We use two pointers one pointing to left=start-1 and other pointing to right=end+1 position of array.
     E. We start a loop where we keep incrementing and decrementing values from both ends.
     F. The increment and decrement is done so that left pointer cannot cross right and vice versa. If the left item is
@@ -55,4 +55,23 @@
     B.  Check heap for more notes.
 
 9.  Counting Sort:
+    A.  Counting sort works when we know that then input has a certain range of numbers.
+    B.  So it could be between 1 and 100 or 225 and 1280.
+    C.  In Counting sort we find out these bounds. It can be known to us like the range of employee ids
+        or sorting alphabets.
+    D.  It can also be unknown to us in that case counting sort is not a good option.
+    E.  Steps:
+        1.  In counting sort we first create a counts array and an output array. The counts array starts from
+            the lowest possible value that can be present in input and ends with the largest possible value.
+        2.  We then go over the input array one item at a time and save its count in the counts array.
+        3.  So if value 1 is appearing at first and third position then its count will be saved as 2 at the end of parse.
+        4.  The value will be saved at the 1st cell in counts array (not the 0th cell)
+        5.  Note that because input can be of a small size  with large range of values the counts array can be bigger than
+            input array . eg 2, 5, 225, 15 the counts array could be 0 - 225
+        6.  After counts array has all the values we go over counts array summing up n-1th count with nth count and saving it
+            at nth position.
+        7.  Our output array will be same size of out input array.
+        8.  We then go over the output array saving at the count[arr[i]]-1] th position the arr[i] th element.
 
+10. Bucket Sort:
+    
