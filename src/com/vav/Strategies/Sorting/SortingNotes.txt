@@ -50,3 +50,9 @@
 7. Quick Sort:
     A.
 
+8.  Heap Sort:
+    A.  Heapsort simply uses a Heap to add and remove elements to they get sorted using heap property.
+    B.  Check heap for more notes.
+
+9.  Counting Sort:
+
