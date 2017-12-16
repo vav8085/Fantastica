@@ -6,7 +6,11 @@ package com.vav.Common.Sorting;
 public class CountingSort {
 
     public static void main(String arg[]){
-
+        int arr[] = new int[]{ 1, 3, 1, 7, 5, 5, 9, 7 };
+        int brr[] = countingSort(arr);
+        for(int i=0;i<brr.length;i++){
+            System.out.println(brr[i]);
+        }
     }
     public static int[] countingSort(int[] inputArr){
         // { 1, 3, 1, 7, 5, 5, 9, 7 }
@@ -20,7 +24,7 @@ public class CountingSort {
         for(int j=0;j<inputArr.length;j++){
             ++countingArr[inputArr[j]]; //increasing the value for index of element corresponding to inputarray by one
         }
-        for(int k=1;k<inputArr.length;k++){
+        for(int k=1;k<countingArr.length;k++){
             countingArr[k] = countingArr[k] + countingArr[k-1]; //adding values to the previous and saving it
         }
         for(int l=0;l<outputArr.length;l++){
