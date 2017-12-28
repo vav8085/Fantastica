@@ -59,7 +59,7 @@ Suppose we want to add a word cats to the memory then we have to find a way to c
 
     Now when we have our numbers we need a function to map them.
 
-    We usually use smallNumber = Bignumber % smallRange
+    We usually use smallNumber = Bignumber % smallRange(Make it prime to avoid clustering)
     arrayIndex = 500000 % 100000 = 0
     arrayIndex = 500001 % 100000 = 1
     ...
@@ -77,3 +77,23 @@ Many words have the same hash and point to the same memory location that causes 
 
 The hashing performs best with data where there is no duplication.
 
+Open Addressing:
+
+When open addressing we find a new address for the item to be inserted in the same array. We usually do this using below 3 methods:
+
+1.  Linear Probing:
+    A.  INSERT: When items are inserted we calculate their hash values using a hash function and then we go to the hashed value and insert the item.
+    B.  If the hashed value is already occupied we parse through the array to find an empty cell and insert it there.
+    C.  FIND: When finding the value we do the same thing we just go to the location of the hashed value and try to locate the item there.
+        If the item is not found at this location then we go to the next cell and keep going on until we find the value.
+        The process is called PROBING. If we find an empty cell on our way then we return saying that the item was not found.
+    D.  DELETE: If we are deleting an item then we do not just go to its cell and delete it but we go to the location and delete the value and insert
+        a DEL or some value that cannot be our data.
+    E.  Next time during a find if we see DEL then we just ignore it and search the next cell.
+    F.  Next time during insert we consider DEL as an empty cell and we insert the item there.
+    G.  Linear probing usually works fine but sometimes many values hash to the same position making the algorithm to add them to next vacant cells.
+        ultimately creating long chain of values. These values cause longer insertion, deletion and find times. The problem is called CLUSTERING.
+    H.  Duplicates can be added but the probing will return only the first value.
+
+2.  Quadratic Probing:
+    
