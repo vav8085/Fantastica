@@ -10,7 +10,70 @@ Hashing:
 7.  Load factor is the ratio of (Number of items in table/size of table).
 8.  Load factor defines when HashTables need rehashing.
 
-Separate Chaining:
-1.  Separate Chaining is a collision resolution technique used in the Hashmaps.
-2.  This works by adding a linked list or an array(bucket) at every cell on hashmap.
-3.
+*****CASE STUDY: (From Data structures and Algorithms in java - Robert Lafore)
+
+Direct Addressing:
+
+A simple example is when we have a company of 1000 employees.
+Where Some employee are added new while others leave.
+When an employee leaves the company then we do not just go and delete him from the array. We keep his record.
+Also when a new employee is added we can increase the array size.
+
+In this case if a new employee joins who was 1001th in the company, how will we add him?
+We have to expand the array.
+
+This is called the direct addressing where we have a record of an employee directly mapped to an address in array.
+
+*   Direct addressing is helpful when the data is not random(1000 employee ids-> 1000 records).
+
+But what will happen if it was a dictionary?
+
+Hashing:
+
+Suppose we have a dictionary with 50k words and we want to save them in a data structure.
+Words are english words like cats, dogs, deer etc
+
+The challenge here is that these are character strings and our memory is a numeric location.
+
+Suppose we want to add a word cats to the memory then we have to find a way to convert it to integer
+
+1.  We can sum up the character positions like C(3) + A(1) + T(20) +S(19) = 43
+
+    The issue with this approach is that if we have the largest word as zzzzzzzzzz then sum becomes = 260
+    How will we be able to map 50000 words to only 260 locations. This worsens the problem.
+
+2.  We can multiply with the power of 27 just like we do for decimal numbers 1234 = 1*10^3 + 2*10^2 + 3*10^1 + 4*10^0
+    We do it because at every place there can be 10 numbers and if we take 2 digits then it makes 100 numbers 0-99
+
+    So CATS become 3*27^3 + 1*27^2 + 20*27^1 + 19*27^0 = 60337
+
+    For zzzzzzzzzz it will become more than 7,000,000,000,000 which gives us all the combinations of characters including
+    the words like zzzdssdf which does not exist.
+
+    The good part of this is that it covers all 50k words and more if added in future.
+
+    Now the challenge is to map 50k to 7,000,000,000,000.
+
+    Instead of mapping 50k we will take 100k as array size. and map all these 7,000,000,000,000 there. We keep it twice the size because
+    many words can map to same location and we want our hashmap to perform better.
+
+    Now when we have our numbers we need a function to map them.
+
+    We usually use smallNumber = Bignumber % smallRange
+    arrayIndex = 500000 % 100000 = 0
+    arrayIndex = 500001 % 100000 = 1
+    ...
+    ...
+
+****The hashed value is the arrayIndex here where an actual value 500001 is hashed to arrayIndex.
+
+/**********************************************************************************************************************/
+
+Collisions:
+
+Collisions happen when we try to compress and bigger range into smaller. Right now we have a range of 7,000,000,000,000
+with only 50k as actual words that are being added to a 100k array. Ideally the overlap should not happen but it does.
+Many words have the same hash and point to the same memory location that causes collisions.
+
+The hashing performs best with data where there is no duplication.
+
