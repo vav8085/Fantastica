@@ -47,6 +47,9 @@ Suppose we want to add a word cats to the memory then we have to find a way to c
 
     So CATS become 3*27^3 + 1*27^2 + 20*27^1 + 19*27^0 = 60337
 
+    *** The above calculation is done by a hash function that is generating a Key(Big number) for us and then we % this key
+    with array size to get a hash value.
+
     For zzzzzzzzzz it will become more than 7,000,000,000,000 which gives us all the combinations of characters including
     the words like zzzdssdf which does not exist.
 
@@ -59,7 +62,7 @@ Suppose we want to add a word cats to the memory then we have to find a way to c
 
     Now when we have our numbers we need a function to map them.
 
-    We usually use smallNumber = Bignumber % smallRange(Make it prime to avoid clustering)
+    We usually use smallNumber = Key % smallRange(Make it prime to avoid clustering)
     arrayIndex = 500000 % 100000 = 0
     arrayIndex = 500001 % 100000 = 1
     ...
