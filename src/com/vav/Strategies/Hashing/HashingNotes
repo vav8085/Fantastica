@@ -98,5 +98,17 @@ When open addressing we find a new address for the item to be inserted in the sa
         ultimately creating long chain of values. These values cause longer insertion, deletion and find times. The problem is called CLUSTERING.
     H.  Duplicates can be added but the probing will return only the first value.
 
+****What to do when hashmap becomes full:   Hashmap can become full. In this case we have to make the array double its size to occupy the new values
+    THe problem here is that we cannot just copy older values to new array because the hash function depends on array size and will change.
+    In this case we have to insert all the data from older map to the newer one using the new hash function. The procedure is called rehashing.
+    For rehashing you have to create a new hashmap with a prime size. The new prime needs to be calculated as a part of rehashing process.
+
+**  Linear probing has a problem of clustering where clusters grow bigger and bigger.
+
+*** Load Factor = totalItems/ arraySize
+    For optimal performance. We should do rehashing when loadfactor comes around 2/3 or above.
+
 2.  Quadratic Probing:
+    
+
     
