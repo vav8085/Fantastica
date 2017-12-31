@@ -110,5 +110,13 @@ When open addressing we find a new address for the item to be inserted in the sa
 
 2.  Quadratic Probing:
     
-
-    
+    A.  Linear probing is prone to clustering. The clusters keep growing making insertion , find and deletion difficult.
+    B.  Suppose some items are hashed to index X in linear probing then we save each item in index X, X+1, X+2...
+        The issue here is that the items are forming a single large cluster this way.
+    C.  In Quadratic probing we save the items at indexes X, X+1^2, X+2^2, X+3^2....
+        This makes it X, X+1, X+4, X+9....This avoids the problem of PRIMARY CLUSTERING.
+    D.  When quadratic probing finds a cluster it searches larger steps and keep increasing steps.
+    E.  Always keep the array size prime.
+    F.  The problem with quadratic probing is when all the keys hash to the same value.
+        Suppose this value is 7 and 10 keys hash there then they will probe X, X+1, X+4, X+9.... which will be very long probes.
+        This problem is called SECONDARY CLUSTERING.
