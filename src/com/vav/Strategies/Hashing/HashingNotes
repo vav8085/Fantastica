@@ -117,6 +117,17 @@ When open addressing we find a new address for the item to be inserted in the sa
         This makes it X, X+1, X+4, X+9....This avoids the problem of PRIMARY CLUSTERING.
     D.  When quadratic probing finds a cluster it searches larger steps and keep increasing steps.
     E.  Always keep the array size prime.
-    F.  The problem with quadratic probing is when all the keys hash to the same value.
+    F.  The problem with quadratic probing is when all the keys hash to the same array location.
         Suppose this value is 7 and 10 keys hash there then they will probe X, X+1, X+4, X+9.... which will be very long probes.
         This problem is called SECONDARY CLUSTERING.
+
+3.  Double Hashing:
+
+    A.  The problem with Quadratic Probing is that steps that are produced are same for all keys that map to same location.
+        every new key will have to parse all cells.
+    B.  The way this can be improved is if the step size depends on the key.
+    C.  To do this we use another hash function which determines the location for next key.
+    D.  The new hash function should not be same as previous one and should never return 0.
+    E.  The new hash function is usually like: stepSize = constant - (key % constant).
+        Here constant is a prime and is smaller than array size.
+        The constant determines the stepSize(it cannot be greater than constant so constant is kept smaller than array size)
