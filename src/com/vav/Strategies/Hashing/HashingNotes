@@ -131,3 +131,13 @@ When open addressing we find a new address for the item to be inserted in the sa
     E.  The new hash function is usually like: stepSize = constant - (key % constant).
         Here constant is a prime and is smaller than array size.
         The constant determines the stepSize(it cannot be greater than constant so constant is kept smaller than array size)
+
+4.  Separate Chaining:
+    A.  In case of separate chaining we add a linked list at every location in our array.
+    B.  The linked list expands as number of keys hash at the same location.
+    C.  The load factor for Separate chaining can be more than 1. In this case still there can be some cells free in the array.
+    D.  Load factor greater than 1 is not an issue here.
+    E.  If there are duplicates in the separate chainig it will just go to the same linked list.
+    F.  The prime size array is not important here because there are no probes.
+    G.  We can also use arrays in place of linked lists but arrays have their own issues because they cannot grow or shrink.
+   
