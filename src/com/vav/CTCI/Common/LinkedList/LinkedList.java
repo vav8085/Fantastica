@@ -79,6 +79,27 @@ public class LinkedList<T> {
         }
         previous.setNext(current.getNext());
     }
+    //Works for integers
+    public Link deleteWithValue(T value){
+        Link current = head;
+        Link previous = current;
+        //this may not work for strings or objects
+        if(head.getData().equals(value)){
+            head = head.getNext();
+            return head;
+        }else{
+            current = current.getNext();
+        }
+        while (current.getData()!=null){
+            if(current.getData().equals(value)){
+                previous.setNext(current.getNext());
+                return head;
+            }
+            previous = current;
+            current = current.getNext();
+        }
+        return head;
+    }
     public Link getHead(){
         return head;
     }
