@@ -13,11 +13,12 @@ public class DirectedGraph {
     private int[][] adjMatrix;
     private Stack<Integer> dfsStack;
     private Queue<Integer> bfsQueue;
-
+    private char sortedArray[];
     public DirectedGraph(int maxSize){
         dfsStack = new Stack<>();
         bfsQueue = new ArrayDeque<>();
         vertexArray = new Vertex[maxSize];
+        sortedArray = new char[maxSize];
         adjMatrix = new int[maxSize][maxSize];
         nVerts=0;
         for(int i =0;i<maxSize;i++){
@@ -58,6 +59,7 @@ public class DirectedGraph {
                 dfsStack.pop();
             }
         }
+        //reset setvisited here
 
     }
     public void bfs(){
@@ -72,6 +74,27 @@ public class DirectedGraph {
                 vertexArray[nextUnvisitedVertex].setVisited(true);
             }
         }
+        //reset setvisited here
+    }
+
+    public int getNoSuccessorVertex(){
+        boolean edgeExists=false;
+        for(int i=0;i<nVerts;i++){
+            edgeExists = false;
+            for(int j=0;j<nVerts;j++){
+                if(adjMatrix[i][j]==1){ //if edge exists from current vertex(i) to any vertex(j)
+                    edgeExists= true;
+                    break;              //break saying that this is not what we are looking for and go to next(row) vertex.
+                }
+            }
+            if(!edgeExists){
+                return i;
+            }
+        }
+        return -1;
+    }
+    public void topologicalSorting(){
+        
     }
 
 }
