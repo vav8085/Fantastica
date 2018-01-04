@@ -12,3 +12,15 @@ Topological Sorting:
         one space to right to fill up the space.
     *   This will also need rearranging the adjacency matrix.
 
+3.  Instead of deleting we can also create new arrays for adjacency matrix and vertices and then use new arrays
+    in place of original one once topological sorting is complete.
+
+4.  To find the vertex that has no successor we use two loops and for every vertex in row we check every column
+    in the adjacency matrix to find a 1. If we find a 1 then we break inner loop and immediately go to the next row and keep doing it.
+    *   If in case we find any row for which all columns are 0 then we return this row saying that its the vertex with
+    no successors.
+    *   If we do not find a noSuccessor vertex then we consider that the graph is cyclic.
+
+*** Topological sorting can only be done in acyclic graphs.
+
+
