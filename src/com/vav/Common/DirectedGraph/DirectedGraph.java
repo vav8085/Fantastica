@@ -94,7 +94,8 @@ public class DirectedGraph {
         return -1;
     }
     public void topologicalSorting(){
-        
+        int noSuccessorVert = getNoSuccessorVertex();
+        while (noSuccessorVert)
     }
 
 }

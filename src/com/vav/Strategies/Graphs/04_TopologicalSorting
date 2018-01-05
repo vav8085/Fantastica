@@ -1,5 +1,5 @@
 Topological Sorting:
-1.  Sometimes we need sorting our Map in the order of vertex values, The
+1.  Sometimes we need sorting our graph in the order of vertex values, The
     example can be sorting the courses in the order in which they can be taken
     or the order in which we need to use parts to build a car or any object.
     The sorting is called Topological Sort.
