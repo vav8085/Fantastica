@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0dc95c9b-b3e3-479e-88e2-7ef2b3d4dd5c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/vav/USanDieg_DsAlgoSpecialization/Week2/Code/FibonacciNumbers.java" afterPath="$PROJECT_DIR$/src/com/vav/USanDieg_DsAlgoSpecialization/Week2/Code/FibonacciNumbers.java" />
-    </list>
+    <list default="true" id="0dc95c9b-b3e3-479e-88e2-7ef2b3d4dd5c" name="Default" comment="" />
     <ignored path="CODE.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -31,11 +29,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FibonacciNumbers.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/vav/USanDieg_DsAlgoSpecialization/Week2/Code/FibonacciNumbers.java">
+      <file leaf-file-name="FibonacciLastDigit.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/vav/USanDieg_DsAlgoSpecialization/Week2/Code/FibonacciLastDigit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="47" column="8" lean-forward="false" selection-start-line="47" selection-start-column="8" selection-end-line="55" selection-end-column="33" />
+            <state relative-caret-position="346">
+              <caret line="24" column="46" lean-forward="true" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -71,7 +69,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/vav/karumanchi/LinkedList_03/Q9_CheckCyclicSortingUnsuccess.java" />
         <option value="$PROJECT_DIR$/src/com/vav/karumanchi/LinkedList_03/Q10_CheckCyclicFloydAlgo.java" />
         <option value="$PROJECT_DIR$/src/com/vav/karumanchi/LinkedList_03/Q11_SnakeOrSnail.java" />
         <option value="$PROJECT_DIR$/src/com/vav/karumanchi/LinkedList_03/Q1_StackUsingLinkedList.java" />
@@ -122,6 +119,7 @@
         <option value="$PROJECT_DIR$/src/com/vav/Strategies/Graphs/04_TopologicalSorting" />
         <option value="$PROJECT_DIR$/src/com/vav/Common/DirectedGraph/DirectedGraph.java" />
         <option value="$PROJECT_DIR$/src/com/vav/USanDieg_DsAlgoSpecialization/Week2/Code/FibonacciNumbers.java" />
+        <option value="$PROJECT_DIR$/src/com/vav/USanDieg_DsAlgoSpecialization/Week2/Code/FibonacciLastDigit.java" />
       </list>
     </option>
   </component>
@@ -295,9 +293,11 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.vav.Junit.Test" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.vav.designPatterns.StructuralPatterns.Bridge" />
-      <recent name="com.vav.designPatterns.StructuralPatterns.FacadePattern" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/vav/USanDieg_DsAlgoSpecialization/Week2/Code" />
+      <recent name="$PROJECT_DIR$/src/com/vav/Strategies/DataStructuresAndAlgo/Sorting" />
+      <recent name="$PROJECT_DIR$/src/com/vav/Strategies/DataStructuresAndAlgo/Hashing" />
+      <recent name="$PROJECT_DIR$/src/com/vav/Common/Sorting" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/com/vav/Common/Stacks" />
@@ -308,10 +308,9 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/com/vav/Strategies/DataStructuresAndAlgo/Sorting" />
-      <recent name="$PROJECT_DIR$/src/com/vav/Strategies/DataStructuresAndAlgo/Hashing" />
-      <recent name="$PROJECT_DIR$/src/com/vav/Common/Sorting" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.vav.designPatterns.StructuralPatterns.Bridge" />
+      <recent name="com.vav.designPatterns.StructuralPatterns.FacadePattern" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -326,27 +325,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FibonacciNumbers">
-    <configuration default="false" name="Q11_ReverseStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.vav.karumanchi.Stacks_04.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.vav.karumanchi.Stacks_04.Q11_ReverseStack" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="CODE" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.FibonacciLastDigit">
     <configuration default="false" name="Q4_MaximumSumSlidingWindow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -415,6 +394,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.vav.USanDieg_DsAlgoSpecialization.Week2.Code.FibonacciNumbers" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="CODE" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="FibonacciLastDigit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.vav.USanDieg_DsAlgoSpecialization.Week2.Code.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.vav.USanDieg_DsAlgoSpecialization.Week2.Code.FibonacciLastDigit" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -609,19 +608,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Q11_ReverseStack" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Q4_MaximumSumSlidingWindow" />
-      <item index="2" class="java.lang.String" itemvalue="Application.LinearProbingHashMapTest" />
-      <item index="3" class="java.lang.String" itemvalue="Application.SeparateChainingTest" />
-      <item index="4" class="java.lang.String" itemvalue="Application.FibonacciNumbers" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Q4_MaximumSumSlidingWindow" />
+      <item index="1" class="java.lang.String" itemvalue="Application.LinearProbingHashMapTest" />
+      <item index="2" class="java.lang.String" itemvalue="Application.SeparateChainingTest" />
+      <item index="3" class="java.lang.String" itemvalue="Application.FibonacciNumbers" />
+      <item index="4" class="java.lang.String" itemvalue="Application.FibonacciLastDigit" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.FibonacciNumbers" />
-        <item index="1" class="java.lang.String" itemvalue="Application.SeparateChainingTest" />
-        <item index="2" class="java.lang.String" itemvalue="Application.LinearProbingHashMapTest" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Q4_MaximumSumSlidingWindow" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Q11_ReverseStack" />
+        <item index="0" class="java.lang.String" itemvalue="Application.FibonacciLastDigit" />
+        <item index="1" class="java.lang.String" itemvalue="Application.FibonacciNumbers" />
+        <item index="2" class="java.lang.String" itemvalue="Application.SeparateChainingTest" />
+        <item index="3" class="java.lang.String" itemvalue="Application.LinearProbingHashMapTest" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Q4_MaximumSumSlidingWindow" />
       </list>
     </recent_temporary>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -708,9 +707,9 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30769232" sideWeight="0.4315632" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30769232" sideWeight="0.43455496" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30769232" sideWeight="0.5684368" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30769232" sideWeight="0.565445" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -721,7 +720,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4260355" sideWeight="0.4330591" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4260355" sideWeight="0.4300673" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -967,8 +966,14 @@
           <properties />
           <option name="timeStamp" value="138" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/vav/USanDieg_DsAlgoSpecialization/Week2/Code/FibonacciLastDigit.java</url>
+          <line>12</line>
+          <properties />
+          <option name="timeStamp" value="140" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="139" />
+      <option name="time" value="141" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -977,7 +982,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/vav/karumanchi/LinkedList_03/Q13_FindCyclePositionExplaination.java" />
     <entry file="file://$PROJECT_DIR$/src/com/vav/karumanchi/LinkedList_03/Q12_FindCyclePosition.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -1266,8 +1270,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/vav/USanDieg_DsAlgoSpecialization/Week2/Code/FibonacciNumbers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="47" column="8" lean-forward="false" selection-start-line="47" selection-start-column="8" selection-end-line="55" selection-end-column="33" />
+        <state relative-caret-position="354">
+          <caret line="56" column="7" lean-forward="true" selection-start-line="56" selection-start-column="7" selection-end-line="56" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vav/USanDieg_DsAlgoSpecialization/Week2/Code/FibonacciLastDigit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="24" column="46" lean-forward="true" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
           <folding />
         </state>
       </provider>
