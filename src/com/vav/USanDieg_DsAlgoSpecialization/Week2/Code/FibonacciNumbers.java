@@ -5,7 +5,7 @@ package com.vav.USanDieg_DsAlgoSpecialization.Week2.Code;
  */
 public class FibonacciNumbers {
     public static void main(String arg[]){
-            printFibonacciIterative(8);
+            System.out.print(fibonacciNumbers(6));
 
     }
 
@@ -43,5 +43,16 @@ public class FibonacciNumbers {
                   System.out.println(newFibo);
               }
           }
+      }
+      public static int fibonacciNumbers(int num){
+        int[] arr = new int[num+1];
+        arr[0]=0;
+        if(arr.length>1)
+        arr[1]=1;
+          int i=2;
+        for (;i<arr.length;i++){
+            arr[i] = arr[i-1]+arr[i-2];
+        }
+        return arr[arr.length-1];
       }
 }
