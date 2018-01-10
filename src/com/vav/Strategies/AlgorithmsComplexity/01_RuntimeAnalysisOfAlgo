@@ -30,4 +30,12 @@ The former is called the "best case" and later is called "worst case".
 3.  Average Case: Computes the average runtime by averaging over times taken in various runs.
 
 
+*** If we have 2 variables like int i=0,j=0;
+while(i<n){
+    i++;
+    while(j<n){
+    j++
+    }
+}
+Then algorithms complexity will be n not n^2 because i and j are two different variables incrementing in two different loops.
 

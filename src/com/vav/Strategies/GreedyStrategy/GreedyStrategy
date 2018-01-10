@@ -1,0 +1,18 @@
+Greedy Strategy:
+
+1.  A greedy algorithm works in following way:
+    A.  It first makes a greedy choice.
+    B.  Then it reduce the larger problem into smaller problems.
+    C.  Iterate until there are no problems left.
+
+2.  For car refueling example its like:
+    A.  Go from point a to a point g(the farthest reachable point).
+    B.  Make G a new A and again apply step A going from new a to a point b.(Similar problem to A but of smaller size).
+
+
+*** In Greedy algorithms The concept of "Safe Move" is very important. Our first move should always be a safe move.
+    If we take any move that is not safe and continue with algorithm then the entire algorithm can get wrong.
+    E.g. in case of car refueling our:
+    A.  first move should not be = As long as fuel can take us.
+    B.  it should also not be first move = first gas station.
+    C.  ** First move = last gas station where fule can take is a safe move.
