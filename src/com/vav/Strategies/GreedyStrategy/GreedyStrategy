@@ -16,3 +16,28 @@ Greedy Strategy:
     A.  first move should not be = As long as fuel can take us.
     B.  it should also not be first move = first gas station.
     C.  ** First move = last gas station where fule can take is a safe move.
+
+3.  We can take some examples here-
+
+    A.  Largest number {2,3,5,6,7,9,7}
+        The problem is to create the largest number from the list of numbers given.
+
+        1.  To solve this problem we need to make our Safe Move. We can think like starting from start(2) and create
+            a number from that. We can also start from end and then go create an algorithm. But these both approach
+            wont give us the Safe Move.
+        2.  To get the safe move we can scan through the array and get the largest number and add it to our new list/string
+            that makes largest number.
+        3.  We can also sort the list and then start from beginning as a Smart Move.
+
+    B.  The second problem is car refueling algorithm. We are on our route between two cities. We need to find the minimum
+        number of refuels.
+
+        1.  First thing here is to find the Safe Move. We can have following safe moves:
+            a.  Go until we run out of fuel.
+            b.  Go to the first gas station and refuel.
+            c.  Go to the farthest gas station where gas can take.
+
+        2.  If we see above then c is the correct solution.
+        3.  We will start with A and find a gas station G1, G2...until farthest we can reach with gas.
+        4.  So if gas can take 500 miles we will go to the farthest gas station under 500 miles and refuel there.
+        5.  Then this gas station will be the new A and we will again apply the same algorithm on sub-problem.
