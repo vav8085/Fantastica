@@ -15,23 +15,34 @@ public class CarRefueling {
         arr[4] = new GasStation(900,"G5");
         arr[5] = new GasStation(1000,"G6");
 
-        String s = optimalRefuels(maxTravel,arr);
+        System.out.print(optimalRefuels(maxTravel,arr));
+
     }
-
+    //this is not printing correct for 120,350,500,750,900,1000, need to check
     private static String optimalRefuels(int maxTravel, GasStation[] arr) {
-        StringBuilder sb = new StringBuilder();
+        String s="";
         //ToDo write logic
-
-        return sb.toString();
+        GasStation current=arr[0];
+        GasStation previous = new GasStation(0,"G0");
+        s = s+previous.getValue();
+        for(int i=0;i<=arr.length;i++){
+            while(i<arr.length && (previous.getDistance()+maxTravel)>=arr[i].getDistance()){
+                current=arr[i];
+                i++;
+            }
+            previous=current;
+            s=s+current.getValue();
+        }
+        return s;
     }
 
 }
  class GasStation{
     private int distance;
-    private String name;
+    private String value;
 
-    public GasStation(int distance, String name){
-        this.name = name;
+    public GasStation(int distance, String value){
+        this.value = value;
         this.distance = distance;
     }
     public int getDistance() {
@@ -42,11 +53,11 @@ public class CarRefueling {
         this.distance = distance;
     }
 
-    public String getName() {
-        return name;
+    public String getValue() {
+        return value;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setValue(String value) {
+        this.value = value;
     }
 }
