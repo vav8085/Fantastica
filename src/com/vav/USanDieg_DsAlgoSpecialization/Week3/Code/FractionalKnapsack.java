@@ -8,6 +8,14 @@ import java.util.List;
  * Created by vaibhav on 1/11/18.
  */
 public class FractionalKnapsack {
+
+    public static void main(String arg[]){
+        int capacity = 10;
+        int[] values={500};
+        int[] weights={30};
+        System.out.print(getOptimalValue(capacity,values,weights));
+    }
+
     private static double getOptimalValue(int capacity, int[] values, int[] weights) {
         //First save the values and weights in an object and then sort it with the highest ratio of values/weights on top
         List<Item> items = new ArrayList<>();
@@ -15,17 +23,21 @@ public class FractionalKnapsack {
             Item item = new Item(values[i],weights[i]);
             items.add(item);
         }
-        Collections.reverse(items);
+        Collections.sort(items);
         double value = 0;
-        int weightSum=0;
-        int initialCapicity=0;
-        for(int i=0;i<values.length;i++){
-            if()
+        double availableSpace=capacity;
+        for(int i=values.length-1;i>=0;i--){
+            if(availableSpace>=0 && (availableSpace-items.get(i).getWeight()>=0)){
+                availableSpace = availableSpace-items.get(i).getWeight();
+                value=value+items.get(i).getValue();
+            }else{
+                if(availableSpace>0) {
+                    double weightPossibleToCarry = items.get(i).getWeight() / availableSpace;
+                    value = value + items.get(i).getValue() / weightPossibleToCarry;
+                }
+            }
         }
-
-        //write your code here
-
-        return value;
+        return Math.round(value*1000.00)/1000.00;
     }
 }
 class Item implements Comparable<Item>{

@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0dc95c9b-b3e3-479e-88e2-7ef2b3d4dd5c" name="Default" comment="" />
+    <list default="true" id="0dc95c9b-b3e3-479e-88e2-7ef2b3d4dd5c" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/vav/USanDieg_DsAlgoSpecialization/Week3/Code/FractionalKnapsack.java" afterPath="$PROJECT_DIR$/src/com/vav/USanDieg_DsAlgoSpecialization/Week3/Code/FractionalKnapsack.java" />
+    </list>
     <ignored path="CODE.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -32,20 +35,10 @@
       <file leaf-file-name="FractionalKnapsack.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/vav/USanDieg_DsAlgoSpecialization/Week3/Code/FractionalKnapsack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="22" column="16" lean-forward="true" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+            <state relative-caret-position="203">
+              <caret line="37" column="13" lean-forward="true" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1079#1080#0" expanded="true" />
-                <element signature="e#1107#1108#0" expanded="true" />
-                <element signature="e#1146#1147#0" expanded="true" />
-                <element signature="e#1180#1181#0" expanded="true" />
-                <element signature="e#1210#1211#0" expanded="true" />
-                <element signature="e#1239#1240#0" expanded="true" />
-                <element signature="e#1280#1281#0" expanded="true" />
-                <element signature="e#1316#1317#0" expanded="true" />
-                <element signature="e#1366#1367#0" expanded="true" />
-                <element signature="e#1446#1447#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -158,8 +151,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -231,6 +223,44 @@
               <option name="myItemId" value="USanDieg_DsAlgoSpecialization" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Week3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FractionalKnapsack.java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WarPlan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WarPlan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vav" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="USanDieg_DsAlgoSpecialization" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -256,7 +286,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -307,27 +338,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MinimumChange">
-    <configuration default="false" name="GCDNaive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.vav.USanDieg_DsAlgoSpecialization.Week2.Code.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.vav.USanDieg_DsAlgoSpecialization.Week2.Code.GCDNaive" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="CODE" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.FractionalKnapsack">
     <configuration default="false" name="GCDOptimised" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -396,6 +407,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.vav.USanDieg_DsAlgoSpecialization.Week3.Code.MinimumChange" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="CODE" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="FractionalKnapsack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.vav.USanDieg_DsAlgoSpecialization.Week3.Code.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.vav.USanDieg_DsAlgoSpecialization.Week3.Code.FractionalKnapsack" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -590,19 +621,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.GCDNaive" />
-      <item index="1" class="java.lang.String" itemvalue="Application.GCDOptimised" />
-      <item index="2" class="java.lang.String" itemvalue="Application.LargestNumber" />
-      <item index="3" class="java.lang.String" itemvalue="Application.CarRefueling" />
-      <item index="4" class="java.lang.String" itemvalue="Application.MinimumChange" />
+      <item index="0" class="java.lang.String" itemvalue="Application.GCDOptimised" />
+      <item index="1" class="java.lang.String" itemvalue="Application.LargestNumber" />
+      <item index="2" class="java.lang.String" itemvalue="Application.CarRefueling" />
+      <item index="3" class="java.lang.String" itemvalue="Application.MinimumChange" />
+      <item index="4" class="java.lang.String" itemvalue="Application.FractionalKnapsack" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.MinimumChange" />
-        <item index="1" class="java.lang.String" itemvalue="Application.CarRefueling" />
-        <item index="2" class="java.lang.String" itemvalue="Application.LargestNumber" />
-        <item index="3" class="java.lang.String" itemvalue="Application.GCDOptimised" />
-        <item index="4" class="java.lang.String" itemvalue="Application.GCDNaive" />
+        <item index="0" class="java.lang.String" itemvalue="Application.FractionalKnapsack" />
+        <item index="1" class="java.lang.String" itemvalue="Application.MinimumChange" />
+        <item index="2" class="java.lang.String" itemvalue="Application.CarRefueling" />
+        <item index="3" class="java.lang.String" itemvalue="Application.LargestNumber" />
+        <item index="4" class="java.lang.String" itemvalue="Application.GCDOptimised" />
       </list>
     </recent_temporary>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -689,9 +720,9 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30769232" sideWeight="0.46148092" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30769232" sideWeight="0.46746448" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30769232" sideWeight="0.5385191" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30769232" sideWeight="0.53253555" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -702,7 +733,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4260355" sideWeight="0.5145849" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4260355" sideWeight="0.5115931" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -960,8 +991,14 @@
           <properties />
           <option name="timeStamp" value="148" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/vav/USanDieg_DsAlgoSpecialization/Week3/Code/FractionalKnapsack.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="151" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="151" />
+      <option name="time" value="152" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1248,7 +1285,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="410">
           <caret line="42" column="102" lean-forward="false" selection-start-line="42" selection-start-column="102" selection-end-line="42" selection-end-column="102" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1257,8 +1293,8 @@
         <state relative-caret-position="146">
           <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
           <folding>
-            <element signature="e#171#172#0" expanded="true" />
-            <element signature="e#218#219#0" expanded="true" />
+            <element signature="e#171#172#0" expanded="false" />
+            <element signature="e#218#219#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1273,20 +1309,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/vav/USanDieg_DsAlgoSpecialization/Week3/Code/FractionalKnapsack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="22" column="16" lean-forward="true" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+        <state relative-caret-position="203">
+          <caret line="37" column="13" lean-forward="true" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1079#1080#0" expanded="true" />
-            <element signature="e#1107#1108#0" expanded="true" />
-            <element signature="e#1146#1147#0" expanded="true" />
-            <element signature="e#1180#1181#0" expanded="true" />
-            <element signature="e#1210#1211#0" expanded="true" />
-            <element signature="e#1239#1240#0" expanded="true" />
-            <element signature="e#1280#1281#0" expanded="true" />
-            <element signature="e#1316#1317#0" expanded="true" />
-            <element signature="e#1366#1367#0" expanded="true" />
-            <element signature="e#1446#1447#0" expanded="true" />
           </folding>
         </state>
       </provider>
