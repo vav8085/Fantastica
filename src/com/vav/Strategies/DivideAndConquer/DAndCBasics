@@ -1,0 +1,12 @@
+Divide And Conquer:
+
+1.  When we cannot solve a big problem we use divide and conquer to break this big problem into smaller
+    sub-problems and solve them independently.
+    It works in following way:
+    A.  ***Break problem into non overlapping sub-problems of the same type.
+    B.  Solve subproblems.
+    C.  Combine results.
+
+2.  The sub-problems are of same type and non overlapping. The benifit of doing this is that we can now solve
+    subproblems using the same algorithm we used for solving the larger problem using recursion.
+
