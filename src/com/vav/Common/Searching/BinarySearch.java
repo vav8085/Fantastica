@@ -6,22 +6,22 @@ package com.vav.Common.Searching;
 public class BinarySearch {
 
     public static void main(String arg[]){
-        int[] arr = {1,3,5,8,11,15,20,27};
-        System.out.println(binarySearchRecursive(arr,0,arr.length,1));
+        int[] arr = {1,3,5,9,11,15,17};
+        System.out.println(binarySearchRecursive(arr,0,arr.length-1,11));
     }
 
     public static int binarySearchRecursive(int[] arr,int start, int end, int searchTerm){
-        if(end<=start){
-            return start-1;
+        if(start>end) {
+            return -1;
         }
-        int mid = start + (end - start) / 2;
-        if(arr[mid] == searchTerm ){
-            return mid;
+            int mid = start + (end - start) / 2;
+            if (arr[mid] == searchTerm) {
+                return mid;
+            }
+            if (arr[mid] > searchTerm) {
+                return binarySearchRecursive(arr, start, mid - 1, searchTerm);
+            }
+            return binarySearchRecursive(arr, mid + 1, end, searchTerm);
         }
-        else if(searchTerm<arr[mid]){
-            return binarySearchRecursive(arr,start, mid, searchTerm);
-        }else{
-            return binarySearchRecursive(arr,mid+1, end, searchTerm);
-        }
-    }
+
 }
