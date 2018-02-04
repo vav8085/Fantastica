@@ -29,27 +29,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ReverseInteger_007.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/vav/Leetcode/Easy/ReverseInteger_007.java">
+      <file leaf-file-name="RomanToInteger_013.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/vav/Leetcode/Easy/RomanToInteger_013.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="30" column="14" lean-forward="false" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
+            <state relative-caret-position="150">
+              <caret line="10" column="2" lean-forward="false" selection-start-line="10" selection-start-column="2" selection-end-line="78" selection-end-column="19" />
               <folding>
                 <element signature="e#148#149#0" expanded="true" />
                 <element signature="e#204#205#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IsPalindrome_009.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/vav/Leetcode/Easy/IsPalindrome_009.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
-              <folding>
-                <element signature="e#146#147#0" expanded="true" />
-                <element signature="e#200#201#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -85,7 +72,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/vav/karumanchi/Stacks_04/Q7_GetMinStackO1Optimal.java" />
         <option value="$PROJECT_DIR$/src/com/vav/karumanchi/Stacks_04/Q8_CheckPalindromeUsingStack.java" />
         <option value="$PROJECT_DIR$/src/com/vav/karumanchi/Stacks_04/Q8_CheckPalindromeUsing.java" />
         <option value="$PROJECT_DIR$/src/com/vav/karumanchi/Stacks_04/Q8_CheckPalindrome.java" />
@@ -136,6 +122,7 @@
         <option value="$PROJECT_DIR$/src/com/vav/Leetcode/Easy/TwoSum_01.java" />
         <option value="$PROJECT_DIR$/src/com/vav/Leetcode/Easy/ReverseInteger_007.java" />
         <option value="$PROJECT_DIR$/src/com/vav/Leetcode/Easy/IsPalindrome_009.java" />
+        <option value="$PROJECT_DIR$/src/com/vav/Leetcode/Easy/RomanToInteger_013.java" />
       </list>
     </option>
   </component>
@@ -283,27 +270,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.IsPalindrome_009">
-    <configuration default="false" name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.vav.Common.Recursion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.vav.Common.Recursion.Factorial" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="CODE" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.RomanToInteger_013">
     <configuration default="false" name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -372,6 +339,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.vav.Leetcode.Easy.IsPalindrome_009" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="CODE" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="RomanToInteger_013" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.vav.Leetcode.Easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.vav.Leetcode.Easy.RomanToInteger_013" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -566,19 +553,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Factorial" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Fibonacci" />
-      <item index="2" class="java.lang.String" itemvalue="Application.BinarySearch (1)" />
-      <item index="3" class="java.lang.String" itemvalue="Application.ReverseInteger_007" />
-      <item index="4" class="java.lang.String" itemvalue="Application.IsPalindrome_009" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Fibonacci" />
+      <item index="1" class="java.lang.String" itemvalue="Application.BinarySearch (1)" />
+      <item index="2" class="java.lang.String" itemvalue="Application.ReverseInteger_007" />
+      <item index="3" class="java.lang.String" itemvalue="Application.IsPalindrome_009" />
+      <item index="4" class="java.lang.String" itemvalue="Application.RomanToInteger_013" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.IsPalindrome_009" />
-        <item index="1" class="java.lang.String" itemvalue="Application.ReverseInteger_007" />
-        <item index="2" class="java.lang.String" itemvalue="Application.BinarySearch (1)" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Fibonacci" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Factorial" />
+        <item index="0" class="java.lang.String" itemvalue="Application.RomanToInteger_013" />
+        <item index="1" class="java.lang.String" itemvalue="Application.IsPalindrome_009" />
+        <item index="2" class="java.lang.String" itemvalue="Application.ReverseInteger_007" />
+        <item index="3" class="java.lang.String" itemvalue="Application.BinarySearch (1)" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Fibonacci" />
       </list>
     </recent_temporary>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -667,7 +654,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30615383" sideWeight="0.48242334" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30461538" sideWeight="0.51757663" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30461538" sideWeight="0.51757663" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -989,13 +976,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/vav/karumanchi/Queues_05/Q1_ReverseQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/vav/karumanchi/Queues_05/Q7_ReverseQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -1283,6 +1263,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Leetcode/Easy/IsPalindrome_009.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+          <folding>
+            <element signature="e#146#147#0" expanded="true" />
+            <element signature="e#200#201#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/vav/Leetcode/Easy/ReverseInteger_007.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -1294,13 +1285,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Leetcode/Easy/IsPalindrome_009.java">
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Leetcode/Easy/RomanToInteger_013.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+        <state relative-caret-position="150">
+          <caret line="10" column="2" lean-forward="false" selection-start-line="10" selection-start-column="2" selection-end-line="78" selection-end-column="19" />
           <folding>
-            <element signature="e#146#147#0" expanded="true" />
-            <element signature="e#200#201#0" expanded="true" />
+            <element signature="e#148#149#0" expanded="true" />
+            <element signature="e#204#205#0" expanded="true" />
           </folding>
         </state>
       </provider>
