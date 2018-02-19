@@ -1,0 +1,12 @@
+Maximum sub-array problem:
+
+1.  We have an array of n numbers(both positive and negative) and we need to find the length of longest sub-array with maximum sum.
+2.  The brute force approach of solving this problem is to go over entire array for each number and update the maximum count.
+3.  Properties:
+    A.  If all numbers are negative then the sum is smallest negative number. count =1
+    B.  If all numbers are positive the sum will be the sum of all the numbers. count = n.
+    C.  Multiple subarrays can have the same maximum sum.
+
+4.  The question can be asked in different ways:
+    1.  Find the region with highest brightness in an image.
+    2.
