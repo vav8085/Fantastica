@@ -4,9 +4,18 @@ Divide And Conquer:
     sub-problems and solve them independently.
     It works in following way:
     A.  ***Break problem into non overlapping sub-problems of the same type.
-    B.  Solve subproblems.
+    B.  Solve subproblems (We can use recursion here).
     C.  Combine results.
 
-2.  The sub-problems are of same type and non overlapping. The benifit of doing this is that we can now solve
-    subproblems using the same algorithm we used for solving the larger problem using recursion.
+****Notice two words here:
+    A.  non overlapping sub problems
+    B.  Same type ( D& C cannot be applied on sub problems of different types).
+
+2.  The sub-problems are of same type and non overlapping. The benefit of doing this is that we can now solve
+    sub problems using the same algorithm we used for solving the larger problem using recursion.
+
+3.  Linear search can be done recursively but its not a D&C approach because every element is visited from start to end
+    the problem size reduces by only 1 at each step.
+    
+
 
