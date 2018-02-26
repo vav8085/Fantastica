@@ -1,3 +1,14 @@
 Master Theorem
 
-Master theorem is used to find the complexity from the recurrance relation of a recursive algorithm.
+1.  Master theorem is used to find the complexity from the recurrance relation of a recursive algorithm.
+2.  T(n) = aT(n/b) + O(n^d)  // This is a recurrence relation just like we saw in polynomial multiplication algorithm.
+3.  a>0, b>1, d>=0.
+4.  T(n) = O(n^d) if d > logb a
+    T(n) = O(n^d log n) if d = logb a
+    T(n) = O(n^logb a) if d < logb a
+
+* Todo find how to create a recurrence relation from a recursive solution
+* Todo finding the complexity using this relation - Use below links:
+    https://www.wikihow.com/Solve-Recurrence-Relations
+    https://www.coursera.org/learn/algorithmic-toolbox/lecture/ySVt9/what-is-the-master-theorem
+    
