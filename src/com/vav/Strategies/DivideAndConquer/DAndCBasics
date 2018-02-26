@@ -16,6 +16,6 @@ Divide And Conquer:
 
 3.  Linear search can be done recursively but its not a D&C approach because every element is visited from start to end
     the problem size reduces by only 1 at each step.
-    
+
 
 
