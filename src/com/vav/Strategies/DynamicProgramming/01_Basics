@@ -1,0 +1,7 @@
+Comparing with Greedy Strategy:
+
+1.  We solved the minimum change problem using Greedy Strategy using a for loop. The algorithm works good for
+    inputs like 10,5,1. But if we have an input of 25,20,5 then it fails to give 2 coins for a sum of 40.
+2.  The problem here is that 25 will always be considered an input because its our geedy choice and by the time
+    we reach 20 we have already solved a part of the problem.
+3.  The greedy choice is not always the optimal. If we look at the car refueling problem then our initial goal is to
