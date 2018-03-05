@@ -4,4 +4,37 @@ Comparing with Greedy Strategy:
     inputs like 10,5,1. But if we have an input of 25,20,5 then it fails to give 2 coins for a sum of 40.
 2.  The problem here is that 25 will always be considered an input because its our geedy choice and by the time
     we reach 20 we have already solved a part of the problem.
-3.  The greedy choice is not always the optimal. If we look at the car refueling problem then our initial goal is to
+3.  The greedy choice is not always the optimal.
+
+Recursive approach:
+
+    A.  In this approach we will call a method minimumChange(Amount - coinValue, coinArray[]) recursively.
+    B.  The concept here is to find the minimum recursive calls to make the Amount - coinValue = 0.
+    C.  Notice that if the amount is large(Say 30) and the coinValues are smaller like 1, 4, 9 then the recursion tree will be
+        huge. The value of 8 will be computed multiple times. The value of 5 will be computed even more times. For
+        large values this can take years to compute.
+
+    Recursive Algorithm:
+
+    recursiveMinimumChange(int money, int[] coins){
+      if(money=0)
+          return 0;
+      minCoinCount = Integer.maxInt();
+      for(int i=0 ;i<coins.length;i++){
+          if(money>coins[i]){
+              coinCount = recursiveMinimumChange(money - coin[i], coins);
+              if(coinCount+1 < minCoinCount){
+                    minCoinCount = coinCount+1;
+              }
+          }
+      }
+      return minCoinCount;
+    }
+
+Dynamic Programming:
+
+1.  When we solve a problem using dynamic programming then we first start with the smallest solution and then we move towards
+    the more complex solution that can use these smaller solutions.
+
+
+
