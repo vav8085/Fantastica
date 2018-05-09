@@ -5,6 +5,6 @@ package com.vav.CTCI.Common;
  */
 public class CTCICommon {
     public static void main(String arg[]){
-
+        //No Code
     }
 }
