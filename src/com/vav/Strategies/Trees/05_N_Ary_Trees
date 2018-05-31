@@ -1,0 +1,38 @@
+N Ary or generic trees:
+
+1.  In case we have a tree with more than two children then its difficult to represent all the links from a node.
+    because the number of links can vary from node to node. And even if we allocate all nodes with maximum number of
+    child count the memory will be huge and most of it will be wasted.
+    So we cannot have this.
+    class Node{
+        Node child1;
+        Node child2;
+        Node child3;
+        Node child4;
+        .
+        .
+        .
+    }
+2.  To solve this problem we have to use something called Generic Trees.
+3.  In generic trees we have a links between all the children of a parent. This means each node will have two attributes:
+    leftChild, nextSibling
+    Node{
+        Data data;
+        Node leftChild;
+        Node nextSibling;
+    }
+4.  A generic tree and binary tree:
+        Binary Tree:
+
+                3
+               / \
+              4   5
+             / \  /\
+            6  7 8  9
+        Generic Tree:
+        
+                3
+               /
+              4 -> 5
+             /
+            6 -> 7 -> 8 -> 9
