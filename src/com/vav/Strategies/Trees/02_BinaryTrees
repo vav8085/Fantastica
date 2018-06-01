@@ -1,6 +1,6 @@
 Binary Trees:
 
-1.  A binary tree has a node with either 0, 1 or 2 clild nodes.
+1.  A binary tree has a node with either 0, 1 or 2 child nodes.
 2.  Strict--->A binary tree is a strict binary tree if its every nodes has either 0 or 2 children. It will either take 2 or none.
 3.  Full----->A binary tree is full when every node has exactly 2 childs and all leaves are at same level.
 4.  Complete->A binary tree is complete if its all nodes are at height h or h-1 and if we number each node from 1->n then
