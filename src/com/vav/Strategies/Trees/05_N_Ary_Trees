@@ -30,7 +30,7 @@ N Ary or generic trees:
              / \  /\
             6  7 8  9
         Generic Tree:
-        
+
                 3
                /
               4 -> 5

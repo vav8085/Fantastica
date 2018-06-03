@@ -15,8 +15,8 @@ Binary Tree Structure:
 
 Why to use a binary tree:
 
-*   The advantage of binary tree is that it has goods of both a sorted array and a linked list.
-    You can search a tree very quickly like ordered array and you can also insert and delete quickly
+*   The advantage of binary tree is that it has goods of both a sorted array(In case of BST) and a linked list.
+    You can search a tree very quickly like ordered array(Binary Search) and you can also insert and delete quickly
     like a linked list.
 
 Binary Tree search:
