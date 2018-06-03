@@ -156,4 +156,21 @@ public class IntegerBinaryTree {
             }
         }
     }
+    public void preOrderTraversal(IntegerBinaryTreeNode root){
+        Stack<IntegerBinaryTreeNode> stack = new Stack();
+        stack.push(root);
+        while (!stack.isEmpty()){
+            IntegerBinaryTreeNode current = stack.pop();
+            System.out.println(current.getData());
+            if(current.getRightNode()!=null){
+                stack.push(current.getRightNode());
+            }
+            if(current.getLeftNode()!=null){
+                stack.push(current.getLeftNode());
+            }
+        }
+    }
+    public void inOrderTraversal(IntegerBinaryTreeNode root){
+        
+    }
 }
