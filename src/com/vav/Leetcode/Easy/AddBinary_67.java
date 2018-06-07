@@ -13,5 +13,6 @@ public class AddBinary_67 {
          * We can start from end of the strings and keep adding numbers and finally add carry to it
          * if one of the string is shorter we will
          */
+        return a+b;
     }
 }

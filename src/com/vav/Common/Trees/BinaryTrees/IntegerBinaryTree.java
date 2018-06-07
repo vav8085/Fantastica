@@ -125,10 +125,40 @@ public class IntegerBinaryTree {
         }
     }
 
-    public void find(int id){
+    /**
+     * Simply go level order and find the node the operation will take O(n) time
+     * @param value
+     */
+    public int find(int value, IntegerBinaryTreeNode root){
+        Queue<IntegerBinaryTreeNode> queue = new ArrayDeque<>();
 
+        ((ArrayDeque<IntegerBinaryTreeNode>) queue).push(root);
+        while (!queue.isEmpty()){
+            IntegerBinaryTreeNode current = queue.poll();
+            if(current.getData()==value){
+                return current.getData();
+            }
+            if(current.getLeftNode()!=null){
+                queue.add(current.getLeftNode());
+            }
+            if(current.getRightNode()!=null){
+                queue.add(current.getRightNode());
+            }
+        }
+        return -1;
     }
+    /**
+     * Deleting a node from a binary tree can be done by:
+     * 1.   Find the deepest node in the binary tree
+     * 2.   Find the node to be deleted
+     * 3.   Change the value of the this node with value at the deepest node
+     * 4.   Delete the deepest node in the tree
+     */
     public void delete(int id){
+        Queue<IntegerBinaryTreeNode> queue = new ArrayDeque<>();
+        queue.add(root);
+
+
 
     }
     public void insert(int id){
@@ -156,21 +186,5 @@ public class IntegerBinaryTree {
             }
         }
     }
-    public void preOrderTraversal(IntegerBinaryTreeNode root){
-        Stack<IntegerBinaryTreeNode> stack = new Stack();
-        stack.push(root);
-        while (!stack.isEmpty()){
-            IntegerBinaryTreeNode current = stack.pop();
-            System.out.println(current.getData());
-            if(current.getRightNode()!=null){
-                stack.push(current.getRightNode());
-            }
-            if(current.getLeftNode()!=null){
-                stack.push(current.getLeftNode());
-            }
-        }
-    }
-    public void inOrderTraversal(IntegerBinaryTreeNode root){
-        
-    }
+
 }
