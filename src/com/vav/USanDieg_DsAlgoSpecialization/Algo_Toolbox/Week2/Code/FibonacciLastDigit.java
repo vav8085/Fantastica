@@ -1,6 +1,4 @@
-package com.vav.USanDieg_DsAlgoSpecialization.Week2.Code;
-
-import java.util.*;
+package com.vav.USanDieg_DsAlgoSpecialization.Algo_Toolbox.Week2.Code;
 
 public class FibonacciLastDigit {
     private static int getFibonacciLastDigitNaive(int n) {

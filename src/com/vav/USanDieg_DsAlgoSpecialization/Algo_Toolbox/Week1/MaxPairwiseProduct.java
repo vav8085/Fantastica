@@ -1,4 +1,4 @@
-package com.vav.USanDieg_DsAlgoSpecialization.Week1;
+package com.vav.USanDieg_DsAlgoSpecialization.Algo_Toolbox.Week1;
 
 /**
  * Created by Vaibhav on 2/19/18.

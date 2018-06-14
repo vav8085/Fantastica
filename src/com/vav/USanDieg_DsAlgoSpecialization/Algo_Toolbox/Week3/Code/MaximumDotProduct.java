@@ -1,6 +1,5 @@
-package com.vav.USanDieg_DsAlgoSpecialization.Week3.Code;
+package com.vav.USanDieg_DsAlgoSpecialization.Algo_Toolbox.Week3.Code;
 
-import java.sql.Array;
 import java.util.Arrays;
 
 /**
