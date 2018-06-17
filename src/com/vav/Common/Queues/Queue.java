@@ -15,7 +15,7 @@ public class Queue {
         return count==0?true:false;
     }
     public boolean isFull(){
-        return count == arr.length-1?true:false;
+        return count == arr.length?true:false;
     }
     public void insert(int value){
             if(isFull()) {
@@ -32,11 +32,14 @@ public class Queue {
         if(isEmpty()){
             return;
         }
-        if(front == arr.length-1){
+        if(front == arr.length){
             front = 0;
         }
-        arr[front] = -9999;
+        arr[front++] = -9999;
         count--;
+    }
+    public int size(){
+        return arr.length;
     }
 
 }
