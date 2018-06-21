@@ -1,0 +1,18 @@
+Number addition:
+
+Numbers addition problems are very common. They can be of following types:
+
+1.  Adding binary numbers
+2.  Adding 1 to a decimal number
+3.  Adding 1 to a binary number
+4.  Adding decimal numbers
+
+There are few things to understand here:
+
+1.  Suppose number is 1234 and we are adding another number 67 to it then it then first we will add 4 and 6
+2.  There is always a carry to consider and a single variable is enough for it because there can only be 1 carry.
+3.  Dividing by 10 will return least significant digit as remainder in case of decimal number.
+4.  Dividing by 2 will return least significant digit as remainder in case of binary.
+5.  Quotient can be used to find next last significant digit. 1234 / 10 = 123 and 1234 % 10 = 4.
+6.  Count of digits in numbers can differ so assume 0 in case of out of bounds for arrays or link = null in case of linked list.
+7.  May have to create a new array or new linked list item if carry=1 at the end if addition.
