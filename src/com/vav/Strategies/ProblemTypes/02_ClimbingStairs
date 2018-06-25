@@ -1,0 +1,29 @@
+This is a recursion or DP problem. The way we can identify these is by the question asked.
+
+The question is not the minimum number of steps here. If this was the question we could have used a greedy algorithm.
+
+The question is Total number of ways we can climb the stairs.
+
+The number of ways we can climb are 2:
+    1.  One step
+    2.  Two steps
+
+Suppose it was only 2   Two steps. In this case we could have just taken the total number of the steps and decrease 1 from it
+until we get a 0 or a negative number. We would be left with a 0 for even number of steps and 1 for odd number of steps.
+It will never be a -1 because we cannot climb more than the number of steps that we have.
+
+When we have 2 numbers One step and Two steps then it becomes a binary tree something like below:
+                       4
+                    /.    \
+                  2.       3
+                 /   \     /   \
+                0.   1.  1.    2
+             /.  \.  /.\. / \.  /. \
+                    -1 0 -10 0. 1
+
+We would consider a success if we get a 0 and a failure if we get a -1. We will add all success and its our answer.
+
+Dynamic Programming:
+
+Because we are calculating number many times our time complexity will be 2^N . We can fix this if we can remember the
+answers of these calculations and use them than calculating again.

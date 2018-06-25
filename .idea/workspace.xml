@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0dc95c9b-b3e3-479e-88e2-7ef2b3d4dd5c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vav/Leetcode/Easy/AddBinary_67.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Leetcode/Easy/AddBinary_67.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vav/Leetcode/Easy/PlusOne_066.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Leetcode/Easy/PlusOne_066.java" afterDir="false" />
     </list>
     <ignored path="CODE.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,11 +30,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ClimbingStairs_70.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/vav/Leetcode/Easy/ClimbingStairs_70.java">
+      <file leaf-file-name="MergeSortedArray_88.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/vav/Leetcode/Easy/MergeSortedArray_88.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+              <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -66,10 +64,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/vav/Common/Searching/LinearSearch.java" />
-        <option value="$PROJECT_DIR$/src/com/vav/Common/GreedyAlgorithms/FractionalKnapsack.java" />
-        <option value="$PROJECT_DIR$/src/com/vav/Common/GreedyAlgorithms/CarRefueling.java" />
-        <option value="$PROJECT_DIR$/src/com/vav/Common/Recursion/ReverseAnArray.java" />
         <option value="$PROJECT_DIR$/src/com/vav/Common/Recursion/PrintLinkedList.java" />
         <option value="$PROJECT_DIR$/src/com/vav/Common/Recursion/PrintLinkedListReverse.java" />
         <option value="$PROJECT_DIR$/src/com/vav/Common/Recursion/Factorial.java" />
@@ -116,7 +110,11 @@
         <option value="$PROJECT_DIR$/src/com/vav/Common/Queues/LinkedQueue.java" />
         <option value="$PROJECT_DIR$/src/com/vav/Leetcode/Easy/PlusOne_066.java" />
         <option value="$PROJECT_DIR$/src/com/vav/Leetcode/Easy/AddBinary_67.java" />
+        <option value="$PROJECT_DIR$/src/com/vav/Strategies/ProblemTypes/01_AddingNumbers" />
         <option value="$PROJECT_DIR$/src/com/vav/Leetcode/Easy/ClimbingStairs_70.java" />
+        <option value="$PROJECT_DIR$/src/com/vav/Strategies/ProblemTypes/02_ClimbingStairs" />
+        <option value="$PROJECT_DIR$/src/com/vav/Leetcode/Easy/RemoveDuplicatesSortedList_83.java" />
+        <option value="$PROJECT_DIR$/src/com/vav/Leetcode/Easy/MergeSortedArray_88.java" />
       </list>
     </option>
   </component>
@@ -193,6 +191,32 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="vav" type="462c0819:PsiDirectoryNode" />
+              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="Medium" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WarPlan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WarPlan" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="vav" type="462c0819:PsiDirectoryNode" />
+              <item name="Strategies" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WarPlan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WarPlan" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="vav" type="462c0819:PsiDirectoryNode" />
+              <item name="Strategies" type="462c0819:PsiDirectoryNode" />
+              <item name="ProblemTypes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WarPlan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WarPlan" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="vav" type="462c0819:PsiDirectoryNode" />
               <item name="USanDieg_DsAlgoSpecialization" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -221,7 +245,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -260,9 +284,19 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AddBinary_67">
+  <component name="RunManager" selected="Application.RemoveDuplicatesSortedList_83">
     <configuration name="AddBinary_67" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.vav.Leetcode.Easy.AddBinary_67" />
+      <module name="CODE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vav.Leetcode.Easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="ClimbingStairs_70" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.vav.Leetcode.Easy.ClimbingStairs_70" />
       <module name="CODE" />
       <extension name="coverage">
         <pattern>
@@ -281,32 +315,22 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="MinimimChangeRecursive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.vav.USanDieg_DsAlgoSpecialization.Algo_Toolbox.Week5.Code.MinimimChangeRecursive" />
-      <module name="CODE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.vav.USanDieg_DsAlgoSpecialization.Algo_Toolbox.Week5.Code.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="MinimumChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.vav.USanDieg_DsAlgoSpecialization.Algo_Toolbox.Week3.Code.MinimumChange" />
-      <module name="CODE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.vav.USanDieg_DsAlgoSpecialization.Algo_Toolbox.Week3.Code.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
     <configuration name="QueueTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.vav.Common.Queues.QueueTest" />
       <module name="CODE" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.vav.Common.Queues.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="RemoveDuplicatesSortedList_83" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.vav.Leetcode.Easy.RemoveDuplicatesSortedList_83" />
+      <module name="CODE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vav.Leetcode.Easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -380,19 +404,19 @@
       <method />
     </configuration>
     <list>
-      <item itemvalue="Application.MinimumChange" />
-      <item itemvalue="Application.MinimimChangeRecursive" />
       <item itemvalue="Application.IntegerBinaryTreeApp" />
       <item itemvalue="Application.QueueTest" />
       <item itemvalue="Application.AddBinary_67" />
+      <item itemvalue="Application.ClimbingStairs_70" />
+      <item itemvalue="Application.RemoveDuplicatesSortedList_83" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RemoveDuplicatesSortedList_83" />
+        <item itemvalue="Application.ClimbingStairs_70" />
         <item itemvalue="Application.AddBinary_67" />
         <item itemvalue="Application.QueueTest" />
         <item itemvalue="Application.IntegerBinaryTreeApp" />
-        <item itemvalue="Application.MinimimChangeRecursive" />
-        <item itemvalue="Application.MinimumChange" />
       </list>
     </recent_temporary>
   </component>
@@ -809,7 +833,7 @@
           <option name="timeStamp" value="179" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="180" />
+      <option name="time" value="181" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -836,44 +860,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Leetcode/Medium/AddTwoNumbers_02.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="48" column="41" lean-forward="true" selection-start-line="48" selection-start-column="41" selection-end-line="48" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Common/GreedyAlgorithms/LargestNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Common/GreedyAlgorithms/MaximumDotProduct.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="11" column="39" lean-forward="true" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Common/GreedyAlgorithms/MinimumChange.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="41" lean-forward="true" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Strategies/GreedyStrategy/GreedyStrategy">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Strategies/Arrays/KadaneAlgorithm/01_Basics">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/vav/USanDieg_DsAlgoSpecialization/Algo_Toolbox/Week1/MaxPairwiseProduct.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -1172,8 +1158,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/vav/Leetcode/Easy/AddBinary_67.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="36" lean-forward="true" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+        <state relative-caret-position="-7">
+          <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
           <folding>
             <element signature="e#145#146#0" expanded="true" />
             <element signature="e#200#201#0" expanded="true" />
@@ -1181,10 +1167,56 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Leetcode/Medium/AddTwoNumbers_02.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="41" column="30" lean-forward="true" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Strategies/ProblemTypes/01_AddingNumbers">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Strategies/ProblemTypes/02_ClimbingStairs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="66" lean-forward="true" selection-start-line="28" selection-start-column="66" selection-end-line="28" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Leetcode/Easy/RemoveDuplicatesSortedList_83.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="31" lean-forward="true" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/vav/Leetcode/Easy/ClimbingStairs_70.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+          <folding>
+            <element signature="e#106#107#0" expanded="true" />
+            <element signature="e#154#155#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Leetcode/Easy/LengthOfLastWord_058.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Leetcode/Easy/MergeSortedArray_88.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
         </state>
       </provider>
     </entry>
