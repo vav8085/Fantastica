@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0dc95c9b-b3e3-479e-88e2-7ef2b3d4dd5c" name="Default" comment="" />
+    <list default="true" id="0dc95c9b-b3e3-479e-88e2-7ef2b3d4dd5c" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="CODE.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -28,25 +30,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SameTree_100.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/vav/Leetcode/Easy/SameTree_100.java">
+      <file leaf-file-name="SymmetricTree_101.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/vav/Leetcode/Easy/SymmetricTree_101.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="789">
-              <caret line="72" column="1" selection-start-line="72" selection-start-column="1" selection-end-line="72" selection-end-column="1" />
+            <state relative-caret-position="357">
+              <caret line="69" column="41" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2045#2046#0" expanded="true" />
-                <element signature="e#2076#2077#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MergeSortedArray_88.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/vav/Leetcode/Easy/MergeSortedArray_88.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="2" lean-forward="true" selection-start-line="26" selection-start-column="2" selection-end-line="26" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -76,8 +67,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/vav/Common/Recursion/PrintLinkedListReverse.java" />
-        <option value="$PROJECT_DIR$/src/com/vav/Common/Recursion/Factorial.java" />
         <option value="$PROJECT_DIR$/src/com/vav/Common/Recursion/Fibonacci.java" />
         <option value="$PROJECT_DIR$/src/com/vav/Common/Searching/BinarySearch.java" />
         <option value="$PROJECT_DIR$/src/com/vav/USanDieg_DsAlgoSpecialization/Week4/BinarySearch.java" />
@@ -123,10 +112,12 @@
         <option value="$PROJECT_DIR$/src/com/vav/Leetcode/Easy/AddBinary_67.java" />
         <option value="$PROJECT_DIR$/src/com/vav/Strategies/ProblemTypes/01_AddingNumbers" />
         <option value="$PROJECT_DIR$/src/com/vav/Leetcode/Easy/ClimbingStairs_70.java" />
-        <option value="$PROJECT_DIR$/src/com/vav/Strategies/ProblemTypes/02_ClimbingStairs" />
         <option value="$PROJECT_DIR$/src/com/vav/Leetcode/Easy/RemoveDuplicatesSortedList_83.java" />
         <option value="$PROJECT_DIR$/src/com/vav/Leetcode/Easy/MergeSortedArray_88.java" />
+        <option value="$PROJECT_DIR$/src/com/vav/Strategies/ProblemTypes/02_ClimbingStairs" />
+        <option value="$PROJECT_DIR$/src/com/vav/Strategies/ProblemTypes/03_BinaryTreeProblems" />
         <option value="$PROJECT_DIR$/src/com/vav/Leetcode/Easy/SameTree_100.java" />
+        <option value="$PROJECT_DIR$/src/com/vav/Leetcode/Easy/SymmetricTree_101.java" />
       </list>
     </option>
   </component>
@@ -206,15 +197,6 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="vav" type="462c0819:PsiDirectoryNode" />
               <item name="karumanchi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WarPlan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WarPlan" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="vav" type="462c0819:PsiDirectoryNode" />
-              <item name="karumanchi" type="462c0819:PsiDirectoryNode" />
-              <item name="Trees_06" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WarPlan" type="b2602c69:ProjectViewProjectNode" />
@@ -323,7 +305,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MergeSortedArray_88">
+  <component name="RunManager" selected="Application.SymmetricTree_101">
     <configuration name="AddBinary_67" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.vav.Leetcode.Easy.AddBinary_67" />
       <module name="CODE" />
@@ -354,18 +336,18 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="QueueTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.vav.Common.Queues.QueueTest" />
+    <configuration name="RemoveDuplicatesSortedList_83" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.vav.Leetcode.Easy.RemoveDuplicatesSortedList_83" />
       <module name="CODE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.vav.Common.Queues.*" />
+          <option name="PATTERN" value="com.vav.Leetcode.Easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="RemoveDuplicatesSortedList_83" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.vav.Leetcode.Easy.RemoveDuplicatesSortedList_83" />
+    <configuration name="SymmetricTree_101" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.vav.Leetcode.Easy.SymmetricTree_101" />
       <module name="CODE" />
       <extension name="coverage">
         <pattern>
@@ -443,19 +425,19 @@
       <method />
     </configuration>
     <list>
-      <item itemvalue="Application.QueueTest" />
       <item itemvalue="Application.AddBinary_67" />
       <item itemvalue="Application.ClimbingStairs_70" />
       <item itemvalue="Application.RemoveDuplicatesSortedList_83" />
       <item itemvalue="Application.MergeSortedArray_88" />
+      <item itemvalue="Application.SymmetricTree_101" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SymmetricTree_101" />
         <item itemvalue="Application.MergeSortedArray_88" />
         <item itemvalue="Application.RemoveDuplicatesSortedList_83" />
         <item itemvalue="Application.ClimbingStairs_70" />
         <item itemvalue="Application.AddBinary_67" />
-        <item itemvalue="Application.QueueTest" />
       </list>
     </recent_temporary>
   </component>
@@ -510,18 +492,18 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.460733" visible="true" weight="0.32014388" />
+      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.460733" weight="0.32014388" />
       <window_info id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="9" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.48242334" side_tool="true" weight="0.30615383" />
       <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.51757663" weight="0.25659472" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.51757663" visible="true" weight="0.25659472" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info id="Capture Tool" order="3" />
       <window_info anchor="right" id="Designer" order="5" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24297924" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24297924" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
@@ -899,69 +881,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/vav/USanDieg_DsAlgoSpecialization/Algo_Toolbox/Week4/BinarySearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Common/DivideAndConquer/BinarySearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="1" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Strategies/AlgorithmsComplexity/03_MasterTheorem">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/USanDieg_DsAlgoSpecialization/Algo_Toolbox/Week3/Code/CarRefueling.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="30" column="31" lean-forward="true" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/USanDieg_DsAlgoSpecialization/Algo_Toolbox/Week3/Code/MinimumChange.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/USanDieg_DsAlgoSpecialization/Algo_Toolbox/Week4/PolynomialMultiplicationNaive.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="68" selection-start-line="8" selection-start-column="68" selection-end-line="8" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Strategies/DivideAndConquer/DAndCBasics">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="17" column="52" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Common/Recursion/Factorial.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Common/Recursion/Fibonacci.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/vav/Common/Recursion/PrintLinkedListReverse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -1192,20 +1111,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Strategies/ProblemTypes/01_AddingNumbers">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Strategies/ProblemTypes/02_ClimbingStairs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="66" lean-forward="true" selection-start-line="28" selection-start-column="66" selection-end-line="28" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/vav/Leetcode/Easy/RemoveDuplicatesSortedList_83.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -1231,13 +1136,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/karumanchi/Trees_06/Q19_StructurallyIdenticalTrees.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="50" column="45" lean-forward="true" selection-start-line="50" selection-start-column="45" selection-end-line="50" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/vav/Common/Trees/BinaryTrees/IntegerBinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1037">
@@ -1252,14 +1150,99 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vav/karumanchi/Trees_06/Q19_StructurallyIdenticalTrees.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="50" column="45" lean-forward="true" selection-start-line="50" selection-start-column="45" selection-end-line="50" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Leetcode/Easy/RemoveDuplicates_026.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vav/karumanchi/Trees_06/Q14_DeepestNodeOfBinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-231">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vav/karumanchi/Trees_06/Q16_LeavesOfBinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-218">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vav/karumanchi/Trees_06/Q17_FullNodesOfBinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-263">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vav/karumanchi/Trees_06/Q22_LevelWithMaximumSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="39" column="29" lean-forward="true" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Strategies/ProblemTypes/02_ClimbingStairs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Strategies/ProblemTypes/01_AddingNumbers">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Leetcode/Easy/NeedleInHaystack_028.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Strategies/ProblemTypes/BinaryTreeProblems.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Strategies/ProblemTypes/03_BinaryTreeProblems">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/vav/Leetcode/Easy/SameTree_100.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="789">
-          <caret line="72" column="1" selection-start-line="72" selection-start-column="1" selection-end-line="72" selection-end-column="1" />
+        <state relative-caret-position="185">
+          <caret line="19" column="113" lean-forward="true" selection-start-line="19" selection-start-column="113" selection-end-line="19" selection-end-column="113" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2045#2046#0" expanded="true" />
-            <element signature="e#2076#2077#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Leetcode/Easy/SymmetricTree_101.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="69" column="41" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
