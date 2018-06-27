@@ -7,6 +7,22 @@ import java.util.Queue;
 public class SameTree_100 {
 
     class Solution {
+
+        /**
+         *     1.  We need to find out if two trees are same.
+         *     2.  To solve these problems we can use one of the traversal algorithms and keep searching both the trees.
+         *     3.  We usually add first node to Queue or Stack before iteration. So we need to put a check for these first values
+         *         because there is no meaning to go further if first values are nit same.
+         *     4.  We will pop elements from stack or queue and keep checking if both values are same, if not same then return false
+         *     5.  When we add items to queue we dont mark them with left or right. In this case we have to insert a null item
+         *         if left child is null and there is only right child. This way while popping from the queue we can
+         *         be sure we are comparing correct child.
+         *     6.  We need to make sure every iteration if one of the queue is empy then other should be as well.
+         *
+         * @param p
+         * @param q
+         * @return
+         */
         public boolean isSameTree(TreeNode p, TreeNode q) {
             TreeNode nullNode = new TreeNode(9999);
             //nullNode.val = ;

@@ -19,7 +19,7 @@ When we have 2 numbers One step and Two steps then it becomes a binary tree some
                  /   \     /   \
                 0.   1.  1.    2
              /.  \.  /.\. / \.  /. \
-                    -1 0 -10 0. 1
+                   -1  0 -1  0 0.   1
 
 We would consider a success if we get a 0 and a failure if we get a -1. We will add all success and its our answer.
 
