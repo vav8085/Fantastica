@@ -50,7 +50,7 @@ public class SymmetricTree_101 {
         IntegerBinaryTreeNode root = new IntegerBinaryTreeNode();
         root.setData(7);
         IntegerBinaryTreeNode leftNode = new IntegerBinaryTreeNode();
-        leftNode.setData(4);
+        leftNode.setData(2);
         IntegerBinaryTreeNode rightNode = new IntegerBinaryTreeNode();
         rightNode.setData(4);
 
