@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0dc95c9b-b3e3-479e-88e2-7ef2b3d4dd5c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="0dc95c9b-b3e3-479e-88e2-7ef2b3d4dd5c" name="Default" comment="" />
     <ignored path="CODE.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -30,23 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SymmetricTree_101.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/vav/Leetcode/Easy/SymmetricTree_101.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MaximumDepthBinaryTree_104.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MaximumDepthBinaryTree_104.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/vav/Leetcode/Easy/MaximumDepthBinaryTree_104.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="9" selection-start-line="24" selection-end-line="25" selection-end-column="9" />
+            <state relative-caret-position="405">
+              <caret line="58" column="8" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -197,26 +183,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="vav" type="462c0819:PsiDirectoryNode" />
-              <item name="Common" type="462c0819:PsiDirectoryNode" />
-              <item name="Trees" type="462c0819:PsiDirectoryNode" />
-              <item name="BinaryTrees" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WarPlan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WarPlan" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="vav" type="462c0819:PsiDirectoryNode" />
               <item name="karumanchi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WarPlan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WarPlan" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="vav" type="462c0819:PsiDirectoryNode" />
-              <item name="karumanchi" type="462c0819:PsiDirectoryNode" />
-              <item name="Trees_06" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WarPlan" type="b2602c69:ProjectViewProjectNode" />
@@ -326,9 +293,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SymmetricTree_101">
-    <configuration name="AddBinary_67" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.vav.Leetcode.Easy.AddBinary_67" />
+  <component name="RunManager" selected="Application.MaximumDepthBinaryTree_104">
+    <configuration name="ClimbingStairs_70" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.vav.Leetcode.Easy.ClimbingStairs_70" />
       <module name="CODE" />
       <extension name="coverage">
         <pattern>
@@ -337,8 +304,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="ClimbingStairs_70" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.vav.Leetcode.Easy.ClimbingStairs_70" />
+    <configuration name="MaximumDepthBinaryTree_104" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.vav.Leetcode.Easy.MaximumDepthBinaryTree_104" />
       <module name="CODE" />
       <extension name="coverage">
         <pattern>
@@ -446,19 +413,19 @@
       <method />
     </configuration>
     <list>
-      <item itemvalue="Application.AddBinary_67" />
       <item itemvalue="Application.ClimbingStairs_70" />
       <item itemvalue="Application.RemoveDuplicatesSortedList_83" />
       <item itemvalue="Application.MergeSortedArray_88" />
       <item itemvalue="Application.SymmetricTree_101" />
+      <item itemvalue="Application.MaximumDepthBinaryTree_104" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaximumDepthBinaryTree_104" />
         <item itemvalue="Application.SymmetricTree_101" />
         <item itemvalue="Application.MergeSortedArray_88" />
         <item itemvalue="Application.RemoveDuplicatesSortedList_83" />
         <item itemvalue="Application.ClimbingStairs_70" />
-        <item itemvalue="Application.AddBinary_67" />
       </list>
     </recent_temporary>
   </component>
@@ -513,17 +480,18 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.460733" weight="0.32014388" />
       <window_info id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="9" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.48242334" side_tool="true" weight="0.30615383" />
       <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.51757663" weight="0.25659472" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.51757663" visible="true" weight="0.25659472" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info id="Capture Tool" order="3" />
       <window_info anchor="right" id="Designer" order="5" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24603175" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24603175" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
@@ -539,7 +507,6 @@
       <window_info id="Nl-Palette" order="2" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4854151" weight="0.32673943" />
-      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.460733" weight="0.32014388" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
@@ -1194,13 +1161,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/karumanchi/Trees_06/Q10_HeightOfBinaryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/vav/karumanchi/Trees_06/Q13_MinimumDepthOfBinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-281">
@@ -1215,20 +1175,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Leetcode/Easy/MaximumDepthBinaryTree_104.java">
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Leetcode/Easy/SymmetricTree_101.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="9" selection-start-line="24" selection-end-line="25" selection-end-column="9" />
+        <state relative-caret-position="330">
+          <caret line="66" column="35" lean-forward="true" selection-start-line="66" selection-start-column="35" selection-end-line="66" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Leetcode/Easy/SymmetricTree_101.java">
+    <entry file="file://$PROJECT_DIR$/src/com/vav/karumanchi/Trees_06/Q10_HeightOfBinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+        <state relative-caret-position="162">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="21" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Leetcode/Easy/MaximumDepthBinaryTree_104.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="58" column="8" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
