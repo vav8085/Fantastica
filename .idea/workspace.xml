@@ -28,11 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MaximumDepthBinaryTree_104.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/vav/Leetcode/Easy/MaximumDepthBinaryTree_104.java">
+      <file leaf-file-name="BinaryTreeLevelOrderTraversal2_107.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/vav/Leetcode/Easy/BinaryTreeLevelOrderTraversal2_107.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="58" column="8" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="8" />
+            <state relative-caret-position="346">
+              <caret line="49" selection-start-line="49" selection-end-line="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -65,7 +65,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/vav/Common/Searching/BinarySearch.java" />
         <option value="$PROJECT_DIR$/src/com/vav/USanDieg_DsAlgoSpecialization/Week4/BinarySearch.java" />
         <option value="$PROJECT_DIR$/src/com/vav/Leetcode/Easy/TwoSum_01.java" />
         <option value="$PROJECT_DIR$/src/com/vav/Leetcode/Easy/ReverseInteger_007.java" />
@@ -116,10 +115,11 @@
         <option value="$PROJECT_DIR$/src/com/vav/Leetcode/Easy/SameTree_100.java" />
         <option value="$PROJECT_DIR$/src/com/vav/Leetcode/Easy/SymmetricTree_101.java" />
         <option value="$PROJECT_DIR$/src/com/vav/Leetcode/Easy/MaximumDepthBinaryTree_104.java" />
+        <option value="$PROJECT_DIR$/src/com/vav/Leetcode/Easy/BinaryTreeLevelOrderTraversal2_107.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1680" />
     <option name="height" value="974" />
@@ -293,9 +293,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MaximumDepthBinaryTree_104">
-    <configuration name="ClimbingStairs_70" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.vav.Leetcode.Easy.ClimbingStairs_70" />
+  <component name="RunManager" selected="Application.BinaryTreeLevelOrderTraversal2_107">
+    <configuration name="BinaryTreeLevelOrderTraversal2_107" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.vav.Leetcode.Easy.BinaryTreeLevelOrderTraversal2_107" />
       <module name="CODE" />
       <extension name="coverage">
         <pattern>
@@ -413,19 +413,19 @@
       <method />
     </configuration>
     <list>
-      <item itemvalue="Application.ClimbingStairs_70" />
       <item itemvalue="Application.RemoveDuplicatesSortedList_83" />
       <item itemvalue="Application.MergeSortedArray_88" />
       <item itemvalue="Application.SymmetricTree_101" />
       <item itemvalue="Application.MaximumDepthBinaryTree_104" />
+      <item itemvalue="Application.BinaryTreeLevelOrderTraversal2_107" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinaryTreeLevelOrderTraversal2_107" />
         <item itemvalue="Application.MaximumDepthBinaryTree_104" />
         <item itemvalue="Application.SymmetricTree_101" />
         <item itemvalue="Application.MergeSortedArray_88" />
         <item itemvalue="Application.RemoveDuplicatesSortedList_83" />
-        <item itemvalue="Application.ClimbingStairs_70" />
       </list>
     </recent_temporary>
   </component>
@@ -475,7 +475,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="974" extended-state="0" />
+    <frame x="0" y="23" width="1680" height="974" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -841,14 +841,15 @@
           <properties />
           <option name="timeStamp" value="179" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/vav/Leetcode/Easy/BinaryTreeLevelOrderTraversal2_107.java</url>
+          <line>44</line>
+          <properties />
+          <option name="timeStamp" value="189" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="181" />
+      <option name="time" value="190" />
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="s.charAt(i)" />
-      </configuration>
-    </watches-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -869,13 +870,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/vav/USanDieg_DsAlgoSpecialization/Algo_Toolbox/Week5/Code/MinimimChangeRecursive.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/vav/karumanchi/Hashing_14/Q1_SeparateChaining.java" />
     <entry file="file://$PROJECT_DIR$/src/com/vav/Strategies/Hashing/HashingNotes">
       <provider selected="true" editor-type-id="text-editor">
@@ -1194,8 +1188,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/vav/Leetcode/Easy/MaximumDepthBinaryTree_104.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="58" column="8" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="8" />
+        <state relative-caret-position="270">
+          <caret line="49" column="7" lean-forward="true" selection-start-line="49" selection-start-column="7" selection-end-line="58" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Leetcode/Easy/BinaryTreeLevelOrderTraversal2_107.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
