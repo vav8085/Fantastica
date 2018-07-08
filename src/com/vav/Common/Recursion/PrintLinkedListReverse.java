@@ -19,11 +19,12 @@ public class PrintLinkedListReverse {
         printLinkedListReverse(link1);
 
     }
-    public static void printLinkedListReverse(Link root){
-        if(root.getNext()!=null)
-        printLinkedListReverse(root.getNext());
-        //The print statement is coming after the recursive call here.
-        System.out.println(root.getData());
+    static void printLinkedListReverse(Link head){
+        if(head==null){
+            return;
+        }
+        printLinkedListReverse(head.getNext());
+        System.out.println(head.getData());
     }
 }
 

@@ -1,0 +1,97 @@
+Thinking Recursion:
+
+1.  Solving problems recursively is sometimes much easier than iterative solutions.
+2.  But its a challenge visualizing the flow and in case of multiple recursive calls it becomes even more difficult.
+
+*** In this discussion we will go over various recursive implementations to understand how to write recursive functions
+    for any algorithm keeping simple rules in mind.
+
+1.  Factorial:
+    public static int factorial(int num){
+        if(num==0){
+            return 0;
+        }
+        return num * factorial(num-1);
+    }
+
+    Boundaries:
+    A.  As we can see we have a base condition num == 0 that breaks the recursion.
+    B.  To find out what to take as the base condition, identify the boundaries.
+    C.  If the question was multiplying all numbers from 2-10 we could have decreased 1 from 10 or increased
+        2 by 1 until 10. But 10 and 2 will always be boundaries.
+    D.  Here num=0 is the boundary of the input for factorial function.
+
+2.  Sum of all elements of a linked list:
+    public static int sumLinkedList(Link head){
+        if(head==null){
+            return 0;
+        }
+        return head.getData() + sumLinkedList(head.getNext());
+    }
+
+    Bottom up or top down:
+    A.  For recursive function we have to decide where to keep our recursive calls, we can keep that after some statements
+        or before some other statements.
+    B.  A function takes an input parameter and returns an out parameter.
+        *   (Bottom up)All the statements that are kept after or with
+            return statement are executed once recursive calls is complete from inner most to outer most call. This is the
+            place we are preparing results for calling function.
+            So in case of return num * factorial(..) the product will happen once all the recursive calls are complete and
+            return one by one. the product will be returned to calling function.
+
+            An example of Bottom up is when we want to print a linked list in reverse
+            void printLinkedListReverse(Link head){
+                if(head==null){
+                    return;
+                }
+                printLinkedListReverse(head.getNext());
+                System.out.println(head.getData());
+            }
+
+        *   (Top down)All the statements that are kept before recursive calls are used to prepare data for the next call of the function.
+            num - 1 will happen before the next recursive call so next call will produce a different result. This could
+            have been (num - 1) * 5 and something else too.
+
+            An example of top down is when we want to print a linked list in order of insertion.
+                        void printLinkedListReverse(Link head){
+                            if(head==null){
+                                return;
+                            }
+                            System.out.println(head.getData());
+                            printLinkedListReverse(head.getNext());
+                        }
+
+    C.  Do not modify method argument if its not required. So do Link current = head.getNext() and not head = head.getNext()
+        if you would like to use current for some print and debug statements or perform some temporary calculation.
+
+        Similarly in case of factorial do not do like this:
+        if(num==0){
+            return 0;
+        }
+        num = num-1;
+        return num * factorial(num);
+        //fix would be return (num+1) * factorial(num); be careful of these simple mistakes.
+
+3.  Height of a binary tree:
+    public static int heightOfBinaryTree(Link head){
+        if(head==null){
+            return 0;
+        }
+        int leftHeight = heightOfBinaryTree(head.getLeft());
+        int rightHeight = heightOfBinaryTree(head.getRight());
+
+        if(leftHeight > rightHeight){
+            return leftHeight+1;
+        }else{
+            return rightHeight+1;
+        }
+    }
+
+    Multiple recursive calls:
+    A.  Sometimes we have to call the same recursive function multiple times. Here we are going left and checking the height
+        and then going right. As we can see we are going right for a node only after we get leftHeight for it. The precedences
+        of operation make difference here.
+    B.  For a node with only rightChild the leftHeight will be 0 and rightHeight will be 1 and the method will return 1+ 1 = 2 for it.
+    C.  Also notice that we are not returning the value immediately. We are preparing results by comparing left and right heights
+        and only returning the bigger one for a certain node.
+
