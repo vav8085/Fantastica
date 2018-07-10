@@ -46,13 +46,33 @@ public class SymmetricTree_101 {
         return true;
     }
 
+    public static boolean symmetricTreeRecursive(IntegerBinaryTreeNode root){
+        return checkSymmetry(root.getLeftNode(), root.getRightNode());
+    }
+
+    private static boolean checkSymmetry(IntegerBinaryTreeNode leftNode, IntegerBinaryTreeNode rightNode) {
+        if(leftNode==null && rightNode!=null){
+            return false;
+        }
+        if(rightNode==null && leftNode!=null){
+            return false;
+        }
+        if(rightNode==null && leftNode==null){
+            return true;
+        }
+        if(leftNode.getData() == rightNode.getData())
+        return checkSymmetry(leftNode.getLeftNode(),rightNode.getRightNode()) && checkSymmetry(leftNode.getRightNode(), rightNode.getLeftNode());
+
+        return false;
+    }
+
     public static void main(String arg[]) {
         IntegerBinaryTreeNode root = new IntegerBinaryTreeNode();
         root.setData(7);
         IntegerBinaryTreeNode leftNode = new IntegerBinaryTreeNode();
         leftNode.setData(2);
         IntegerBinaryTreeNode rightNode = new IntegerBinaryTreeNode();
-        rightNode.setData(4);
+        rightNode.setData(2);
 
         IntegerBinaryTreeNode leftLeftNode = new IntegerBinaryTreeNode();
         IntegerBinaryTreeNode leftRightNode = new IntegerBinaryTreeNode();
@@ -72,7 +92,7 @@ public class SymmetricTree_101 {
         rightNode.setLeftNode(rightLeftNode);
         rightNode.setRightNode(rightRightNode);
 
-        System.out.print(symmetricTree(root));
+        System.out.print(symmetricTreeRecursive(root));
 
 
     }
