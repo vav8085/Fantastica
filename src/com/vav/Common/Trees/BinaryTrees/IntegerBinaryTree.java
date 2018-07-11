@@ -125,6 +125,35 @@ public class IntegerBinaryTree {
         }
     }
 
+    public int heightOfBinaryTree(IntegerBinaryTreeNode root){
+        if(root==null){
+            return 0;
+        }
+        int leftHeight = heightOfBinaryTree(root.getLeftNode());
+        int rightHeight = heightOfBinaryTree(root.getRightNode());
+
+        if(leftHeight>rightHeight){
+            return 1+leftHeight;
+        }else{
+            return 1+rightHeight;
+        }
+    }
+
+    public void levelOrderRecursive(IntegerBinaryTreeNode root){
+        int height = heightOfBinaryTree(root);
+        int level = 0;
+        printLevel(height,level,root);
+    }
+
+    private void printLevel(int height,int level, IntegerBinaryTreeNode root) {
+        if(height==level){
+            return;
+        }
+        level++;
+        System.out.println(root.getData());
+
+    }
+
     /**
      * Simply go level order and find the node the operation will take O(n) time
      * @param value
