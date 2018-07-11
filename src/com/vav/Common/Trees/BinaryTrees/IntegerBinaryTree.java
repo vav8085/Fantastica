@@ -140,18 +140,22 @@ public class IntegerBinaryTree {
     }
 
     public void levelOrderRecursive(IntegerBinaryTreeNode root){
-        int height = heightOfBinaryTree(root);
-        int level = 0;
-        printLevel(height,level,root);
-    }
-
-    private void printLevel(int height,int level, IntegerBinaryTreeNode root) {
-        if(height==level){
+        if(root==null){
             return;
         }
-        level++;
-        System.out.println(root.getData());
+        int height = heightOfBinaryTree(root);
+        for(int level=1;level<=height;level++){
+            printLevel(level, root);
+        }
+    }
 
+    private void printLevel(int level, IntegerBinaryTreeNode root) {
+        if(level==1){
+            System.out.print(root.getData() + " ");
+        }else {
+            printLevel(level - 1, root.getLeftNode());
+            printLevel(level - 1, root.getRightNode());
+        }
     }
 
     /**
