@@ -95,3 +95,4 @@ Thinking Recursion:
     C.  Also notice that we are not returning the value immediately. We are preparing results by comparing left and right heights
         and only returning the bigger one for a certain node.
 
+Read this: http://www.htdp.org/2018-01-06/Book/part_five.html

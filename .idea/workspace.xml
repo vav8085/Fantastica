@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0dc95c9b-b3e3-479e-88e2-7ef2b3d4dd5c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/vav/Common/Trees/BinaryTrees/IntegerBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Common/Trees/BinaryTrees/IntegerBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Strategies/Recursion/01_Basics" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Strategies/Recursion/01_Basics" afterDir="false" />
     </list>
     <ignored path="CODE.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,11 +30,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="IntegerBinaryTree.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="IntegerBinaryTree.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/vav/Common/Trees/BinaryTrees/IntegerBinaryTree.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="478">
               <caret line="152" column="25" selection-start-line="152" selection-start-column="25" selection-end-line="152" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="01_Basics" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/vav/Strategies/Recursion/01_Basics">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="502">
+              <caret line="98" lean-forward="true" selection-start-line="98" selection-end-line="98" />
             </state>
           </provider>
         </entry>
@@ -111,10 +120,10 @@
         <option value="$PROJECT_DIR$/src/com/vav/Leetcode/Easy/SortedArrayToBST_108.java" />
         <option value="$PROJECT_DIR$/src/com/vav/Common/Recursion/PrintLinkedListReverse.java" />
         <option value="$PROJECT_DIR$/src/com/vav/Common/Recursion/Factorial.java" />
-        <option value="$PROJECT_DIR$/src/com/vav/Strategies/Recursion/01_Basics" />
         <option value="$PROJECT_DIR$/src/com/vav/Leetcode/Easy/SameTree_100.java" />
         <option value="$PROJECT_DIR$/src/com/vav/Leetcode/Easy/SymmetricTree_101.java" />
         <option value="$PROJECT_DIR$/src/com/vav/Common/Trees/BinaryTrees/IntegerBinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/com/vav/Strategies/Recursion/01_Basics" />
       </list>
     </option>
   </component>
@@ -192,7 +201,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="vav" type="462c0819:PsiDirectoryNode" />
-              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="Strategies" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WarPlan" type="b2602c69:ProjectViewProjectNode" />
@@ -200,8 +209,8 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="vav" type="462c0819:PsiDirectoryNode" />
-              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="Easy" type="462c0819:PsiDirectoryNode" />
+              <item name="Strategies" type="462c0819:PsiDirectoryNode" />
+              <item name="Recursion" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -453,12 +462,12 @@
       <window_info anchor="right" id="Capture Analysis" order="9" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.48242334" side_tool="true" weight="0.30615383" />
       <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.51757663" visible="true" weight="0.25659472" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.51757663" visible="true" weight="0.25659472" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info id="Capture Tool" order="3" />
       <window_info anchor="right" id="Designer" order="5" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24603175" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24603175" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
@@ -1157,13 +1166,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Strategies/Recursion/01_Basics">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="96" column="5" selection-start-line="96" selection-start-column="5" selection-end-line="96" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/vav/Leetcode/Easy/SameTree_100.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -1202,6 +1204,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="478">
           <caret line="152" column="25" selection-start-line="152" selection-start-column="25" selection-end-line="152" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Strategies/Recursion/01_Basics">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="502">
+          <caret line="98" lean-forward="true" selection-start-line="98" selection-end-line="98" />
         </state>
       </provider>
     </entry>
