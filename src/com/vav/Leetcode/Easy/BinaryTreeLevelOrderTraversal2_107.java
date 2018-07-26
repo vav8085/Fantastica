@@ -1,14 +1,14 @@
 package com.vav.Leetcode.Easy;
 
-import com.vav.CTCI.Common.LinkedList.Link;
 import com.vav.Common.Trees.BinaryTrees.IntegerBinaryTree;
 import com.vav.Common.Trees.BinaryTrees.IntegerBinaryTreeNode;
+import com.vav.karumanchi.Trees_06.Q10_HeightOfBinaryTree;
 
 import java.util.*;
 
 public class BinaryTreeLevelOrderTraversal2_107 {
 
-    public static List<List<Integer>> levelOrderInReverse(IntegerBinaryTreeNode root){
+    public static List<List<Integer>> levelOrderInReverse(IntegerBinaryTreeNode root) {
 
         List<List<Integer>> listOfList = new ArrayList<>();
         Integer DUMMY_DATA = -9999;
@@ -20,38 +20,58 @@ public class BinaryTreeLevelOrderTraversal2_107 {
         queue.add(root);
         queue.add(dummyNode);
 
-        while(!queue.isEmpty()){
+        while (!queue.isEmpty()) {
             IntegerBinaryTreeNode current = queue.remove();
             stack.push(current);
-            if(current.getData()==DUMMY_DATA){
-                if(queue.isEmpty() && current.getLeftNode()==null && current.getRightNode()==null){
+            if (current.getData() == DUMMY_DATA) {
+                if (queue.isEmpty() && current.getLeftNode() == null && current.getRightNode() == null) {
                     break;
                 }
                 queue.add(dummyNode);
-            }else{
-                if(current.getLeftNode()!=null){
+            } else {
+                if (current.getLeftNode() != null) {
                     queue.add(current.getLeftNode());
                 }
-                if(current.getRightNode()!=null){
+                if (current.getRightNode() != null) {
                     queue.add(current.getRightNode());
                 }
             }
         }
         stack.pop();
         List<Integer> list = new ArrayList<>();
-        while (!stack.isEmpty()){
+        while (!stack.isEmpty()) {
             IntegerBinaryTreeNode current = stack.pop();
-            if(current.getData()==DUMMY_DATA){
+            if (current.getData() == DUMMY_DATA) {
                 listOfList.add(list);
                 list = new ArrayList<>();
-            }else{
+            } else {
                 list.add(current.getData());
             }
         }
         listOfList.add(list);
         return listOfList;
     }
-    public static void main(String arg[]){
+
+    public static void levelOrderReverseRecursive(IntegerBinaryTreeNode root) {
+        if (root == null) {
+            return;
+        }
+        int height = Q10_HeightOfBinaryTree.heightOfBinaryTree(root);
+        for (int level = 1; level > 0; level--) {
+            printLevel(level, root);
+        }
+    }
+
+    private static void printLevel(int level, IntegerBinaryTreeNode root) {
+        if (level == 1) {
+            System.out.print(root.getData() + " ");
+        } else {
+            printLevel(level - 1, root.getLeftNode());
+            printLevel(level - 1, root.getRightNode());
+        }
+    }
+
+    public static void main(String arg[]) {
         IntegerBinaryTree tree = new IntegerBinaryTree();
         tree.insert(15);
         tree.insert(12);
@@ -62,6 +82,6 @@ public class BinaryTreeLevelOrderTraversal2_107 {
         tree.insert(11);
         tree.insert(25);
         tree.insert(44);
-        System.out.println(levelOrderInReverse(tree.getRoot()));
+        levelOrderReverseRecursive(tree.getRoot());
     }
 }
