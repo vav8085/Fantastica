@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0dc95c9b-b3e3-479e-88e2-7ef2b3d4dd5c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vav/Leetcode/Easy/BinaryTreeLevelOrderTraversal2_107.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Leetcode/Easy/BinaryTreeLevelOrderTraversal2_107.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/ITA_Cormen/ITA_InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/ITA_Cormen/I2_GettingStarted_2/ITA_InsertionSort.java" afterDir="false" />
     </list>
     <ignored path="CODE.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,11 +31,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ITA_InsertionSort.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/vav/ITA_Cormen/ITA_InsertionSort.java">
+      <file leaf-file-name="ITA_InsertionSort.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/vav/ITA_Cormen/I2_GettingStarted_2/ITA_InsertionSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InsertionSortNonDecreasing.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/vav/ITA_Cormen/I2_GettingStarted_2/Exercises/InsertionSortNonDecreasing.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LinearSearch.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/vav/ITA_Cormen/I2_GettingStarted_2/Exercises/LinearSearch.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -65,10 +83,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/vav/Leetcode/Easy/NeedleInHaystack_028.java" />
-        <option value="$PROJECT_DIR$/src/com/vav/Leetcode/Easy/SearchInsertPosition_035.java" />
-        <option value="$PROJECT_DIR$/src/com/vav/Leetcode/Easy/CountAndSay_38.java" />
-        <option value="$PROJECT_DIR$/src/com/vav/Leetcode/Easy/MaxSubArray_053.java" />
         <option value="$PROJECT_DIR$/src/com/vav/Leetcode/Easy/LengthOfLastWord_058.java" />
         <option value="$PROJECT_DIR$/src/com/vav/Leetcode/Medium/AddTwoNumbers_02.java" />
         <option value="$PROJECT_DIR$/src/com/vav/Strategies/Arrays/KadaneAlgorithm/01_Basics" />
@@ -116,6 +130,10 @@
         <option value="$PROJECT_DIR$/src/com/vav/Common/Sorting/MergeSort.java" />
         <option value="$PROJECT_DIR$/src/com/vav/Common/Sorting/InsertionSort.java" />
         <option value="$PROJECT_DIR$/src/com/vav/ITA_Cormen/ITA_InsertionSort.java" />
+        <option value="$PROJECT_DIR$/src/com/vav/ITA_Cormen/GettingStarted_2/ITA_InsertionSort.java" />
+        <option value="$PROJECT_DIR$/src/com/vav/ITA_Cormen/I2_GettingStarted_2/ITA_InsertionSort.java" />
+        <option value="$PROJECT_DIR$/src/com/vav/ITA_Cormen/I2_GettingStarted_2/Exercises/InsertionSortNonDecreasing.java" />
+        <option value="$PROJECT_DIR$/src/com/vav/ITA_Cormen/I2_GettingStarted_2/Exercises/LinearSearch.java" />
       </list>
     </option>
   </component>
@@ -186,6 +204,25 @@
               <item name="vav" type="462c0819:PsiDirectoryNode" />
               <item name="ITA_Cormen" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="WarPlan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WarPlan" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="vav" type="462c0819:PsiDirectoryNode" />
+              <item name="ITA_Cormen" type="462c0819:PsiDirectoryNode" />
+              <item name="I2_GettingStarted_2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WarPlan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WarPlan" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="vav" type="462c0819:PsiDirectoryNode" />
+              <item name="ITA_Cormen" type="462c0819:PsiDirectoryNode" />
+              <item name="I2_GettingStarted_2" type="462c0819:PsiDirectoryNode" />
+              <item name="Exercises" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -242,17 +279,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ITA_InsertionSort">
-    <configuration name="BinaryTreeLevelOrderTraversal2_107" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.vav.Leetcode.Easy.BinaryTreeLevelOrderTraversal2_107" />
-      <module name="CODE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.vav.Leetcode.Easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="Application.LinearSearch">
     <configuration name="GCDOptimised" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.vav.USanDieg_DsAlgoSpecialization.Algo_Toolbox.Week2.Code.GCDOptimised" />
       <module name="CODE" />
@@ -264,11 +291,31 @@
       </extension>
     </configuration>
     <configuration name="ITA_InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.vav.ITA_Cormen.ITA_InsertionSort" />
+      <option name="MAIN_CLASS_NAME" value="com.vav.ITA_Cormen.I2_GettingStarted_2.ITA_InsertionSort" />
       <module name="CODE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.vav.ITA_Cormen.*" />
+          <option name="PATTERN" value="com.vav.ITA_Cormen.I2_GettingStarted_2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="InsertionSortNonDecreasing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.vav.ITA_Cormen.I2_GettingStarted_2.Exercises.InsertionSortNonDecreasing" />
+      <module name="CODE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vav.ITA_Cormen.I2_GettingStarted_2.Exercises.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="LinearSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.vav.ITA_Cormen.I2_GettingStarted_2.Exercises.LinearSearch" />
+      <module name="CODE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vav.ITA_Cormen.I2_GettingStarted_2.Exercises.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -279,16 +326,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.vav.Common.Sorting.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="SymmetricTree_101" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.vav.Leetcode.Easy.SymmetricTree_101" />
-      <module name="CODE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.vav.Leetcode.Easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -362,19 +399,19 @@
       <method />
     </configuration>
     <list>
-      <item itemvalue="Application.SymmetricTree_101" />
-      <item itemvalue="Application.BinaryTreeLevelOrderTraversal2_107" />
       <item itemvalue="Application.GCDOptimised" />
       <item itemvalue="Application.ITA_InsertionSort" />
       <item itemvalue="Application.MergeSort" />
+      <item itemvalue="Application.InsertionSortNonDecreasing" />
+      <item itemvalue="Application.LinearSearch" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LinearSearch" />
+        <item itemvalue="Application.InsertionSortNonDecreasing" />
         <item itemvalue="Application.ITA_InsertionSort" />
         <item itemvalue="Application.MergeSort" />
         <item itemvalue="Application.GCDOptimised" />
-        <item itemvalue="Application.BinaryTreeLevelOrderTraversal2_107" />
-        <item itemvalue="Application.SymmetricTree_101" />
       </list>
     </recent_temporary>
   </component>
@@ -435,12 +472,12 @@
       <window_info anchor="right" id="Capture Analysis" order="9" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.48242334" side_tool="true" weight="0.30615383" />
       <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.51757663" visible="true" weight="0.2547619" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.51757663" visible="true" weight="0.2547619" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info id="Capture Tool" order="3" />
       <window_info anchor="right" id="Designer" order="5" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25213677" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25213677" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
@@ -809,7 +846,7 @@
           <option name="timeStamp" value="192" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/vav/ITA_Cormen/ITA_InsertionSort.java</url>
+          <url>file://$PROJECT_DIR$/src/com/vav/ITA_Cormen/I2_GettingStarted_2/ITA_InsertionSort.java</url>
           <line>7</line>
           <properties />
           <option name="timeStamp" value="194" />
@@ -837,20 +874,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Common/Trees/BinarySearchTrees/BstNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="29" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Common/Trees/BinaryTrees/IntegerBinaryTreeApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="50" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/vav/USanDieg_DsAlgoSpecialization/Data_Structures/info">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1162,10 +1185,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/ITA_Cormen/ITA_InsertionSort.java">
+    <entry file="file://$PROJECT_DIR$/src/com/vav/ITA_Cormen/I2_GettingStarted_2/ITA_InsertionSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vav/ITA_Cormen/I2_GettingStarted_2/Exercises/InsertionSortNonDecreasing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vav/ITA_Cormen/I2_GettingStarted_2/Exercises/LinearSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
         </state>
       </provider>
     </entry>

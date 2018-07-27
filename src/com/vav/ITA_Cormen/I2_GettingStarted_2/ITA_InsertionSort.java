@@ -1,4 +1,4 @@
-package com.vav.ITA_Cormen;
+package com.vav.ITA_Cormen.I2_GettingStarted_2;
 
 public class ITA_InsertionSort {
     public static int[] insertionSort(int[] arr){
