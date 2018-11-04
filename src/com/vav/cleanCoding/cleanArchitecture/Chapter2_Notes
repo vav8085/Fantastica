@@ -1,0 +1,50 @@
+A TALE OF TWO VALUES
+
+Every software system provides 2 values
+1.  Behavior
+2.  Structure
+
+A software developer is responsible for ensuring both of these values remain high.
+We usually focus on lesser of the two values.
+
+Behavior:
+Programmers are hired to make a machine behave in a way that makes or saves money of stakeholders
+We do this by making FRD documents, writing requirements. Then we write code to satisfy those requirements.
+When machine violates these requirements we start debugging the problems.
+We are mistaken by writing code to implement these requirements.
+
+Structure / Architecture:
+
+Software stands for Soft + Ware. Ware means product and Soft is the true value. Software was made to change behavior of
+machines easier.
+
+Software must be soft, it should be easy to change.
+
+The difficulty in making change must only be proportional to Scope of change and not its shape.
+Cost can grow out to the size of the requested change.
+Each request comes with a change that is harder to fit than previous one. If the shape of the request is different than
+shape of the change the request is harder to achieve.
+
+An architecture must be shape agnostic.
+
+***WHAT IS OF GREATER VALUE:
+
+If a program is working and difficult to change, then it will become useless if requirement changes.
+
+IF A PROGRAM THAT DOES NOT WORK BUT IS EASY TO CHANGE, WE CAN MAKE IT WORK AND KEEP IT WORKING AS REQUIREMENT CHANGES
+
+If a manager is asked that whether they want to make change , they will say ofcourse they do but may then qualify their answer by
+noting that current functionality is more important than any later flexibility.
+If a developer is asked to make a change and he estimates the cost of development to me unaffordably high, the manager is likely to be furious.
+
+Eisenhover matrix: PROBLEMS THAT ARE URGENT ARE NEVER IMPORTANT AND THE IMPORTANT ARE NEVER URGENT.
+
+BEHAVIOR IS URGENT BUT NOT ALWAYS IMPORTANT
+ARCHITECTURE IS IMPORTANT BUT NEVER PARTICULARLY URGENT
+
+Fight for architecture.
+
+
+
+
+

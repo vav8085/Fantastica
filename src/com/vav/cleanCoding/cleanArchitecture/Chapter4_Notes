@@ -1,0 +1,21 @@
+Structured Programming
+
+Proof:
+A program of any complexity contains too many detail for a human brain to manage without help.
+
+All programs can be created from just 3 structures
+Sequence
+Selection
+Iteration
+
+Sequential steps can be proved correct by simple enumeration.
+
+Induction is used to prove iteration correct.
+case 1 can be proved by enumeration
+Case N can be assumed correct
+N+1 is correct by enumeration.
+
+Goto is not a part of most of the current programming languages. Those that have it still allow it within a function.
+
+
+

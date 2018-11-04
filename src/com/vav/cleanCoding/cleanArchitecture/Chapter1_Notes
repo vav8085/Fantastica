@@ -1,0 +1,26 @@
+Chapter 1
+
+Design and Architecture
+
+The goal of the software architecture is the minimize the human resources required to build and maintain the required system.
+
+The measure of design quality is simply the effort required to meet the needs of customer. If that effort is low and stays low
+throughout the lifetime of the system. The design is good. If the effort grows with each new release then the design is bad.
+
+Few things to consider when productivity is declining:
+1.  Growth of the development staff is increasing. - Engineering staff vs release
+2.  Lines of code is reaching an asymptote then its a problem. - LOC vs release
+3.  Productivity is going down with every release. - % productivity vs release
+4.  Time to implement features is going in managing the mess
+
+What declined the productivity:
+1.  The lie of cleaning it up later
+2.  You cannot beat market competition by running faster and ignoring the architecture.
+3.  Features keep coming, cleaning up now is the key to success throughout the product lifecycle.
+
+MAKING MESS IS ALWAYS SLOWER THAN STAYING CLEAN
+Delivering faster is not the key.
+
+THE ONLY WAY TO GO FAST IS TO GO WELL
+
+THEIR OVERCONFIDENCE WILL DRIVE THE REDESIGN INTO THE SAME MESS AS THE OROGINAL PROJECT

@@ -1,0 +1,21 @@
+Paradigm Overview:
+
+Structured Programming
+Object oriented programming
+Functional programming
+
+Object oriented programming:
+
+Ole Johan Dahl and Kristen Nygaard noticed that function call stack can be moved to heap. This way the local variables
+declared can live longer after function returns. Function became constructor and local variables became instance variables.
+
+OOP imposes discipline of indirect transfer of control.
+
+EACH PARADIGM REMOVES CAPABILITIES FROM PROGRAMMERS THAN GIVING ANY NEW.
+
+EACH PARADIGMS TELL US WHAT NOT TO DO MORE THAN TELLING US WHAT TO DO.
+
+
+
+
+
