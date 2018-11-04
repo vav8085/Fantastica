@@ -1,0 +1,17 @@
+Object oriented programming:
+
+Heaps and stacks:
+https://www.gribblelab.org/CBootCamp/7_Memory_Stack_vs_Heap.html
+
+Encapsulation:
+
+Drawing a line around a cohesive set of data and functions.
+
+In C programming language we have perfect encapsulation, all the methods are defined in header files and data remains in
+implementation files.
+C++ on thee other hand has broken encapsulation. We have to define data members in the header file that lets others
+know about the data members available in our class, even if they are declared private.
+Java has even broken encapsulation where we dont even have header classes.
+
+
+

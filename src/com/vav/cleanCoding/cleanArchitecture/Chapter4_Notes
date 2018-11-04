@@ -17,5 +17,18 @@ N+1 is correct by enumeration.
 
 Goto is not a part of most of the current programming languages. Those that have it still allow it within a function.
 
+Scientific theories are falsifiable(testable) but not provable
+
+Science works by proving statements false unlike maths
+
+TESTING SHOWS THE PRESENCE NOT THE ABSENCE OF BUGS.
+
+A program can be proved incorrect by testing but it cannot measure its correctness.
+
+***A tester can deem a program correct enough to work.
+We show correctness by failing to prove incorrectness in software engineering.
+
+
+
 
 
