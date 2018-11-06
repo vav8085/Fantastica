@@ -15,3 +15,8 @@ Java has even broken encapsulation where we dont even have header classes.
 
 
 
+Polymorphism:
+
+Polymorphism is present in many languages. An example can be of C where getChar and putChar are used to write to STDIN
+and STDOUT. STDIN and STDOUT can be any devices. In Unix os this device must qualify one requirement that is it must define
+4 functions open, close, read, right, seek.
