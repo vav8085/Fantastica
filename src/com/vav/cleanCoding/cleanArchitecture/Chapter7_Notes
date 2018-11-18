@@ -1,0 +1,16 @@
+SOLID:
+
+*   Solid principles are applied to the mid level. This is the layer between the high level architecture and the low level code.
+*   These principles are kept right above the code tolerate changes and easy to understand.
+
+
+SRP - From Robert C. Martin's blog: https://blog.cleancoder.com/uncle-bob/2014/05/08/SingleReponsibilityPrinciple.html
+We have tried to demonstrate by these examples that it is almost always incorrect to begin
+the decomposition of a system into modules on the basis of a flowchart. We propose instead that one begins with a list of difficult
+design decisions or design decisions which are likely to change. Each module is then designed to hide such a decision from the others.
+
+The things that change together should be kept together. The other things that so not change with these things should be kept outside.
+
+OCP: Software should be easy to change. The must be designed to allow the behavior of the system to change by adding new code, rather
+    than changing existing code.
+

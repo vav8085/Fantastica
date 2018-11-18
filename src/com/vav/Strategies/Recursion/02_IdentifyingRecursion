@@ -1,0 +1,20 @@
+Identifying Recursion:
+
+1.  Recursion can be seen in many natural patterns. Like tree branches, river branches, Romanesco broccoli etc.
+    Larger structure appears to contain instances of itself at smaller scales.
+    Many mathematical problems where nth term is defined through some formula or procedures involving previous terms.
+
+2.  Recursive functions have 2 cases:
+    Base case - The case when the output of a recursive problem can be identified trivially.
+    Recursive case - The case where we have to apply more complex recursive solutions.
+    E.g. In fibonacci equation s(n) = s(n-1) + s(n-2), n > 2;
+    Base case is where s(0) = 1 and s(1) = 1
+    So the sequence becomes 1 1 2 3 5 8 13 ...
+
+3.  A recursive definition can have many base and recursive cases.
+
+4.  Another example of a recursive function is factorial
+    n! = 1x2x3x4.... n-1 x n
+    here:
+    n! = (n-1)! x n n > 0
+    n! = 1 if n = 0
