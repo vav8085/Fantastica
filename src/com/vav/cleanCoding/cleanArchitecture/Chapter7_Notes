@@ -4,13 +4,28 @@ SOLID:
 *   These principles are kept right above the code tolerate changes and easy to understand.
 
 
-SRP - From Robert C. Martin's blog: https://blog.cleancoder.com/uncle-bob/2014/05/08/SingleReponsibilityPrinciple.html
+SRP: From Robert C. Martin's blog: https://blog.cleancoder.com/uncle-bob/2014/05/08/SingleReponsibilityPrinciple.html
 We have tried to demonstrate by these examples that it is almost always incorrect to begin
 the decomposition of a system into modules on the basis of a flowchart. We propose instead that one begins with a list of difficult
 design decisions or design decisions which are likely to change. Each module is then designed to hide such a decision from the others.
 
 The things that change together should be kept together. The other things that so not change with these things should be kept outside.
 
+From Clean Architecture: The best structure of a software system is heavily influenced by the social structure of an organization that
+uses it so that each software module has one and only one reason to change.
+
 OCP: Software should be easy to change. The must be designed to allow the behavior of the system to change by adding new code, rather
-    than changing existing code.
+    than changing existing code. Open for extension and closed for modification.
+
+    We usually achieve this by creating various contracts for our implementations. this way the contracts are closed for modification
+    but open for extension.
+
+LSP: We should build a software system from interchangeable parts, Those parts should adhere to a contract that allows those parts
+    to be substituted one for another.
+    https://stackify.com/solid-design-liskov-substitution-principle/
+
+ISP: Avoid depending of the things that a software does not use.
+https://stackify.com/interface-segregation-principle/
+
+DIP: The code that implements high level policy should not depend on the code that implements low level details.
 
