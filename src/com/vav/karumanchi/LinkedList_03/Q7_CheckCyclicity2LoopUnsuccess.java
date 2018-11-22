@@ -1,7 +1,6 @@
 package com.vav.karumanchi.LinkedList_03;
 
-import com.vav.CTCI.Common.LinkedList.Link;
-import com.vav.Common.Trees.BinaryTrees.IntegerBinaryTree;
+import com.vav.CTCI.Archive.work_2017.Common.LinkedList.Link;
 
 /**
  * Created by vaibhav on 11/26/17.

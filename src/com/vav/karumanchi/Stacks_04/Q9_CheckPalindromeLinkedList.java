@@ -1,7 +1,7 @@
 package com.vav.karumanchi.Stacks_04;
 
-import com.vav.CTCI.Common.LinkedList.Link;
-import com.vav.CTCI.Common.LinkedList.LinkedList;
+import com.vav.CTCI.Archive.work_2017.Common.LinkedList.Link;
+import com.vav.CTCI.Archive.work_2017.Common.LinkedList.LinkedList;
 
 /**
  * Created by vaibhav on 12/21/17.

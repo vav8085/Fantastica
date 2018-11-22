@@ -1,7 +1,7 @@
 package com.vav.Common.Hashing;
 
-import com.vav.CTCI.Common.LinkedList.Link;
-import com.vav.CTCI.Common.LinkedList.LinkedList;
+import com.vav.CTCI.Archive.work_2017.Common.LinkedList.Link;
+import com.vav.CTCI.Archive.work_2017.Common.LinkedList.LinkedList;
 
 /**
  * This is a linked list implementation, If we take a sorted linked list then Find and delete become faster

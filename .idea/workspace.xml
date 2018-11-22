@@ -2,8 +2,81 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0dc95c9b-b3e3-479e-88e2-7ef2b3d4dd5c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vav/cleanCoding/cleanArchitecture/Chapter7_Notes" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/cleanCoding/cleanArchitecture/Chapter7_Notes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CTCI/Chapter1/Q1_CheckStringUnique.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CTCI/Chapter1/Q1_CheckStringUnique.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/CTCI/Archive/work_2017/Chapter1/Q1_CheckStringUnique.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CTCI/Chapter1/Q2_CheckStringsPermutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/CTCI/Archive/work_2017/Chapter1/Q2_CheckStringsPermutation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CTCI/Chapter1/Q3_URLify.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CTCI/Chapter1/Q3_URLify.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/CTCI/Archive/work_2017/Chapter1/Q3_URLify.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CTCI/Chapter1/Q4_PalindromePermutation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CTCI/Chapter1/Q4_PalindromePermutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/CTCI/Archive/work_2017/Chapter1/Q4_PalindromePermutation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CTCI/Chapter1/Q5_OneAway.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CTCI/Chapter1/Q5_OneAway.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/CTCI/Archive/work_2017/Chapter1/Q5_OneAway.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CTCI/Chapter1/Q6_StringCompression.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CTCI/Chapter1/Q6_StringCompression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/CTCI/Archive/work_2017/Chapter1/Q6_StringCompression.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CTCI/Chapter1/Q7_RotateImage90.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CTCI/Chapter1/Q7_RotateImage90.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/CTCI/Archive/work_2017/Chapter1/Q7_RotateImage90.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CTCI/Chapter1/Q9_StringRotation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CTCI/Chapter1/Q9_StringRotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/CTCI/Archive/work_2017/Chapter1/Q9_StringRotation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CTCI/Chapter1/QX_RemoveDuplicates.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CTCI/Chapter1/QX_RemoveDuplicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/CTCI/Archive/work_2017/Chapter1/QX_RemoveDuplicates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CTCI/Chapter1/QX_StringAnagrams.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CTCI/Chapter1/QX_StringAnagrams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/CTCI/Archive/work_2017/Chapter1/QX_StringAnagrams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CTCI/Chapter2/Q1_RemoveDups.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CTCI/Chapter2/Q1_RemoveDups.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/CTCI/Archive/work_2017/Chapter2/Q1_RemoveDups.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CTCI/Chapter2/Q2_KthToLast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/CTCI/Archive/work_2017/Chapter2/Q2_KthToLast.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CTCI/Chapter2/Q3_DeleteOnlyNodeAccess.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CTCI/Chapter2/Q3_DeleteOnlyNodeAccess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/CTCI/Archive/work_2017/Chapter2/Q3_DeleteOnlyNodeAccess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CTCI/Chapter2/Q4_Partition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CTCI/Chapter2/Q4_Partition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/CTCI/Archive/work_2017/Chapter2/Q4_Partition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CTCI/Chapter2/Q5_SumOfTwoNumbers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CTCI/Chapter2/Q5_SumOfTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/CTCI/Archive/work_2017/Chapter2/Q5_SumOfTwoNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CTCI/Chapter2/Q8_LoopDetection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CTCI/Chapter2/Q8_LoopDetection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/CTCI/Archive/work_2017/Chapter2/Q8_LoopDetection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CTCI/Chapter3/Q1_ThreeStacksOneArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CTCI/Chapter3/Q1_ThreeStacksOneArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/CTCI/Archive/work_2017/Chapter3/Q1_ThreeStacksOneArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CTCI/Chapter3/Q2_MinStack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CTCI/Chapter3/Q2_MinStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/CTCI/Archive/work_2017/Chapter3/Q2_MinStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CTCI/Chapter3/Q2_StackMin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CTCI/Chapter3/Q2_StackMin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/CTCI/Archive/work_2017/Chapter3/Q2_StackMin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CTCI/Chapter3/Q3_StackOfPlates.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CTCI/Chapter3/Q3_StackOfPlates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/CTCI/Archive/work_2017/Chapter3/Q3_StackOfPlates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CTCI/Chapter3/Q4_QueueFrom2Stacks.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CTCI/Chapter3/Q4_QueueFrom2Stacks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/CTCI/Archive/work_2017/Chapter3/Q4_QueueFrom2Stacks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CTCI/Chapter3/Q5_StackSorting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CTCI/Chapter3/Q5_StackSorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/CTCI/Archive/work_2017/Chapter3/Q5_StackSorting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CTCI/Chapter3/Q6_AnimalShelter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CTCI/Chapter3/Q6_AnimalShelter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/CTCI/Archive/work_2017/Chapter3/Q6_AnimalShelter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CTCI/Common/CTCICommon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CTCI/Common/CTCICommon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/CTCI/Archive/work_2017/Common/CTCICommon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CTCI/Common/GenStack/GenStack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CTCI/Common/GenStack/GenStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/CTCI/Archive/work_2017/Common/GenStack/GenStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CTCI/Common/LinkedList/Link.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CTCI/Common/LinkedList/Link.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/CTCI/Archive/work_2017/Common/LinkedList/Link.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CTCI/Common/LinkedList/LinkedList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CTCI/Common/LinkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/CTCI/Archive/work_2017/Common/LinkedList/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CTCI/Common/LinkedList/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CTCI/Common/LinkedList/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/CTCI/Archive/work_2017/Common/LinkedList/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Common/Hashing/SeparateChaining.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Common/Hashing/SeparateChaining.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Common/Queues/LinkedQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Common/Queues/LinkedQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Common/Queues/QueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Common/Queues/QueueTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Common/Recursion/PrintLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Common/Recursion/PrintLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Common/Recursion/PrintLinkedListReverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Common/Recursion/PrintLinkedListReverse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Leetcode/Easy/MergeSortedLists_021.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Leetcode/Easy/MergeSortedLists_021.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Leetcode/Easy/RemoveDuplicatesSortedList_83.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Leetcode/Easy/RemoveDuplicatesSortedList_83.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Leetcode/Medium/AddTwoNumbers_02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Leetcode/Medium/AddTwoNumbers_02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/karumanchi/LinkedList_03/Q10_CheckCyclicFloydAlgo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/karumanchi/LinkedList_03/Q10_CheckCyclicFloydAlgo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/karumanchi/LinkedList_03/Q12_FindCyclePosition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/karumanchi/LinkedList_03/Q12_FindCyclePosition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/karumanchi/LinkedList_03/Q15_FindCycleLength.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/karumanchi/LinkedList_03/Q15_FindCycleLength.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/karumanchi/LinkedList_03/Q16_InsertNodeInSortedLl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/karumanchi/LinkedList_03/Q16_InsertNodeInSortedLl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/karumanchi/LinkedList_03/Q17_ReverseASinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/karumanchi/LinkedList_03/Q17_ReverseASinglyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/karumanchi/LinkedList_03/Q2_4_NthNodeFromEnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/karumanchi/LinkedList_03/Q2_4_NthNodeFromEnd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/karumanchi/LinkedList_03/Q3_NthNodeFromEndHashmap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/karumanchi/LinkedList_03/Q3_NthNodeFromEndHashmap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/karumanchi/LinkedList_03/Q5_NthFromEndOneIter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/karumanchi/LinkedList_03/Q5_NthFromEndOneIter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/karumanchi/LinkedList_03/Q6_NthNodeFromEndRecursive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/karumanchi/LinkedList_03/Q6_NthNodeFromEndRecursive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/karumanchi/LinkedList_03/Q7_CheckCyclicity2LoopUnsuccess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/karumanchi/LinkedList_03/Q7_CheckCyclicity2LoopUnsuccess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/karumanchi/LinkedList_03/Q8_CheckCycleUsingHashmaps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/karumanchi/LinkedList_03/Q8_CheckCycleUsingHashmaps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/karumanchi/Stacks_04/Q10_CheckPalindromeLinkedListUsingStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/karumanchi/Stacks_04/Q10_CheckPalindromeLinkedListUsingStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/karumanchi/Stacks_04/Q9_CheckPalindromeLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/karumanchi/Stacks_04/Q9_CheckPalindromeLinkedList.java" afterDir="false" />
     </list>
     <ignored path="CODE.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -172,8 +245,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="vav" type="462c0819:PsiDirectoryNode" />
-              <item name="cleanCoding" type="462c0819:PsiDirectoryNode" />
-              <item name="cleanArchitecture" type="462c0819:PsiDirectoryNode" />
+              <item name="CTCI" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WarPlan" type="b2602c69:ProjectViewProjectNode" />
@@ -181,16 +253,8 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="vav" type="462c0819:PsiDirectoryNode" />
-              <item name="Strategies" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WarPlan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WarPlan" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="vav" type="462c0819:PsiDirectoryNode" />
-              <item name="Strategies" type="462c0819:PsiDirectoryNode" />
-              <item name="Recursion" type="462c0819:PsiDirectoryNode" />
+              <item name="CTCI" type="462c0819:PsiDirectoryNode" />
+              <item name="Archive" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -434,7 +498,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="980" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -536,25 +599,25 @@
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/vav/CTCI/Chapter2/Q3_DeleteOnlyNodeAccess.java</url>
+          <url>file://$PROJECT_DIR$/src/com/vav/CTCI/Archive/work_2017/Chapter2/Q3_DeleteOnlyNodeAccess.java</url>
           <line>12</line>
           <properties />
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/vav/CTCI/Chapter2/Q5_SumOfTwoNumbers.java</url>
+          <url>file://$PROJECT_DIR$/src/com/vav/CTCI/Archive/work_2017/Chapter2/Q5_SumOfTwoNumbers.java</url>
           <line>13</line>
           <properties />
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/vav/CTCI/Chapter2/Q5_SumOfTwoNumbers.java</url>
+          <url>file://$PROJECT_DIR$/src/com/vav/CTCI/Archive/work_2017/Chapter2/Q5_SumOfTwoNumbers.java</url>
           <line>37</line>
           <properties />
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/vav/CTCI/Chapter3/Q1_ThreeStacksOneArray.java</url>
+          <url>file://$PROJECT_DIR$/src/com/vav/CTCI/Archive/work_2017/Chapter3/Q1_ThreeStacksOneArray.java</url>
           <line>23</line>
           <properties />
           <option name="timeStamp" value="21" />
@@ -566,19 +629,19 @@
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/vav/CTCI/Chapter2/Q4_Partition.java</url>
+          <url>file://$PROJECT_DIR$/src/com/vav/CTCI/Archive/work_2017/Chapter2/Q4_Partition.java</url>
           <line>31</line>
           <properties />
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/vav/CTCI/Chapter3/Q3_StackOfPlates.java</url>
+          <url>file://$PROJECT_DIR$/src/com/vav/CTCI/Archive/work_2017/Chapter3/Q3_StackOfPlates.java</url>
           <line>40</line>
           <properties />
           <option name="timeStamp" value="45" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/vav/CTCI/Chapter3/Q5_StackSorting.java</url>
+          <url>file://$PROJECT_DIR$/src/com/vav/CTCI/Archive/work_2017/Chapter3/Q5_StackSorting.java</url>
           <line>13</line>
           <properties />
           <option name="timeStamp" value="64" />
@@ -627,7 +690,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/vav/karumanchi/LinkedList_03/Q7_CheckCyclicity2LoopUnsuccess.java</url>
-          <line>35</line>
+          <line>34</line>
           <properties />
           <option name="timeStamp" value="90" />
         </line-breakpoint>

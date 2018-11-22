@@ -1,6 +1,6 @@
 package com.vav.karumanchi.LinkedList_03;
 
-import com.vav.CTCI.Common.LinkedList.Link;
+import com.vav.CTCI.Archive.work_2017.Common.LinkedList.Link;
 
 /**
  * Created by Vaibhav on 11/28/17.
