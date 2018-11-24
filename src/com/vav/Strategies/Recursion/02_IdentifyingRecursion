@@ -18,3 +18,12 @@ Identifying Recursion:
     here:
     n! = (n-1)! x n n > 0
     n! = 1 if n = 0
+
+5. Another example can be finding the sum of items in a list with starting index of 0.
+   Let the sum be s(a) and number of elements be n
+   Because we are starting from 0 the last element will become n-1
+
+   So if we are saying a[i] then it is the i+1th element in the list
+                       a[0] is the 1st element
+                       a[5] is the 6th element
+   
