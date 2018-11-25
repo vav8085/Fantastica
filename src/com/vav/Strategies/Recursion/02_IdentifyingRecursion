@@ -34,4 +34,9 @@ Identifying Recursion:
    else
    s(i=0->n-1 [a(i)]) + a(n-1)  (sum of first n-1 elements + nth element)
 
-   
+   Another way this problem can be described is
+   s(a) =
+   if n <= 0
+   , 0 (list is empty)
+   else
+   a[0] + s(i=1->n [a(i)])  (sum of first n-1 elements + nth element)
