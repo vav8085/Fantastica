@@ -47,3 +47,6 @@ Identifying Recursion:
    0 if n=0
    a(0) if n=1
    s(i=0->n/2 [a(i)]) + s(j=n/2 -> n [a(j)]) if n>1
+
+   Once we know how to decompose a recursive problem into self similar ones. We can solve problems using recursion.
+
