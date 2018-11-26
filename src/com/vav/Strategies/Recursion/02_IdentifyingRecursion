@@ -40,3 +40,10 @@ Identifying Recursion:
    , 0 (list is empty)
    else
    a[0] + s(i=1->n [a(i)])  (sum of first n-1 elements + nth element)
+
+   Another way can be by dividing the problem in two equal parts
+
+   s(a) =
+   0 if n=0
+   a(0) if n=1
+   s(i=0->n/2 [a(i)]) + s(j=n/2 -> n [a(j)]) if n>1
