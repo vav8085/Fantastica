@@ -1,0 +1,77 @@
+The First Step in refactoring
+
+1.  Write test cases around your method.
+    These test cases will run every time code is changed.
+    The test cases will reduce debugging time.
+
+Starting Refactoring the code:
+
+2.  First we will remove the switch statement. Its doing one thing that is calculating the amount for each play.
+    we can keep it in a separate function.
+    amountFor(pref, play){
+        let thisAmount =0;
+        switch (play.type) {
+                case "tragedy":
+                    thisAmount = 40000;
+                    if
+                    (perf.audience > 30) {
+                        thisAmount += 1000 * (perf.audience - 30);
+                    }
+                    break;
+                case "comedy":
+                    thisAmount = 30000;
+                    if (perf.audience > 20) {
+                        thisAmount += 10000 +
+                                500 * (perf.audience - 20);
+                    }
+                    thisAmount += 300 * perf.audience;
+                    break;
+                default:
+                    throw new Error(`unknown type: ${play.type}`);
+        }
+        return thisAmount;
+    }
+    While removing this function we will look at the variables that change and ones that remain the same.
+    Changing variable - thisAmount
+    Not changing  - perf, play
+    We can pass the non changing variables to the function and declare the changing variable inside the function.
+
+    So now the original code can call this function.
+
+        function statement(invoice, plays) {
+            let totalAmount = 0;
+            let volumeCredits =
+                    0;
+            let result = `Statement for ${invoice.customer}\n`; const format = new
+                    Intl.NumberFormat("en-US", {style:"currency", currency:"USD",
+                    minimumFractionDigits:2 }).format;
+
+            for (let perf of invoice.performances){
+                const play = plays[perf.playID];
+                let thisAmount = amountFor(play, perf);
+                 // add volume credits
+                volumeCredits += Math.max(perf.audience - 30, 0); // add extra credit for every
+                ten comedy attendees if ("comedy" == = play.type) volumeCredits +=
+                        Math.floor(perf.audience / 5); // print line for this order result += `
+                $ {
+                    play.name
+                }:$ {
+                    format(thisAmount / 100)
+                } ($ {
+                    perf.audience
+                } seats)\n `;
+                totalAmount+= thisAmount;
+                } result += ` Amount owed is $ {
+                    format(totalAmount / 100)
+                }\n `;
+                result+= ` You earned $ {
+                    volumeCredits
+                } credits\n `;
+                return result;
+        }
+
+2.  Now i will compile this function and run my test again to check if its working as expected.
+
+4.  If the test pass then i will commit this change to the version control right here.
+
+5.  We wil name the return value of this function as result.

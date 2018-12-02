@@ -29,3 +29,5 @@ https://stackify.com/interface-segregation-principle/
 
 DIP: The code that implements high level policy should not depend on the code that implements low level details.
 
+
+
