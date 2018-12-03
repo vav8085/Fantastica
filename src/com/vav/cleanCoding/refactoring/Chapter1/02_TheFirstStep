@@ -6,6 +6,8 @@ The First Step in refactoring
 
 Starting Refactoring the code:
 
+I will change the examples once i will learn this better.
+
 2.  First we will remove the switch statement. Its doing one thing that is calculating the amount for each play.
     we can keep it in a separate function.
     amountFor(pref, play){
@@ -74,7 +76,7 @@ Starting Refactoring the code:
 
 4.  If the test pass then i will commit this change to the version control right here.
 
-5.  We wil name the return value of this function as result, we will make this a convection that function return is
+5.  We wil name the return value of this function as result, we will make this a convention that function return is
     called a result.
 
      amountFor(pref, play){
@@ -129,3 +131,76 @@ Starting Refactoring the code:
                 }
                 return result;
     }
+
+8.  We can see that the variable Play is computed from performance. We will use replace temp with query principle here
+    as suggested by Martin Fowler
+
+    We will create a function that will calculate the plays from aPerformance
+
+        playFor(aPerformance){
+            return plays[aPerformance.playID]
+        }
+
+    We will replace all the place where play is used by this function.
+
+        amountFor(aPerformance){
+                    let result =0;
+                    switch (playFor(aPerformance).type) {                                               //Changed here
+                            case "tragedy":
+                                result = 40000;
+                                if
+                                (aPerformance.audience > 30) {
+                                    result += 1000 * (perf.audience - 30);
+                                }
+                                break;
+                            case "comedy":
+                                result = 30000;
+                                if (aPerformance.audience > 20) {
+                                    result += 10000 +
+                                            500 * (aPerformance.audience - 20);
+                                }
+                                result += 300 * aPerformance.audience;
+                                break;
+                            default:
+                                throw new Error(`unknown type: ${playFor(aPerformance).type}`);         //Changed here
+                    }
+                    return result;
+        }
+
+
+    Looking at the statement method:
+            function statement(invoice, plays) {
+                let totalAmount = 0;
+                let volumeCredits =
+                        0;
+                let result = `Statement for ${invoice.customer}\n`; const format = new
+                        Intl.NumberFormat("en-US", {style:"currency", currency:"USD",
+                        minimumFractionDigits:2 }).format;
+
+                for (let perf of invoice.performances){
+                    let thisAmount = amountFor(perf);
+                     // add volume credits
+                    volumeCredits += Math.max(perf.audience - 30, 0); // add extra credit for every
+                    ten comedy attendees if ("comedy" == = playFor(aPerformance).type) volumeCredits +=
+                            Math.floor(perf.audience / 5); // print line for this order result += `
+                    $ {
+                        playFor(aPerformance).name
+                    }:$ {
+                        format(thisAmount / 100)
+                    } ($ {
+                        perf.audience
+                    } seats)\n `;
+                    totalAmount+= thisAmount;
+                    } result += ` Amount owed is $ {
+                        format(totalAmount / 100)
+                    }\n `;
+                    result+= ` You earned $ {
+                        volumeCredits
+                    } credits\n `;
+                    return result;
+            }
+
+9.  Now we will compile test and commit again
+
+
+
