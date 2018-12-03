@@ -74,4 +74,58 @@ Starting Refactoring the code:
 
 4.  If the test pass then i will commit this change to the version control right here.
 
-5.  We wil name the return value of this function as result.
+5.  We wil name the return value of this function as result, we will make this a convection that function return is
+    called a result.
+
+     amountFor(pref, play){
+            let result =0;
+            switch (play.type) {
+                    case "tragedy":
+                        result = 40000;
+                        if
+                        (perf.audience > 30) {
+                            result += 1000 * (perf.audience - 30);
+                        }
+                        break;
+                    case "comedy":
+                        result = 30000;
+                        if (perf.audience > 20) {
+                            result += 10000 +
+                                    500 * (perf.audience - 20);
+                        }
+                        result += 300 * perf.audience;
+                        break;
+                    default:
+                        throw new Error(`unknown type: ${play.type}`);
+            }
+            return result;
+        }
+
+6.  Now we can again run our tests and see if all the tests are passing.
+
+7.  Now we will can change the name of the variable perf. We will name it Performance from the name of its class with
+    an indefinite article before it aPerformance
+
+    amountFor(aPerformance, play){
+                let result =0;
+                switch (play.type) {
+                        case "tragedy":
+                            result = 40000;
+                            if
+                            (aPerformance.audience > 30) {
+                                result += 1000 * (perf.audience - 30);
+                            }
+                            break;
+                        case "comedy":
+                            result = 30000;
+                            if (aPerformance.audience > 20) {
+                                result += 10000 +
+                                        500 * (aPerformance.audience - 20);
+                            }
+                            result += 300 * aPerformance.audience;
+                            break;
+                        default:
+                            throw new Error(`unknown type: ${play.type}`);
+                }
+                return result;
+    }
