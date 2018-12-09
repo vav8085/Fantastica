@@ -1,0 +1,11 @@
+Java beans pattern can be used to construct objects with optional parameters.
+
+You can have a constructor with no parameters and then have a getter or a setter for each parameters
+
+Check the example IceCreamBean. We can also write this by passing mandatory parameters in constructor and only providing
+getters and setters for optionals.
+
+Limitations
+The problem with JavaBeans constructor is that there is no strict check or enforcement on which parameters will
+be included to create this object. People can omit certain and keep others. People may want to get values of parameters
+that were never set and create bugs.
