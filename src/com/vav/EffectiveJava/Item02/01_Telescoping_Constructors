@@ -1,0 +1,42 @@
+Telescoping constructor pattern:
+
+Sometimes we have a lot of varying parameters for creating our object. There can be some mandatory params and some
+optional params. Telescoping constructor pattern helps in this way. We start our first constructor with mandatory
+params and add provide a constructor for each optional param.
+
+Lets take an example of an icecream. Icecream needs a Cup of a specific size and the gelato flavour as basic params.
+It can have optional params like syrup, toppings, brownie, banana.
+
+We will create our first constructor like:
+
+IceCream(CupSize cupSize, GelatoFlavour gelatoFlavour){
+    this.cupSize = cupSize;
+    this.gelato = gelato;
+}
+
+Now we can add each optional params using their own constructors.
+
+IceCream(CupSize cupSize, GelatoFlavour gelato, SyrupFlavour syrupFlavour){
+    this(cupsize, gelato);
+    this.syrupFlavour = syrupFlavour;
+}
+
+IceCream(CupSize cupSize, GelatoFlavour gelato, SyrupFlavour syrupFlavour, Toppings toppings){
+    this(cupsize, gelato, syrupFlavour);
+    this.toppings = toppings;
+}
+
+IceCream(CupSize cupSize, GelatoFlavour gelato, SyrupFlavour syrupFlavour, Toppings toppings,Brownie brownie){
+    this(cupsize, gelato, syrupFlavour, toppings);
+    this.brownie = brownie;
+}
+
+IceCream(CupSize cupSize, GelatoFlavour gelato, SyrupFlavour syrupFlavour, Toppings toppings,Brownie brownie, Banana banana){
+    this(cupsize, gelato, syrupFlavour, toppings, brownie);
+    this.banana = banana;
+}
+
+LIMITATIONS: This type of constructor works but what if customer wants toppings and brownie but not syrup and banana.
+    In this case we have to use the constructor with all parameters and pass these values as 0 or nulls.
+
+IceCream(Cupsizes.MEDIUM, GelatoFlavours.CHOCOLATE,null,ToppingList.RAISINS,new Brownie(), null){
