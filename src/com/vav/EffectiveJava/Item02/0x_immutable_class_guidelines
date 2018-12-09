@@ -1,0 +1,11 @@
+Guidelines for writing immutable classes
+Writing immutable classes is easy. A class will be immutable if all of the following are true:
+
+All of its fields are final
+The class is declared final
+The this reference is not allowed to escape during construction
+Any fields that contain references to mutable objects, such as arrays, collections, or mutable classes like Date:
+Are private
+Are never returned or otherwise exposed to callers
+Are the only reference to the objects that they reference
+Do not change the state of the referenced objects after construction

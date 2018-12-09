@@ -1,4 +1,5 @@
-Java beans pattern can be used to construct objects with optional parameters.
+Java beans pattern can be used to construct objects with optional parameters. It provides you setters for each parameter
+which makes it easier to create an object.
 
 You can have a constructor with no parameters and then have a getter or a setter for each parameters
 
@@ -9,3 +10,10 @@ Limitations
 The problem with JavaBeans constructor is that there is no strict check or enforcement on which parameters will
 be included to create this object. People can omit certain and keep others. People may want to get values of parameters
 that were never set and create bugs.
+
+The java beans pattern prevents us from crating immutable classes. You can always add a method to freeze an object from
+changing but its not a common practice and requires additional work.
+
+Note that immutable objects do not change. Like Strings. You once construct them and then they remain same forever.
+
+More on immutable objects: https://www.ibm.com/developerworks/java/library/j-jtp02183/index.html
