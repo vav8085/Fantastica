@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0dc95c9b-b3e3-479e-88e2-7ef2b3d4dd5c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vav/EffectiveJava/Item02/02_JavaBeans_Constructor" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/EffectiveJava/Item02/02_JavaBeans_Constructor" afterDir="false" />
-    </list>
+    <list default="true" id="0dc95c9b-b3e3-479e-88e2-7ef2b3d4dd5c" name="Default" comment="" />
     <ignored path="CODE.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -30,7 +27,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/vav/EffectiveJava/Item02/03_BuilderPattern">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
@@ -38,33 +35,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/vav/EffectiveJava/Item02/IceCreamBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="42" selection-start-line="42" selection-end-line="42" />
+            <state relative-caret-position="80">
+              <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="17" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/vav/EffectiveJava/Item02/IceCreamBuilder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="634">
+              <caret line="70" column="58" lean-forward="true" selection-start-line="70" selection-start-column="58" selection-end-line="70" selection-end-column="58" />
               <folding>
-                <element signature="e#241#242#0" expanded="true" />
-                <element signature="e#271#272#0" expanded="true" />
-                <element signature="e#318#319#0" expanded="true" />
-                <element signature="e#356#357#0" expanded="true" />
-                <element signature="e#396#397#0" expanded="true" />
-                <element signature="e#425#426#0" expanded="true" />
-                <element signature="e#476#477#0" expanded="true" />
-                <element signature="e#512#513#0" expanded="true" />
-                <element signature="e#557#558#0" expanded="true" />
-                <element signature="e#592#593#0" expanded="true" />
-                <element signature="e#654#655#0" expanded="true" />
-                <element signature="e#702#703#0" expanded="true" />
-                <element signature="e#739#740#0" expanded="true" />
-                <element signature="e#770#771#0" expanded="true" />
-                <element signature="e#820#821#0" expanded="true" />
-                <element signature="e#860#861#0" expanded="true" />
-                <element signature="e#895#896#0" expanded="true" />
-                <element signature="e#925#926#0" expanded="true" />
-                <element signature="e#972#973#0" expanded="true" />
-                <element signature="e#1010#1011#0" expanded="true" />
-                <element signature="e#1043#1044#0" expanded="true" />
-                <element signature="e#1072#1073#0" expanded="true" />
-                <element signature="e#1116#1117#0" expanded="true" />
-                <element signature="e#1152#1153#0" expanded="true" />
+                <element signature="e#1085#1086#0" expanded="true" />
+                <element signature="e#1136#1137#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -95,7 +79,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/vav/Common/Queues/Queue.java" />
         <option value="$PROJECT_DIR$/src/com/vav/Common/Queues/QueueTest.java" />
         <option value="$PROJECT_DIR$/src/com/vav/Common/Queues/LinkedQueue.java" />
         <option value="$PROJECT_DIR$/src/com/vav/Leetcode/Easy/PlusOne_066.java" />
@@ -146,12 +129,13 @@
         <option value="$PROJECT_DIR$/src/com/vav/EffectiveJava/readme" />
         <option value="$PROJECT_DIR$/src/com/vav/EffectiveJava/Item02/02_JavaBeans_Constructor" />
         <option value="$PROJECT_DIR$/src/com/vav/EffectiveJava/Item02/0x_immutable_class_guidelines" />
+        <option value="$PROJECT_DIR$/src/com/vav/EffectiveJava/Item02/IceCreamBuilder.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="21" />
-    <option name="width" value="1691" />
+    <option name="width" value="1693" />
     <option name="height" value="980" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -226,7 +210,7 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="SearchEverywhereHistoryKey" value="heapsor&#9;FILE&#9;file:///Users/z179905/MWC/src/com/vav/Common/Sorting/HeapSort.java" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544372774518" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544430722008" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
@@ -468,7 +452,7 @@
     <frame x="-7" y="-7" width="1577" height="1016" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16853192" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17050691" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Nl-Palette" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -875,7 +859,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Strategies/ProblemTypes/03_BinaryTreeProblems" />
     <entry file="file://$PROJECT_DIR$/src/com/vav/karumanchi/Trees_06/Q13_MinimumDepthOfBinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-281">
@@ -1147,39 +1130,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/EffectiveJava/Item02/IceCreamBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
-          <folding>
-            <element signature="e#241#242#0" expanded="true" />
-            <element signature="e#271#272#0" expanded="true" />
-            <element signature="e#318#319#0" expanded="true" />
-            <element signature="e#356#357#0" expanded="true" />
-            <element signature="e#396#397#0" expanded="true" />
-            <element signature="e#425#426#0" expanded="true" />
-            <element signature="e#476#477#0" expanded="true" />
-            <element signature="e#512#513#0" expanded="true" />
-            <element signature="e#557#558#0" expanded="true" />
-            <element signature="e#592#593#0" expanded="true" />
-            <element signature="e#654#655#0" expanded="true" />
-            <element signature="e#702#703#0" expanded="true" />
-            <element signature="e#739#740#0" expanded="true" />
-            <element signature="e#770#771#0" expanded="true" />
-            <element signature="e#820#821#0" expanded="true" />
-            <element signature="e#860#861#0" expanded="true" />
-            <element signature="e#895#896#0" expanded="true" />
-            <element signature="e#925#926#0" expanded="true" />
-            <element signature="e#972#973#0" expanded="true" />
-            <element signature="e#1010#1011#0" expanded="true" />
-            <element signature="e#1043#1044#0" expanded="true" />
-            <element signature="e#1072#1073#0" expanded="true" />
-            <element signature="e#1116#1117#0" expanded="true" />
-            <element signature="e#1152#1153#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/vav/EffectiveJava/readme">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1210,6 +1160,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/vav/EffectiveJava/Item02/03_BuilderPattern">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vav/EffectiveJava/Item02/IceCreamBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="17" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vav/EffectiveJava/Item02/IceCreamBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="634">
+          <caret line="70" column="58" lean-forward="true" selection-start-line="70" selection-start-column="58" selection-end-line="70" selection-end-column="58" />
+          <folding>
+            <element signature="e#1085#1086#0" expanded="true" />
+            <element signature="e#1136#1137#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
