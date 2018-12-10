@@ -16,3 +16,5 @@ What we do here is that we make our class a static factory.
 5.  For optional fields we provide setters which return the current instance of Builder
 6.  Finally we add a build() method to the builder that creates and returns an object of our static factory.
 
+This gives us a Fluent like api to create an object. 
+
