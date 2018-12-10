@@ -67,7 +67,7 @@ public class IceCreamBuilder {
     public static void main(String arg[]){
         //How to use
         Builder builder = new IceCreamBuilder.Builder(CupSize.MEDIUM, GelatoFlavour.CHOCOLATE);
-        builder.setBanana(new Banana()).setBrownie(new Brownie()).setSyrupFlavour(SyrupFlavour.CHOCOLATE).;
+        builder.setBanana(new Banana()).setBrownie(new Brownie()).setSyrupFlavour(SyrupFlavour.CHOCOLATE);
         IceCreamBuilder iceCreamBuilder = builder.build();
     }
 }

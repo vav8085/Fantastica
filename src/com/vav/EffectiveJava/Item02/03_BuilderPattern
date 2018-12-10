@@ -1,0 +1,18 @@
+Builder pattern:
+
+This builder is a little different rom builder design pattern.
+
+Telescoping constructor pattern has an advantage that we can use it for creating static factories
+
+Java beans gives us more flexibility while creating ou objects but it cannot be used to create immutable objects.
+
+Builders to the rescue.
+
+What we do here is that we make our class a static factory.
+1.  We declare all members as private final
+2.  We make constructor as private which takes a Builder object
+3.  We create a static Builder class inside our static factory and accept all required data in its constructor.
+4.  these mandatory fields are declared final.
+5.  For optional fields we provide setters which return the current instance of Builder
+6.  Finally we add a build() method to the builder that creates and returns an object of our static factory.
+
