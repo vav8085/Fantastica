@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0dc95c9b-b3e3-479e-88e2-7ef2b3d4dd5c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/vav/Strategies/DisjointSets/03_QuickUnion" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Strategies/DisjointSets/03_QuickUnion" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Strategies/DisjointSets/04_QuickUnionImprovements" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Strategies/DisjointSets/04_QuickUnionImprovements" afterDir="false" />
     </list>
     <ignored path="CODE.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,35 +28,7 @@
     <favorites_list name="CODE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/vav/Strategies/DisjointSets/04_QuickUnionImprovements">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/vav/Strategies/DisjointSets/03_QuickUnion">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="34" column="16" lean-forward="true" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/vav/Common/DisjointSets/QuickUnion.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="22" column="36" lean-forward="true" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
-              <folding>
-                <element signature="e#411#412#0" expanded="true" />
-                <element signature="e#456#457#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -81,7 +53,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/vav/Leetcode/Easy/ClimbingStairs_70.java" />
         <option value="$PROJECT_DIR$/src/com/vav/Leetcode/Easy/RemoveDuplicatesSortedList_83.java" />
         <option value="$PROJECT_DIR$/src/com/vav/Leetcode/Easy/MergeSortedArray_88.java" />
         <option value="$PROJECT_DIR$/src/com/vav/Strategies/ProblemTypes/02_ClimbingStairs" />
@@ -132,6 +103,7 @@
         <option value="$PROJECT_DIR$/src/com/vav/Strategies/DisjointSets/01_DynamicConnectivity" />
         <option value="$PROJECT_DIR$/src/com/vav/Strategies/DisjointSets/02_QuickFind" />
         <option value="$PROJECT_DIR$/src/com/vav/Strategies/DisjointSets/03_QuickUnion" />
+        <option value="$PROJECT_DIR$/src/com/vav/Strategies/DisjointSets/04_QuickUnionImprovements" />
       </list>
     </option>
   </component>
@@ -230,7 +202,7 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="SearchEverywhereHistoryKey" value="heapsor&#9;FILE&#9;file:///Users/z179905/MWC/src/com/vav/Common/Sorting/HeapSort.java" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545573254011" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545579532968" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
@@ -470,7 +442,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1577" height="1016" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28703094" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -1187,6 +1158,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Strategies/DisjointSets/03_QuickUnion">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="30" lean-forward="true" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/vav/Common/DisjointSets/QuickUnion.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
@@ -1198,20 +1176,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Common/DisjointSets/WeightedQuickUnion.java">
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Strategies/DisjointSets/04_QuickUnionImprovements">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="360">
+          <caret line="18" column="40" lean-forward="true" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Strategies/DisjointSets/04_QuickUnionImprovements">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Strategies/DisjointSets/03_QuickUnion">
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Common/DisjointSets/WeightedQuickUnion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="34" column="16" lean-forward="true" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+        <state relative-caret-position="660">
+          <caret line="33" column="34" lean-forward="true" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
         </state>
       </provider>
     </entry>

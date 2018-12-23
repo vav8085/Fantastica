@@ -16,6 +16,8 @@ Quick Union improvements (Weighted quick union):
     C.  When n is 8 the size doubles 3 times and height increases up to 3.
     D.  When n is 1048576 the size doubles 20 times and height increases up to 20.
 
+****Above is an important tree property.
+
 Weighted quick union with path compression:
 
 
