@@ -12,3 +12,16 @@ Quick Find:
 
 ****The problem with quadratic algorithms is that they dont scale. With better computers and more
     computing power the quadratic algorithms keep getting slower.
+
+
+    [0,1,2,3,4,5,6,7]
+    union(3,6) //the value of 3 is 3, find in entire array the index with value of 3 and change it to 6
+    [0,1,2,6,4,5,6,7]
+    union(3,7) //the value of 3 is 6, find in entire array the index with value of 6 and change it to 7
+    [0,1,2,7,4,5,7,7]
+    union(4,5)
+    ...
+
+The easiest way to understand is if N people are standing in a queue and you want to team up with a
+person then you will ask moderator to give a t-shirt similar to yours to the person at that index
+so now both are wearing same t-shirt and are connected. This can keep going on.
