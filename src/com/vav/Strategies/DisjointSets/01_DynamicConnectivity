@@ -10,7 +10,9 @@ Dynamic Connectivity algorithm design:
     C.  Pixels in a photo.
     *.  We can give the objects as name from integers 0->n-1 and keep them in an array.
 
-5.  Modeling the connections:
+5.  Equivalence relation is a connection between elements in a set that follow below properties
+
+6.  Modeling the connections:
     A.  Connections that follow equivalence relation have following properties.
         1.  Reflexive property: A is connected to A.
         2.  Symmetric property: If A is connected to B then B is connected to A.
@@ -18,6 +20,10 @@ Dynamic Connectivity algorithm design:
             connected to C.
     B.  For a connection cannot be defined based on relation a>=b. because it follows Reflexive
         and transitive properties but fails to follow symmetric property so if A>=B does not mean B>=A
+            Rail connections between two stations follow all these 3 properties.
+    D.  An equivalence class is a class of similar properties that are connected by above rule. There
+        can be many equivalence classes in a set. The intersection of two equivalence classes is empty.
+        This is why they are called as disjoint sets.
     C.  We have various objects that are connected and these components are called Connected Components.
         These can be represented as sets {1}, {2,3,4}, {5,6,7,8,9}
     D.  Find    -   Here find will search if these components are connected in any case and are a part of same component.
@@ -25,12 +31,12 @@ Dynamic Connectivity algorithm design:
     E.  Union   -   Union will connect two objects and thus connect the components they are part of.
                     union(1,2) will make {1,2,3,4} and will be union of two sets.
 
-6.  Our Goal is to create a data structure that can store the Objects and Connections.
+7.  Our Goal is to create a data structure that can store the Objects and Connections.
     A.  There can be very huge number of Objects (N) and Operations (M).
     B.  We will have a Class called UF which will have a constructor for taking the number of objects.
     C.  We will have a method called void union(int p, int q) that will connect two objects p and q.
     D.  We will have an method called boolean connected(int p , int q) which will return a boolean that will tell,
         if an object p is connected to another object q.
 
-7.  We will also have a client class( with Main method) where we will take two integers from the standard input and
+8.  We will also have a client class( with Main method) where we will take two integers from the standard input and
     check that if they are not connected then we will connect them other wise will just exit.
