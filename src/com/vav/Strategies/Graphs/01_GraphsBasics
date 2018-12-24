@@ -70,11 +70,20 @@ Representing Graph:
 
 8.  BFS is used for finding the shortest path to the node. By the time you reach the node using BFS, the path used is shortest path.
 
-9.  Euler Tour: A cycle that uses all the edges in a graph exactly once.
 
-10. Hamiltonian Tour: A cycle that uses all the vertices in the graph exactly once.
+9.  Graph problems:
+    a.  Euler Tour: A cycle that uses all the edges in a graph exactly once.
 
-11. Graph Isomorphism:  Two adjacency list represent the same graph.
+    b.  Hamiltonian Tour: A cycle that uses all the vertices in the graph exactly once.
+
+    c.  Graph Isomorphism:  Two adjacency list represent the same graph.
+
+    d.  Path: Sometimes we need to know the path between two vertices in graph, maybe two cities or 2 people
+        in a social network.
+    e.  Shortest Path:
+
+    f.  If graph contains a cycle
+    
 
 
 
