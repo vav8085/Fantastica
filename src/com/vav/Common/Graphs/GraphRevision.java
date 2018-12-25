@@ -39,5 +39,16 @@ public class GraphRevision {
         adj[i][j] = 1;
         adj[j][i] = 1;
     }
+    public int getAdjascentUnvisitedVertex(int v){
+        for(int i=0;i<count;i++){
+            if(adj[v][i]==1 && arr[i].isWasVisited()==false){
+                return i;
+            }
+        }
+        return -1;
+    }
 
+    public void dfs(){
+        
+    }
 }
