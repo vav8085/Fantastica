@@ -9,8 +9,8 @@ public class GraphRevision {
     int[][] adj;
     final int maxVertices;
     int count;
-    Stack stack;
-    Queue queue;
+    Stack<Integer> stack;
+    Queue<Integer> queue;
 
     public GraphRevision(int max){
         maxVertices = 10;
@@ -49,6 +49,30 @@ public class GraphRevision {
     }
 
     public void dfs(){
-        
+        arr[0].setWasVisited(true);
+        stack.push(0);
+        while (!stack.isEmpty()){
+            int current = stack.peek();
+            int next = getAdjascentUnvisitedVertex(current);
+            if(next!=-1){
+                stack.push(next);
+                arr[next].setWasVisited(true);
+            }else{
+                stack.pop();
+            }
+        }
+    }
+    public void bfs(){
+        arr[0].setWasVisited(true);
+        queue.add(0);
+        while (!queue.isEmpty()){
+            int current = queue.remove();
+            int next;
+            while ((next = getAdjascentUnvisitedVertex(current))!=-1){
+                arr[next].setWasVisited(true);
+                queue.add(next);
+            }
+
+        }
     }
 }
