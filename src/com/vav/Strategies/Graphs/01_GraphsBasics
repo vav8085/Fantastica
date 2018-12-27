@@ -41,6 +41,10 @@ Representing Graph:
             c.  a variable that has the current count of vertices in the graph.
             d.  a two dimensional array that has 1s and 0s. This is called the adjacency matrix that is used to add the edges
                 in the graph.
+            e.  Notice that the adjacency matrix and vertex array store different values. The vertex array store an array of type Vertex
+                while the adjacency matrix store integers in range (0,1). To map these values and to know which vertex is at
+                which position in the array we can also use a symbol table. This way we can identify the index of a certain
+                vertex in the vertex array that will match with adjacency matrix.
 
 4.  If we want to know in what order our vertices are connected with each other and we want to parse all the vertices we can use
     various techniques like Depth first search and Breadth first search. Both techniques parse all the vertices but in a different

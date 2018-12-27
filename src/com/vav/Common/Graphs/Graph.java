@@ -1,6 +1,7 @@
 package com.vav.Common.Graphs;
 
 import java.util.ArrayDeque;
+import java.util.ArrayList;
 import java.util.Queue;
 import java.util.Stack;
 
@@ -79,9 +80,9 @@ public class Graph {
             int adjascentVertex;
             currentVertex = queue.remove();
             while((adjascentVertex=getAdjascentUnvisitedVertex(currentVertex))!=-1){
-                    vertexList[adjascentVertex].setWasVisited(true);
-                    displayVertex(adjascentVertex);
-                    queue.add(adjascentVertex);
+                vertexList[adjascentVertex].setWasVisited(true);
+                displayVertex(adjascentVertex);
+                queue.add(adjascentVertex);
             }
         }
         for(int i=0;i<vertexList.length;i++){
@@ -89,7 +90,7 @@ public class Graph {
         }
     }
 
-/**********Minimum spanning tree**************/
+    /**********Minimum spanning tree**************/
     public void mst(){
         vertexList[0].setWasVisited(true);
         stack.push(0);
@@ -109,6 +110,22 @@ public class Graph {
         for(int i=0;i<vertexList.length;i++){
             vertexList[i].setWasVisited(false);
         }
+    }
+    public ArrayList<Integer> getAdjascentVertex(int v){
+        ArrayList<Integer> adjascentVertices = new ArrayList<>();
+        for(int i=0;i<nVerts;i++){
+            if(adjacencyMatrix[v][i]==1){
+                adjascentVertices.add(i);
+            }
+        }
+        return adjascentVertices;
+    }
+
+    public void printAllEdges(int v){
+        for(int x: getAdjascentVertex(v)){
+            System.out.println(v+"->"+x);
+        }
+
     }
 
     public void dfs1(){
