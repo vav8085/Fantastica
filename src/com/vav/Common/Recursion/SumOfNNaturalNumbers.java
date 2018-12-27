@@ -1,13 +1,25 @@
 package com.vav.Common.Recursion;
 
 public class SumOfNNaturalNumbers {
-
+    /**
+     * This is a more generic algorithm. It returns the sum of all the natural numbers from a specific value
+     * We can find 1-> n , 2-> n etc by passing different values of from
+     * @param n
+     * @param from
+     * @return
+     */
     public static int sumOfNNaturalNumbersStart(int n, int from){
         if(from == n){
             return n;
         }
         return from + sumOfNNaturalNumbersStart(n, from+1);
     }
+
+    /**
+     * In this algorithm we are considering that sum(n) = sum(n-1) + n
+     * @param n
+     * @return
+     */
     public static int sumOfNaturalNumbersEnd(int n){
         if(n==1){
             return 1;

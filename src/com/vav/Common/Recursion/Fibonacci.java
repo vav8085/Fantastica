@@ -5,7 +5,7 @@ package com.vav.Common.Recursion;
  */
 public class Fibonacci {
     public static void main(String arg[]){
-        System.out.println(printFibonacci(7));
+        System.out.println(printFibonacci(3));
     }
     public static final int printFibonacci(int num){
         if(num==0){
@@ -16,4 +16,17 @@ public class Fibonacci {
         }
         return printFibonacci(num-1) + printFibonacci(num-2);
     }
+
+    public static final int printFibonacciAccumulator(int num){
+        if(num <= 2){
+            return 1;
+        }else{
+            int aux = 1;
+            for(int i=1;i<num-1;i++){
+                aux =  aux + printFibonacciAccumulator(i);
+            }
+            return aux;
+        }
+    }
+
 }
