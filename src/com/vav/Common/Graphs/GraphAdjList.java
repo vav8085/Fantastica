@@ -1,27 +1,27 @@
 package com.vav.Common.Graphs;
 
-import java.util.ArrayDeque;
-import java.util.Queue;
-import java.util.Stack;
+import java.util.*;
 
-public class GraphRevision {
+/**
+ * This graph class uses adjacency list instead of matrix
+ */
+public class GraphAdjList {
     Vertex[] arr;
-    int[][] adj;
-    final int maxVertices;
+    ArrayList<LinkedList<Integer>> adjList;
+     int maxVertices;
     int count;
     Stack<Integer> stack;
     Queue<Integer> queue;
 
-    public GraphRevision(int max){
+    public GraphAdjList(int max){
         maxVertices = 10;
         count = 0;
         stack = new Stack();
         queue = new ArrayDeque();
         arr = new Vertex[max];
-        for(int i=0;i<adj.length;i++){
-            for(int j=0;j<adj.length;j++){
-                adj[i][j]=0;
-            }
+        adjList = new ArrayList<>(max);
+        for(LinkedList linkedList: adjList){
+            linkedList = new LinkedList();
         }
     }
     public void addVertex(char label){
@@ -36,13 +36,13 @@ public class GraphRevision {
      * @param j
      */
     public void addEdge(int i, int j){
-        adj[i][j] = 1;
-        adj[j][i] = 1;
+        adjList.get(i).addLast(j);
+        adjList.get(j).addLast(i);
     }
     public int getAdjascentUnvisitedVertex(int v){
-        for(int i=0;i<count;i++){
-            if(adj[v][i]==1 && arr[i].isWasVisited()==false){
-                return i;
+        for(Integer ver: adjList.get(v)){
+            if(!arr[ver].isWasVisited()){
+                return ver;
             }
         }
         return -1;
