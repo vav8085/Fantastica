@@ -59,6 +59,8 @@ Representing Graph:
     f.  Every visited vertex is marked as visited and pushed on to the stack.
     g.  The method returns when there are no vertices left to be parsed
 
+****An example of DFS is the MazeExploration problem. See MazeExploration.PNG
+
 6.  DFS is used for game simulation. Example is tic tac toe, in this game you start with 9 different squares. When you mark a square
     your opponent has 8 different choices and you have 7 different choices once he marks and the game goes on.
 
