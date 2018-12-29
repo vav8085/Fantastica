@@ -61,7 +61,11 @@ Representing Graph:
     f.  Every visited vertex is marked as visited and pushed on to the stack.
     g.  The method returns when there are no vertices left to be parsed
 
-****DFS Recursive https://algs4.cs.princeton.edu/41graph/DepthFirstSearch.java.html
+****DFS Recursive:
+    1.  This method needs the vertex that we are working on.
+    2.  We mark the vertex as visited and we print it
+    3.  We then get all the adjacent vertices to this vertex and loop over them.
+    4.  We then call the dfs method on each vertex.
 
 ****An example of DFS is the MazeExploration problem. See MazeExploration.PNG
 ****Another example can be the magic wand tool of photo shop. THe wand tool does a DFS on all the adjacent vertices of the

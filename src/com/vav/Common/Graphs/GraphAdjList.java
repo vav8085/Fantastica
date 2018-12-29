@@ -62,6 +62,16 @@ public class GraphAdjList {
             }
         }
     }
+
+    public void dfsRecursive(int v){
+        arr[v].setWasVisited(true);
+        System.out.println(v+ "-" +arr[v].getLabel());
+        for(int i = 0;i<adjList.get(v).size();i++){
+            if(!arr[i].isWasVisited())
+            dfsRecursive(i);
+        }
+    }
+
     public void bfs(){
         arr[0].setWasVisited(true);
         queue.add(0);
