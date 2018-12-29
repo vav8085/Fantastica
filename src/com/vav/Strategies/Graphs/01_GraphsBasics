@@ -50,6 +50,8 @@ Representing Graph:
     various techniques like Depth first search and Breadth first search. Both techniques parse all the vertices but in a different
     sequence. They have different utilities.
 
+****Keep the data structure in a separate class from various problems that you can solve using it. Just like java collections class.
+
 5.  Depth First Search(DFS):
     a.  In DFS we keep parsing the next vertices until we reach a dead end or we notice a vertex that is already parsed.
     b.  If we find a vertex that is already visited or we see a dead end, we backtrack to a vertex that has more branches.
@@ -59,7 +61,11 @@ Representing Graph:
     f.  Every visited vertex is marked as visited and pushed on to the stack.
     g.  The method returns when there are no vertices left to be parsed
 
+****DFS Recursive https://algs4.cs.princeton.edu/41graph/DepthFirstSearch.java.html
+
 ****An example of DFS is the MazeExploration problem. See MazeExploration.PNG
+****Another example can be the magic wand tool of photo shop. THe wand tool does a DFS on all the adjacent vertices of the
+    clicked vertex so they all get selected and color can be changed in the enclosed area.
 
 6.  DFS is used for game simulation. Example is tic tac toe, in this game you start with 9 different squares. When you mark a square
     your opponent has 8 different choices and you have 7 different choices once he marks and the game goes on.
