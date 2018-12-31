@@ -1,0 +1,10 @@
+Connected Components:
+
+1.  Connected components can be represented using a graph.
+2.  These can be a graph of many vertices that create different components like c1(A,B,C)  C2(D,E) AND  C3(F,G,H)
+3.  Our goal is to identify what is connected to what and to create a data structure that can be a reference.
+4.  In above example we have A,B,C as 3 connected vertices while D and E are connected to each other but not with C1
+5.  If there is a path between two vertices then they are considered as connected.
+6.  This can be done with the  help of Adjacency Matrix but for large data-set it will need a lot of space.
+7.  We will not use union fine because its different from graphs and does not give results in constant time.
+

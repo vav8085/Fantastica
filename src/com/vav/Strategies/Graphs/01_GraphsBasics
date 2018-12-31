@@ -99,6 +99,10 @@ Representing Graph:
     e.  Shortest Path:
 
     f.  If graph contains a cycle
+
+
+--**Note that we can fine an Eular tour in a graph but there is no algorithm to find Hamiltonian tour.
+--**Also there is no single way to find whether two graphs are isomorphic.
     
 
 
