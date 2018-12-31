@@ -8,3 +8,6 @@ Connected Components:
 6.  This can be done with the  help of Adjacency Matrix but for large data-set it will need a lot of space.
 7.  We will not use union fine because its different from graphs and does not give results in constant time.
 
+8.  The data structure that we will build will be an array of ids that will store a specific value for vertices
+    in a single connected component. These vertices will vary from component to component.
+9.  The data structure can be created every time we create a Graph using dfs.
