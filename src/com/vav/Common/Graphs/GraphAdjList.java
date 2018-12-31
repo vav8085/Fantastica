@@ -85,4 +85,12 @@ public class GraphAdjList {
 
         }
     }
+
+    public Vertex[] getVertexList() {
+        return arr;
+    }
+
+    public LinkedList<Integer> getAdjacancyList(int v) {
+        return adjList.get(v);
+    }
 }
