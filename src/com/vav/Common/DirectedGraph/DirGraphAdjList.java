@@ -30,7 +30,8 @@ public class DirGraphAdjList {
     public void getAdjacentVertices(int v){
 
     }
-    public void dfs(){
-        
+    public void dfs(int v){
+        vertexArray[v].setVisited(true);
+
     }
 }

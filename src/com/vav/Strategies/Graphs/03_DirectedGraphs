@@ -5,3 +5,17 @@ Directed Graph:
 4.  The add edge method also has only 1 in direction of arrow.
     addEdge(int start, int end){ adjMatrix[start][end] = 1; }
 5.  Same goes for adjacency list, if A has B in the list then B wont have A in its list.
+
+DFS Examples:
+****A use of DFS on directed graph is Garbage collector in Java. The garbage collector does a DFS on
+    all the objects in the graph and finds the objects that are accessible from a specific set of objects(Roots).
+    It then marks all the other objects that are not reachable for garbage collection.
+
+****Another example of DFS is the algorithms that find dead code in your repository. They scan through all the
+    method calls and the methods that are not called are shown to user as dead code.
+
+BFS Examples:
+****An Example of BFS is the GPS that finds the shortest route to a destination for you.
+
+****Another example is webcrawler that crawls through a website visiting each link.
+
