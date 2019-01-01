@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0dc95c9b-b3e3-479e-88e2-7ef2b3d4dd5c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/vav/PrincetonAlgo2/Week1/UndirectedGraphs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Common/DirectedGraph/DirGraphAdjList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Common/DirectedGraph/DirGraphAdjList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Strategies/PriorityQueues/01_PriorityQBasics" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Strategies/PriorityQueues/01_PriorityQBasics" afterDir="false" />
     </list>
     <ignored path="CODE.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,7 +29,50 @@
     <favorites_list name="CODE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/vav/Common/DirectedGraph/DirGraphAdjList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#628#629#0" expanded="true" />
+                <element signature="e#668#669#0" expanded="true" />
+                <element signature="e#712#713#0" expanded="true" />
+                <element signature="e#762#763#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/vav/Common/Graphs/GraphAdjList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1478">
+              <caret line="92" column="30" selection-start-line="92" selection-start-column="30" selection-end-line="92" selection-end-column="30" />
+              <folding>
+                <element signature="e#2356#2357#0" expanded="true" />
+                <element signature="e#2382#2383#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/vav/Common/DirectedGraph/DirectedGraph.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="181">
+              <caret line="101" selection-start-line="101" selection-end-line="124" selection-end-column="1" />
+              <folding>
+                <element signature="e#3383#3384#0" expanded="true" />
+                <element signature="e#3443#3444#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -53,7 +97,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/vav/Leetcode/Easy/BinaryTreeLevelOrderTraversal2_107.java" />
         <option value="$PROJECT_DIR$/src/com/vav/USanDieg_DsAlgoSpecialization/Algo_Toolbox/Week2/Code/GCDOptimised.java" />
         <option value="$PROJECT_DIR$/src/com/vav/Algorithms1/RecursionAndTrees_5/Examples/Factorial.java" />
         <option value="$PROJECT_DIR$/src/com/vav/Algorithms1/RecursionAndTrees_5/Examples/EuclidAlgorithm.java" />
@@ -103,6 +146,7 @@
         <option value="$PROJECT_DIR$/src/com/vav/Common/Graphs/Vertex.java" />
         <option value="$PROJECT_DIR$/src/com/vav/Common/Graphs/GraphAdjList.java" />
         <option value="$PROJECT_DIR$/src/com/vav/Common/ConnectedComponents/ConnectedComponent.java" />
+        <option value="$PROJECT_DIR$/src/com/vav/Strategies/PriorityQueues/01_PriorityQBasics" />
         <option value="$PROJECT_DIR$/src/com/vav/Common/DirectedGraph/DirGraphAdjList.java" />
       </list>
     </option>
@@ -148,6 +192,68 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="vav" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="WarPlan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WarPlan" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="vav" type="462c0819:PsiDirectoryNode" />
+              <item name="Common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WarPlan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WarPlan" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="vav" type="462c0819:PsiDirectoryNode" />
+              <item name="Common" type="462c0819:PsiDirectoryNode" />
+              <item name="DirectedGraph" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WarPlan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WarPlan" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="vav" type="462c0819:PsiDirectoryNode" />
+              <item name="Common" type="462c0819:PsiDirectoryNode" />
+              <item name="DirectedGraph" type="462c0819:PsiDirectoryNode" />
+              <item name="DirectedGraph.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="WarPlan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WarPlan" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="vav" type="462c0819:PsiDirectoryNode" />
+              <item name="Common" type="462c0819:PsiDirectoryNode" />
+              <item name="Graphs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WarPlan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WarPlan" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="vav" type="462c0819:PsiDirectoryNode" />
+              <item name="Strategies" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WarPlan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WarPlan" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="vav" type="462c0819:PsiDirectoryNode" />
+              <item name="Strategies" type="462c0819:PsiDirectoryNode" />
+              <item name="PriorityQueues" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WarPlan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WarPlan" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="vav" type="462c0819:PsiDirectoryNode" />
+              <item name="Strategies" type="462c0819:PsiDirectoryNode" />
+              <item name="Trees" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -159,7 +265,7 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="SearchEverywhereHistoryKey" value="heapsor&#9;FILE&#9;file:///Users/z179905/MWC/src/com/vav/Common/Sorting/HeapSort.java" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546275070802" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546312348409" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
@@ -209,7 +315,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LinearSearch">
+  <component name="RunManager" selected="Application.ArrayPriorityMain">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -261,12 +367,12 @@
       </Profilers>
       <method />
     </configuration>
-    <configuration name="GCDOptimised" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.vav.USanDieg_DsAlgoSpecialization.Algo_Toolbox.Week2.Code.GCDOptimised" />
+    <configuration name="ArrayPriorityMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.vav.Common.PriorityQueue.ArrayPriorityMain" />
       <module name="CODE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.vav.USanDieg_DsAlgoSpecialization.Algo_Toolbox.Week2.Code.*" />
+          <option name="PATTERN" value="com.vav.Common.PriorityQueue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -339,19 +445,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.GCDOptimised" />
       <item itemvalue="Application.ITA_InsertionSort" />
       <item itemvalue="Application.InsertionSortNonDecreasing" />
       <item itemvalue="Application.LinearSearch" />
       <item itemvalue="Application.MergeSort" />
+      <item itemvalue="Application.ArrayPriorityMain" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrayPriorityMain" />
         <item itemvalue="Application.LinearSearch" />
         <item itemvalue="Application.InsertionSortNonDecreasing" />
         <item itemvalue="Application.ITA_InsertionSort" />
         <item itemvalue="Application.MergeSort" />
-        <item itemvalue="Application.GCDOptimised" />
       </list>
     </recent_temporary>
   </component>
@@ -402,6 +508,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1577" height="1016" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31073076" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -413,7 +520,7 @@
       <window_info id="Palette&#9;" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4854151" weight="0.32673943" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.51757663" weight="0.2547619" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.51757663" visible="true" weight="0.25406033" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.5084746" weight="0.4202381" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -810,40 +917,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Algorithms1/RecursionAndTrees_5/Examples/Factorial.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/vav/USanDieg_DsAlgoSpecialization/Algo_Toolbox/Week2/Code/GCDOptimised.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="41" lean-forward="true" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
-          <folding>
-            <element signature="e#182#183#0" expanded="true" />
-            <element signature="e#237#238#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Algorithms1/RecursionAndTrees_5/Examples/EuclidAlgorithm.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Common/Sorting/MergeSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="45" column="42" lean-forward="true" selection-start-line="45" selection-start-column="42" selection-end-line="45" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Common/Sorting/InsertionSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/ITA_Cormen/I2_GettingStarted_2/ITA_InsertionSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/vav/ITA_Cormen/I2_GettingStarted_2/Exercises/LinearSearch.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -1079,19 +1152,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Common/Graphs/GraphAdjList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="614">
-          <caret line="92" column="30" selection-start-line="92" selection-start-column="30" selection-end-line="92" selection-end-column="30" />
-          <folding>
-            <element signature="e#2356#2357#0" expanded="true" />
-            <element signature="e#2381#2382#0" expanded="true" />
-            <element signature="e#2426#2427#0" expanded="true" />
-            <element signature="e#2455#2456#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/vav/Common/ConnectedComponents/ConnectedComponent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
@@ -1112,20 +1172,76 @@
     <entry file="file://$PROJECT_DIR$/src/com/vav/karumanchi/info">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Common/DirectedGraph/DirGraphAdjList.java">
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Common/PriorityQueue/ArrayPriorityQ.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="520">
+          <caret line="38" column="33" lean-forward="true" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Common/PriorityQueue/ArrayPriorityMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Strategies/PriorityQueues/01_PriorityQBasics">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="21" column="81" selection-start-line="21" selection-start-column="81" selection-end-line="21" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Common/PriorityQueue/HeapPriorityQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Common/Heaps/Heap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="34" column="36" lean-forward="true" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Strategies/Heaps/01_HeapsBasics">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/vav/Common/DirectedGraph/DirectedGraph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2040">
-          <caret line="112" selection-start-line="112" selection-end-line="112" />
+        <state relative-caret-position="181">
+          <caret line="101" selection-start-line="101" selection-end-line="124" selection-end-column="1" />
           <folding>
             <element signature="e#3383#3384#0" expanded="true" />
             <element signature="e#3443#3444#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Common/Graphs/GraphAdjList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1478">
+          <caret line="92" column="30" selection-start-line="92" selection-start-column="30" selection-end-line="92" selection-end-column="30" />
+          <folding>
+            <element signature="e#2356#2357#0" expanded="true" />
+            <element signature="e#2382#2383#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Common/DirectedGraph/DirGraphAdjList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#628#629#0" expanded="true" />
+            <element signature="e#668#669#0" expanded="true" />
+            <element signature="e#712#713#0" expanded="true" />
+            <element signature="e#762#763#0" expanded="true" />
           </folding>
         </state>
       </provider>
