@@ -21,6 +21,6 @@ Topological Sorting:
     no successors.
     *   If we do not find a noSuccessor vertex then we consider that the graph is cyclic.
 
-*** Topological sorting can only be done in acyclic graphs.
+*** Topological sorting can only be done in directed acyclic graphs(DAG).
 
 
