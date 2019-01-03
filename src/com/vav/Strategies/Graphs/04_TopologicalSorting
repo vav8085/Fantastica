@@ -22,5 +22,9 @@ Topological Sorting:
     *   If we do not find a noSuccessor vertex then we consider that the graph is cyclic.
 
 *** Topological sorting can only be done in directed acyclic graphs(DAG).
+*** You should always find if a graph is a DAG first and then try topological sorting on it. If there is a cycle then topological sorting will
+    not work.
+
+    Precedence scheduling(Like which course to take first) is a good example of topological sorting in a directed graph.
 
 
