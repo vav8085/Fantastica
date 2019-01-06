@@ -2,25 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0dc95c9b-b3e3-479e-88e2-7ef2b3d4dd5c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vav/Common/DirectedGraph/DirGraphAdjList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Common/DirectedGraph/DirGraphAdjList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="CODE.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/WarPlan$Q5_TransferToStack.coverage" NAME="Q5_TransferToStack Coverage Results" MODIFIED="1514247254195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.vav.karumanchi.Queues_05.*</FILTER>
-    </SUITE>
     <SUITE FILE_PATH="coverage/CodeX$RepetingCharacter.coverage" NAME="RepetingCharacter Coverage Results" MODIFIED="1482733630036" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.vav.karumanchi.Hashmaps.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/WarPlan$Q5_TransferToStack.coverage" NAME="Q5_TransferToStack Coverage Results" MODIFIED="1514247254195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.vav.karumanchi.Queues_05.*</FILTER>
     </SUITE>
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -31,28 +29,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="03_DirectedGraphs" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/vav/Strategies/Graphs/03_DirectedGraphs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
+            <state relative-caret-position="380">
               <caret line="19" column="83" selection-start-line="19" selection-start-column="83" selection-end-line="19" selection-end-column="83" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DirGraphAdjList.java" pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/vav/Common/DirectedGraph/DirGraphAdjList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="677">
-              <caret line="63" column="26" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="26" />
+            <state relative-caret-position="447">
+              <caret line="56" column="42" lean-forward="true" selection-start-line="56" selection-start-column="42" selection-end-line="56" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#633#634#0" expanded="true" />
-                <element signature="e#673#674#0" expanded="true" />
-                <element signature="e#712#713#0" expanded="true" />
-                <element signature="e#785#786#0" expanded="true" />
-                <element signature="e#904#905#0" expanded="true" />
-                <element signature="e#940#941#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -137,9 +129,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1680" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="22" />
+    <option name="width" value="1682" />
     <option name="height" value="980" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -260,9 +252,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -321,76 +312,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.ArrayPriorityMain">
-    <configuration name="ArrayPriorityMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.vav.Common.PriorityQueue.ArrayPriorityMain" />
-      <module name="CODE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.vav.Common.PriorityQueue.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="ITA_InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.vav.ITA_Cormen.I2_GettingStarted_2.ITA_InsertionSort" />
-      <module name="CODE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.vav.ITA_Cormen.I2_GettingStarted_2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="InsertionSortNonDecreasing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.vav.ITA_Cormen.I2_GettingStarted_2.Exercises.InsertionSortNonDecreasing" />
-      <module name="CODE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.vav.ITA_Cormen.I2_GettingStarted_2.Exercises.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="LinearSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.vav.ITA_Cormen.I2_GettingStarted_2.Exercises.LinearSearch" />
-      <module name="CODE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.vav.ITA_Cormen.I2_GettingStarted_2.Exercises.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.vav.Common.Sorting.MergeSort" />
-      <module name="CODE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.vav.Common.Sorting.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <module name="CODE" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.vav.Junit.Test" />
-      <option name="MAIN_CLASS_NAME" value="com.vav.Junit.Test.StringHelperTest" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-      <method>
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -442,12 +363,89 @@
       </Profilers>
       <method />
     </configuration>
+    <configuration name="ArrayPriorityMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.vav.Common.PriorityQueue.ArrayPriorityMain" />
+      <module name="CODE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vav.Common.PriorityQueue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ITA_InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.vav.ITA_Cormen.I2_GettingStarted_2.ITA_InsertionSort" />
+      <module name="CODE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vav.ITA_Cormen.I2_GettingStarted_2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InsertionSortNonDecreasing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.vav.ITA_Cormen.I2_GettingStarted_2.Exercises.InsertionSortNonDecreasing" />
+      <module name="CODE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vav.ITA_Cormen.I2_GettingStarted_2.Exercises.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinearSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.vav.ITA_Cormen.I2_GettingStarted_2.Exercises.LinearSearch" />
+      <module name="CODE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vav.ITA_Cormen.I2_GettingStarted_2.Exercises.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.vav.Common.Sorting.MergeSort" />
+      <module name="CODE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vav.Common.Sorting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <module name="CODE" />
+      <option name="PACKAGE_NAME" value="com.vav.Junit.Test" />
+      <option name="MAIN_CLASS_NAME" value="com.vav.Junit.Test.StringHelperTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="Application.ArrayPriorityMain" />
       <item itemvalue="Application.ITA_InsertionSort" />
       <item itemvalue="Application.InsertionSortNonDecreasing" />
       <item itemvalue="Application.LinearSearch" />
       <item itemvalue="Application.MergeSort" />
-      <item itemvalue="Application.ArrayPriorityMain" />
     </list>
     <recent_temporary>
       <list>
@@ -505,70 +503,70 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="980" extended-state="0" />
+    <frame x="-7" y="-7" width="1577" height="1016" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info id="Palette&#9;" order="7" />
-      <window_info id="Image Layers" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.48242334" side_tool="true" weight="0.30615383" />
-      <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.51757663" weight="0.25406033" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info id="Capture Tool" order="3" />
-      <window_info anchor="right" id="Designer" order="5" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13431014" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.08163265" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.5084746" weight="0.4202381" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.460733" weight="0.32014388" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info id="Nl-Palette" order="2" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Coverage" order="7" side_tool="true" weight="0.32909498" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Palette&#9;" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="right" id="Maven" order="10" />
-      <window_info anchor="right" id="Properties" order="6" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4854151" weight="0.32673943" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.51757663" weight="0.25406033" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.5084746" weight="0.4202381" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.48242334" side_tool="true" weight="0.30615383" />
+      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.460733" weight="0.32014388" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven Projects" order="4" />
+      <window_info anchor="right" id="Designer" order="5" />
+      <window_info anchor="right" id="Properties" order="6" />
+      <window_info anchor="right" id="Coverage" order="7" side_tool="true" weight="0.32909498" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Capture Analysis" order="9" />
+      <window_info anchor="right" id="Maven" order="10" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="9" />
-      <window_info anchor="right" id="Designer" order="5" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27298445" />
-      <window_info anchor="right" id="Coverage" order="7" side_tool="true" weight="0.32909498" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="Nl-Palette" order="2" />
       <window_info id="Structure" order="1" weight="0.25" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.51757663" weight="0.30074257" />
-      <window_info id="Image Layers" order="5" />
+      <window_info id="Nl-Palette" order="2" />
       <window_info id="Capture Tool" order="3" />
-      <window_info anchor="right" id="Properties" order="6" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4854151" weight="0.32692307" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.5084746" weight="0.4220297" />
-      <window_info id="Palette&#9;" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.48242334" side_tool="true" weight="0.30615383" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.460733" weight="0.32054454" />
-      <window_info anchor="right" id="Maven Projects" order="4" />
+      <window_info id="Image Layers" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Palette&#9;" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4854151" weight="0.32692307" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.51757663" weight="0.30074257" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.5084746" weight="0.4220297" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.48242334" side_tool="true" weight="0.30615383" />
+      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.460733" weight="0.32054454" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven Projects" order="4" />
+      <window_info anchor="right" id="Designer" order="5" />
+      <window_info anchor="right" id="Properties" order="6" />
+      <window_info anchor="right" id="Coverage" order="7" side_tool="true" weight="0.32909498" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Capture Analysis" order="9" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -578,9 +576,6 @@
     <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
       <collection />
     </option>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1195,13 +1190,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Strategies/Graphs/03_DirectedGraphs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="83" selection-start-line="19" selection-start-column="83" selection-end-line="19" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/vav/Common/Graphs/GraphAdjList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="655">
@@ -1225,18 +1213,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Strategies/Graphs/03_DirectedGraphs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="19" column="83" selection-start-line="19" selection-start-column="83" selection-end-line="19" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/vav/Common/DirectedGraph/DirGraphAdjList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="677">
-          <caret line="63" column="26" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="26" />
+        <state relative-caret-position="447">
+          <caret line="56" column="42" lean-forward="true" selection-start-line="56" selection-start-column="42" selection-end-line="56" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#633#634#0" expanded="true" />
-            <element signature="e#673#674#0" expanded="true" />
-            <element signature="e#712#713#0" expanded="true" />
-            <element signature="e#785#786#0" expanded="true" />
-            <element signature="e#904#905#0" expanded="true" />
-            <element signature="e#940#941#0" expanded="true" />
           </folding>
         </state>
       </provider>
