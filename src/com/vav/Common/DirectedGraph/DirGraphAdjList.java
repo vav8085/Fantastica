@@ -52,7 +52,6 @@ public class DirGraphAdjList {
             if(!vertexArray[i].isVisited())
             topologicalSorting(i);
         }
-
     }
     public void topologicalSorting(int v){
         vertexArray[v].setVisited(true);

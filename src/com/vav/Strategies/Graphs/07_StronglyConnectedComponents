@@ -1,0 +1,12 @@
+Strongly Connected Components
+
+1.  Two components are considered strongly connected if there is a directed path from v to w and from w to v.
+2.  The relation between strongly connected components is an equivalence relation.
+    A.  X is strongly connected to X
+    B.  If X is strongly connected to Y then Y is strongly connected to X as well.
+    C.  If X is strongly connected to Y and Y is strongly connected to Z then X is strongly connected to Z as well.
+3.  If there is a path from a vertex of a graph to every other vertex then the entire graph is Strongly Connected.
+4.  Consider this like a city. A city has 5 houses and each represent a vertex. If all these vertices are strongly connected
+    then we can consider this city as a vertex and connect with other cities. This is same as connecting all the houses to other
+    cities.
+5.  

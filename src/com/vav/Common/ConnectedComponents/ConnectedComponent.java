@@ -25,4 +25,14 @@ public class ConnectedComponent {
                 dfs(G,vertex);
         }
     }
+
+    /**
+     * if two components are connected then their ids will be same and they will be in same connected component
+     * @param v
+     * @param w
+     * @return
+     */
+    public boolean connected(int v, int w){
+        return ids[v]==ids[w];
+    }
 }
