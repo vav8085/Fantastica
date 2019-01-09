@@ -24,6 +24,7 @@ Topological Sorting:
 *** Topological sorting can only be done in directed acyclic graphs(DAG).
 *** You should always find if a graph is a DAG first and then try topological sorting on it. If there is a cycle then topological sorting will
     not work.
+*** A single graph can be topologically sorted in multiple ways.
 
     Precedence scheduling(Like which course to take first) is a good example of topological sorting in a directed graph.
 
