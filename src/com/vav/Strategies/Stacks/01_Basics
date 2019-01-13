@@ -1,0 +1,5 @@
+Stacks
+
+1.  Its better to implement a stack using a linked list. The reason for this is
+    in Linked list you can easily add an element at front and delete at front.
+2.  In arrays implementation its good to keep top element at the end and keep a top pointer.
