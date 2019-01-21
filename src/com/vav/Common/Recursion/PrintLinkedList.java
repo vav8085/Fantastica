@@ -1,5 +1,5 @@
 package com.vav.Common.Recursion;
-import com.vav.CTCI.Archive.work_2017.Common.LinkedList.Link;
+import com.vav.CoursesBooks.CTCI.Archive.work_2017.Common.LinkedList.Link;
 /**
  * Created by Vaibhav on 1/15/18.
  */

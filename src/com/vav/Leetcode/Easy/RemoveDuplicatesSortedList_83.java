@@ -1,6 +1,6 @@
 package com.vav.Leetcode.Easy;
 
-import com.vav.CTCI.Archive.work_2017.Common.LinkedList.Link;
+import com.vav.CoursesBooks.CTCI.Archive.work_2017.Common.LinkedList.Link;
 
 public class RemoveDuplicatesSortedList_83 {
 

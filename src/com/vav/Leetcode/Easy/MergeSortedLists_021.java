@@ -1,6 +1,6 @@
 package com.vav.Leetcode.Easy;
 
-import com.vav.CTCI.Archive.work_2017.Common.LinkedList.Link;
+import com.vav.CoursesBooks.CTCI.Archive.work_2017.Common.LinkedList.Link;
 
 /**
  * Created by Vaibhav on 2/4/2018.

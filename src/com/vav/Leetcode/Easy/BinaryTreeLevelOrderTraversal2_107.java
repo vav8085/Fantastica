@@ -2,7 +2,7 @@ package com.vav.Leetcode.Easy;
 
 import com.vav.Common.Trees.BinaryTrees.IntegerBinaryTree;
 import com.vav.Common.Trees.BinaryTrees.IntegerBinaryTreeNode;
-import com.vav.karumanchi.Trees_06.Q10_HeightOfBinaryTree;
+import com.vav.CoursesBooks.karumanchi.Trees_06.Q10_HeightOfBinaryTree;
 
 import java.util.*;
 
