@@ -33,23 +33,45 @@ Subtraction:
         We simply take 2s compliment of the subtrahend and add it to minuend. We discard the carry bit if we get any.
 
 Left Shift operation << :
-1.  We simply shift the bits to the left so 00001100 becomes 00011000.
+1.  We simply shift the bits to the left so 00001100 << 1 becomes 00011000.
 2.  This is equivilant to multiplying a decimal number with a power of 2 so 12 becomes 12*2 = 24 = 00011000.
 3.  The shifting is non-circular.
 
 Logical Right Shift Operator >>>:
-1.  This is opposite to the Left shift operator so 00001100 becomes 00000110.
+1.  This is opposite to the Left shift operator so 00001100>>1 becomes 00000110. ie 12 becomes 6
 2.  If there is a loss of bits then they are gone. we cannot bring them back by shifting in other direction.
 
-Arithematic Right Shift:
+>> Arithematic Right Shift:
 1.  In this shift we pad the shifted right bits with MSB that is the leftmost bit.
 2.  This way we keep the sign bit intact after shifting after division by the power of 2.
+3.  Arithematic right shift operator keeps the sign bit intact so if  11110000 is moved >> 2 then it returns 1001100
 
 Masking:
 1.  Masking is the way to create a mask of 1s or 0s around or in between some bits.
 2.  If we use an AND operation with a mask then the mask bits of 0s will make other bit 0.
 3.  If we use an OR operation with a mask then the mask bits of 1s will make other bit 1.
 4.  A mask of 1s with an AND will work same as a mask of 0s with OR.
+
+Bitwise operations:
+
+    & operation - Does an AND operation on two bits 10001111 & 00001101 => 00001101
+        1 & 1 becomes 1
+        1 & 0 becomes 0
+        0 & 0 becomes 0
+    | operation - Does an OR operation on two bits 10001111 | 00001101 => 10001111
+        1 | 1 becomes 1
+        0 | 1 becomes 1
+        1 | 0 becomes 1
+        0 | 0 becomes 0
+    ^ operation - Bitwise XOR operation copies the bits that are set in either operand 10001111 ^ 00001101 => 10000010
+        1 ^ 1 becomes 0
+        1 ^ 0 becomes 1
+        0 ^ 1 becomes 1
+        0 ^ 0 becomes 0
+    ~ operation - Binary complimentary operator is a unary operator that flips bits.
+        ~ 1   becomes 0
+        ~ 0   becomes 1
+
 
 
 
