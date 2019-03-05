@@ -1,0 +1,12 @@
+Java has many methods provided to perform basic mathematics operation:
+
+1. abs - returns the absolute value of an argument Math.abs(-123) = 123
+                                                   Math.abs(456) = 456
+                                                   Math.abs(-0) = 0
+2. ceil - returns the next big floating point for the argument Math.ceil(-45.6) = -45.0
+                                                               Math.ceil(24.5) = 25.0
+                                                               Math.ceil(-0.0) = -0.0
+3. floor - returns the previous smaller floating point for the argument Math.floor(-45.6) = -46.0
+                                                                        Math.floor(24.5) = 24.0
+                                                                        Math.floor(-0.0) = -0.0
+
