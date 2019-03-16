@@ -72,6 +72,9 @@ Bitwise operations:
         ~ 1   becomes 0
         ~ 0   becomes 1
 
+Parity of a word:
+THe parity of a word is 1 if number of 1 in the word is odd otherwise its 0.
+
 
 
 
