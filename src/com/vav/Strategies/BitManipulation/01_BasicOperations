@@ -75,6 +75,14 @@ Bitwise operations:
 Parity of a word:
 THe parity of a word is 1 if number of 1 in the word is odd otherwise its 0.
 
+Tips And Tricks:
+
+1. If you want to do some operation on first bit then use >>> operator to move bits to this location
+   Right after this you can & this with 1 and you will have the last bit as result.
+2. The XOR operation is just like adding two bits like decimal and dividing by 2. This is great if you want to compute parity.
+3. To erase the rightmost set bit for a word you can use x & (x-1)
+4. To extract the rightmost set bit for a word you can use x & ~(x-1)
+
 
 
 
