@@ -2,7 +2,7 @@ package com.vav.CoursesBooks.epi.primitiveTypes_01;
 
 public class SwapBits_03 {
     public static void main(String arg[]){
-        System.out.print(swapBits(35,1,5));
+        System.out.print(swapBits(35,1,4));
     }
 
     /**
@@ -18,11 +18,11 @@ public class SwapBits_03 {
      * @param j
      * @return
      */
-    public static int swapBits(int input, int i, int j){
-        if((((input >> i) & 1) ^ ((input >> j) & 1)) !=0){
-            int maski = 1 << i;
-            int maskj = 1 << j;
-            int maskFinal = maski | maskj;
+    public static long swapBits(int input, int i, int j){
+        if((((input >> i) & 1) != ((input >> j) & 1))){
+            long maski = 1L << i;
+            long maskj = 1L << j;
+            long maskFinal = maski | maskj;
             return input ^ maskFinal;
         }
         return 999; //failed
