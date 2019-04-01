@@ -1,2 +1,5 @@
 Reverse Traversal:
 
+*   Editing an array at the start is an expensive operation. The reason is because in some cases we may have to move all the
+    elements to the right. If an edit operation is required then if we traverse an array from reverse then it may require lesser
+    number of operations.
