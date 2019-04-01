@@ -1,0 +1,23 @@
+Program execution in memory:
+
+1.  Memory has 4 parts:
+    A.  code
+    B.  data
+    C.  stack
+    D.  heap
+
+Stacks:
+    1.  All the methods and their local variables whose size can be computed go to stacks.
+    2.  Stacks have a fixed size.
+    3.  This is why objects do not save in stacks.
+    4.  only object references and primitive types save in stack.
+    5.  Every stack has a pointer to its previous element, this makes stacktrace.
+
+Heap:
+    1.  All the objects that can have variable sizes store in heap like Abstract types and arrays.
+    2.  Heaps can expand.
+
+Data:
+    1.  All the global variables store in the data section and are available to every method in the stack.
+
+
