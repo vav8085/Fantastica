@@ -30,29 +30,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MoveZeroesToEnd_04.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/vav/CoursesBooks/iCamp/A_Basics/MoveZeroesToEnd_04.java">
+      <file leaf-file-name="LargestSubarraySum.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/vav/CoursesBooks/iCamp/ArraysAndStrings_01/LargestSubarraySum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SubstituteEvenWithOneMore_03.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/vav/CoursesBooks/iCamp/A_Basics/SubstituteEvenWithOneMore_03.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DutchNationalFlag.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/vav/CoursesBooks/iCamp/ArraysAndStrings_01/DutchNationalFlag.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="24" column="20" lean-forward="true" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+            <state relative-caret-position="341">
+              <caret line="99" column="5" lean-forward="true" selection-start-line="99" selection-start-column="5" selection-end-line="99" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -82,7 +64,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/vav/cleanCoding/cleanArchitecture/Chapter3_Notes" />
         <option value="$PROJECT_DIR$/src/com/vav/cleanCoding/cleanArchitecture/Chapter4_Notes" />
         <option value="$PROJECT_DIR$/src/com/vav/cleanCoding/cleanArchitecture/Chapter5_Notes" />
         <option value="$PROJECT_DIR$/src/com/vav/cleanCoding/cleanArchitecture/Chapter7_Notes" />
@@ -133,11 +114,12 @@
         <option value="$PROJECT_DIR$/src/com/vav/CoursesBooks/iCamp/A_Basics/SubstituteEvenWithOneMore_03.java" />
         <option value="$PROJECT_DIR$/src/com/vav/CoursesBooks/iCamp/A_Basics/MoveZeroesToEnd_04.java" />
         <option value="$PROJECT_DIR$/src/com/vav/CoursesBooks/iCamp/ArraysAndStrings_01/DutchNationalFlag.java" />
+        <option value="$PROJECT_DIR$/src/com/vav/CoursesBooks/iCamp/ArraysAndStrings_01/LargestSubarraySum.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="1">
-    <option name="y" value="21" />
+    <option name="y" value="23" />
     <option name="width" value="1680" />
     <option name="height" value="980" />
   </component>
@@ -181,6 +163,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="vav" type="462c0819:PsiDirectoryNode" />
+              <item name="Common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WarPlan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WarPlan" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="vav" type="462c0819:PsiDirectoryNode" />
               <item name="CoursesBooks" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -191,16 +181,6 @@
               <item name="vav" type="462c0819:PsiDirectoryNode" />
               <item name="CoursesBooks" type="462c0819:PsiDirectoryNode" />
               <item name="iCamp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WarPlan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WarPlan" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="vav" type="462c0819:PsiDirectoryNode" />
-              <item name="CoursesBooks" type="462c0819:PsiDirectoryNode" />
-              <item name="iCamp" type="462c0819:PsiDirectoryNode" />
-              <item name="A_Basics" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WarPlan" type="b2602c69:ProjectViewProjectNode" />
@@ -212,49 +192,13 @@
               <item name="iCamp" type="462c0819:PsiDirectoryNode" />
               <item name="ArraysAndStrings_01" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="WarPlan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WarPlan" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="vav" type="462c0819:PsiDirectoryNode" />
-              <item name="Strategies" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WarPlan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WarPlan" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="vav" type="462c0819:PsiDirectoryNode" />
-              <item name="Strategies" type="462c0819:PsiDirectoryNode" />
-              <item name="Arrays" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WarPlan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WarPlan" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="vav" type="462c0819:PsiDirectoryNode" />
-              <item name="Strategies" type="462c0819:PsiDirectoryNode" />
-              <item name="Arrays" type="462c0819:PsiDirectoryNode" />
-              <item name="KadaneAlgorithm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WarPlan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WarPlan" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="vav" type="462c0819:PsiDirectoryNode" />
-              <item name="Strategies" type="462c0819:PsiDirectoryNode" />
-              <item name="ProgramExecution" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -312,7 +256,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DutchNationalFlag">
+  <component name="RunManager" selected="Application.LargestSubarraySum">
     <configuration name="DutchNationalFlag" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.vav.CoursesBooks.iCamp.ArraysAndStrings_01.DutchNationalFlag" />
       <module name="CODE" />
@@ -323,12 +267,12 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="FindDuplicates_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.vav.CoursesBooks.iCamp.A_Basics.FindDuplicates_01" />
+    <configuration name="LargestSubarraySum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.vav.CoursesBooks.iCamp.ArraysAndStrings_01.LargestSubarraySum" />
       <module name="CODE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.vav.CoursesBooks.iCamp.A_Basics.*" />
+          <option name="PATTERN" value="com.vav.CoursesBooks.iCamp.ArraysAndStrings_01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -435,19 +379,19 @@
       <method />
     </configuration>
     <list>
-      <item itemvalue="Application.FindDuplicates_01" />
       <item itemvalue="Application.NumbersSumToValue_02" />
       <item itemvalue="Application.SubstituteEvenWithOneMore_03" />
       <item itemvalue="Application.MoveZeroesToEnd_04" />
       <item itemvalue="Application.DutchNationalFlag" />
+      <item itemvalue="Application.LargestSubarraySum" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LargestSubarraySum" />
         <item itemvalue="Application.DutchNationalFlag" />
         <item itemvalue="Application.MoveZeroesToEnd_04" />
         <item itemvalue="Application.SubstituteEvenWithOneMore_03" />
         <item itemvalue="Application.NumbersSumToValue_02" />
-        <item itemvalue="Application.FindDuplicates_01" />
       </list>
     </recent_temporary>
   </component>
@@ -497,7 +441,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="21" width="1680" height="980" extended-state="1" />
+    <frame x="0" y="23" width="1680" height="980" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -513,7 +457,7 @@
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info id="Capture Tool" order="3" />
       <window_info anchor="right" id="Designer" order="5" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3021978" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30586082" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
@@ -533,34 +477,34 @@
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="9" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.51757663" weight="0.30074257" />
       <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.460733" weight="0.32054454" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info id="Nl-Palette" order="2" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.51757663" weight="0.30074257" />
       <window_info id="Image Layers" order="5" />
       <window_info anchor="right" id="Designer" order="5" />
       <window_info anchor="right" id="Properties" order="6" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27298445" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.5084746" weight="0.4220297" />
       <window_info id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Coverage" order="7" side_tool="true" weight="0.32909498" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.48242334" side_tool="true" weight="0.30615383" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Capture Tool" order="3" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4854151" weight="0.32692307" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.460733" weight="0.32054454" />
       <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27298445" />
+      <window_info id="Favorites" order="6" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -948,10 +892,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/vav/EffectiveJava/Item02/IceCreamBean.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/vav/EffectiveJava/Item02/IceCreamBuilder.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/vav/EffectiveJava/Item02/03_BuilderPattern" />
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Strategies/DisjointSets/00_DisjointSets" />
     <entry file="file://$PROJECT_DIR$/src/com/vav/Strategies/DisjointSets/01_DynamicConnectivity">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="363">
@@ -1226,10 +1166,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/CoursesBooks/iCamp/A_Basics/MoveZeroesToEnd_04.java">
+    <entry file="file://$PROJECT_DIR$/src/com/vav/CoursesBooks/iCamp/ArraysAndStrings_01/DutchNationalFlag.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="355">
+          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -1240,10 +1180,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/CoursesBooks/iCamp/ArraysAndStrings_01/DutchNationalFlag.java">
+    <entry file="file://$PROJECT_DIR$/src/com/vav/CoursesBooks/iCamp/A_Basics/MoveZeroesToEnd_04.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="24" column="20" lean-forward="true" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Common/LinkedLists/SinglyLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1178">
+          <caret line="33" column="43" lean-forward="true" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
+          <folding>
+            <element signature="e#167#168#0" expanded="true" />
+            <element signature="e#194#195#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Common/LinkedLists/DoublyLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1147">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Common/LinkedLists/CircularLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-337">
+          <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vav/CoursesBooks/iCamp/ArraysAndStrings_01/LargestSubarraySum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="99" column="5" lean-forward="true" selection-start-line="99" selection-start-column="5" selection-end-line="99" selection-end-column="5" />
         </state>
       </provider>
     </entry>
