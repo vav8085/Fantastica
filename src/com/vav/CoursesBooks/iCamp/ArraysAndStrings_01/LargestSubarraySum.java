@@ -1,5 +1,9 @@
 package com.vav.CoursesBooks.iCamp.ArraysAndStrings_01;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+
 public class LargestSubarraySum {
 
     /**
@@ -56,17 +60,6 @@ public class LargestSubarraySum {
         }
         return max;
     }
-
-    /**
-     * In this problem we need to return the subarray
-     * @param input
-     * @return
-     */
-    public static int largestSubarraySumPositive(int[] input){
-
-        return 0;
-    }
-
     /**
      * In this problem we need to find the numbers in an array that sum to a number
      *
@@ -99,6 +92,49 @@ public class LargestSubarraySum {
         return output;
     }
 
+    public static List<Integer> sumToZero(int value, int[] input){
+        int sum = 0;
+        HashMap<Integer, Integer> map = new HashMap<>();
+        ArrayList<Integer> output = new ArrayList<>();
+        for(int i=0;i< input.length;i++){
+            sum = sum + input[i];
+            if(sum==0){
+                output.add(0);
+                output.add(i);
+                return output;
+            }
+            if(map.containsKey(sum)){
+                output.add(map.get(sum)+1);
+                output.add(i);
+                return output;
+            }
+            map.put(sum,i);
+        }
+        return new ArrayList<>();
+    }
+
+    public static List<Integer> sumToValue(int value, int[] input){
+        int sum = 0;
+        HashMap<Integer, Integer> map = new HashMap<>();
+        ArrayList<Integer> output = new ArrayList<>();
+        for(int i=0;i< input.length;i++){
+            sum = sum + input[i];
+            if(sum-value==0){
+                output.add(0);
+                output.add(i);
+                return output;
+            }
+            if(map.containsKey(sum-value)){
+                output.add(map.get(sum-value)+1);
+                output.add(i);
+                return output;
+            }
+            map.put(sum,i);
+        }
+        return new ArrayList<>();
+    }
+
+
     public static void main(String arg[]) {
         //Longest substring sum
         int[] arr = {-3, -2, 4, -3, 5, -2};
@@ -108,5 +144,13 @@ public class LargestSubarraySum {
         int[] brr = {5,2,3,7,1,4,9,6};
         int number = 11;
         sumToANumberPositiveInput(number,brr);
+        System.out.println();
+
+        //Sum to zero
+        int[] crr = {-2,-3,4,-1,7,-1};
+        List<Integer> results = sumToZero(0,crr);
+        for(Integer result : results){
+            System.out.print(result + ", ");
+        }
     }
 }
