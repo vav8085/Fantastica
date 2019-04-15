@@ -18,8 +18,8 @@ Implementation using array with sorted insertions:
 
 1.  We create an array with 0th element as rear of queue and n-1th element as front of q or
     vice versa(not sugested because removing items will be costly).
-****Look at this queue as a vertical pipe. Items are added at bottom of the pipe with biggest as bottom most.
-    smaller items remain on top which are removed one by one in increasing order.
-2.  Rear remains set at 0 and front moves when items are added or deleted.
-3.  Inserting an items will insert at the position where its smaller. larger than the item above it and it will take O(n) time.
-4.  Deleting an item will be O(1) because the item required will be always at front.
+****Look at this queue as a pipe. When we want to add an item, if its the first item then its simply added to queue.
+    From second item onwards we check from top of the pipe keeping in mind the concept of Arrays that addition and deletion is faster at end.
+
+    We compare each item to add against the top of the queue. If item has higher priority(lower value) then we move the top item in array by one
+    We keep doing this until we find the place for our item and then add it there.
