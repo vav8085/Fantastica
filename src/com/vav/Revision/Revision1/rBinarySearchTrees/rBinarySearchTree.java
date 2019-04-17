@@ -1,5 +1,9 @@
 package com.vav.Revision.Revision1.rBinarySearchTrees;
 
+import java.util.ArrayDeque;
+import java.util.Queue;
+import java.util.Stack;
+
 public class rBinarySearchTree {
     private rNode root;
 
@@ -70,6 +74,74 @@ public class rBinarySearchTree {
             //go to right of root and then find the leftmost child
             //replace the root with this child
             //set left not of parent of 
+        }
+    }
+
+    public void preorder(rNode root){
+        Stack<rNode> stack = new Stack<>();
+        stack.push(root);
+        while (!stack.isEmpty()){
+            rNode current = stack.pop();
+            System.out.println(current.getData());
+            if(current.getRight()!=null){
+                stack.push(current.getRight());
+            }
+            if(current.getLeft()!=null){
+                stack.push(current.getLeft());
+            }
+        }
+    }
+    public void inorder(rNode root){
+        Stack<rNode> stack = new Stack<>();
+
+            while (root!=null){
+                stack.push(root);
+                root = root.getLeft();
+            }
+            while (!stack.isEmpty()){
+            rNode current = stack.pop();
+            System.out.println(current.getData());
+            if(current.getRight()!=null){
+                current = current.getRight();
+                while (current!=null){
+                    stack.push(current);
+                    current = current.getLeft();
+                }
+            }
+
+        }
+    }
+    public void postOrder(rNode root){
+        Stack<rNode> stackA = new Stack<>();
+        Stack<rNode> stackB = new Stack<>();
+        stackA.push(root);
+
+        while (!stackA.isEmpty()){
+            rNode temp = stackA.pop();
+            stackB.push(temp);
+            if(temp.getLeft()!=null){
+                stackA.push(temp.getLeft());
+            }
+            if(temp.getRight()!=null){
+                stackA.push(temp.getRight());
+            }
+        }
+        while (!stackB.isEmpty()){
+            System.out.println(stackB.pop().getData());
+        }
+    }
+    public void levelOrder(rNode root){
+        Queue<rNode> queue = new ArrayDeque<>();
+        queue.add(root);
+        while (!queue.isEmpty()){
+            rNode temp = queue.remove();
+            System.out.println(temp.getData());
+            if(temp.getLeft()!=null){
+                queue.add(temp.getLeft());
+            }
+            if(temp.getRight()!=null){
+                queue.add(temp.getRight());
+            }
         }
     }
 }
