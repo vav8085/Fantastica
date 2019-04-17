@@ -7,7 +7,8 @@ Binary Trees:
     there should be no missing number. Every level is complete except the last one.
 5.  The number of nodes in a full binary tree is 2^(h+1) - 1
 6.  The number of nodes in a complete binary tree is between 2^h and 2^(h+1) - 1
-7.  The applications of binary tree can be an inventory, a family tree, something with a hierarchy and items at a certain level.
+7.  The number of non leaf nodes in a complete binary tree is 2^h
+8.  The applications of binary tree can be an inventory, a family tree, something with a hierarchy and items at a certain level.
 
 Binary Tree Structure:
 
