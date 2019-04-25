@@ -2,75 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0dc95c9b-b3e3-479e-88e2-7ef2b3d4dd5c" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/LinkedList_03/Q10_CheckCyclicFloydAlgo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/LinkedList_03/Q10_CheckCyclicFloydAlgo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/LinkedList_03/Q11_SnakeOrSnail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/LinkedList_03/Q11_SnakeOrSnail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/LinkedList_03/Q12_FindCyclePosition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/LinkedList_03/Q12_FindCyclePosition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/LinkedList_03/Q13_FindCyclePositionExplaination.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/LinkedList_03/Q13_FindCyclePositionExplaination.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/LinkedList_03/Q15_FindCycleLength.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/LinkedList_03/Q15_FindCycleLength.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/LinkedList_03/Q16_InsertNodeInSortedLl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/LinkedList_03/Q16_InsertNodeInSortedLl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/LinkedList_03/Q17_ReverseASinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/LinkedList_03/Q17_ReverseASinglyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/LinkedList_03/Q1_StackUsingLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/LinkedList_03/Q1_StackUsingLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/LinkedList_03/Q2_4_NthNodeFromEnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/LinkedList_03/Q2_4_NthNodeFromEnd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/LinkedList_03/Q3_NthNodeFromEndHashmap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/LinkedList_03/Q3_NthNodeFromEndHashmap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/LinkedList_03/Q5_NthFromEndOneIter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/LinkedList_03/Q5_NthFromEndOneIter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/LinkedList_03/Q6_NthNodeFromEndRecursive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/LinkedList_03/Q6_NthNodeFromEndRecursive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/LinkedList_03/Q7_CheckCyclicity2LoopUnsuccess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/LinkedList_03/Q7_CheckCyclicity2LoopUnsuccess.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/LinkedList_03/Q8_CheckCycleUsingHashmaps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/LinkedList_03/Q8_CheckCycleUsingHashmaps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/LinkedList_03/Q9_CheckCyclicSortingUnsuccess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/LinkedList_03/Q9_CheckCyclicSortingUnsuccess.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/Queues_05/Q1_ReverseQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/Queues_05/Q1_ReverseQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/Queues_05/Q2_TwoStackOneQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/Queues_05/Q2_TwoStackOneQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/Queues_05/Q3_TwoQueueOneStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/Queues_05/Q3_TwoQueueOneStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/Queues_05/Q4_MaximumSumSlidingWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/Queues_05/Q4_MaximumSumSlidingWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/Queues_05/Q5_TransferToStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/Queues_05/Q5_TransferToStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/Queues_05/Q6_QueueOnCircularArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/Queues_05/Q6_QueueOnCircularArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/Queues_05/Q7_ReverseQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/Queues_05/Q7_ReverseQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/Sorting_10/Q1_CheckRepetition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/Sorting_10/Q1_CheckRepetition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/Stacks_04/Q10_CheckPalindromeLinkedListUsingStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/Stacks_04/Q10_CheckPalindromeLinkedListUsingStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/Stacks_04/Q11_ReverseStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/Stacks_04/Q11_ReverseStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/Stacks_04/Q1_BalancingSymbols.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/Stacks_04/Q1_BalancingSymbols.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/Stacks_04/Q2_InfixToPostfix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/Stacks_04/Q2_InfixToPostfix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/Stacks_04/Q3_PostfixProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/Stacks_04/Q3_PostfixProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/Stacks_04/Q4_FindStackPermutations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/Stacks_04/Q4_FindStackPermutations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/Stacks_04/Q5_InfixToPostfixProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/Stacks_04/Q5_InfixToPostfixProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/Stacks_04/Q6_GetMinStackO1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/Stacks_04/Q6_GetMinStackO1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/Stacks_04/Q7_GetMinStackO1Optimal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/Stacks_04/Q7_GetMinStackO1Optimal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/Stacks_04/Q8_CheckPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/Stacks_04/Q8_CheckPalindrome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/Stacks_04/Q9_CheckPalindromeLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/Stacks_04/Q9_CheckPalindromeLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/Trees_06/Q10_HeightOfBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/Trees_06/Q10_HeightOfBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/Trees_06/Q12_HeightOfBinTree_Queues.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/Trees_06/Q12_HeightOfBinTree_Queues.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/Trees_06/Q13_MinimumDepthOfBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/Trees_06/Q13_MinimumDepthOfBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/Trees_06/Q14_DeepestNodeOfBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/Trees_06/Q14_DeepestNodeOfBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/Trees_06/Q15_DeleteANodeFromBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/Trees_06/Q15_DeleteANodeFromBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/Trees_06/Q16_LeavesOfBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/Trees_06/Q16_LeavesOfBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/Trees_06/Q17_FullNodesOfBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/Trees_06/Q17_FullNodesOfBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/Trees_06/Q18_HalfNodesInBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/Trees_06/Q18_HalfNodesInBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/Trees_06/Q19_StructurallyIdenticalTrees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/Trees_06/Q19_StructurallyIdenticalTrees.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/Trees_06/Q1_2_BinaryTreeFindMaxElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/Trees_06/Q1_2_BinaryTreeFindMaxElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/Trees_06/Q22_LevelWithMaximumSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/Trees_06/Q22_LevelWithMaximumSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/Trees_06/Q3_4_SearchBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/Trees_06/Q3_4_SearchBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/Trees_06/Q5_BinaryTreeInsertion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/Trees_06/Q5_BinaryTreeInsertion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/Trees_06/Q6_SizeOfBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/Trees_06/Q6_SizeOfBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/Trees_06/Q8_DeletingTheTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/Trees_06/Q8_DeletingTheTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/Trees_06/Q9_LevelOrderInReverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/Trees_06/Q9_LevelOrderInReverse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vav/Leetcode/Easy/BinaryTreeLevelOrderTraversal2_107.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Leetcode/Easy/BinaryTreeLevelOrderTraversal2_107.java" afterDir="false" />
     </list>
     <ignored path="CODE.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/WarPlan$Q5_TransferToStack.coverage" NAME="Q5_TransferToStack Coverage Results" MODIFIED="1514247254195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.vav.karumanchi.Queues_05.*</FILTER>
-    </SUITE>
     <SUITE FILE_PATH="coverage/CodeX$RepetingCharacter.coverage" NAME="RepetingCharacter Coverage Results" MODIFIED="1482733630036" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.vav.karumanchi.Hashmaps.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/WarPlan$Q5_TransferToStack.coverage" NAME="Q5_TransferToStack Coverage Results" MODIFIED="1514247254195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.vav.karumanchi.Queues_05.*</FILTER>
     </SUITE>
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -81,11 +30,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BinaryTreeInsert_05_06.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/Trees_06/BinaryTreeInsert_05_06.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/LinkedList_03/SinglyLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="620">
+              <caret line="37" column="8" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
+              <folding>
+                <element signature="e#441#442#0" expanded="true" />
+                <element signature="e#468#469#0" expanded="true" />
+                <element signature="e#505#506#0" expanded="true" />
+                <element signature="e#537#538#0" expanded="true" />
+                <element signature="e#566#567#0" expanded="true" />
+                <element signature="e#593#594#0" expanded="true" />
+                <element signature="e#631#632#0" expanded="true" />
+                <element signature="e#663#664#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -115,7 +74,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/vav/Strategies/DisjointSets/00_DisjointSets" />
         <option value="$PROJECT_DIR$/src/com/vav/Strategies/DisjointSets/01_DynamicConnectivity" />
         <option value="$PROJECT_DIR$/src/com/vav/Strategies/DisjointSets/02_QuickFind" />
         <option value="$PROJECT_DIR$/src/com/vav/Strategies/DisjointSets/03_QuickUnion" />
@@ -166,12 +124,13 @@
         <option value="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/Trees_06/FindMaximumElement_01_02.java" />
         <option value="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/Trees_06/BinaryTreeSearch_03_04.java" />
         <option value="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/Trees_06/BinaryTreeInsert_05_06.java" />
+        <option value="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/LinkedList_03/SinglyLinkedList.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="23" />
-    <option name="width" value="1680" />
+    <option name="y" value="21" />
+    <option name="width" value="1686" />
     <option name="height" value="980" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -183,7 +142,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -226,22 +186,10 @@
               <item name="CoursesBooks" type="462c0819:PsiDirectoryNode" />
               <item name="karumanchi" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="WarPlan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WarPlan" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="vav" type="462c0819:PsiDirectoryNode" />
-              <item name="CoursesBooks" type="462c0819:PsiDirectoryNode" />
-              <item name="karumanchi" type="462c0819:PsiDirectoryNode" />
-              <item name="Trees_06" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -249,7 +197,7 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="SearchEverywhereHistoryKey" value="Inser&#9;RUN_CONFIGURATION&#9;InsertionSortNonDecreasing&#10;Topo&#9;FILE&#9;file:///Users/vpathak/WarPlan/src/com/vav/Strategies/Graphs/04_TopologicalSorting&#10;heapsor&#9;FILE&#9;file:///Users/z179905/MWC/src/com/vav/Common/Sorting/HeapSort.java" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554087276968" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556171741269" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
@@ -300,76 +248,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.BinaryTreeSearch_03_04">
-    <configuration name="BinaryTreeSearch_03_04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.vav.CoursesBooks.karumanchi.Trees_06.BinaryTreeSearch_03_04" />
-      <module name="CODE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.vav.CoursesBooks.karumanchi.Trees_06.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="DutchNationalFlag" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.vav.CoursesBooks.iCamp.ArraysAndStrings_01.DutchNationalFlag" />
-      <module name="CODE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.vav.CoursesBooks.iCamp.ArraysAndStrings_01.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="FindMaximumElement_01_02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.vav.CoursesBooks.karumanchi.Trees_06.FindMaximumElement_01_02" />
-      <module name="CODE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.vav.CoursesBooks.karumanchi.Trees_06.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="LargestSubarraySum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.vav.CoursesBooks.iCamp.ArraysAndStrings_01.LargestSubarraySum" />
-      <module name="CODE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.vav.CoursesBooks.iCamp.ArraysAndStrings_01.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="rPriorityQueueMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.vav.Revision.Revision1.PriorityQueue.rPriorityQueueMain" />
-      <module name="CODE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.vav.Revision.Revision1.PriorityQueue.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <module name="CODE" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.vav.Junit.Test" />
-      <option name="MAIN_CLASS_NAME" value="com.vav.Junit.Test.StringHelperTest" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-      <method>
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -421,12 +299,89 @@
       </Profilers>
       <method />
     </configuration>
+    <configuration name="BinaryTreeSearch_03_04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.vav.CoursesBooks.karumanchi.Trees_06.BinaryTreeSearch_03_04" />
+      <module name="CODE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vav.CoursesBooks.karumanchi.Trees_06.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DutchNationalFlag" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.vav.CoursesBooks.iCamp.ArraysAndStrings_01.DutchNationalFlag" />
+      <module name="CODE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vav.CoursesBooks.iCamp.ArraysAndStrings_01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindMaximumElement_01_02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.vav.CoursesBooks.karumanchi.Trees_06.FindMaximumElement_01_02" />
+      <module name="CODE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vav.CoursesBooks.karumanchi.Trees_06.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LargestSubarraySum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.vav.CoursesBooks.iCamp.ArraysAndStrings_01.LargestSubarraySum" />
+      <module name="CODE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vav.CoursesBooks.iCamp.ArraysAndStrings_01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rPriorityQueueMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.vav.Revision.Revision1.PriorityQueue.rPriorityQueueMain" />
+      <module name="CODE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vav.Revision.Revision1.PriorityQueue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <module name="CODE" />
+      <option name="PACKAGE_NAME" value="com.vav.Junit.Test" />
+      <option name="MAIN_CLASS_NAME" value="com.vav.Junit.Test.StringHelperTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="Application.BinaryTreeSearch_03_04" />
       <item itemvalue="Application.DutchNationalFlag" />
+      <item itemvalue="Application.FindMaximumElement_01_02" />
       <item itemvalue="Application.LargestSubarraySum" />
       <item itemvalue="Application.rPriorityQueueMain" />
-      <item itemvalue="Application.FindMaximumElement_01_02" />
-      <item itemvalue="Application.BinaryTreeSearch_03_04" />
     </list>
     <recent_temporary>
       <list>
@@ -484,70 +439,70 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="980" extended-state="6" />
+    <frame x="-7" y="-7" width="1577" height="1016" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.460733" weight="0.31904763" />
-      <window_info id="Palette&#9;" order="7" />
-      <window_info id="Image Layers" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.48242334" side_tool="true" weight="0.30615383" />
-      <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.51757663" weight="0.31309524" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info id="Capture Tool" order="3" />
-      <window_info anchor="right" id="Designer" order="5" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2032967" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21132325" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.5084746" weight="0.33690476" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info id="Nl-Palette" order="2" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Coverage" order="7" side_tool="true" weight="0.32909498" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Palette&#9;" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="right" id="Maven" order="10" />
-      <window_info anchor="right" id="Properties" order="6" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4854151" visible="true" weight="0.13095239" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.51757663" weight="0.31309524" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.5084746" weight="0.33690476" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.48242334" side_tool="true" weight="0.30615383" />
+      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.460733" weight="0.31904763" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven Projects" order="4" />
+      <window_info anchor="right" id="Designer" order="5" />
+      <window_info anchor="right" id="Properties" order="6" />
+      <window_info anchor="right" id="Coverage" order="7" side_tool="true" weight="0.32909498" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Capture Analysis" order="9" />
+      <window_info anchor="right" id="Maven" order="10" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Capture Analysis" order="9" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.51757663" weight="0.30074257" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info id="Nl-Palette" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27298445" />
       <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Nl-Palette" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Palette&#9;" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4854151" weight="0.32692307" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.51757663" weight="0.30074257" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.5084746" weight="0.4220297" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.48242334" side_tool="true" weight="0.30615383" />
+      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.460733" weight="0.32054454" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info id="Image Layers" order="5" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven Projects" order="4" />
       <window_info anchor="right" id="Designer" order="5" />
       <window_info anchor="right" id="Properties" order="6" />
-      <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.5084746" weight="0.4220297" />
-      <window_info id="Palette&#9;" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.48242334" side_tool="true" weight="0.30615383" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Capture Tool" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4854151" weight="0.32692307" />
-      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.460733" weight="0.32054454" />
       <window_info anchor="right" id="Coverage" order="7" side_tool="true" weight="0.32909498" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27298445" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Capture Analysis" order="9" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -557,9 +512,6 @@
     <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
       <collection />
     </option>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -945,27 +897,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Common/LinkedLists/DoublyLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1147">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Common/LinkedLists/CircularLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-337">
-          <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Common/Graphs/Vertex.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/vav/Strategies/Graphs/02_MinimumSpanningTree">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -1124,13 +1055,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Revision/Revision_04_17_2019/Arrays/SubstringSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Revision/Revision_04_17_2019/Arrays/SubstringSum.java" />
     <entry file="file://$PROJECT_DIR$/src/com/vav/CoursesBooks/iCamp/ArraysAndStrings_01/LargestSubarraySum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1875">
@@ -1145,27 +1070,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Revision/Plan">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Revision/Topics">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Revision/Revision_04_18_2019/Searching/rSearchTechniques.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Revision/Plan" />
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Revision/Topics" />
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Revision/Revision_04_18_2019/Searching/rSearchTechniques.java" />
     <entry file="file://$PROJECT_DIR$/src/com/vav/Common/DisjointSets/QuickFind.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -1223,30 +1130,39 @@
         <state relative-caret-position="-106" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/Trees_06/FindMaximumElement_01_02.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="18" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/Trees_06/BinaryTreeSearch_03_04.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/Trees_06/FindMaximumElement_01_02.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/Trees_06/BinaryTreeSearch_03_04.java" />
     <entry file="file://$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/Trees_06/BinaryTreeInsert_05_06.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="380">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Strategies/GreedyStrategy/GreedyStrategy">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vav/CoursesBooks/USanDieg_DsAlgoSpecialization/Algo_Toolbox/Week3/Code/MinimumChange.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/LinkedList_03/SinglyLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="37" column="8" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
+          <folding>
+            <element signature="e#441#442#0" expanded="true" />
+            <element signature="e#468#469#0" expanded="true" />
+            <element signature="e#505#506#0" expanded="true" />
+            <element signature="e#537#538#0" expanded="true" />
+            <element signature="e#566#567#0" expanded="true" />
+            <element signature="e#593#594#0" expanded="true" />
+            <element signature="e#631#632#0" expanded="true" />
+            <element signature="e#663#664#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
