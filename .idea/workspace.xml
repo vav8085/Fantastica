@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0dc95c9b-b3e3-479e-88e2-7ef2b3d4dd5c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/LinkedList_03/SinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/LinkedList_03/SinglyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Revision/Plan" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Revision/Plan" afterDir="false" />
     </list>
     <ignored path="CODE.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,7 +30,17 @@
     <favorites_list name="CODE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file leaf-file-name="Plan" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/vav/Revision/Plan">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="29" lean-forward="true" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -97,7 +107,6 @@
         <option value="$PROJECT_DIR$/src/com/vav/Revision/Revision1/rBinarySearchTrees/rBinarySearchTree.java" />
         <option value="$PROJECT_DIR$/src/com/vav/Revision/Revision_04_17_2019/Arrays/SubstringSum.java" />
         <option value="$PROJECT_DIR$/src/com/vav/Revision/Topics" />
-        <option value="$PROJECT_DIR$/src/com/vav/Revision/Plan" />
         <option value="$PROJECT_DIR$/src/com/vav/Revision/Revision_04_18_2019/Searching/rSearchTechniques.java" />
         <option value="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/Trees_06/FindMaximumElement_01.java" />
         <option value="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/Trees_06/FindMaximumElement_01_02.java" />
@@ -106,10 +115,11 @@
         <option value="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/LinkedList_03/LinkedListMain.java" />
         <option value="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/LinkedList_03/SinglyLinkedList.java" />
         <option value="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/LinkedList_03/CircularLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/com/vav/Revision/Plan" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1680" />
     <option name="height" value="980" />
@@ -124,7 +134,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -164,31 +173,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="vav" type="462c0819:PsiDirectoryNode" />
-              <item name="CoursesBooks" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WarPlan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WarPlan" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="vav" type="462c0819:PsiDirectoryNode" />
-              <item name="CoursesBooks" type="462c0819:PsiDirectoryNode" />
-              <item name="karumanchi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WarPlan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WarPlan" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="vav" type="462c0819:PsiDirectoryNode" />
-              <item name="CoursesBooks" type="462c0819:PsiDirectoryNode" />
-              <item name="karumanchi" type="462c0819:PsiDirectoryNode" />
-              <item name="LinkedList_03" type="462c0819:PsiDirectoryNode" />
+              <item name="Revision" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -432,28 +423,29 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="980" extended-state="1" />
+    <frame x="0" y="23" width="1680" height="980" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.460733" weight="0.31904763" />
       <window_info id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="9" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.48242334" side_tool="true" weight="0.30615383" />
       <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.51757663" visible="true" weight="0.31309524" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.51757663" weight="0.31309524" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info id="Capture Tool" order="3" />
       <window_info anchor="right" id="Designer" order="5" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21367522" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21611722" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.5084746" weight="0.33690476" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.460733" weight="0.31904763" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info id="Nl-Palette" order="2" />
@@ -467,34 +459,34 @@
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="9" />
-      <window_info anchor="right" id="Designer" order="5" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27298445" />
-      <window_info anchor="right" id="Coverage" order="7" side_tool="true" weight="0.32909498" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.460733" weight="0.32054454" />
       <window_info id="Nl-Palette" order="2" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.51757663" weight="0.30074257" />
       <window_info id="Image Layers" order="5" />
-      <window_info id="Capture Tool" order="3" />
+      <window_info anchor="right" id="Designer" order="5" />
       <window_info anchor="right" id="Properties" order="6" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4854151" weight="0.32692307" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.5084746" weight="0.4220297" />
       <window_info id="Palette&#9;" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="right" id="Coverage" order="7" side_tool="true" weight="0.32909498" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.48242334" side_tool="true" weight="0.30615383" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.460733" weight="0.32054454" />
-      <window_info anchor="right" id="Maven Projects" order="4" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4854151" weight="0.32692307" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="right" id="Maven Projects" order="4" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27298445" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1058,7 +1050,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Revision/Plan" />
     <entry file="file://$PROJECT_DIR$/src/com/vav/Revision/Topics" />
     <entry file="file://$PROJECT_DIR$/src/com/vav/Revision/Revision_04_18_2019/Searching/rSearchTechniques.java" />
     <entry file="file://$PROJECT_DIR$/src/com/vav/Common/DisjointSets/QuickFind.java">
@@ -1129,13 +1120,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/LinkedList_03/LinkedListMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/LinkedList_03/LinkedListMain.java" />
     <entry file="file://$PROJECT_DIR$/src/com/vav/Common/LinkedLists/SinglyLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -1143,13 +1128,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/LinkedList_03/CircularLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/LinkedList_03/CircularLinkedList.java" />
     <entry file="file://$PROJECT_DIR$/src/com/vav/Common/LinkedLists/CircularLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-403">
@@ -1161,6 +1140,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="348">
           <caret line="77" selection-start-line="77" selection-end-line="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Revision/Plan">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="29" lean-forward="true" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
         </state>
       </provider>
     </entry>
