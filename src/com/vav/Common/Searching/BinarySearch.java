@@ -24,4 +24,19 @@ public class BinarySearch {
             return binarySearchRecursive(arr, mid + 1, end, searchTerm);
         }
 
+        public static int binarySearchIterative(int searchTerm, int[] input){
+            int start =0, end = input.length-1;
+            int mid = start + ((end-start)>>1);
+            while (start<=end){
+                if(input[mid]==searchTerm){
+                    return mid;
+                }else if(searchTerm > input[mid]){
+                    start = mid+1;
+                }else{
+                    end = end-1;
+                }
+            }
+            return -1;
+        }
+
 }

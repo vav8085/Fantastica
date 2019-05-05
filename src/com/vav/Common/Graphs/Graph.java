@@ -127,34 +127,4 @@ public class Graph {
         }
 
     }
-
-    public void dfs1(){
-        vertexList[0].setWasVisited(true);
-        stack.push(0);
-        displayVertex(0);
-        while(!stack.isEmpty()){
-            int nextVertex = getAdjascentUnvisitedVertex(stack.peek());
-            if(getAdjascentUnvisitedVertex(stack.peek())!=-1){
-                vertexList[nextVertex].setWasVisited(true);
-                stack.push(nextVertex);
-                displayVertex(nextVertex);
-            }else{
-                stack.pop();
-            }
-        }
-    }
-    public void bfs1(){
-        vertexList[0].setWasVisited(true);
-        queue.add(0);
-        displayVertex(0);
-        while (!queue.isEmpty()){
-            int currentItem = queue.remove();
-            int nextVertex;
-            while((nextVertex=getAdjascentUnvisitedVertex(currentItem))!=-1){
-                queue.add(nextVertex);
-                displayVertex(nextVertex);
-                vertexList[nextVertex].setWasVisited(true);
-            }
-        }
-    }
 }

@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0dc95c9b-b3e3-479e-88e2-7ef2b3d4dd5c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vav/Revision/PrincetonAlgo1/W04/PriorityQueue_01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Revision/PrincetonAlgo1/W04/PriorityQueue_01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Common/Graphs/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Common/Graphs/Graph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Common/Searching/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Common/Searching/BinarySearch.java" afterDir="false" />
     </list>
     <ignored path="CODE.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,28 +32,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/vav/Revision/PrincetonAlgo1/W04/Heap_02.java">
+        <entry file="file://$PROJECT_DIR$/src/com/vav/Common/Hashing/SeparateChaining.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/vav/Revision/PrincetonAlgo1/W04/PriorityQueue_01.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+            <state relative-caret-position="314">
+              <caret line="25" column="33" lean-forward="true" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/vav/Strategies/Heaps/01_HeapsBasics">
+        <entry file="file://$PROJECT_DIR$/src/com/vav/Common/Hashing/QuadraticProbingHashmap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="1" selection-start-column="1" selection-end-column="1" />
+            <state relative-caret-position="-346">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -60,8 +52,78 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/vav/Common/Heaps/Heap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
-              <caret line="44" column="50" selection-start-line="44" selection-start-column="50" selection-end-line="44" selection-end-column="50" />
+            <state relative-caret-position="120">
+              <caret line="41" column="55" lean-forward="true" selection-start-line="41" selection-start-column="55" selection-end-line="41" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/vav/Randoms/reverseStringword.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="17" selection-start-line="17" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/vav/Randoms/Random2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="31" column="43" lean-forward="true" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/vav/Common/Searching/BinarySearch.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="514">
+              <caret line="33" column="34" lean-forward="true" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/vav/Common/DirectedGraph/DirectedGraph.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-120">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/vav/Common/DirectedGraph/DirGraphAdjList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-86">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/vav/Common/Graphs/GraphAdjList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/vav/Common/LinkedLists/SinglyLinkedList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="e#167#168#0" expanded="true" />
+                <element signature="e#194#195#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -91,9 +153,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/vav/Common/DisjointSets/QuickFind.java" />
-        <option value="$PROJECT_DIR$/src/com/vav/Common/Graphs/GraphRevision.java" />
-        <option value="$PROJECT_DIR$/src/com/vav/Common/Graphs/GraphImplementation.java" />
         <option value="$PROJECT_DIR$/src/com/vav/Common/ConnectedComponents/Vertex.java" />
         <option value="$PROJECT_DIR$/src/com/vav/Strategies/Graphs/01_GraphsBasics" />
         <option value="$PROJECT_DIR$/src/com/vav/Strategies/ConnectedComponents/01_ConnectedComponents" />
@@ -118,7 +177,6 @@
         <option value="$PROJECT_DIR$/src/com/vav/CoursesBooks/iCamp/A_Basics/MoveZeroesToEnd_04.java" />
         <option value="$PROJECT_DIR$/src/com/vav/CoursesBooks/iCamp/ArraysAndStrings_01/DutchNationalFlag.java" />
         <option value="$PROJECT_DIR$/src/com/vav/CoursesBooks/iCamp/ArraysAndStrings_01/LargestSubarraySum.java" />
-        <option value="$PROJECT_DIR$/src/com/vav/Common/Graphs/Graph.java" />
         <option value="$PROJECT_DIR$/src/com/vav/Revision/Revision1/Graphs/Vertex.java" />
         <option value="$PROJECT_DIR$/src/com/vav/Revision/Revision1/Graphs/rVertex.java" />
         <option value="$PROJECT_DIR$/src/com/vav/Revision/Revision1/Graphs/rGraph.java" />
@@ -142,12 +200,16 @@
         <option value="$PROJECT_DIR$/src/com/vav/Revision/Plan" />
         <option value="$PROJECT_DIR$/src/com/vav/Revision/PrincetonAlgo1/W04/PriorityQueue_01.java" />
         <option value="$PROJECT_DIR$/src/com/vav/Revision/PrincetonAlgo1/W04/Heap_02.java" />
+        <option value="$PROJECT_DIR$/src/com/vav/Common/Graphs/Graph.java" />
+        <option value="$PROJECT_DIR$/src/com/vav/Randoms/reverseStringword.java" />
+        <option value="$PROJECT_DIR$/src/com/vav/Randoms/Random2.java" />
+        <option value="$PROJECT_DIR$/src/com/vav/Common/Searching/BinarySearch.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="21" />
-    <option name="width" value="1686" />
+    <option name="width" value="1689" />
     <option name="height" value="980" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -159,7 +221,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -200,7 +262,7 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="vav" type="462c0819:PsiDirectoryNode" />
               <item name="Common" type="462c0819:PsiDirectoryNode" />
-              <item name="Graphs" type="462c0819:PsiDirectoryNode" />
+              <item name="Searching" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WarPlan" type="b2602c69:ProjectViewProjectNode" />
@@ -208,124 +270,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="vav" type="462c0819:PsiDirectoryNode" />
-              <item name="Common" type="462c0819:PsiDirectoryNode" />
-              <item name="Hashing" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WarPlan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WarPlan" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="vav" type="462c0819:PsiDirectoryNode" />
-              <item name="Common" type="462c0819:PsiDirectoryNode" />
-              <item name="Heaps" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WarPlan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WarPlan" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="vav" type="462c0819:PsiDirectoryNode" />
-              <item name="Common" type="462c0819:PsiDirectoryNode" />
-              <item name="Heaps" type="462c0819:PsiDirectoryNode" />
-              <item name="Heap.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="WarPlan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WarPlan" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="vav" type="462c0819:PsiDirectoryNode" />
-              <item name="Common" type="462c0819:PsiDirectoryNode" />
-              <item name="Queues" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WarPlan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WarPlan" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="vav" type="462c0819:PsiDirectoryNode" />
-              <item name="CoursesBooks" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WarPlan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WarPlan" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="vav" type="462c0819:PsiDirectoryNode" />
-              <item name="CoursesBooks" type="462c0819:PsiDirectoryNode" />
-              <item name="karumanchi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WarPlan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WarPlan" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="vav" type="462c0819:PsiDirectoryNode" />
-              <item name="CoursesBooks" type="462c0819:PsiDirectoryNode" />
-              <item name="karumanchi" type="462c0819:PsiDirectoryNode" />
-              <item name="LinkedList_03" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WarPlan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WarPlan" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="vav" type="462c0819:PsiDirectoryNode" />
-              <item name="CoursesBooks" type="462c0819:PsiDirectoryNode" />
-              <item name="karumanchi" type="462c0819:PsiDirectoryNode" />
-              <item name="LinkedList_03" type="462c0819:PsiDirectoryNode" />
-              <item name="SinglyLinkedList.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="WarPlan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WarPlan" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="vav" type="462c0819:PsiDirectoryNode" />
-              <item name="Revision" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WarPlan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WarPlan" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="vav" type="462c0819:PsiDirectoryNode" />
-              <item name="Revision" type="462c0819:PsiDirectoryNode" />
-              <item name="PrincetonAlgo1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WarPlan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WarPlan" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="vav" type="462c0819:PsiDirectoryNode" />
-              <item name="Revision" type="462c0819:PsiDirectoryNode" />
-              <item name="PrincetonAlgo1" type="462c0819:PsiDirectoryNode" />
-              <item name="W04" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WarPlan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WarPlan" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="vav" type="462c0819:PsiDirectoryNode" />
-              <item name="Strategies" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WarPlan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WarPlan" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="vav" type="462c0819:PsiDirectoryNode" />
-              <item name="Strategies" type="462c0819:PsiDirectoryNode" />
-              <item name="Heaps" type="462c0819:PsiDirectoryNode" />
+              <item name="Randoms" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -333,7 +284,7 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="SearchEverywhereHistoryKey" value="Inser&#9;RUN_CONFIGURATION&#9;InsertionSortNonDecreasing&#10;Topo&#9;FILE&#9;file:///Users/vpathak/WarPlan/src/com/vav/Strategies/Graphs/04_TopologicalSorting&#10;heapsor&#9;FILE&#9;file:///Users/z179905/MWC/src/com/vav/Common/Sorting/HeapSort.java" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556486123606" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557072578807" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
@@ -383,7 +334,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PriorityQueue_01">
+  <component name="RunManager" selected="Application.Random2">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -448,12 +399,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindMaximumElement_01_02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.vav.CoursesBooks.karumanchi.Trees_06.FindMaximumElement_01_02" />
+    <configuration name="PriorityQueue_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.vav.Revision.PrincetonAlgo1.W04.PriorityQueue_01" />
       <module name="CODE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.vav.CoursesBooks.karumanchi.Trees_06.*" />
+          <option name="PATTERN" value="com.vav.Revision.PrincetonAlgo1.W04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -461,12 +412,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PriorityQueue_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.vav.Revision.PrincetonAlgo1.W04.PriorityQueue_01" />
+    <configuration name="Random2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.vav.Randoms.Random2" />
       <module name="CODE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.vav.Revision.PrincetonAlgo1.W04.*" />
+          <option name="PATTERN" value="com.vav.Randoms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -487,12 +438,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="rPriorityQueueMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.vav.Revision.Revision1.PriorityQueue.rPriorityQueueMain" />
+    <configuration name="reverseStringword" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.vav.Randoms.reverseStringword" />
       <module name="CODE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.vav.Revision.Revision1.PriorityQueue.*" />
+          <option name="PATTERN" value="com.vav.Randoms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -514,18 +465,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.BinaryTreeSearch_03_04" />
-      <item itemvalue="Application.FindMaximumElement_01_02" />
       <item itemvalue="Application.PriorityQueue_01" />
       <item itemvalue="Application.SinglyLinkedList" />
-      <item itemvalue="Application.rPriorityQueueMain" />
+      <item itemvalue="Application.reverseStringword" />
+      <item itemvalue="Application.Random2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Random2" />
+        <item itemvalue="Application.reverseStringword" />
         <item itemvalue="Application.PriorityQueue_01" />
         <item itemvalue="Application.SinglyLinkedList" />
         <item itemvalue="Application.BinaryTreeSearch_03_04" />
-        <item itemvalue="Application.FindMaximumElement_01_02" />
-        <item itemvalue="Application.rPriorityQueueMain" />
       </list>
     </recent_temporary>
   </component>
@@ -578,7 +529,7 @@
     <frame x="-7" y="-7" width="1577" height="1016" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22119816" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22646478" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Nl-Palette" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -588,7 +539,7 @@
       <window_info id="Palette&#9;" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4854151" visible="true" weight="0.13095239" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.51757663" weight="0.1287703" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.51757663" weight="0.27494198" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.5084746" weight="0.3364269" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1051,64 +1002,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Strategies/Graphs/04_TopologicalSorting">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Common/Graphs/GraphAdjList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Revision/Revision1/Graphs/rGraphAdjList.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Strategies/PriorityQueues/00_TableOfContents">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Common/PriorityQueue/ArrayPriorityMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Common/PriorityQueue/ArrayPriorityQ.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="18" lean-forward="true" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Revision/Revision1/PriorityQueue/rPriorityQueueMain.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Strategies/PriorityQueues/01_PriorityQBasics">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="82" lean-forward="true" selection-start-line="24" selection-start-column="82" selection-end-line="24" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Revision/Revision1/PriorityQueue/rArrayPriorityQueue.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Strategies/Trees/05_N_Ary_Trees">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Strategies/Trees/01_TreesBasics">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="76" selection-start-line="17" selection-start-column="76" selection-end-line="17" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Common/Trees/BinarySearchTrees/BinarySearchTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/vav/Revision/Revision1/Graphs/rGraph.java" />
     <entry file="file://$PROJECT_DIR$/src/com/vav/Strategies/Trees/02_BinaryTrees">
       <provider selected="true" editor-type-id="text-editor">
@@ -1165,13 +1058,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Common/Trees/BinaryTrees/IntegerBinaryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1620">
-          <caret line="112" column="64" lean-forward="true" selection-start-line="112" selection-start-column="64" selection-end-line="112" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/vav/Strategies/Recursion/01_Basics">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="454">
@@ -1204,13 +1090,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/LinkedList_03/LinkedListMain.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Common/LinkedLists/SinglyLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="72" column="20" lean-forward="true" selection-start-line="72" selection-start-column="20" selection-end-line="72" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/LinkedList_03/CircularLinkedList.java" />
     <entry file="file://$PROJECT_DIR$/src/com/vav/Common/LinkedLists/CircularLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1227,13 +1106,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/vav/Revision/PrincetonAlgo1/W04/PriorityQueue" />
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Common/Heaps/HeapMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/LinkedList_03/SinglyLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="248">
@@ -1248,48 +1120,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Revision/PrincetonAlgo1/W04/Heap_02.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Strategies/Heaps/01_HeapsBasics">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" selection-start-column="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Common/Heaps/Heap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="44" column="50" selection-start-line="44" selection-start-column="50" selection-end-line="44" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Common/Graphs/Graph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-860">
-          <caret line="81" column="29" selection-start-line="81" selection-start-column="29" selection-end-line="81" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Common/Hashing/DoubleHashingMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-320">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Common/Hashing/QuadraticProbingHashmap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/vav/Common/Queues/Queue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-6">
@@ -1301,6 +1131,160 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Common/Heaps/HeapMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Strategies/Heaps/01_HeapsBasics">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Revision/PrincetonAlgo1/W04/Heap_02.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Common/PriorityQueue/HeapPriorityQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Common/Trees/BinarySearchTrees/BinarySearchTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Common/Trees/BinaryTrees/IntegerBinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1526">
+          <caret line="112" column="64" lean-forward="true" selection-start-line="112" selection-start-column="64" selection-end-line="112" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Common/Graphs/Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Common/Hashing/DirectAddressTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Common/Hashing/DoubleHashingMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Common/Hashing/LinearProbingHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="49" column="40" lean-forward="true" selection-start-line="49" selection-start-column="40" selection-end-line="49" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Common/Hashing/SeparateChaining.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="25" column="33" lean-forward="true" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Common/Hashing/QuadraticProbingHashmap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-346">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Common/DirectedGraph/DirectedGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-120">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Common/DirectedGraph/DirGraphAdjList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-86">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Common/Graphs/GraphAdjList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Common/LinkedLists/SinglyLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#167#168#0" expanded="true" />
+            <element signature="e#194#195#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Common/GreedyAlgorithms/CarRefueling.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-260">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Common/Heaps/Heap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="41" column="55" lean-forward="true" selection-start-line="41" selection-start-column="55" selection-end-line="41" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Randoms/reverseStringword.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" selection-start-line="17" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Randoms/Random2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="31" column="43" lean-forward="true" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Common/Searching/BinarySearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="514">
+          <caret line="33" column="34" lean-forward="true" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
         </state>
       </provider>
     </entry>
