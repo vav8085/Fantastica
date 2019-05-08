@@ -43,4 +43,29 @@ public class BinarySearch {
         }
         return -1;
     }
+    public static int findClosestElement(int value, int[] inputArray){
+        int start =0;
+        int result = Integer.MAX_VALUE;
+        int end = inputArray.length-1;
+        while(start<=end){
+            int mid = start+((end-start)>>2);
+            result = findClosestValue(inputArray,value,mid,result);
+            if(value == inputArray[mid]){
+                return inputArray[mid];
+            }else if(value<inputArray[mid]){
+                end = mid-1;
+            }else{
+                start = mid+1;
+            }
+        }
+        return result;
+    }
+
+    private static int findClosestValue(int[] inputArray, int value, int mid, int result) {
+        if(Math.abs(inputArray[result]-value)>Math.abs(inputArray[mid]-value)){
+            return mid;
+        }else{
+            return result;
+        }
+    }
 }
