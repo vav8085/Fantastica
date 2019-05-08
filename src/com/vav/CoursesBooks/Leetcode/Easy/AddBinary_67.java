@@ -1,4 +1,4 @@
-package com.vav.Leetcode.Easy;
+package com.vav.CoursesBooks.Leetcode.Easy;
 
 /**
  * Created by Vaibhav on 3/19/2018.

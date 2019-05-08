@@ -1,4 +1,4 @@
-package com.vav.Leetcode.Easy;
+package com.vav.CoursesBooks.Leetcode.Easy;
 
 import com.vav.CoursesBooks.CTCI.Archive.work_2017.Common.LinkedList.Link;
 
