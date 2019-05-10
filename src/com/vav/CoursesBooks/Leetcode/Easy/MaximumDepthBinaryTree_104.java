@@ -1,4 +1,4 @@
-package com.vav.Leetcode.Easy;
+package com.vav.CoursesBooks.Leetcode.Easy;
 
 import com.vav.Common.Trees.BinaryTrees.IntegerBinaryTree;
 import com.vav.Common.Trees.BinaryTrees.IntegerBinaryTreeNode;

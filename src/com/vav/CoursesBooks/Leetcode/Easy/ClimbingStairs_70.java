@@ -1,4 +1,4 @@
-package com.vav.Leetcode.Easy;
+package com.vav.CoursesBooks.Leetcode.Easy;
 
 public class ClimbingStairs_70 {
     public static void main(String arg[]){
