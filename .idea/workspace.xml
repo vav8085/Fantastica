@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0dc95c9b-b3e3-479e-88e2-7ef2b3d4dd5c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/linkedLists/OperlappingTest_8_04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/linkedLists/OperlappingTest_8_04.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vav/Strategies/Hashing/HashingNotes" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Strategies/Hashing/HashingNotes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/questions" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/questions" afterDir="false" />
     </list>
     <ignored path="CODE.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,7 +29,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/linkedLists/OperlappingTest_8_04.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="316">
@@ -43,11 +41,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/questions">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="2" column="26" lean-forward="true" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+            <state relative-caret-position="300">
+              <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -56,7 +54,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/vav/Strategies/Hashing/HashingNotes">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
-              <caret line="62" column="28" selection-start-line="62" selection-start-column="28" selection-end-line="62" selection-end-column="28" />
+              <caret line="62" column="26" selection-start-line="62" selection-start-column="26" selection-end-line="62" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -143,9 +141,9 @@
         <option value="$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/linkedLists/MergeSortedLists_8_01.java" />
         <option value="$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/linkedLists/ReverseSinglyLinkedList_8_02.java" />
         <option value="$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/linkedLists/Cyclicity_03.java" />
-        <option value="$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/questions" />
         <option value="$PROJECT_DIR$/src/com/vav/Strategies/Hashing/HashingNotes" />
         <option value="$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/linkedLists/OperlappingTest_8_04.java" />
+        <option value="$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/questions" />
       </list>
     </option>
   </component>
@@ -218,7 +216,7 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="SearchEverywhereHistoryKey" value="Inser&#9;RUN_CONFIGURATION&#9;InsertionSortNonDecreasing&#10;Topo&#9;FILE&#9;file:///Users/vpathak/WarPlan/src/com/vav/Strategies/Graphs/04_TopologicalSorting&#10;heapsor&#9;FILE&#9;file:///Users/z179905/MWC/src/com/vav/Common/Sorting/HeapSort.java" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557592644755" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557599064575" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
@@ -1280,14 +1278,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/vav/Strategies/Hashing/HashingNotes">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
-          <caret line="62" column="28" selection-start-line="62" selection-start-column="28" selection-end-line="62" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/questions">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="26" lean-forward="true" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+          <caret line="62" column="26" selection-start-line="62" selection-start-column="26" selection-end-line="62" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -1309,6 +1300,13 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/questions">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
         </state>
       </provider>
     </entry>
