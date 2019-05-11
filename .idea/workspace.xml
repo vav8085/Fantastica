@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0dc95c9b-b3e3-479e-88e2-7ef2b3d4dd5c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/linkedLists/OperlappingTest_8_04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/linkedLists/OperlappingTest_8_04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Strategies/Hashing/HashingNotes" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Strategies/Hashing/HashingNotes" afterDir="false" />
     </list>
     <ignored path="CODE.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,8 +34,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/linkedLists/OperlappingTest_8_04.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="58" column="8" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="8" />
+            <state relative-caret-position="316">
+              <caret line="70" column="82" selection-start-line="70" selection-start-column="82" selection-end-line="70" selection-end-column="82" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -42,10 +44,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/questions">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="40">
+              <caret line="2" column="26" lean-forward="true" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/vav/Strategies/Hashing/HashingNotes">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="62" column="28" selection-start-line="62" selection-start-column="28" selection-end-line="62" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/linkedLists/MergeSortedLists_8_01.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="420">
-              <caret line="21" column="8" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="23" selection-end-column="29" />
+              <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="23" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -75,8 +95,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/vav/Strategies/Graphs/03_DirectedGraphs" />
-        <option value="$PROJECT_DIR$/src/com/vav/Strategies/Graphs/04_TopologicalSorting" />
         <option value="$PROJECT_DIR$/src/com/vav/Common/ConnectedComponents/ConnectedComponent.java" />
         <option value="$PROJECT_DIR$/src/com/vav/Common/DirectedGraph/DirGraphAdjList.java" />
         <option value="$PROJECT_DIR$/src/com/vav/Strategies/Stacks/01_Basics" />
@@ -125,6 +143,8 @@
         <option value="$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/linkedLists/MergeSortedLists_8_01.java" />
         <option value="$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/linkedLists/ReverseSinglyLinkedList_8_02.java" />
         <option value="$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/linkedLists/Cyclicity_03.java" />
+        <option value="$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/questions" />
+        <option value="$PROJECT_DIR$/src/com/vav/Strategies/Hashing/HashingNotes" />
         <option value="$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/linkedLists/OperlappingTest_8_04.java" />
       </list>
     </option>
@@ -174,7 +194,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="vav" type="462c0819:PsiDirectoryNode" />
-              <item name="CoursesBooks" type="462c0819:PsiDirectoryNode" />
+              <item name="Strategies" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WarPlan" type="b2602c69:ProjectViewProjectNode" />
@@ -182,18 +202,8 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="vav" type="462c0819:PsiDirectoryNode" />
-              <item name="CoursesBooks" type="462c0819:PsiDirectoryNode" />
-              <item name="epi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WarPlan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WarPlan" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="vav" type="462c0819:PsiDirectoryNode" />
-              <item name="CoursesBooks" type="462c0819:PsiDirectoryNode" />
-              <item name="epi" type="462c0819:PsiDirectoryNode" />
-              <item name="linkedLists" type="462c0819:PsiDirectoryNode" />
+              <item name="Strategies" type="462c0819:PsiDirectoryNode" />
+              <item name="Hashing" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -208,7 +218,7 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="SearchEverywhereHistoryKey" value="Inser&#9;RUN_CONFIGURATION&#9;InsertionSortNonDecreasing&#10;Topo&#9;FILE&#9;file:///Users/vpathak/WarPlan/src/com/vav/Strategies/Graphs/04_TopologicalSorting&#10;heapsor&#9;FILE&#9;file:///Users/z179905/MWC/src/com/vav/Common/Sorting/HeapSort.java" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557585853020" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557592644755" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
@@ -891,6 +901,18 @@
           <properties />
           <option name="timeStamp" value="200" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/linkedLists/OperlappingTest_8_04.java</url>
+          <line>58</line>
+          <properties />
+          <option name="timeStamp" value="201" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/linkedLists/OperlappingTest_8_04.java</url>
+          <line>71</line>
+          <properties />
+          <option name="timeStamp" value="202" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -938,15 +960,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/LinkedList_03/LinkedListMain.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/LinkedList_03/CircularLinkedList.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Common/LinkedLists/CircularLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-403">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/vav/Revision/Plan">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -1260,14 +1273,39 @@
     <entry file="file://$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/linkedLists/MergeSortedLists_8_01.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
-          <caret line="21" column="8" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="23" selection-end-column="29" />
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="23" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Strategies/Hashing/HashingNotes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="62" column="28" selection-start-line="62" selection-start-column="28" selection-end-line="62" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/questions">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="26" lean-forward="true" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Applications/JDK/src.zip!/java/lang/Math.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="1181" column="22" selection-start-line="1181" selection-start-column="22" selection-end-line="1181" selection-end-column="22" />
+          <folding>
+            <element signature="e#46227#46228#0" expanded="true" />
+            <element signature="e#46266#46267#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/linkedLists/OperlappingTest_8_04.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="58" column="8" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="8" />
+        <state relative-caret-position="316">
+          <caret line="70" column="82" selection-start-line="70" selection-start-column="82" selection-end-line="70" selection-end-column="82" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
