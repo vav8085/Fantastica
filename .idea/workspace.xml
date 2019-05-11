@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0dc95c9b-b3e3-479e-88e2-7ef2b3d4dd5c" name="Default" comment="" />
+    <list default="true" id="0dc95c9b-b3e3-479e-88e2-7ef2b3d4dd5c" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="CODE.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -28,10 +30,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/linkedLists/ReverseSinglyLinkedList_8_02.java">
+        <entry file="file://$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/linkedLists/OperlappingTest_8_04.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="32" column="24" lean-forward="true" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
+            <state relative-caret-position="396">
+              <caret line="58" column="8" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -39,8 +44,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/linkedLists/MergeSortedLists_8_01.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="32" selection-end-column="9" />
+            <state relative-caret-position="420">
+              <caret line="21" column="8" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="23" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -70,8 +75,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/vav/Common/Graphs/Vertex.java" />
-        <option value="$PROJECT_DIR$/src/com/vav/Common/Graphs/GraphAdjList.java" />
         <option value="$PROJECT_DIR$/src/com/vav/Strategies/Graphs/03_DirectedGraphs" />
         <option value="$PROJECT_DIR$/src/com/vav/Strategies/Graphs/04_TopologicalSorting" />
         <option value="$PROJECT_DIR$/src/com/vav/Common/ConnectedComponents/ConnectedComponent.java" />
@@ -121,12 +124,14 @@
         <option value="$PROJECT_DIR$/src/com/vav/CoursesBooks/iCamp/binarySearch/BinarySearch.java" />
         <option value="$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/linkedLists/MergeSortedLists_8_01.java" />
         <option value="$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/linkedLists/ReverseSinglyLinkedList_8_02.java" />
+        <option value="$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/linkedLists/Cyclicity_03.java" />
+        <option value="$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/linkedLists/OperlappingTest_8_04.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="21" />
-    <option name="width" value="1696" />
+    <option name="width" value="1698" />
     <option name="height" value="980" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -138,7 +143,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -191,46 +195,12 @@
               <item name="epi" type="462c0819:PsiDirectoryNode" />
               <item name="linkedLists" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="WarPlan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WarPlan" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="vav" type="462c0819:PsiDirectoryNode" />
-              <item name="Randoms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WarPlan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WarPlan" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="vav" type="462c0819:PsiDirectoryNode" />
-              <item name="Revision" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WarPlan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WarPlan" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="vav" type="462c0819:PsiDirectoryNode" />
-              <item name="Revision" type="462c0819:PsiDirectoryNode" />
-              <item name="PrincetonAlgo1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WarPlan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WarPlan" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="vav" type="462c0819:PsiDirectoryNode" />
-              <item name="Revision" type="462c0819:PsiDirectoryNode" />
-              <item name="PrincetonAlgo1" type="462c0819:PsiDirectoryNode" />
-              <item name="W04" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -238,7 +208,7 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="SearchEverywhereHistoryKey" value="Inser&#9;RUN_CONFIGURATION&#9;InsertionSortNonDecreasing&#10;Topo&#9;FILE&#9;file:///Users/vpathak/WarPlan/src/com/vav/Strategies/Graphs/04_TopologicalSorting&#10;heapsor&#9;FILE&#9;file:///Users/z179905/MWC/src/com/vav/Common/Sorting/HeapSort.java" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557483942209" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557585853020" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
@@ -288,7 +258,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ReverseSinglyLinkedList_8_02">
+  <component name="RunManager" selected="Application.OperlappingTest_8_04">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -340,6 +310,19 @@
       </Profilers>
       <method />
     </configuration>
+    <configuration name="Cyclicity_03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.vav.CoursesBooks.epi.linkedLists.Cyclicity_03" />
+      <module name="CODE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vav.CoursesBooks.epi.linkedLists.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MergeSortedLists_8_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.vav.CoursesBooks.epi.linkedLists.MergeSortedLists_8_01" />
       <module name="CODE" />
@@ -353,12 +336,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PriorityQueue_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.vav.Revision.PrincetonAlgo1.W04.PriorityQueue_01" />
+    <configuration name="OperlappingTest_8_04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.vav.CoursesBooks.epi.linkedLists.OperlappingTest_8_04" />
       <module name="CODE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.vav.Revision.PrincetonAlgo1.W04.*" />
+          <option name="PATTERN" value="com.vav.CoursesBooks.epi.linkedLists.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -392,19 +375,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="reverseStringword" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.vav.Randoms.reverseStringword" />
-      <module name="CODE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.vav.Randoms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <module name="CODE" />
       <option name="PACKAGE_NAME" value="com.vav.Junit.Test" />
@@ -418,19 +388,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.PriorityQueue_01" />
       <item itemvalue="Application.Random2" />
-      <item itemvalue="Application.reverseStringword" />
       <item itemvalue="Application.MergeSortedLists_8_01" />
       <item itemvalue="Application.ReverseSinglyLinkedList_8_02" />
+      <item itemvalue="Application.Cyclicity_03" />
+      <item itemvalue="Application.OperlappingTest_8_04" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OperlappingTest_8_04" />
+        <item itemvalue="Application.Cyclicity_03" />
         <item itemvalue="Application.ReverseSinglyLinkedList_8_02" />
         <item itemvalue="Application.MergeSortedLists_8_01" />
         <item itemvalue="Application.Random2" />
-        <item itemvalue="Application.reverseStringword" />
-        <item itemvalue="Application.PriorityQueue_01" />
       </list>
     </recent_temporary>
   </component>
@@ -483,7 +453,7 @@
     <frame x="-7" y="-7" width="1577" height="1016" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.238973" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24226464" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Nl-Palette" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -493,8 +463,8 @@
       <window_info id="Palette&#9;" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4854151" weight="0.1438515" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.51757663" weight="0.2737819" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.5084746" visible="true" weight="0.3364269" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.51757663" visible="true" weight="0.22969837" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.5084746" weight="0.3364269" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -968,16 +938,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Strategies/GreedyStrategy/GreedyStrategy">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/CoursesBooks/USanDieg_DsAlgoSpecialization/Algo_Toolbox/Week3/Code/MinimumChange.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/LinkedList_03/LinkedListMain.java" />
     <entry file="file://$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/LinkedList_03/CircularLinkedList.java" />
     <entry file="file://$PROJECT_DIR$/src/com/vav/Common/LinkedLists/CircularLinkedList.java">
@@ -1241,13 +1201,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/LinkedList_03/Q10_CheckCyclicFloydAlgo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="26" column="39" lean-forward="true" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/LinkedList_03/Q11_SnakeOrSnail.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -1280,17 +1233,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/linkedLists/MergeSortedLists_8_01.java">
+    <entry file="file://$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/linkedLists/ReverseSinglyLinkedList_8_02.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="32" selection-end-column="9" />
+        <state relative-caret-position="634">
+          <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/linkedLists/ReverseSinglyLinkedList_8_02.java">
+    <entry file="file://$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/LinkedList_03/Q10_CheckCyclicFloydAlgo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="32" column="24" lean-forward="true" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
+        <state relative-caret-position="340">
+          <caret line="26" column="39" lean-forward="true" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/linkedLists/Cyclicity_03.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="478">
+          <caret line="69" column="8" lean-forward="true" selection-start-line="69" selection-start-column="8" selection-end-line="69" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/linkedLists/MergeSortedLists_8_01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="21" column="8" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="23" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/linkedLists/OperlappingTest_8_04.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="58" column="8" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
