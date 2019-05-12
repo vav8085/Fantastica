@@ -1,16 +1,16 @@
 
 Chapters                Total       Completed
 07 Primitive types      11              *
-06 Arrays -             19              *
+06 Arrays -             19              
 07 Strings -            13              *
-08 Linked lists -       13              4
+08 Linked lists -       13              8
 09 Stacks, Queues -     10
 10 Binary Tree -        17
 11 Heaps-                7
 12 Searching -          10
-13 Hash tables -        14              *
+13 Hash tables -        14
 14 Sorting -            10
-15 BST -                15              *
+15 BST -                15
 16 Recursion -           6              *
 17 Dynamic Programming  12              *
 18 Greedy                8              *

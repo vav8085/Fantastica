@@ -1,0 +1,4 @@
+Linked Lists Notes
+
+1.  Whenever you are counting the nodes in the linked list and going till current=null then start counting from 0
+    even if your are starting from head. The last jump of current will go to null and it will fix the count.

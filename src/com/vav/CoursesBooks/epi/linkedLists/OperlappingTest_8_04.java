@@ -68,9 +68,6 @@ public class OperlappingTest_8_04 {
             countTwo++;
             currentTwo1 = currentTwo1.getNext();
         }
-        //hack to increase count, because above condition does not count last link
-        countOne++;
-        countTwo++;
         if(currentOne1.getData()!=currentTwo1.getData()){
             //overlap does not exist
             return -1;
