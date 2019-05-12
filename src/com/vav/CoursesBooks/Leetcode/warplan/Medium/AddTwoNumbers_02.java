@@ -1,4 +1,4 @@
-package com.vav.CoursesBooks.Leetcode.Medium;
+package com.vav.CoursesBooks.Leetcode.warplan.Medium;
 
 import com.vav.CoursesBooks.CTCI.Archive.work_2017.Common.LinkedList.Link;
 

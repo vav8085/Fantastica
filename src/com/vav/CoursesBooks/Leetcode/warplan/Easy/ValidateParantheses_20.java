@@ -1,4 +1,4 @@
-package com.vav.CoursesBooks.Leetcode.Easy;
+package com.vav.CoursesBooks.Leetcode.warplan.Easy;
 
 import java.util.Stack;
 
