@@ -1,0 +1,4 @@
+Strings
+
+1.  Java strings are not null terminated by default.
+2.  charAt() is a function that can be used to parse string elements.

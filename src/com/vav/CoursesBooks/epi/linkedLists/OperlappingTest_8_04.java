@@ -1,6 +1,5 @@
 package com.vav.CoursesBooks.epi.linkedLists;
 
-import com.sun.org.apache.xpath.internal.operations.Bool;
 import com.vav.CoursesBooks.CTCI.Archive.work_2017.Common.LinkedList.Link;
 
 import java.util.HashMap;

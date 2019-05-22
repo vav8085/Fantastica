@@ -2,23 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0dc95c9b-b3e3-479e-88e2-7ef2b3d4dd5c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/questions" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/questions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/linkedLists/Cyclicity_03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/linkedLists/Cyclicity_03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/linkedLists/OperlappingTest_8_04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/linkedLists/OperlappingTest_8_04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Strategies/Maths/01_BasicOperations" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Strategies/Maths/01_BasicOperations" afterDir="false" />
     </list>
     <ignored path="CODE.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/CodeX$RepetingCharacter.coverage" NAME="RepetingCharacter Coverage Results" MODIFIED="1482733630036" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.vav.karumanchi.Hashmaps.*</FILTER>
-    </SUITE>
     <SUITE FILE_PATH="coverage/WarPlan$Q5_TransferToStack.coverage" NAME="Q5_TransferToStack Coverage Results" MODIFIED="1514247254195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.vav.karumanchi.Queues_05.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/CodeX$RepetingCharacter.coverage" NAME="RepetingCharacter Coverage Results" MODIFIED="1482733630036" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.vav.karumanchi.Hashmaps.*</FILTER>
     </SUITE>
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -29,20 +34,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/linkedLists/RemoveDuplicatesSortedLl_8_08.java">
+      <file leaf-file-name="01_BasicOperations" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/vav/Strategies/Maths/01_BasicOperations">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/questions">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+            <state relative-caret-position="225">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -64,6 +60,7 @@
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/src/com/vav/CTCI/Chapter3</dir>
+      <dir>$PROJECT_DIR$/src/com/vav/Strategies</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -72,9 +69,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/primitiveTypes_01/CountBits_01.java" />
-        <option value="$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/primitiveTypes_01/ComputeParity_02.java" />
-        <option value="$PROJECT_DIR$/src/com/vav/Strategies/BitManipulation/01_BasicOperations" />
         <option value="$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/primitiveTypes_01/SwapBits_03.java" />
         <option value="$PROJECT_DIR$/src/com/vav/CoursesBooks/iCamp/A_Basics/FindDuplicates_01.java" />
         <option value="$PROJECT_DIR$/src/com/vav/Strategies/ProgramExecution/01_ProgramExecution" />
@@ -115,20 +109,23 @@
         <option value="$PROJECT_DIR$/src/com/vav/CoursesBooks/iCamp/binarySearch/BinarySearch.java" />
         <option value="$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/linkedLists/MergeSortedLists_8_01.java" />
         <option value="$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/linkedLists/ReverseSinglyLinkedList_8_02.java" />
-        <option value="$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/linkedLists/Cyclicity_03.java" />
         <option value="$PROJECT_DIR$/src/com/vav/Strategies/Hashing/HashingNotes" />
         <option value="$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/linkedLists/DeleteANode_8_06.java" />
-        <option value="$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/linkedLists/OperlappingTest_8_04.java" />
         <option value="$PROJECT_DIR$/src/com/vav/Strategies/LinkedLists/LinkedListsNotes" />
         <option value="$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/linkedLists/DeleteKthNodeFromEnd_07.java" />
         <option value="$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/linkedLists/RemoveDuplicatesSortedLl_8_08.java" />
         <option value="$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/questions" />
+        <option value="$PROJECT_DIR$/src/com/vav/Strategies/Strings/Strings" />
+        <option value="$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/linkedLists/Cyclicity_03.java" />
+        <option value="$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/linkedLists/OperlappingTest_8_04.java" />
+        <option value="$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/strings/StringToInteger_01.java" />
+        <option value="$PROJECT_DIR$/src/com/vav/Strategies/Maths/01_BasicOperations" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="21" />
-    <option name="width" value="1698" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
     <option name="height" value="980" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -140,6 +137,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -180,6 +178,15 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="vav" type="462c0819:PsiDirectoryNode" />
               <item name="CoursesBooks" type="462c0819:PsiDirectoryNode" />
+              <item name="CTCI" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WarPlan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WarPlan" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="vav" type="462c0819:PsiDirectoryNode" />
+              <item name="CoursesBooks" type="462c0819:PsiDirectoryNode" />
               <item name="epi" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -190,7 +197,7 @@
               <item name="vav" type="462c0819:PsiDirectoryNode" />
               <item name="CoursesBooks" type="462c0819:PsiDirectoryNode" />
               <item name="epi" type="462c0819:PsiDirectoryNode" />
-              <item name="linkedLists" type="462c0819:PsiDirectoryNode" />
+              <item name="strings" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WarPlan" type="b2602c69:ProjectViewProjectNode" />
@@ -207,14 +214,14 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="vav" type="462c0819:PsiDirectoryNode" />
               <item name="Strategies" type="462c0819:PsiDirectoryNode" />
-              <item name="LinkedLists" type="462c0819:PsiDirectoryNode" />
+              <item name="Maths" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -272,7 +279,77 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DeleteKthNodeFromEnd_07">
+  <component name="RunManager" selected="Application.StringToInteger_01">
+    <configuration name="Cyclicity_03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.vav.CoursesBooks.epi.linkedLists.Cyclicity_03" />
+      <module name="CODE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vav.CoursesBooks.epi.linkedLists.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="DeleteANode_8_06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.vav.CoursesBooks.epi.linkedLists.DeleteANode_8_06" />
+      <module name="CODE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vav.CoursesBooks.epi.linkedLists.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="DeleteKthNodeFromEnd_07" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.vav.CoursesBooks.epi.linkedLists.DeleteKthNodeFromEnd_07" />
+      <module name="CODE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vav.CoursesBooks.epi.linkedLists.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="OperlappingTest_8_04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.vav.CoursesBooks.epi.linkedLists.OperlappingTest_8_04" />
+      <module name="CODE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vav.CoursesBooks.epi.linkedLists.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="StringToInteger_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.vav.CoursesBooks.epi.strings.StringToInteger_01" />
+      <module name="CODE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vav.CoursesBooks.epi.strings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <module name="CODE" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.vav.Junit.Test" />
+      <option name="MAIN_CLASS_NAME" value="com.vav.Junit.Test.StringHelperTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+      <method>
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -324,97 +401,20 @@
       </Profilers>
       <method />
     </configuration>
-    <configuration name="Cyclicity_03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.vav.CoursesBooks.epi.linkedLists.Cyclicity_03" />
-      <module name="CODE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.vav.CoursesBooks.epi.linkedLists.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DeleteANode_8_06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.vav.CoursesBooks.epi.linkedLists.DeleteANode_8_06" />
-      <module name="CODE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.vav.CoursesBooks.epi.linkedLists.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DeleteKthNodeFromEnd_07" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.vav.CoursesBooks.epi.linkedLists.DeleteKthNodeFromEnd_07" />
-      <module name="CODE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.vav.CoursesBooks.epi.linkedLists.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OperlappingTest_8_04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.vav.CoursesBooks.epi.linkedLists.OperlappingTest_8_04" />
-      <module name="CODE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.vav.CoursesBooks.epi.linkedLists.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReverseSinglyLinkedList_8_02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.vav.CoursesBooks.epi.linkedLists.ReverseSinglyLinkedList_8_02" />
-      <module name="CODE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.vav.CoursesBooks.epi.linkedLists.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <module name="CODE" />
-      <option name="PACKAGE_NAME" value="com.vav.Junit.Test" />
-      <option name="MAIN_CLASS_NAME" value="com.vav.Junit.Test.StringHelperTest" />
-      <option name="METHOD_NAME" value="" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.ReverseSinglyLinkedList_8_02" />
       <item itemvalue="Application.Cyclicity_03" />
       <item itemvalue="Application.OperlappingTest_8_04" />
       <item itemvalue="Application.DeleteANode_8_06" />
       <item itemvalue="Application.DeleteKthNodeFromEnd_07" />
+      <item itemvalue="Application.StringToInteger_01" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringToInteger_01" />
         <item itemvalue="Application.DeleteKthNodeFromEnd_07" />
         <item itemvalue="Application.OperlappingTest_8_04" />
         <item itemvalue="Application.DeleteANode_8_06" />
         <item itemvalue="Application.Cyclicity_03" />
-        <item itemvalue="Application.ReverseSinglyLinkedList_8_02" />
       </list>
     </recent_temporary>
   </component>
@@ -464,70 +464,70 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1577" height="1016" extended-state="6" />
+    <frame x="0" y="23" width="1680" height="980" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24226464" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Nl-Palette" order="2" />
-      <window_info id="Capture Tool" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Image Layers" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Palette&#9;" order="7" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4854151" weight="0.1438515" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.51757663" visible="true" weight="0.22969837" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.5084746" weight="0.3364269" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.48242334" side_tool="true" weight="0.30615383" />
-      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.460733" weight="0.31902552" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info anchor="right" id="Designer" order="5" />
-      <window_info anchor="right" id="Properties" order="6" />
-      <window_info anchor="right" id="Coverage" order="7" side_tool="true" weight="0.32909498" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.460733" weight="0.31785715" />
+      <window_info id="Palette&#9;" order="7" />
+      <window_info id="Image Layers" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.48242334" side_tool="true" weight="0.30615383" />
+      <window_info anchor="right" id="Maven Projects" order="4" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.51757663" visible="true" weight="0.22857143" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info anchor="right" id="Designer" order="5" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21184371" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.5084746" weight="0.33571428" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info id="Nl-Palette" order="2" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="7" side_tool="true" weight="0.32909498" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" id="Maven" order="10" />
+      <window_info anchor="right" id="Properties" order="6" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4854151" weight="0.1438515" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27298445" />
-      <window_info id="Structure" order="1" weight="0.25" />
-      <window_info id="Nl-Palette" order="2" />
-      <window_info id="Capture Tool" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Image Layers" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Palette&#9;" order="7" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4854151" weight="0.32692307" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.51757663" weight="0.30074257" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.5084746" weight="0.4220297" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.48242334" side_tool="true" weight="0.30615383" />
-      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.460733" weight="0.32054454" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="9" />
       <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.460733" weight="0.32054454" />
+      <window_info id="Nl-Palette" order="2" />
+      <window_info id="Structure" order="1" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven Projects" order="4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.51757663" weight="0.30074257" />
+      <window_info id="Image Layers" order="5" />
       <window_info anchor="right" id="Designer" order="5" />
       <window_info anchor="right" id="Properties" order="6" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.5084746" weight="0.4220297" />
+      <window_info id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Coverage" order="7" side_tool="true" weight="0.32909498" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Capture Analysis" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.48242334" side_tool="true" weight="0.30615383" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4854151" weight="0.32692307" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="right" id="Maven Projects" order="4" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27298445" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -537,6 +537,9 @@
     <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
       <collection />
     </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -907,7 +910,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/linkedLists/OperlappingTest_8_04.java</url>
-          <line>58</line>
+          <line>57</line>
           <properties />
           <option name="timeStamp" value="201" />
         </line-breakpoint>
@@ -917,7 +920,13 @@
           <properties />
           <option name="timeStamp" value="204" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/strings/StringToInteger_01.java</url>
+          <line>17</line>
+          <properties />
+        </line-breakpoint>
       </breakpoints>
+      <option name="time" value="1" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -926,6 +935,26 @@
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>(number* Math.pow(10,i))</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>10^i</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>number* 10^i</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>(str.charAt(i)-'0')</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>queue[i].getPriority()</expression-string>
         <language-id>JAVA</language-id>
@@ -951,47 +980,9 @@
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>(b.charAt(j--)-0)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>(a.charAt(i--)-0)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Revision/PrincetonAlgo1/W04/PriorityQueue_01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Common/Heaps/HeapMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Revision/PrincetonAlgo1/W04/Heap_02.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Common/PriorityQueue/HeapPriorityQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/vav/Common/Trees/BinarySearchTrees/BinarySearchTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
@@ -1203,10 +1194,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-          <folding>
-            <element signature="e#206#207#0" expanded="true" />
-            <element signature="e#238#239#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1224,17 +1211,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Applications/JDK/src.zip!/java/lang/Math.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="1181" column="22" selection-start-line="1181" selection-start-column="22" selection-end-line="1181" selection-end-column="22" />
-          <folding>
-            <element signature="e#46227#46228#0" expanded="true" />
-            <element signature="e#46266#46267#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://D:/Applications/JDK/src.zip!/java/lang/Math.java" />
     <entry file="file://$PROJECT_DIR$/src/com/vav/Strategies/Heaps/01_HeapsBasics">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
@@ -1267,26 +1244,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/linkedLists/Cyclicity_03.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102">
-          <caret line="13" column="28" lean-forward="true" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/linkedLists/OperlappingTest_8_04.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="800">
-          <caret line="70" selection-start-line="70" selection-end-line="70" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/linkedLists/MergeSortedLists_8_01.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
@@ -1310,15 +1267,60 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/linkedLists/RemoveDuplicatesSortedLl_8_08.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
+        <state relative-caret-position="45">
           <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/linkedLists/OperlappingTest_8_04.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="53" column="21" lean-forward="true" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/linkedLists/Cyclicity_03.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Strategies/Strings/Strings">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="69" selection-start-line="3" selection-start-column="69" selection-end-line="3" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Math.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="665" column="25" selection-start-line="665" selection-start-column="25" selection-end-line="665" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/strings/StringToInteger_01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="16" column="44" lean-forward="true" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/questions">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        <state relative-caret-position="120">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Strategies/Maths/01_BasicOperations">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>

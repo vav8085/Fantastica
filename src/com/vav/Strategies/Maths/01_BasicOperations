@@ -10,3 +10,8 @@ Java has many methods provided to perform basic mathematics operation:
                                                                         Math.floor(24.5) = 24.0
                                                                         Math.floor(-0.0) = -0.0
 
+4. In mathematics base system a number 0<=a<b where a is any number and b is its base.
+   for decimal numbers a E {0->9} and base is 10
+   for binary numbers a E {0,1} and the base is 2
+
+
