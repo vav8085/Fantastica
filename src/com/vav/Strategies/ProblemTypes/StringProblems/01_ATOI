@@ -1,0 +1,20 @@
+ATOI
+
+This is a simple program in C to convert Strings to Integers.
+
+Now how does this work:
+1.  we have a string like "-1234"
+2.  To convert this to integer we start parsing from start and go one character at a time.
+3.  We subtract '0' from this character and so it get its integer value
+4.  We multiply result by 10 and add this integer to it.
+
+Solution - EPI Strings
+
+Integer to Strings
+1.  We cannot parse integers like we do with string. There is a trick to separate units digit from remaining number
+2.  To find the units digit of a number simply % it by 10
+3.  To separate units digit from a number simply divide it by 10
+4.  Doing this in a loop until number becomes 0 we can keep adding each digit to a string buffer and thus convert
+    a number to a string.
+
+
