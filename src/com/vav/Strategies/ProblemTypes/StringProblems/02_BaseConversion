@@ -1,0 +1,19 @@
+Base Conversion:
+
+The problem is to convert a string of integers from one base b1 to another base b2.
+
+The problem is a combination of String -> Integer and Integer -> String problems.
+
+We first go from left and convert the String to Integer.
+
+Here instead of doing num = num * 10 + digit.... we do num = num * b1 + digit
+
+We then convert this num to b2 by doing digit = num % b2 and num = num / b2
+
+The difference is that if digit >=10 then we have to use A,B,C to represent them
+In this case the result will become
+    if(number % base2 >=10){
+        stringBuilder.append((char)(number % base2 + 'A' - 10));
+    }else{
+        stringBuilder.append((char)(number % base2 + '0'));
+    }

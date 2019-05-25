@@ -5,7 +5,7 @@ This is a simple program in C to convert Strings to Integers.
 Now how does this work:
 1.  we have a string like "-1234"
 2.  To convert this to integer we start parsing from start and go one character at a time.
-3.  We subtract '0' from this character and so it get its integer value
+3.  We subtract '0' from this character and so it get its integer value. This is because '0' char = 48 int so any numericChar - '0' = numericInt
 4.  We multiply result by 10 and add this integer to it.
 
 Solution - EPI Strings
