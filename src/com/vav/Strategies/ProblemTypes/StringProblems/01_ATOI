@@ -18,3 +18,13 @@ Integer to Strings
     a number to a string.
 
 
+
+SpreadSheet Column indices to Integers:
+This is similar problem of converting the Strings to Integers. The difference here is that A is 1 and Z is 26. This is similar to
+decimal numbers where 0 is 0 and 9 is 10th number, In case of decimal numbers the base is 10. In case of above A-Z it is 26
+
+There is one more thing to understand here, its that unlike decimal/binary/hex the numbering of A-Z in this example starts from 1.
+This is the offset which will be added during conversion.
+Number = Number * 26 -'A' + 1
+
+

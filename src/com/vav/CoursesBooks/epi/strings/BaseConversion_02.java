@@ -5,7 +5,7 @@ public class BaseConversion_02 {
         int number = 0;
         //Doing String to integer in a base base1
         for(int i=(input.charAt(0)!='-'?0:1);i<input.length();i++){
-            number = number * base1 + (Character.isDigit(input.charAt(i))?(input.charAt(i)-'0'):(input.charAt(i)-'A'+ 10));
+            number = number * base1 + (Character.isDigit(input.charAt(i))?(input.charAt(i)-'0'):(input.charAt(i)-'A'+ 10)); //We add 10 because we consider all A, B, C etc as numbers and these start after 10th
         }
         //Doing Integer to base base2
         StringBuilder stringBuilder = new StringBuilder();
