@@ -1,0 +1,19 @@
+Move Characters:
+
+These are the problems where you are given an array of characters or numbers and you are asked to replace some characters with something others.
+The questions can be replace a with two d or 1 with 3 7s. The array may or may not have space. You may or may not be allowed to have additional space complexity
+
+The way to solve these problems is by traversing array from behind. The reason we do it from behind is because its cheaper. We dont have to move all
+the elements to the right to make space for a new one.
+
+{1,2,3,1,5,6,-1,-1} replace 1 with two 7s
+
+We will take two pointers, one starting from end and other from first non -1 number from end. Every timer we will get a number we will copy it to the end
+
+{1,2,3,1,5,6,-1,-1}
+{1,2,3,1,5,6,-1,6}
+{1,2,3,1,5,6,5,6}
+{1,2,3,1,7,7,5,6}
+{1,2,3,3,7,7,5,6}
+{1,2,2,3,7,7,5,6}
+{7,7,2,3,7,7,5,6} done
