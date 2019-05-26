@@ -1,0 +1,34 @@
+Memoization
+
+Sometimes we see that many steps repeat in a recursive algorithm. If we take an example of Fibonacci numbers then the recursive
+step is: f(n-1) + f(n-2) . if n=4 then first step is f(3) + f(2). If we further go one level down in f(3) then its f(2) + f(1)
+We can see that f(2) will be calculated twice. Once while calculating f(4) and once again when we calculate f(3).
+
+This can waste a lot of resources. To avoid this we do Memoization.
+
+Memoization: During Memoization we store all the results that we have encountered so far. We usually use a data structure such as a
+Map to store this. The keys can be the function parameters itself or some calculated value before the recursive step.
+The value is the result of the recursive step or any steps including or after recursive step that is returned.
+
+If next time onwards the key is found in the datastructure then we do not recurse. We just return the value.
+
+Before we return from any function we store the return value to the data structure. (The store could be conditional and the same condition can be applied to retrieval)
+
+Usual case:
+
+Input -------> F(x) ----->Base case -----> Process Input ----->Recurse ----->process recurse results -----> return
+
+Memoization case:
+
+Input -------> F(x) ----->Base case -----> Process Input ------>if(memoize key=key){return output} -----> else recurse ----->process recurse results------> memoize -----> return
+
+public int fibonacciWithMemo(int n, HashMap<Integer, Integer> map) {
+if (n == 1 || n == 2)
+return 1;
+if (map.containsKey(n))
+return map.get(n);    //check for memoized info and return if any
+int result = fibonacciWithMemo(n-1, map) + fibonacciWithMemo(n-2, map);
+map.put(n, result); //memoize here
+return result;
+
+}
