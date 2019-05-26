@@ -1,0 +1,62 @@
+Combinations:
+
+Sometimes you get problems like printing combinations of items
+
+1. The problem can be like printing all the cars options that user can choose:
+car {ford{fusion{auto,manu}, focus{auto,manu}, mustang{auto}}, nissan{versa{manu}, maxima{auto,manu}}}
+
+This can be easily seen as a tree, we can see car is top node and then it can have any number of children.
+
+To solve this kind of problem we have to identify the recursion. In this case we can see that arrays are within arrays and
+each car model can have some specifications.
+
+Also notice that ford and nissan are different here, their items do not fall in same branch.
+
+This is like an Nary tree.
+
+To solve this problem you need to go to each level starting from 0 and iterate over each element on that level until you reach a leaf and then print it.
+
+this is just like a binary tree preorder traversal. You print root, you go left and right. In this case we have more than left and right so we iterate
+over the values.
+
+
+
+2. Similar problem can be printing all the combinations of 3 in an array {1,2,3,4,5,6}. The output is {1,2,3},{1,2,4}...{1,3,4},{1,3,5}...{4,5,6}
+
+This is just like previous problem.
+
+We have to start from 1 and find its combination with 2,3,4,5,6 and then 2 and its combinations with 3,4,5,6 and so on
+
+                                                1
+                          2         3           4          5          6
+                         3456      456          56
+
+***You will solve these problems easily if you can visualize the parent from children. Notice that we iterate only over the parents and process them. children are
+processed in the recursive step. Like in above case we put 1 in the buffer{1,0,0} what else can take the value of 1? 2,3,4,5,6. Also in this specific problem the
+children of 1 will also be 2,3,4,5,6 so we send the same array to recursive step but we start from inputIndex which has been increased to 1 now from 0
+
+The important thing here is that we need to print only combinations of 3. For this we can have another array. We will print only when this buffer array
+becomes full and not in other cases.
+
+As you can see the tree goes only 2 levels down because this is when our buffer gets full and it prints and returns.
+
+Code:
+    public static void printCombinationsOfThree(int[] input, int[] buffer, int inputIndex, int bufferIndex){
+          if(bufferIndex == buffer.length){
+              printIt(buffer);
+              return;
+          }
+          if(inputIndex == input.length){
+              return;
+          }
+          for(int i=inputIndex;i<input.length;i++){
+              buffer[bufferIndex] = input[i];
+              printCombinationsOfThree(input,buffer,inputIndex+1,bufferIndex+1);
+          }
+      }
+
+      private static void printIt(int[] buffer) {
+          for(int j=0;j<buffer.length;j++){
+              System.out.println(buffer[j]);
+          }
+      }
