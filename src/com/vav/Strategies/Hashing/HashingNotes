@@ -80,6 +80,12 @@ Hash Function:
     2.  It should distribute keys evenly throughout the Hash Map.
     3.  It should use all values of the input.
 
+    To calculate the hashcode for a word "iron" you can start from 0 and use the technique we did for STOI problem.
+    int hash;
+    for(int i=0;i<str.length;i++){
+        hash = hash * 31 + a[i]; // we could have taken 26 but 31 is a prime.
+    }
+
 /**********************************************************************************************************************/
 
 Collisions:
