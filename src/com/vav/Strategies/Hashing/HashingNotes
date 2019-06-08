@@ -7,6 +7,9 @@ Hashing:
 4.  In hashing KEYVALUES are transformed to ARRAYINDICES  using a HASH FUNCTION.
 5.  Hash functions are not always required, sometimes you can use direct addressing.
 6.  A simple hash function is big number % small range = small number.
+    ****So suppose you have some numbers that can take 1000 values but out of this only 250 actually exist then you can make a
+    hashmap of size 500(250*2) and then map each value => 980 % 500 = 480
+    So your value will go to the 480th index.
 7.  Load factor is the ratio of (Number of items in table/size of table).
 8.  Load factor defines when HashTables need rehashing.
 
@@ -65,7 +68,7 @@ Suppose we want to add a word cats to the memory then we have to find a way to c
     We usually use smallNumber = Key % smallRange(Make it prime to avoid clustering)
     arrayIndex = 500000 % 100000 = 0
     arrayIndex = 500001 % 100000 = 1
-    ...
+    ...        = 7000000000029 % 10000 = 29
     ...
 
 ****The hashed value is the arrayIndex here where an actual value 500001 is hashed to arrayIndex.
@@ -77,6 +80,15 @@ Collisions:
 Collisions happen when we try to compress and bigger range into smaller. Right now we have a range of 7,000,000,000,000
 with only 50k as actual words that are being added to a 100k array. Ideally the overlap should not happen but it does.
 Many words have the same hash and point to the same memory location that causes collisions.
+
+so 7000000000029 % 100000 = 29
+   10000029 % 29 = 29
+
+****Note This is why if smaller range (10000 in this case) if is prime the collisions can reduce. So we can take 100109
+    which is closer prime to 100000
+    Now
+    7000000000029 % 100109 = 7682
+    10000029 % 100109 = 89238
 
 The hashing performs best with data where there is no duplication.
 
