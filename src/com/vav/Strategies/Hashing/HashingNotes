@@ -73,6 +73,13 @@ Suppose we want to add a word cats to the memory then we have to find a way to c
 
 ****The hashed value is the arrayIndex here where an actual value 500001 is hashed to arrayIndex.
 
+Hash Function:
+
+    A hash function has following requirements:
+    1.  It should produce the same key for aspecific input.
+    2.  It should distribute keys evenly throughout the Hash Map.
+    3.  It should use all values of the input.
+
 /**********************************************************************************************************************/
 
 Collisions:
