@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0dc95c9b-b3e3-479e-88e2-7ef2b3d4dd5c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/vav/Strategies/Hashing/HashingNotes" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Strategies/Hashing/HashingNotes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Strategies/Strings/Strings" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Strategies/Strings/Strings" afterDir="false" />
     </list>
     <ignored path="CODE.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,11 +29,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/vav/Strategies/Hashing/HashingNotes">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/vav/Common/Strings/RabinKarpStringSearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="623">
-              <caret line="85" column="77" lean-forward="true" selection-start-line="85" selection-start-column="77" selection-end-line="85" selection-end-column="77" />
+            <state relative-caret-position="140">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/vav/Strategies/Strings/Strings">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="460">
+              <caret line="23" column="101" lean-forward="true" selection-start-line="23" selection-start-column="101" selection-end-line="23" selection-end-column="101" />
             </state>
           </provider>
         </entry>
@@ -64,7 +73,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/vav/Revision/Revision1/Graphs/rGraphAdjList.java" />
         <option value="$PROJECT_DIR$/src/com/vav/Revision/Revision1/PriorityQueue/rArrayPriorityQueue.java" />
         <option value="$PROJECT_DIR$/src/com/vav/Strategies/PriorityQueues/01_PriorityQBasics" />
         <option value="$PROJECT_DIR$/src/com/vav/Revision/Revision1/PriorityQueue/rPriorityQueueMain.java" />
@@ -97,7 +105,6 @@
         <option value="$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/linkedLists/DeleteKthNodeFromEnd_07.java" />
         <option value="$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/linkedLists/RemoveDuplicatesSortedLl_8_08.java" />
         <option value="$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/questions" />
-        <option value="$PROJECT_DIR$/src/com/vav/Strategies/Strings/Strings" />
         <option value="$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/linkedLists/Cyclicity_03.java" />
         <option value="$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/linkedLists/OperlappingTest_8_04.java" />
         <option value="$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/strings/StringToInteger_01.java" />
@@ -115,6 +122,8 @@
         <option value="$PROJECT_DIR$/src/com/vav/Strategies/ProblemTypes/Recursion/01_PrintCombinations" />
         <option value="$PROJECT_DIR$/src/com/vav/CoursesBooks/iCamp/recursion/PhoneNumberToText_03.java" />
         <option value="$PROJECT_DIR$/src/com/vav/Strategies/Hashing/HashingNotes" />
+        <option value="$PROJECT_DIR$/src/com/vav/Common/Strings/RabinKarpStringSearch.java" />
+        <option value="$PROJECT_DIR$/src/com/vav/Strategies/Strings/Strings" />
       </list>
     </option>
   </component>
@@ -188,26 +197,7 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="vav" type="462c0819:PsiDirectoryNode" />
               <item name="Strategies" type="462c0819:PsiDirectoryNode" />
-              <item name="Hashing" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WarPlan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WarPlan" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="vav" type="462c0819:PsiDirectoryNode" />
-              <item name="Strategies" type="462c0819:PsiDirectoryNode" />
-              <item name="ProblemTypes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WarPlan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WarPlan" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="vav" type="462c0819:PsiDirectoryNode" />
-              <item name="Strategies" type="462c0819:PsiDirectoryNode" />
-              <item name="ProblemTypes" type="462c0819:PsiDirectoryNode" />
-              <item name="StringProblems" type="462c0819:PsiDirectoryNode" />
+              <item name="Strings" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -222,7 +212,7 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="SearchEverywhereHistoryKey" value="Inser&#9;RUN_CONFIGURATION&#9;InsertionSortNonDecreasing&#10;Topo&#9;FILE&#9;file:///Users/vpathak/WarPlan/src/com/vav/Strategies/Graphs/04_TopologicalSorting&#10;heapsor&#9;FILE&#9;file:///Users/z179905/MWC/src/com/vav/Common/Sorting/HeapSort.java" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560020903661" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560095100165" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
@@ -997,13 +987,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Common/DirectedGraph/DirGraphAdjList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/vav/Common/Graphs/GraphAdjList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
@@ -1210,13 +1193,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Strategies/Strings/Strings">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="69" selection-start-line="3" selection-start-column="69" selection-end-line="3" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Math.java" />
     <entry file="file://$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/questions">
       <provider selected="true" editor-type-id="text-editor">
@@ -1281,6 +1257,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="623">
           <caret line="85" column="77" lean-forward="true" selection-start-line="85" selection-start-column="77" selection-end-line="85" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Common/Strings/RabinKarpStringSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Strategies/Strings/Strings">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="23" column="101" lean-forward="true" selection-start-line="23" selection-start-column="101" selection-end-line="23" selection-end-column="101" />
         </state>
       </provider>
     </entry>

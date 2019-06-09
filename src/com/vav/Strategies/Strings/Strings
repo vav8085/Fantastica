@@ -2,3 +2,27 @@ Strings
 
 1.  Java strings are not null terminated by default.
 2.  charAt() is a function that can be used to parse string elements.
+
+String Search:
+
+String search is done when we want to know a string 'target' is appearing anywhere in our string str.
+The brute force way of doing this is creating a sliding window and move it one character at a time over the
+'str' array. The length of the sliding window will be of size equal to our target array 'target'.
+    We will loop over the str to move our sliding window throughout str and then again loop over each element in our
+    sliding window and compare it with target. The time complexity in success or failure case is m x n.
+
+Rabin Karp String Search:
+
+Using Rabin Karp's String search algorithm we can reduce the time complexity of failure cases. This algorithm uses a
+hashcode which is generated for each new string in the window. if the hashcode of the string matches with the hashcode of
+the target then only we match characters otherwise we consider that the strings dont match and we move the sliding window
+ahead.
+The hashcode is generated using following method:
+    str = cartoon, target = arto
+    Suppose string in sliding window is 'cart' then the hashcode is calculated as => c*x^3 + a*x^2 + r*x + t
+    where x can be the number of characters in english or the closest prime or any other prime.
+    ****For wrapping around we can also mod this with 26 or 27 if we want to hash them in 1-26 range.
+
+
+
+
