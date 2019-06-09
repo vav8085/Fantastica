@@ -23,6 +23,25 @@ The hashcode is generated using following method:
     where x can be the number of characters in english or the closest prime or any other prime.
     ****For wrapping around we can also mod this with 26 or 27 if we want to hash them in 1-26 range.
 
+So the hashcode for target and initial string in str can be generated using similar method used in atoi algorithm
+
+x is some prime or it can be target.length also(in this case you should mod entire with some prime so there will be less collisions)
+for(int i=0;i<target.length();i++){
+    hash = hash * x + target.charAt(i); // each time the loop runs it multiplies previous digit with prime
+                                                      // and adds next digit to it
+}
+
+Now this will return c*x^3 + a*x^2 + r*x + t = (if x=53)  -> 67 * 148877 + 65 * 2809 + 82 * 53 + 84
+
+because the hashes wont match with target's hash which is a*x^3 + r*x^2 + t*x + o
+
+we have to subtract c*x^3 from above hash and multiply remaining hash with x and add o to it so it becomes (a*x^2 + r*x + t)*x + o
+This time the hash of the sliding window will be same as that of target. So now we can compare each character in them and
+see if they match.
+
+Notice that last step is important. Sometimes there are collisions and two different strings can have same hash. This is why
+its important to compare both strings once their hashes match.
+
 
 
 
