@@ -16,7 +16,21 @@ public class RabinKarpStringSearch {
                 return 0;
             }
         }
-        //Check for other substrings in str here
-        //ToDo CHeck other strings
+        //calculating maximum power for x
+        int xPow = 1;
+        for(int k=0;k<target.length();k++){
+            xPow = xPow * X;
+        }
+        //Check for other substrings in str here. We are looping from end of target length. Start value of substring will be
+        //calculated by subtracting target.length from j
+        for(int j=target.length();j<str.length();j++){
+            int indexToRemove = j-target.length(); //0 in first iteration then 1,2,3...
+            hash = (hash - (str.charAt(indexToRemove))* xPow)*X + str.charAt(j);
+
+            if(hash==hashTarget && target.equals(str.substring(indexToRemove+1,j+1))){
+                return indexToRemove+1;
+            }
+        }
+        return -1;
     }
 }
