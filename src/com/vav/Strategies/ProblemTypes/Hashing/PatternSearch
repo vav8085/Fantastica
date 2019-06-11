@@ -1,5 +1,0 @@
-Pattern search
-
-These problems are very common. You can do a pattern search using Rabin Karp pattern searching algorithm. Patterns can be
-any valid ascii characters and Rabin Karp algorithm is not dependent on any specific kind of symbol as long as you can create a
-hash from it.
