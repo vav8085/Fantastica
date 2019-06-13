@@ -1,0 +1,17 @@
+LRU Cache:
+
+LRU cache is used to remove least recently used item from the list.
+
+We use two datastructures to implement a LRU cache.
+1.  A doubly linked list to add, remove and update the entry in O(1) time
+2.  A hashmap to keep the keys and the values as entries in doubly linked list.
+
+**  Doubly linked list insertion and deletion and update is O(1) when you have direct reference to the element itself.
+    This is the reason we keep a hashmap so we can access the elements in the doubly linked list faster.
+
+
+
+
+
+
+
