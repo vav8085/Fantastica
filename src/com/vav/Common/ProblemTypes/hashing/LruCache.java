@@ -1,41 +1,40 @@
 package com.vav.Common.ProblemTypes.hashing;
 
-import java.util.HashMap;
+import com.vav.Common.Queues.LinkedQueue;
+
+import java.util.*;
 
 public class LruCache {
-    private Integer headKey, tailKey;
-    private HashMap<Integer, Item> lruMap;
+    private Deque<Integer> deque;
+    private HashSet<Integer> lruMap;
     private int size;
 
     public LruCache(int size) {
-        lruMap = new HashMap<>();
+        lruMap = new HashSet<>();
+        deque = new LinkedList<>();
         this.size = size;
     }
-    
-}
+    public void addItem(int item){
+        if(lruMap.contains(item)){
+            Iterator<Integer> iterator = deque.iterator();
+            int i=0; int index=0;
+            while (iterator.hasNext()){
+                if(iterator.next()==item){
+                    index = i;
+                    break;
+                }
+                i++;
+            }
+            deque.remove(index);
 
-class Item{
-    private Item left;
-    private Item right;
-    private int value;
-
-    public Item(int value){
-        this.value = value;
-    }
-
-    public Item getLeft() {
-        return left;
-    }
-
-    public void setLeft(Item left) {
-        this.left = left;
-    }
-
-    public Item getRight() {
-        return right;
-    }
-
-    public void setRight(Item right) {
-        this.right = right;
+        }else{
+            //if item is not contained then we have to add it so we will check for size
+            if(lruMap.size()>=size){
+                int last = deque.removeLast();
+                lruMap.remove(last);
+            }
+        }
+        deque.push(item);
+        lruMap.add(item);
     }
 }
