@@ -100,6 +100,17 @@ public class LinkedList<T> {
         }
         return head;
     }
+    public Link getLastNode() throws EmptyListException {
+        if(head==null){
+            throw new EmptyListException();
+        }else{
+            Link current = head;
+            while (current.getNext()!=null){
+                current = current.getNext();
+            }
+            return current;
+        }
+    }
     public Link getHead(){
         return head;
     }
