@@ -2,9 +2,9 @@ Fantastica has my notes and learnings on Computer science, Algorithms and design
 
 Repository is organized in folders for each subject.
 
-* Common - This folder contains all data structures and algorithms and their implementation in Java.
-* Strategies - This folder contains my notes on various Computer Science subjects. Notes are very concise and easy to understand.
-* CoursesBooks - This folder contains various subfolders and contains my notes from various books and courses.
+* Algorithms - This package contains various data structures and algorithms and their implementation in Java. 
+* Design - This package contains my notes on various software designing and architecturing techniques.
+* Reference - This package contains various subfolders and contains my notes from various books and courses.
 
 The end goal of this repository is to make it easier for users to learn computer science subjects.
 
