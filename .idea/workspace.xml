@@ -2,7 +2,492 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0dc95c9b-b3e3-479e-88e2-7ef2b3d4dd5c" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Common/Hashing/SeparateChaining.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Common/ProblemTypes/linkedLists/OddEvenSplit_02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Common/ProblemTypes/linkedLists/SortingLinkedList_01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Common/Queues/LinkedQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Common/Queues/QueueTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Common/Recursion/PrintLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Common/Recursion/PrintLinkedListReverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Design/BuilderPattern/OldRobotBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Design/BuilderPattern/Robot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Design/BuilderPattern/RobotBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Design/BuilderPattern/RobotDirector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Design/BuilderPattern/RobotPlan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Design/FactoryPattern/Bike.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Design/FactoryPattern/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Design/FactoryPattern/CarFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Design/FactoryPattern/FactoryClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Design/FactoryPattern/Transport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Design/FactoryPattern/TransportFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Design/FactoryPattern/TransportFactory2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Design/IteratorPattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Design/PrototypePattern/Graphic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Design/PrototypePattern/Picture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Design/PrototypePattern/Proxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Design/PrototypePattern/ProxyClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Design/PrototypePattern/Video.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Design/StructuralPatterns/AdapterPattern/AdapterPatternClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Design/StructuralPatterns/AdapterPattern/OldRobot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Design/StructuralPatterns/AdapterPattern/OldRobotAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Design/StructuralPatterns/AdapterPattern/Robot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Design/StructuralPatterns/Bridge/BridgePatternClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Design/StructuralPatterns/Bridge/DirectxWindowsImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Design/StructuralPatterns/Bridge/IconWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Design/StructuralPatterns/Bridge/LinuxWindowImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Design/StructuralPatterns/Bridge/Window.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Design/StructuralPatterns/Bridge/WindowImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Design/StructuralPatterns/CompositePattern/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Design/StructuralPatterns/CompositePattern/CompositePatternClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Design/StructuralPatterns/CompositePattern/Graphic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Design/StructuralPatterns/CompositePattern/GraphicContainer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Design/StructuralPatterns/CompositePattern/Image.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Design/StructuralPatterns/FacadePattern/BankAccountFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Design/StructuralPatterns/FacadePattern/FacadeClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Design/StructuralPatterns/FacadePattern/VerifyPinAndPassword.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Design/StructuralPatterns/FacadePattern/VerifyTransactions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Design/StructuralPatterns/FacadePattern/WelcomeToBank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/EffectiveJava/Item02/IceCreamBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/EffectiveJava/Item02/IceCreamBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/Leetcode/warplan/Easy/BinaryTreeLevelOrderTraversal2_107.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/Leetcode/warplan/Easy/MaximumDepthBinaryTree_104.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/Leetcode/warplan/Easy/MergeSortedArray_88.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/Leetcode/warplan/Easy/MergeSortedLists_021.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/Leetcode/warplan/Easy/NeedleInHaystack_028.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/Leetcode/warplan/Easy/PlusOne_066.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/Leetcode/warplan/Easy/RemoveDuplicatesSortedList_83.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/Leetcode/warplan/Easy/RemoveDuplicates_026.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/Leetcode/warplan/Easy/RemoveElement_027.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/Leetcode/warplan/Easy/ReverseInteger_007.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/Leetcode/warplan/Easy/RomanToInteger_013.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/Leetcode/warplan/Easy/SameTree_100.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/Leetcode/warplan/Easy/SearchInsertPosition_035.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/Leetcode/warplan/Easy/SymmetricTree_101.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/Leetcode/warplan/Easy/TwoSum_01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/Leetcode/warplan/Easy/ValidateParantheses_20.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/Leetcode/warplan/Medium/AddTwoNumbers_02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/USanDieg_DsAlgoSpecialization/Algo_Toolbox/Week1/MaxPairwiseProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/USanDieg_DsAlgoSpecialization/Algo_Toolbox/Week2/Code/FibonacciLastDigit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/USanDieg_DsAlgoSpecialization/Algo_Toolbox/Week2/Code/FibonacciNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/USanDieg_DsAlgoSpecialization/Algo_Toolbox/Week2/Code/GCDNaive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/USanDieg_DsAlgoSpecialization/Algo_Toolbox/Week2/Code/GCDOptimised.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/USanDieg_DsAlgoSpecialization/Algo_Toolbox/Week3/Code/CarRefueling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/USanDieg_DsAlgoSpecialization/Algo_Toolbox/Week3/Code/FractionalKnapsack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/USanDieg_DsAlgoSpecialization/Algo_Toolbox/Week3/Code/LargestNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/USanDieg_DsAlgoSpecialization/Algo_Toolbox/Week3/Code/MaximumDotProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/USanDieg_DsAlgoSpecialization/Algo_Toolbox/Week3/Code/MinimumChange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/USanDieg_DsAlgoSpecialization/Algo_Toolbox/Week4/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/USanDieg_DsAlgoSpecialization/Algo_Toolbox/Week4/PolynomialMultiplicationNaive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/USanDieg_DsAlgoSpecialization/Algo_Toolbox/Week5/Code/MinimimChangeRecursive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/epi/linkedLists/Cyclicity_03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/epi/linkedLists/DeleteANode_8_06.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/epi/linkedLists/DeleteKthNodeFromEnd_07.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/epi/linkedLists/MergeSortedLists_8_01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/epi/linkedLists/OperlappingTest_8_04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/epi/linkedLists/RemoveDuplicatesSortedLl_8_08.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/epi/linkedLists/ReverseSinglyLinkedList_8_02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/epi/primitiveTypes_01/ComputeParity_02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/epi/primitiveTypes_01/CountBits_01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/epi/primitiveTypes_01/SwapBits_03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/epi/strings/BaseConversion_02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/epi/strings/SpreadSheetColumnsToIntegers_03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/epi/strings/StringToInteger_01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/iCamp/A_Basics/FindDuplicates_01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/iCamp/A_Basics/MoveZeroesToEnd_04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/iCamp/A_Basics/NumbersSumToValue_02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/iCamp/A_Basics/Palindromicity_05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/iCamp/A_Basics/ReplaceAndRemove_04_X.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/iCamp/A_Basics/SubstituteEvenWithOneMore_03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/iCamp/ArraysAndStrings_01/DutchNationalFlag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/iCamp/ArraysAndStrings_01/LargestSubarraySum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/iCamp/binarySearch/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/iCamp/recursion/PhoneNumberToText_03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/iCamp/recursion/PrintCombinations_02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/LinkedList_03/SinglyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/Trees_06/BinaryTreeInsert_05_06.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/Trees_06/BinaryTreeSearch_03_04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/Trees_06/FindMaximumElement_01_02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/LinkedList_03/Q10_CheckCyclicFloydAlgo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/LinkedList_03/Q11_SnakeOrSnail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/LinkedList_03/Q12_FindCyclePosition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/LinkedList_03/Q13_FindCyclePositionExplaination.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/LinkedList_03/Q15_FindCycleLength.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/LinkedList_03/Q16_InsertNodeInSortedLl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/LinkedList_03/Q17_ReverseASinglyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/LinkedList_03/Q1_StackUsingLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/LinkedList_03/Q2_4_NthNodeFromEnd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/LinkedList_03/Q3_NthNodeFromEndHashmap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/LinkedList_03/Q5_NthFromEndOneIter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/LinkedList_03/Q6_NthNodeFromEndRecursive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/LinkedList_03/Q7_CheckCyclicity2LoopUnsuccess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/LinkedList_03/Q8_CheckCycleUsingHashmaps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/LinkedList_03/Q9_CheckCyclicSortingUnsuccess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/Queues_05/Q1_ReverseQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/Queues_05/Q2_TwoStackOneQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/Queues_05/Q3_TwoQueueOneStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/Queues_05/Q4_MaximumSumSlidingWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/Queues_05/Q5_TransferToStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/Queues_05/Q6_QueueOnCircularArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/Queues_05/Q7_ReverseQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/Sorting_10/Q1_CheckRepetition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/Stacks_04/Q10_CheckPalindromeLinkedListUsingStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/Stacks_04/Q11_ReverseStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/Stacks_04/Q1_BalancingSymbols.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/Stacks_04/Q2_InfixToPostfix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/Stacks_04/Q3_PostfixProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/Stacks_04/Q4_FindStackPermutations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/Stacks_04/Q5_InfixToPostfixProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/Stacks_04/Q6_GetMinStackO1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/Stacks_04/Q7_GetMinStackO1Optimal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/Stacks_04/Q8_CheckPalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/Stacks_04/Q9_CheckPalindromeLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/Trees_06/Q10_HeightOfBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/Trees_06/Q12_HeightOfBinTree_Queues.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/Trees_06/Q13_MinimumDepthOfBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/Trees_06/Q14_DeepestNodeOfBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/Trees_06/Q15_DeleteANodeFromBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/Trees_06/Q16_LeavesOfBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/Trees_06/Q17_FullNodesOfBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/Trees_06/Q18_HalfNodesInBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/Trees_06/Q19_StructurallyIdenticalTrees.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/Trees_06/Q1_2_BinaryTreeFindMaxElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/Trees_06/Q22_LevelWithMaximumSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/Trees_06/Q3_4_SearchBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/Trees_06/Q5_BinaryTreeInsertion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/Trees_06/Q6_SizeOfBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/Trees_06/Q8_DeletingTheTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/Trees_06/Q9_LevelOrderInReverse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Common/ConnectedComponents/ConnectedComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Common/ConnectedComponents/ConnectedComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Common/DirectedGraph/DirGraphAdjList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Common/DirectedGraph/DirGraphAdjList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Common/DirectedGraph/DirectedGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Common/DirectedGraph/DirectedGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Common/DisjointSets/QuickFind.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Common/DisjointSets/QuickFind.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Common/DisjointSets/QuickUnion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Common/DisjointSets/QuickUnion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Common/DisjointSets/WeightedQuickUnion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Common/DisjointSets/WeightedQuickUnion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Common/DivideAndConquer/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Common/DivideAndConquer/BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Common/DivideAndConquer/LinearSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Common/DivideAndConquer/LinearSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Common/Graphs/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Common/Graphs/Graph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Common/Graphs/GraphAdjList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Common/Graphs/GraphAdjList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Common/Graphs/Vertex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Common/Graphs/Vertex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Common/GreedyAlgorithms/CarRefueling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Common/GreedyAlgorithms/CarRefueling.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Common/GreedyAlgorithms/FractionalKnapsack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Common/GreedyAlgorithms/FractionalKnapsack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Common/GreedyAlgorithms/LargestNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Common/GreedyAlgorithms/LargestNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Common/GreedyAlgorithms/MaximumDotProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Common/GreedyAlgorithms/MaximumDotProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Common/GreedyAlgorithms/MinimumChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Common/GreedyAlgorithms/MinimumChange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Common/Hashing/DirectAddressTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Common/Hashing/DirectAddressTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Common/Hashing/DoubleHashingMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Common/Hashing/DoubleHashingMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Common/Hashing/LinearProbingHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Common/Hashing/LinearProbingHashMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Common/Hashing/LinearProbingHashMapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Common/Hashing/LinearProbingHashMapTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Common/Hashing/QuadraticProbingHashmap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Common/Hashing/QuadraticProbingHashmap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Common/Hashing/SeparateChaining.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Common/Hashing/SeparateChainingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Common/Hashing/SeparateChainingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Common/Heaps/Heap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Common/Heaps/Heap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Common/Heaps/HeapMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Common/Heaps/HeapMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Common/LinkedLists/CircularLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Common/LinkedLists/CircularLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Common/LinkedLists/DoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Common/LinkedLists/DoublyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Common/LinkedLists/SinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Common/LinkedLists/SinglyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Common/PriorityQueue/ArrayPriorityMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Common/PriorityQueue/ArrayPriorityMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Common/PriorityQueue/ArrayPriorityQ.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Common/PriorityQueue/ArrayPriorityQ.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Common/PriorityQueue/HeapPriorityQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Common/PriorityQueue/HeapPriorityQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Common/PriorityQueue/PriorityQueue/rArrayPriorityQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Common/PriorityQueue/PriorityQueue/rArrayPriorityQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Common/PriorityQueue/PriorityQueue/rPriorityQueueMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Common/PriorityQueue/PriorityQueue/rPriorityQueueMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Common/ProblemTypes/hashing/LruCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Common/ProblemTypes/hashing/LruCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Common/ProblemTypes/linkedLists/OddEvenSplit_02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Common/ProblemTypes/linkedLists/SortingLinkedList_01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Common/Queues/LinkedQueue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Common/Queues/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Common/Queues/Queue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Common/Queues/QueueTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Common/Recursion/Factorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Common/Recursion/Factorial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Common/Recursion/Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Common/Recursion/Fibonacci.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Common/Recursion/PrintLinkedList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Common/Recursion/PrintLinkedListReverse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Common/Recursion/SumOfNNaturalNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Common/Recursion/SumOfNNaturalNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Common/Searching/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Common/Searching/BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Common/Searching/LinearSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Common/Searching/LinearSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Common/Sorting/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Common/Sorting/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Common/Sorting/CountingSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Common/Sorting/CountingSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Common/Sorting/HeapSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Common/Sorting/HeapSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Common/Sorting/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Common/Sorting/InsertionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Common/Sorting/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Common/Sorting/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Common/Sorting/Partitioning.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Common/Sorting/Partitioning.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Common/Sorting/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Common/Sorting/SelectionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Common/Sorting/ShellSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Common/Sorting/ShellSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Common/Stacks/GenStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Common/Stacks/GenStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Common/Stacks/LinkedStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Common/Stacks/LinkedStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Common/Stacks/StackInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Common/Stacks/StackInteger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Common/Strings/RabinKarpStringSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Common/Strings/RabinKarpStringSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Common/Trees/BinarySearchTrees/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Common/Trees/BinarySearchTrees/BinarySearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Common/Trees/BinarySearchTrees/BstNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Common/Trees/BinarySearchTrees/BstNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Common/Trees/BinaryTrees/IntegerBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Common/Trees/BinaryTrees/IntegerBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Common/Trees/BinaryTrees/IntegerBinaryTreeApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Common/Trees/BinaryTrees/IntegerBinaryTreeApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Common/Trees/BinaryTrees/IntegerBinaryTreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Common/Trees/BinaryTrees/IntegerBinaryTreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/CTCI/Archive/work_2017/Chapter1/Q1_CheckStringUnique.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Reference/CTCI/Archive/work_2017/Chapter1/Q1_CheckStringUnique.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/CTCI/Archive/work_2017/Chapter1/Q2_CheckStringsPermutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Reference/CTCI/Archive/work_2017/Chapter1/Q2_CheckStringsPermutation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/CTCI/Archive/work_2017/Chapter1/Q3_URLify.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Reference/CTCI/Archive/work_2017/Chapter1/Q3_URLify.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/CTCI/Archive/work_2017/Chapter1/Q4_PalindromePermutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Reference/CTCI/Archive/work_2017/Chapter1/Q4_PalindromePermutation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/CTCI/Archive/work_2017/Chapter1/Q5_OneAway.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Reference/CTCI/Archive/work_2017/Chapter1/Q5_OneAway.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/CTCI/Archive/work_2017/Chapter1/Q6_StringCompression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Reference/CTCI/Archive/work_2017/Chapter1/Q6_StringCompression.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/CTCI/Archive/work_2017/Chapter1/Q7_RotateImage90.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Reference/CTCI/Archive/work_2017/Chapter1/Q7_RotateImage90.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/CTCI/Archive/work_2017/Chapter1/Q9_StringRotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Reference/CTCI/Archive/work_2017/Chapter1/Q9_StringRotation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/CTCI/Archive/work_2017/Chapter1/QX_RemoveDuplicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Reference/CTCI/Archive/work_2017/Chapter1/QX_RemoveDuplicates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/CTCI/Archive/work_2017/Chapter1/QX_StringAnagrams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Reference/CTCI/Archive/work_2017/Chapter1/QX_StringAnagrams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/CTCI/Archive/work_2017/Chapter2/Q1_RemoveDups.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Reference/CTCI/Archive/work_2017/Chapter2/Q1_RemoveDups.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/CTCI/Archive/work_2017/Chapter2/Q2_KthToLast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Reference/CTCI/Archive/work_2017/Chapter2/Q2_KthToLast.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/CTCI/Archive/work_2017/Chapter2/Q3_DeleteOnlyNodeAccess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Reference/CTCI/Archive/work_2017/Chapter2/Q3_DeleteOnlyNodeAccess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/CTCI/Archive/work_2017/Chapter2/Q4_Partition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Reference/CTCI/Archive/work_2017/Chapter2/Q4_Partition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/CTCI/Archive/work_2017/Chapter2/Q5_SumOfTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Reference/CTCI/Archive/work_2017/Chapter2/Q5_SumOfTwoNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/CTCI/Archive/work_2017/Chapter2/Q8_LoopDetection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Reference/CTCI/Archive/work_2017/Chapter2/Q8_LoopDetection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/CTCI/Archive/work_2017/Chapter3/Q1_ThreeStacksOneArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Reference/CTCI/Archive/work_2017/Chapter3/Q1_ThreeStacksOneArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/CTCI/Archive/work_2017/Chapter3/Q2_MinStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Reference/CTCI/Archive/work_2017/Chapter3/Q2_MinStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/CTCI/Archive/work_2017/Chapter3/Q2_StackMin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Reference/CTCI/Archive/work_2017/Chapter3/Q2_StackMin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/CTCI/Archive/work_2017/Chapter3/Q3_StackOfPlates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Reference/CTCI/Archive/work_2017/Chapter3/Q3_StackOfPlates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/CTCI/Archive/work_2017/Chapter3/Q4_QueueFrom2Stacks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Reference/CTCI/Archive/work_2017/Chapter3/Q4_QueueFrom2Stacks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/CTCI/Archive/work_2017/Chapter3/Q5_StackSorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Reference/CTCI/Archive/work_2017/Chapter3/Q5_StackSorting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/CTCI/Archive/work_2017/Chapter3/Q6_AnimalShelter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Reference/CTCI/Archive/work_2017/Chapter3/Q6_AnimalShelter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/CTCI/Archive/work_2017/Common/CTCICommon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Reference/CTCI/Archive/work_2017/Common/CTCICommon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/CTCI/Archive/work_2017/Common/GenStack/GenStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Reference/CTCI/Archive/work_2017/Common/GenStack/GenStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/CTCI/Archive/work_2017/Common/LinkedList/EmptyListException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Reference/CTCI/Archive/work_2017/Common/LinkedList/EmptyListException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/CTCI/Archive/work_2017/Common/LinkedList/Link.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Reference/CTCI/Archive/work_2017/Common/LinkedList/Link.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/CTCI/Archive/work_2017/Common/LinkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Reference/CTCI/Archive/work_2017/Common/LinkedList/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/CTCI/Archive/work_2017/Common/LinkedList/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Reference/CTCI/Archive/work_2017/Common/LinkedList/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/EffectiveJava/Item02/01_Telescoping_Constructors" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Reference/EffectiveJava/Item02/01_Telescoping_Constructors" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/EffectiveJava/Item02/02_JavaBeans_Constructor" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Reference/EffectiveJava/Item02/02_JavaBeans_Constructor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/EffectiveJava/Item02/03_BuilderPattern" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Reference/EffectiveJava/Item02/03_BuilderPattern" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/EffectiveJava/Item02/0x_immutable_class_guidelines" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Reference/EffectiveJava/Item02/0x_immutable_class_guidelines" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/EffectiveJava/Item02/IceCreamBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/EffectiveJava/Item02/IceCreamBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/EffectiveJava/readme" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Reference/EffectiveJava/readme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/ITA_Cormen/I2_GettingStarted_2/Exercises/InsertionSortNonDecreasing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Reference/ITA_Cormen/I2_GettingStarted_2/Exercises/InsertionSortNonDecreasing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/ITA_Cormen/I2_GettingStarted_2/Exercises/LinearSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Reference/ITA_Cormen/I2_GettingStarted_2/Exercises/LinearSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/ITA_Cormen/I2_GettingStarted_2/ITA_InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Reference/ITA_Cormen/I2_GettingStarted_2/ITA_InsertionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/Leetcode/warplan/Easy/AddBinary_67.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Reference/Leetcode/warplan/Easy/AddBinary_67.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/Leetcode/warplan/Easy/BinaryTreeLevelOrderTraversal2_107.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/Leetcode/warplan/Easy/ClimbingStairs_70.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Reference/Leetcode/warplan/Easy/ClimbingStairs_70.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/Leetcode/warplan/Easy/IsPalindrome_009.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Reference/Leetcode/warplan/Easy/IsPalindrome_009.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/Leetcode/warplan/Easy/LengthOfLastWord_058.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Reference/Leetcode/warplan/Easy/LengthOfLastWord_058.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/Leetcode/warplan/Easy/MaxSubArray_053.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Reference/Leetcode/warplan/Easy/MaxSubArray_053.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/Leetcode/warplan/Easy/MaximumDepthBinaryTree_104.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/Leetcode/warplan/Easy/MergeSortedArray_88.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/Leetcode/warplan/Easy/MergeSortedLists_021.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/Leetcode/warplan/Easy/NeedleInHaystack_028.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/Leetcode/warplan/Easy/PlusOne_066.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/Leetcode/warplan/Easy/RemoveDuplicatesSortedList_83.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/Leetcode/warplan/Easy/RemoveDuplicates_026.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/Leetcode/warplan/Easy/RemoveElement_027.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/Leetcode/warplan/Easy/ReverseInteger_007.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/Leetcode/warplan/Easy/RomanToInteger_013.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/Leetcode/warplan/Easy/SameTree_100.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/Leetcode/warplan/Easy/SearchInsertPosition_035.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/Leetcode/warplan/Easy/SymmetricTree_101.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/Leetcode/warplan/Easy/TwoSum_01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/Leetcode/warplan/Easy/ValidateParantheses_20.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/Leetcode/warplan/Medium/AddTwoNumbers_02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/USanDieg_DsAlgoSpecialization/Algo_Toolbox/Week1/MaxPairwiseProduct.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/USanDieg_DsAlgoSpecialization/Algo_Toolbox/Week2/Code/FibonacciLastDigit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/USanDieg_DsAlgoSpecialization/Algo_Toolbox/Week2/Code/FibonacciNumbers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/USanDieg_DsAlgoSpecialization/Algo_Toolbox/Week2/Code/GCDNaive.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/USanDieg_DsAlgoSpecialization/Algo_Toolbox/Week2/Code/GCDOptimised.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/USanDieg_DsAlgoSpecialization/Algo_Toolbox/Week3/Code/CarRefueling.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/USanDieg_DsAlgoSpecialization/Algo_Toolbox/Week3/Code/FractionalKnapsack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/USanDieg_DsAlgoSpecialization/Algo_Toolbox/Week3/Code/LargestNumber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/USanDieg_DsAlgoSpecialization/Algo_Toolbox/Week3/Code/MaximumDotProduct.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/USanDieg_DsAlgoSpecialization/Algo_Toolbox/Week3/Code/MinimumChange.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/USanDieg_DsAlgoSpecialization/Algo_Toolbox/Week4/BinarySearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/USanDieg_DsAlgoSpecialization/Algo_Toolbox/Week4/PolynomialMultiplicationNaive.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/USanDieg_DsAlgoSpecialization/Algo_Toolbox/Week5/Code/MinimimChangeRecursive.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/USanDieg_DsAlgoSpecialization/Data_Structures/info" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Reference/USanDieg_DsAlgoSpecialization/Data_Structures/info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/cleanArchitecture/Chapter1_Notes" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Reference/cleanArchitecture/Chapter1_Notes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/cleanArchitecture/Chapter2_Notes" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Reference/cleanArchitecture/Chapter2_Notes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/cleanArchitecture/Chapter3_Notes" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Reference/cleanArchitecture/Chapter3_Notes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/cleanArchitecture/Chapter4_Notes" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Reference/cleanArchitecture/Chapter4_Notes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/cleanArchitecture/Chapter5_Notes" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Reference/cleanArchitecture/Chapter5_Notes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/cleanArchitecture/Chapter7_Notes" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Reference/cleanArchitecture/Chapter7_Notes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/linkedLists/Cyclicity_03.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/linkedLists/DeleteANode_8_06.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/linkedLists/DeleteKthNodeFromEnd_07.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/linkedLists/MergeSortedLists_8_01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/linkedLists/OperlappingTest_8_04.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/linkedLists/RemoveDuplicatesSortedLl_8_08.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/linkedLists/ReverseSinglyLinkedList_8_02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/primitiveTypes_01/ComputeParity_02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/primitiveTypes_01/CountBits_01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/primitiveTypes_01/SwapBits_03.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/questions" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Reference/epi/questions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/strings/BaseConversion_02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/strings/SpreadSheetColumnsToIntegers_03.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/strings/StringToInteger_01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/iCamp/A_Basics/FindDuplicates_01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/iCamp/A_Basics/MoveZeroesToEnd_04.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/iCamp/A_Basics/NumbersSumToValue_02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/iCamp/A_Basics/Palindromicity_05.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/iCamp/A_Basics/ReplaceAndRemove_04_X.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/iCamp/A_Basics/SubstituteEvenWithOneMore_03.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/iCamp/ArraysAndStrings_01/DutchNationalFlag.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/iCamp/ArraysAndStrings_01/LargestSubarraySum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/iCamp/binarySearch/BinarySearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/iCamp/recursion/PhoneNumberToText_03.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/iCamp/recursion/PrintCombinations_02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/LinkedList_03/SinglyLinkedList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/Trees_06/BinaryTreeInsert_05_06.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/Trees_06/BinaryTreeSearch_03_04.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/Trees_06/FindMaximumElement_01_02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/LinkedList_03/Q10_CheckCyclicFloydAlgo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/LinkedList_03/Q11_SnakeOrSnail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/LinkedList_03/Q12_FindCyclePosition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/LinkedList_03/Q13_FindCyclePositionExplaination.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/LinkedList_03/Q15_FindCycleLength.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/LinkedList_03/Q16_InsertNodeInSortedLl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/LinkedList_03/Q17_ReverseASinglyLinkedList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/LinkedList_03/Q1_StackUsingLinkedList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/LinkedList_03/Q2_4_NthNodeFromEnd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/LinkedList_03/Q3_NthNodeFromEndHashmap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/LinkedList_03/Q5_NthFromEndOneIter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/LinkedList_03/Q6_NthNodeFromEndRecursive.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/LinkedList_03/Q7_CheckCyclicity2LoopUnsuccess.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/LinkedList_03/Q8_CheckCycleUsingHashmaps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/LinkedList_03/Q9_CheckCyclicSortingUnsuccess.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/Queues_05/Q1_ReverseQueue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/Queues_05/Q2_TwoStackOneQueue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/Queues_05/Q3_TwoQueueOneStack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/Queues_05/Q4_MaximumSumSlidingWindow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/Queues_05/Q5_TransferToStack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/Queues_05/Q6_QueueOnCircularArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/Queues_05/Q7_ReverseQueue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/Sorting_10/Q1_CheckRepetition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/Stacks_04/Q10_CheckPalindromeLinkedListUsingStack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/Stacks_04/Q11_ReverseStack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/Stacks_04/Q1_BalancingSymbols.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/Stacks_04/Q2_InfixToPostfix.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/Stacks_04/Q3_PostfixProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/Stacks_04/Q4_FindStackPermutations.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/Stacks_04/Q5_InfixToPostfixProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/Stacks_04/Q6_GetMinStackO1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/Stacks_04/Q7_GetMinStackO1Optimal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/Stacks_04/Q8_CheckPalindrome.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/Stacks_04/Q9_CheckPalindromeLinkedList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/Trees_06/Q10_HeightOfBinaryTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/Trees_06/Q12_HeightOfBinTree_Queues.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/Trees_06/Q13_MinimumDepthOfBinaryTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/Trees_06/Q14_DeepestNodeOfBinaryTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/Trees_06/Q15_DeleteANodeFromBinaryTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/Trees_06/Q16_LeavesOfBinaryTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/Trees_06/Q17_FullNodesOfBinaryTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/Trees_06/Q18_HalfNodesInBinaryTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/Trees_06/Q19_StructurallyIdenticalTrees.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/Trees_06/Q1_2_BinaryTreeFindMaxElement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/Trees_06/Q22_LevelWithMaximumSum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/Trees_06/Q3_4_SearchBinaryTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/Trees_06/Q5_BinaryTreeInsertion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/Trees_06/Q6_SizeOfBinaryTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/Trees_06/Q8_DeletingTheTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/Trees_06/Q9_LevelOrderInReverse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/info" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/mitNotes/mit6042/01_Chapter" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Reference/mitNotes/mit6042/01_Chapter" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/refactoring/00_readme" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Reference/refactoring/00_readme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/refactoring/Chapter1/01_starting_point" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Reference/refactoring/Chapter1/01_starting_point" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/CoursesBooks/refactoring/Chapter1/02_TheFirstStep" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Reference/refactoring/Chapter1/02_TheFirstStep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Randoms/MissingWords.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Randoms/WorkerSalaries.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Revision/Plan" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Revision/PrincetonAlgo1/W04/Heap_02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Revision/PrincetonAlgo1/W04/PriorityQueue_01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Revision/Topics" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Strategies/AlgorithmsComplexity/01_RuntimeAnalysisOfAlgo" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Strategies/AlgorithmsComplexity/01_RuntimeAnalysisOfAlgo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Strategies/AlgorithmsComplexity/02_AsymptoticNotations" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Strategies/AlgorithmsComplexity/02_AsymptoticNotations" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Strategies/AlgorithmsComplexity/03_MasterTheorem" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Strategies/AlgorithmsComplexity/03_MasterTheorem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Strategies/Arrays/01_ReverseTraversal" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Strategies/Arrays/01_ReverseTraversal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Strategies/Arrays/KadaneAlgorithm/01_Basics" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Strategies/Arrays/KadaneAlgorithm/01_Basics" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Strategies/BitManipulation/01_BasicOperations" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Strategies/BitManipulation/01_BasicOperations" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Strategies/ConnectedComponents/01_ConnectedComponents" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Strategies/ConnectedComponents/01_ConnectedComponents" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Strategies/ConnectedComponents/ConnectedComponentsPrincetonAlgo2.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Strategies/ConnectedComponents/ConnectedComponentsPrincetonAlgo2.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Strategies/DisjointSets/01_DynamicConnectivity" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Strategies/DisjointSets/01_DynamicConnectivity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Strategies/DisjointSets/02_QuickFind" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Strategies/DisjointSets/02_QuickFind" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Strategies/DisjointSets/03_QuickUnion" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Strategies/DisjointSets/03_QuickUnion" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Strategies/DisjointSets/04_QuickUnionImprovements" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Strategies/DisjointSets/04_QuickUnionImprovements" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Strategies/DivideAndConquer/DAndCBasics" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Strategies/DivideAndConquer/DAndCBasics" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Strategies/DynamicProgramming/01_Basics" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Strategies/DynamicProgramming/01_Basics" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Strategies/Graphs/01_GraphsBasics" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Strategies/Graphs/01_GraphsBasics" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Strategies/Graphs/02_MinimumSpanningTree" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Strategies/Graphs/02_MinimumSpanningTree" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Strategies/Graphs/03_DirectedGraphs" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Strategies/Graphs/03_DirectedGraphs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Strategies/Graphs/04_TopologicalSorting" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Strategies/Graphs/04_TopologicalSorting" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Strategies/Graphs/05_ParsingAndConnectivityInDirectedGraph" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Strategies/Graphs/05_ParsingAndConnectivityInDirectedGraph" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Strategies/Graphs/06_WarshallAlgorithmDirectedGraphs" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Strategies/Graphs/06_WarshallAlgorithmDirectedGraphs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Strategies/Graphs/07_StronglyConnectedComponents" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Strategies/Graphs/07_StronglyConnectedComponents" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Strategies/Graphs/MazeExploration.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Strategies/Graphs/MazeExploration.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Strategies/Graphs/StronglyConnectedComponents.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Strategies/Graphs/StronglyConnectedComponents.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Strategies/Graphs/Topological_Sorting_Proof.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Strategies/Graphs/Topological_Sorting_Proof.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Strategies/GreedyStrategy/GreedyStrategy" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Strategies/GreedyStrategy/GreedyStrategy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Strategies/Hashing/HashingNotes" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Strategies/Hashing/HashingNotes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Strategies/Heaps/00_TableOfContents" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Strategies/Heaps/00_TableOfContents" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Strategies/Heaps/01_HeapsBasics" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Strategies/Heaps/01_HeapsBasics" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Strategies/LinkedLists/LinkedListsNotes" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Strategies/LinkedLists/LinkedListsNotes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Strategies/Maths/01_BasicOperations" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Strategies/Maths/01_BasicOperations" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Strategies/PriorityQueues/00_TableOfContents" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Strategies/PriorityQueues/00_TableOfContents" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Strategies/PriorityQueues/01_PriorityQBasics" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Strategies/PriorityQueues/01_PriorityQBasics" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Strategies/ProblemTypes/01_AddingNumbers" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Strategies/ProblemTypes/01_AddingNumbers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Strategies/ProblemTypes/02_ClimbingStairs" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Strategies/ProblemTypes/02_ClimbingStairs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Strategies/ProblemTypes/Hashing/01_PatternSearch" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Strategies/ProblemTypes/Hashing/01_PatternSearch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Strategies/ProblemTypes/Hashing/02_LRU_Cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Strategies/ProblemTypes/Hashing/02_LRU_Cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Strategies/ProblemTypes/Recursion/01_PrintCombinations" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Strategies/ProblemTypes/Recursion/01_PrintCombinations" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Strategies/ProblemTypes/StringProblems/01_ATOI" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Strategies/ProblemTypes/StringProblems/01_ATOI" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Strategies/ProblemTypes/StringProblems/02_BaseConversion" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Strategies/ProblemTypes/StringProblems/02_BaseConversion" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Strategies/ProblemTypes/StringProblems/03_ReplaceCharacters" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Strategies/ProblemTypes/StringProblems/03_ReplaceCharacters" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Strategies/ProgramExecution/01_ProgramExecution" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Strategies/ProgramExecution/01_ProgramExecution" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Strategies/Recursion/01_Basics" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Strategies/Recursion/01_Basics" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Strategies/Recursion/02_IdentifyingRecursion" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Strategies/Recursion/02_IdentifyingRecursion" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Strategies/Recursion/03_Induction" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Strategies/Recursion/03_Induction" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Strategies/Recursion/05_Memoization" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Strategies/Recursion/05_Memoization" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Strategies/Recursion/GoodLinks" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Strategies/Recursion/GoodLinks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Strategies/Sorting/SortingNotes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Strategies/Sorting/SortingNotes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Strategies/Stacks/01_Basics" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Strategies/Stacks/01_Basics" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Strategies/Strings/Strings" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Strategies/Strings/Strings" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Strategies/Trees/00_TopicsToCover" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Strategies/Trees/00_TopicsToCover" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Strategies/Trees/01_TreesBasics" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Strategies/Trees/01_TreesBasics" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Strategies/Trees/02_BinaryTrees" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Strategies/Trees/02_BinaryTrees" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Strategies/Trees/03_BinarySearchTree" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Strategies/Trees/03_BinarySearchTree" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Strategies/Trees/04_ThreadedBinaryTrees" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Strategies/Trees/04_ThreadedBinaryTrees" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Strategies/Trees/05_N_Ary_Trees" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Strategies/Trees/05_N_Ary_Trees" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/designPatterns/BuilderPattern/OldRobotBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/designPatterns/BuilderPattern/Robot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/designPatterns/BuilderPattern/RobotBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/designPatterns/BuilderPattern/RobotDirector.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/designPatterns/BuilderPattern/RobotPlan.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/designPatterns/DesignPatternsLogs" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Design/DesignPatternsLogs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/designPatterns/FactoryPattern/Bike.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/designPatterns/FactoryPattern/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/designPatterns/FactoryPattern/CarFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/designPatterns/FactoryPattern/FactoryClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/designPatterns/FactoryPattern/Transport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/designPatterns/FactoryPattern/TransportFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/designPatterns/FactoryPattern/TransportFactory2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/designPatterns/IteratorPattern.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/designPatterns/PrototypePattern/Graphic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/designPatterns/PrototypePattern/Picture.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/designPatterns/PrototypePattern/Proxy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/designPatterns/PrototypePattern/ProxyClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/designPatterns/PrototypePattern/Video.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/designPatterns/StructuralPatterns/AdapterPattern/AdapterPatternClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/designPatterns/StructuralPatterns/AdapterPattern/OldRobot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/designPatterns/StructuralPatterns/AdapterPattern/OldRobotAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/designPatterns/StructuralPatterns/AdapterPattern/Robot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/designPatterns/StructuralPatterns/Bridge/BridgePatternClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/designPatterns/StructuralPatterns/Bridge/DirectxWindowsImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/designPatterns/StructuralPatterns/Bridge/IconWindow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/designPatterns/StructuralPatterns/Bridge/LinuxWindowImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/designPatterns/StructuralPatterns/Bridge/Window.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/designPatterns/StructuralPatterns/Bridge/WindowImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/designPatterns/StructuralPatterns/CompositePattern/Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/designPatterns/StructuralPatterns/CompositePattern/CompositePatternClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/designPatterns/StructuralPatterns/CompositePattern/Graphic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/designPatterns/StructuralPatterns/CompositePattern/GraphicContainer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/designPatterns/StructuralPatterns/CompositePattern/Image.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/designPatterns/StructuralPatterns/FacadePattern/BankAccountFacade.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/designPatterns/StructuralPatterns/FacadePattern/FacadeClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/designPatterns/StructuralPatterns/FacadePattern/VerifyPinAndPassword.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/designPatterns/StructuralPatterns/FacadePattern/VerifyTransactions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/designPatterns/StructuralPatterns/FacadePattern/WelcomeToBank.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/designPatterns/StructuralPatterns/StructuralPatternsInfo" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Design/StructuralPatterns/StructuralPatternsInfo" afterDir="false" />
     </list>
     <ignored path="CODE.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,20 +514,7 @@
     <favorites_list name="CODE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="OddEvenSplit_02.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/vav/Common/ProblemTypes/linkedLists/OddEvenSplit_02.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="523">
-              <caret line="35" column="54" lean-forward="true" selection-start-line="35" selection-start-column="54" selection-end-line="35" selection-end-column="54" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -122,9 +594,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="52" />
-    <option name="width" value="1682" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
     <option name="height" value="980" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -136,6 +608,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -167,51 +642,12 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="vav" type="462c0819:PsiDirectoryNode" />
-              <item name="Common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WarPlan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WarPlan" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="vav" type="462c0819:PsiDirectoryNode" />
-              <item name="Common" type="462c0819:PsiDirectoryNode" />
-              <item name="ProblemTypes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WarPlan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WarPlan" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="vav" type="462c0819:PsiDirectoryNode" />
-              <item name="Common" type="462c0819:PsiDirectoryNode" />
-              <item name="ProblemTypes" type="462c0819:PsiDirectoryNode" />
-              <item name="linkedLists" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WarPlan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WarPlan" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="vav" type="462c0819:PsiDirectoryNode" />
-              <item name="Strategies" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WarPlan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WarPlan" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="vav" type="462c0819:PsiDirectoryNode" />
-              <item name="Strategies" type="462c0819:PsiDirectoryNode" />
-              <item name="ProblemTypes" type="462c0819:PsiDirectoryNode" />
+              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -271,51 +707,51 @@
   </component>
   <component name="RunManager" selected="Application.OddEvenSplit_02">
     <configuration name="OddEvenSplit_02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.vav.Common.ProblemTypes.linkedLists.OddEvenSplit_02" />
+      <option name="MAIN_CLASS_NAME" value="com.vav.Algorithms.Common.ProblemTypes.linkedLists.OddEvenSplit_02" />
       <module name="CODE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.vav.Common.ProblemTypes.linkedLists.*" />
+          <option name="PATTERN" value="com.vav.Algorithms.Common.ProblemTypes.linkedLists.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
     <configuration name="Palindromicity_05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.vav.CoursesBooks.iCamp.A_Basics.Palindromicity_05" />
+      <option name="MAIN_CLASS_NAME" value="com.vav.Reference.iCamp.A_Basics.Palindromicity_05" />
       <module name="CODE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.vav.CoursesBooks.iCamp.A_Basics.*" />
+          <option name="PATTERN" value="com.vav.Reference.iCamp.A_Basics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
     <configuration name="PhoneNumberToText_03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.vav.CoursesBooks.iCamp.recursion.PhoneNumberToText_03" />
+      <option name="MAIN_CLASS_NAME" value="com.vav.Reference.iCamp.recursion.PhoneNumberToText_03" />
       <module name="CODE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.vav.CoursesBooks.iCamp.recursion.*" />
+          <option name="PATTERN" value="com.vav.Reference.iCamp.recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
     <configuration name="PrintCombinations_02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.vav.CoursesBooks.iCamp.recursion.PrintCombinations_02" />
+      <option name="MAIN_CLASS_NAME" value="com.vav.Reference.iCamp.recursion.PrintCombinations_02" />
       <module name="CODE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.vav.CoursesBooks.iCamp.recursion.*" />
+          <option name="PATTERN" value="com.vav.Reference.iCamp.recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
     <configuration name="SortingLinkedList_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.vav.Common.ProblemTypes.linkedLists.SortingLinkedList_01" />
+      <option name="MAIN_CLASS_NAME" value="com.vav.Algorithms.Common.ProblemTypes.linkedLists.SortingLinkedList_01" />
       <module name="CODE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.vav.Common.ProblemTypes.linkedLists.*" />
+          <option name="PATTERN" value="com.vav.Algorithms.Common.ProblemTypes.linkedLists.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -455,28 +891,27 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="980" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.460733" weight="0.31785715" />
       <window_info id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="9" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.48242334" side_tool="true" weight="0.30615383" />
       <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.51757663" visible="true" weight="0.22857143" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.51757663" weight="0.22857143" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info id="Capture Tool" order="3" />
       <window_info anchor="right" id="Designer" order="5" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1898657" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1916972" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.5084746" weight="0.33571428" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.460733" weight="0.31785715" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info id="Nl-Palette" order="2" />
@@ -490,34 +925,34 @@
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="9" />
-      <window_info anchor="right" id="Designer" order="5" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27298445" />
-      <window_info anchor="right" id="Coverage" order="7" side_tool="true" weight="0.32909498" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.460733" weight="0.32054454" />
       <window_info id="Nl-Palette" order="2" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.51757663" weight="0.30074257" />
       <window_info id="Image Layers" order="5" />
-      <window_info id="Capture Tool" order="3" />
+      <window_info anchor="right" id="Designer" order="5" />
       <window_info anchor="right" id="Properties" order="6" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4854151" weight="0.32692307" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.5084746" weight="0.4220297" />
       <window_info id="Palette&#9;" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="right" id="Coverage" order="7" side_tool="true" weight="0.32909498" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.48242334" side_tool="true" weight="0.30615383" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.460733" weight="0.32054454" />
-      <window_info anchor="right" id="Maven Projects" order="4" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4854151" weight="0.32692307" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="right" id="Maven Projects" order="4" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27298445" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -535,7 +970,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/vav/Common/LinkedLists/SinglyLinkedList.java</url>
+          <url>file://$PROJECT_DIR$/src/com/vav/Algorithms/Common/LinkedLists/SinglyLinkedList.java</url>
           <line>102</line>
           <properties />
         </line-breakpoint>
@@ -582,7 +1017,7 @@
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/vav/Common/ThousandSorts/Day1/BubbleSort.java</url>
+          <url>file://$PROJECT_DIR$/src/com/vav/Algorithms/Common/ThousandSorts/Day1/BubbleSort.java</url>
           <line>14</line>
           <properties />
           <option name="timeStamp" value="22" />
@@ -672,13 +1107,13 @@
           <option name="timeStamp" value="97" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/vav/Common/Heaps/HeapMain.java</url>
+          <url>file://$PROJECT_DIR$/src/com/vav/Algorithms/Common/Heaps/HeapMain.java</url>
           <line>15</line>
           <properties />
           <option name="timeStamp" value="104" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/vav/Common/Sorting/CountingSort.java</url>
+          <url>file://$PROJECT_DIR$/src/com/vav/Algorithms/Common/Sorting/CountingSort.java</url>
           <line>27</line>
           <properties />
           <option name="timeStamp" value="106" />
@@ -732,13 +1167,13 @@
           <option name="timeStamp" value="131" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/vav/Common/Hashing/LinearProbingHashMapTest.java</url>
+          <url>file://$PROJECT_DIR$/src/com/vav/Algorithms/Common/Hashing/LinearProbingHashMapTest.java</url>
           <line>21</line>
           <properties />
           <option name="timeStamp" value="133" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/vav/Common/Hashing/SeparateChainingTest.java</url>
+          <url>file://$PROJECT_DIR$/src/com/vav/Algorithms/Common/Hashing/SeparateChainingTest.java</url>
           <line>8</line>
           <properties />
           <option name="timeStamp" value="134" />
@@ -810,7 +1245,7 @@
           <option name="timeStamp" value="174" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/vav/Common/DivideAndConquer/BinarySearch.java</url>
+          <url>file://$PROJECT_DIR$/src/com/vav/Algorithms/Common/DivideAndConquer/BinarySearch.java</url>
           <line>31</line>
           <properties />
           <option name="timeStamp" value="175" />
@@ -846,30 +1281,30 @@
           <option name="timeStamp" value="194" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/primitiveTypes_01/ComputeParity_02.java</url>
+          <url>file://$PROJECT_DIR$/src/com/vav/Reference/epi/primitiveTypes_01/ComputeParity_02.java</url>
           <line>53</line>
           <properties />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/primitiveTypes_01/SwapBits_03.java</url>
+          <url>file://$PROJECT_DIR$/src/com/vav/Reference/epi/primitiveTypes_01/SwapBits_03.java</url>
           <line>21</line>
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/vav/CoursesBooks/iCamp/A_Basics/SubstituteEvenWithOneMore_03.java</url>
+          <url>file://$PROJECT_DIR$/src/com/vav/Reference/iCamp/A_Basics/SubstituteEvenWithOneMore_03.java</url>
           <line>19</line>
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/LinkedList_03/SinglyLinkedList.java</url>
+          <url>file://$PROJECT_DIR$/src/com/vav/Reference/karumanchi/LinkedList_03/SinglyLinkedList.java</url>
           <line>14</line>
           <properties />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/LinkedList_03/SinglyLinkedList.java</url>
+          <url>file://$PROJECT_DIR$/src/com/vav/Reference/karumanchi/LinkedList_03/SinglyLinkedList.java</url>
           <line>24</line>
           <properties />
           <option name="timeStamp" value="5" />
@@ -887,48 +1322,48 @@
           <option name="timeStamp" value="196" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/linkedLists/MergeSortedLists_8_01.java</url>
+          <url>file://$PROJECT_DIR$/src/com/vav/Reference/epi/linkedLists/MergeSortedLists_8_01.java</url>
           <line>46</line>
           <properties />
           <option name="timeStamp" value="198" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/linkedLists/ReverseSinglyLinkedList_8_02.java</url>
+          <url>file://$PROJECT_DIR$/src/com/vav/Reference/epi/linkedLists/ReverseSinglyLinkedList_8_02.java</url>
           <line>32</line>
           <properties />
           <option name="timeStamp" value="200" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/linkedLists/OperlappingTest_8_04.java</url>
+          <url>file://$PROJECT_DIR$/src/com/vav/Reference/epi/linkedLists/OperlappingTest_8_04.java</url>
           <line>57</line>
           <properties />
           <option name="timeStamp" value="201" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/linkedLists/DeleteKthNodeFromEnd_07.java</url>
+          <url>file://$PROJECT_DIR$/src/com/vav/Reference/epi/linkedLists/DeleteKthNodeFromEnd_07.java</url>
           <line>30</line>
           <properties />
           <option name="timeStamp" value="204" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/strings/StringToInteger_01.java</url>
+          <url>file://$PROJECT_DIR$/src/com/vav/Reference/epi/strings/StringToInteger_01.java</url>
           <line>17</line>
           <properties />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/strings/BaseConversion_02.java</url>
+          <url>file://$PROJECT_DIR$/src/com/vav/Reference/epi/strings/BaseConversion_02.java</url>
           <line>10</line>
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/vav/CoursesBooks/iCamp/recursion/PhoneNumberToText_03.java</url>
+          <url>file://$PROJECT_DIR$/src/com/vav/Reference/iCamp/recursion/PhoneNumberToText_03.java</url>
           <line>32</line>
           <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/vav/CoursesBooks/iCamp/recursion/PhoneNumberToText_03.java</url>
+          <url>file://$PROJECT_DIR$/src/com/vav/Reference/iCamp/recursion/PhoneNumberToText_03.java</url>
           <line>25</line>
           <properties />
           <option name="timeStamp" value="4" />
@@ -990,91 +1425,84 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/LinkedList_03/Q1_StackUsingLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/LinkedList_03/SinglyLinkedList.java">
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Reference/karumanchi/LinkedList_03/SinglyLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="548">
           <caret line="45" column="24" lean-forward="true" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/LinkedList_03/Q2_4_NthNodeFromEnd.java">
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/LinkedList_03/Q2_4_NthNodeFromEnd.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="31" column="42" lean-forward="true" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/LinkedList_03/Q3_NthNodeFromEndHashmap.java">
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/LinkedList_03/Q3_NthNodeFromEndHashmap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
           <caret line="33" column="56" lean-forward="true" selection-start-line="33" selection-start-column="56" selection-end-line="33" selection-end-column="56" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/LinkedList_03/Q5_NthFromEndOneIter.java">
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/LinkedList_03/Q5_NthFromEndOneIter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
           <caret line="26" column="35" lean-forward="true" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/LinkedList_03/Q17_ReverseASinglyLinkedList.java">
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/LinkedList_03/Q17_ReverseASinglyLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
           <caret line="29" column="38" lean-forward="true" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/LinkedList_03/Q8_CheckCycleUsingHashmaps.java">
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/LinkedList_03/Q8_CheckCycleUsingHashmaps.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/LinkedList_03/Q11_SnakeOrSnail.java">
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/LinkedList_03/Q11_SnakeOrSnail.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/LinkedList_03/Q12_FindCyclePosition.java">
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/LinkedList_03/Q12_FindCyclePosition.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
           <caret line="29" column="38" lean-forward="true" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/CoursesBooks/iCamp/ArraysAndStrings_01/LargestSubarraySum.java">
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Reference/iCamp/ArraysAndStrings_01/LargestSubarraySum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="560">
           <caret line="57" column="32" selection-start-line="57" selection-start-column="32" selection-end-line="57" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/CoursesBooks/CTCI/Archive/work_2017/Common/LinkedList/Link.java">
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Reference/CTCI/Archive/work_2017/Common/LinkedList/Link.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/linkedLists/ReverseSinglyLinkedList_8_02.java">
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Reference/epi/linkedLists/ReverseSinglyLinkedList_8_02.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="634">
           <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/CoursesBooks/karumanchi/archieve/LinkedList_03/Q10_CheckCyclicFloydAlgo.java">
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/LinkedList_03/Q10_CheckCyclicFloydAlgo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="26" column="39" lean-forward="true" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
@@ -1082,14 +1510,14 @@
       </provider>
     </entry>
     <entry file="jar://D:/Applications/JDK/src.zip!/java/lang/Math.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Strategies/Heaps/01_HeapsBasics">
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Algorithms/Strategies/Heaps/01_HeapsBasics">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
           <caret line="35" column="42" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Common/LinkedLists/SinglyLinkedList.java">
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Algorithms/Common/LinkedLists/SinglyLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
           <caret line="95" column="45" lean-forward="true" selection-start-line="95" selection-start-column="45" selection-end-line="95" selection-end-column="45" />
@@ -1100,42 +1528,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/linkedLists/DeleteANode_8_06.java">
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Reference/epi/linkedLists/DeleteANode_8_06.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
           <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/linkedLists/MergeSortedLists_8_01.java">
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Reference/epi/linkedLists/MergeSortedLists_8_01.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
           <caret line="29" column="8" lean-forward="true" selection-start-line="29" selection-start-column="8" selection-end-line="32" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Strategies/LinkedLists/LinkedListsNotes">
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Algorithms/Strategies/LinkedLists/LinkedListsNotes">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="3" column="108" selection-start-line="3" selection-start-column="108" selection-end-line="3" selection-end-column="108" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/linkedLists/DeleteKthNodeFromEnd_07.java">
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Reference/epi/linkedLists/DeleteKthNodeFromEnd_07.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="18" column="28" lean-forward="true" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/linkedLists/RemoveDuplicatesSortedLl_8_08.java">
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Reference/epi/linkedLists/RemoveDuplicatesSortedLl_8_08.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/linkedLists/OperlappingTest_8_04.java">
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Reference/epi/linkedLists/OperlappingTest_8_04.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="53" column="21" lean-forward="true" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
@@ -1145,7 +1573,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/linkedLists/Cyclicity_03.java">
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Reference/epi/linkedLists/Cyclicity_03.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" selection-start-line="2" selection-end-line="2" />
@@ -1153,94 +1581,94 @@
       </provider>
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Math.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/questions">
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Reference/epi/questions">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Strategies/Maths/01_BasicOperations">
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Algorithms/Strategies/Maths/01_BasicOperations">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Strategies/ProblemTypes/StringProblems/02_BaseConversion" />
-    <entry file="file://$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/strings/SpreadSheetColumnsToIntegers_03.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/strings/BaseConversion_02.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/strings/StringToInteger_01.java">
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Algorithms/Strategies/ProblemTypes/StringProblems/02_BaseConversion" />
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Reference/epi/strings/SpreadSheetColumnsToIntegers_03.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Reference/epi/strings/BaseConversion_02.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Reference/epi/strings/StringToInteger_01.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-17">
           <caret line="20" column="31" lean-forward="true" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/CoursesBooks/iCamp/A_Basics/MoveZeroesToEnd_04.java">
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Reference/iCamp/A_Basics/MoveZeroesToEnd_04.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="42" lean-forward="true" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/CoursesBooks/iCamp/A_Basics/SubstituteEvenWithOneMore_03.java">
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Reference/iCamp/A_Basics/SubstituteEvenWithOneMore_03.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="28">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/CoursesBooks/iCamp/A_Basics/Palindromicity_05.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/vav/CoursesBooks/iCamp/A_Basics/ReplaceAndRemove_04_X.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Strategies/ProblemTypes/StringProblems/03_ReplaceCharacters" />
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Strategies/Recursion/05_Memoization" />
-    <entry file="file://$PROJECT_DIR$/src/com/vav/CoursesBooks/USanDieg_DsAlgoSpecialization/Algo_Toolbox/Week3/Code/MinimumChange.java">
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Reference/iCamp/A_Basics/Palindromicity_05.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Reference/iCamp/A_Basics/ReplaceAndRemove_04_X.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Algorithms/Strategies/ProblemTypes/StringProblems/03_ReplaceCharacters" />
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Algorithms/Strategies/Recursion/05_Memoization" />
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Reference/USanDieg_DsAlgoSpecialization/Algo_Toolbox/Week3/Code/MinimumChange.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Strategies/ProblemTypes/Recursion/01_PrintCombinations" />
-    <entry file="file://$PROJECT_DIR$/src/com/vav/CoursesBooks/iCamp/recursion/PrintCombinations_02.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/vav/CoursesBooks/iCamp/recursion/PhoneNumberToText_03.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Strategies/ProblemTypes/StringProblems/01_ATOI">
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Algorithms/Strategies/ProblemTypes/Recursion/01_PrintCombinations" />
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Reference/iCamp/recursion/PrintCombinations_02.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Reference/iCamp/recursion/PhoneNumberToText_03.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Algorithms/Strategies/ProblemTypes/StringProblems/01_ATOI">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Strategies/Hashing/HashingNotes">
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Algorithms/Strategies/Hashing/HashingNotes">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="623">
           <caret line="85" column="77" lean-forward="true" selection-start-line="85" selection-start-column="77" selection-end-line="85" selection-end-column="77" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Strategies/Strings/Strings">
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Algorithms/Strategies/Strings/Strings">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="737">
           <caret line="42" column="62" selection-start-line="42" selection-start-column="62" selection-end-line="42" selection-end-column="62" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Common/Strings/RabinKarpStringSearch.java">
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Algorithms/Common/Strings/RabinKarpStringSearch.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
           <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Strategies/ProblemTypes/Hashing/01_PatternSearch">
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Algorithms/Strategies/ProblemTypes/Hashing/01_PatternSearch">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Common/ProblemTypes/hashing/LruCache.java">
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Algorithms/Common/ProblemTypes/hashing/LruCache.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
@@ -1250,21 +1678,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Strategies/ProblemTypes/Hashing/02_LRU_Cache">
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Algorithms/Strategies/ProblemTypes/Hashing/02_LRU_Cache">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/CoursesBooks/CTCI/Archive/work_2017/Common/LinkedList/EmptyListException.java">
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Reference/CTCI/Archive/work_2017/Common/LinkedList/EmptyListException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Common/ProblemTypes/linkedLists/SortingLinkedList_01.java">
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Algorithms/Common/ProblemTypes/linkedLists/SortingLinkedList_01.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="520">
           <caret line="59" column="34" lean-forward="true" selection-start-line="59" selection-start-column="34" selection-end-line="59" selection-end-column="34" />
@@ -1274,7 +1702,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/CoursesBooks/CTCI/Archive/work_2017/Common/LinkedList/LinkedList.java">
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Reference/CTCI/Archive/work_2017/Common/LinkedList/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="685">
           <caret line="121" selection-start-line="121" selection-end-line="121" />
@@ -1287,13 +1715,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Common/ProblemTypes/linkedLists/OddEvenSplit_02.java">
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Algorithms/Common/ProblemTypes/linkedLists/OddEvenSplit_02.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
-          <caret line="35" column="54" lean-forward="true" selection-start-line="35" selection-start-column="54" selection-end-line="35" selection-end-column="54" />
+        <state relative-caret-position="440">
+          <caret line="32" column="47" lean-forward="true" selection-start-line="32" selection-start-column="47" selection-end-line="32" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Randoms/WorkerSalaries.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
