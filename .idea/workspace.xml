@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0dc95c9b-b3e3-479e-88e2-7ef2b3d4dd5c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/vav/Design/ReactiveProgramming/Notes/01_Introduction" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vav/Design/ReactiveProgramming/Introduction" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vav/Design/Redux/Introduction" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Design/Redux/Introduction" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Design/ReactiveProgramming/Code/IteratorPattern/KeyValueStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Design/ReactiveProgramming/Code/IteratorPattern/KeyValueStorage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Design/ReactiveProgramming/Code/IteratorPattern/KeyValueStorageCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Design/ReactiveProgramming/Code/IteratorPattern/KeyValueStorageCollection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Design/ReactiveProgramming/Notes/02_IteratorPattern" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Design/ReactiveProgramming/Notes/02_IteratorPattern" afterDir="false" />
     </list>
     <ignored path="CODE.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,20 +41,50 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="02_IteratorPattern" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/vav/Design/ReactiveProgramming/Notes/02_IteratorPattern">
+      <file leaf-file-name="Iterator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/vav/Design/ReactiveProgramming/Code/IteratorPattern/Iterator.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" column="107" selection-start-line="4" selection-start-column="107" selection-end-line="4" selection-end-column="107" />
+              <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Iterator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/vav/Design/ReactiveProgramming/Code/IteratorPattern/Iterator.java">
+      <file leaf-file-name="KeyValueStorageCollection.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/vav/Design/ReactiveProgramming/Code/IteratorPattern/KeyValueStorageCollection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+            <state relative-caret-position="225">
+              <caret line="15" column="44" lean-forward="true" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+              <folding>
+                <element signature="e#275#276#0" expanded="true" />
+                <element signature="e#318#319#0" expanded="true" />
+                <element signature="e#474#475#0" expanded="true" />
+                <element signature="e#530#531#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KeyValueStorageIterator.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/vav/Design/ReactiveProgramming/Code/IteratorPattern/KeyValueStorageIterator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+              <folding>
+                <element signature="e#240#241#0" expanded="true" />
+                <element signature="e#272#273#0" expanded="true" />
+                <element signature="e#463#464#0" expanded="true" />
+                <element signature="e#499#500#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IteratorClient.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/vav/Design/ReactiveProgramming/Code/IteratorPattern/IteratorClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -63,21 +92,23 @@
       <file leaf-file-name="KeyValueStorage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/vav/Design/ReactiveProgramming/Code/IteratorPattern/KeyValueStorage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+            <state relative-caret-position="105">
+              <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+              <folding>
+                <element signature="e#345#346#0" expanded="true" />
+                <element signature="e#371#372#0" expanded="true" />
+                <element signature="e#403#404#0" expanded="true" />
+                <element signature="e#431#432#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="KeyValueStorageCollection.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/vav/Design/ReactiveProgramming/Code/IteratorPattern/KeyValueStorageCollection.java">
+      <file leaf-file-name="IntegerStorageIterator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/vav/Design/ReactiveProgramming/Code/IteratorPattern/IntegerStorageIterator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-              <folding>
-                <element signature="e#177#178#0" expanded="true" />
-                <element signature="e#204#205#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="30">
+              <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -100,15 +131,6 @@
                 <element signature="e#176#177#0" expanded="true" />
                 <element signature="e#203#204#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IntegerStorage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/vav/Design/ReactiveProgramming/Code/IteratorPattern/IntegerStorage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -139,8 +161,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/vav/Randoms/reverseStringword.java" />
-        <option value="$PROJECT_DIR$/src/com/vav/Randoms/Random2.java" />
         <option value="$PROJECT_DIR$/src/com/vav/Common/Searching/BinarySearch.java" />
         <option value="$PROJECT_DIR$/src/com/vav/Randoms/WorkerSalaries.java" />
         <option value="$PROJECT_DIR$/src/com/vav/CoursesBooks/iCamp/binarySearch/BinarySearch.java" />
@@ -181,15 +201,17 @@
         <option value="$PROJECT_DIR$/src/com/vav/Design/Redux/Introduction" />
         <option value="$PROJECT_DIR$/src/com/vav/Design/ReactiveProgramming/Introduction" />
         <option value="$PROJECT_DIR$/src/com/vav/Design/ReactiveProgramming/Notes/01_Introduction" />
-        <option value="$PROJECT_DIR$/src/com/vav/Design/ReactiveProgramming/Notes/02_IteratorPattern" />
         <option value="$PROJECT_DIR$/src/com/vav/Design/ReactiveProgramming/Code/IteratorPattern/Iterator.java" />
         <option value="$PROJECT_DIR$/src/com/vav/Design/ReactiveProgramming/Code/IteratorPattern/DataStructure.java" />
         <option value="$PROJECT_DIR$/src/com/vav/Design/ReactiveProgramming/Code/IteratorPattern/DataStructure2.java" />
         <option value="$PROJECT_DIR$/src/com/vav/Design/ReactiveProgramming/Code/IteratorPattern/IntegerStorage.java" />
-        <option value="$PROJECT_DIR$/src/com/vav/Design/ReactiveProgramming/Code/IteratorPattern/KeyValueStorage.java" />
         <option value="$PROJECT_DIR$/src/com/vav/Design/ReactiveProgramming/Code/IteratorPattern/Collection.java" />
         <option value="$PROJECT_DIR$/src/com/vav/Design/ReactiveProgramming/Code/IteratorPattern/IntegerStorageCollection.java" />
+        <option value="$PROJECT_DIR$/src/com/vav/Design/ReactiveProgramming/Notes/02_IteratorPattern" />
+        <option value="$PROJECT_DIR$/src/com/vav/Design/ReactiveProgramming/Code/IteratorPattern/KeyValueStorage.java" />
+        <option value="$PROJECT_DIR$/src/com/vav/Design/ReactiveProgramming/Code/IteratorPattern/IteratorClient.java" />
         <option value="$PROJECT_DIR$/src/com/vav/Design/ReactiveProgramming/Code/IteratorPattern/KeyValueStorageCollection.java" />
+        <option value="$PROJECT_DIR$/src/com/vav/Design/ReactiveProgramming/Code/IteratorPattern/KeyValueStorageIterator.java" />
       </list>
     </option>
   </component>
@@ -353,23 +375,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.OddEvenSplit_02">
+  <component name="RunManager" selected="Application.IteratorClient">
+    <configuration name="IteratorClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.vav.Design.ReactiveProgramming.Code.IteratorPattern.IteratorClient" />
+      <module name="CODE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vav.Design.ReactiveProgramming.Code.IteratorPattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="OddEvenSplit_02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.vav.Algorithms.Common.ProblemTypes.linkedLists.OddEvenSplit_02" />
       <module name="CODE" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.vav.Algorithms.Common.ProblemTypes.linkedLists.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="Palindromicity_05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.vav.Reference.iCamp.A_Basics.Palindromicity_05" />
-      <module name="CODE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.vav.Reference.iCamp.A_Basics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -476,19 +498,19 @@
       <method />
     </configuration>
     <list>
-      <item itemvalue="Application.Palindromicity_05" />
       <item itemvalue="Application.PhoneNumberToText_03" />
       <item itemvalue="Application.PrintCombinations_02" />
       <item itemvalue="Application.SortingLinkedList_01" />
       <item itemvalue="Application.OddEvenSplit_02" />
+      <item itemvalue="Application.IteratorClient" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IteratorClient" />
         <item itemvalue="Application.OddEvenSplit_02" />
         <item itemvalue="Application.SortingLinkedList_01" />
         <item itemvalue="Application.PhoneNumberToText_03" />
         <item itemvalue="Application.PrintCombinations_02" />
-        <item itemvalue="Application.Palindromicity_05" />
       </list>
     </recent_temporary>
   </component>
@@ -543,24 +565,24 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.460733" weight="0.31785715" />
       <window_info id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="9" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.48242334" side_tool="true" weight="0.30615383" />
       <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.51757663" weight="0.22857143" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.51757663" visible="true" weight="0.22857143" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info id="Capture Tool" order="3" />
       <window_info anchor="right" id="Designer" order="5" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1941392" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1941392" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.5084746" weight="0.33571428" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.460733" weight="0.31785715" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info id="Nl-Palette" order="2" />
@@ -1074,27 +1096,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Reference/CTCI/Archive/work_2017/Common/LinkedList/Link.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Reference/epi/linkedLists/ReverseSinglyLinkedList_8_02.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="634">
-          <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/LinkedList_03/Q10_CheckCyclicFloydAlgo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="26" column="39" lean-forward="true" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/Applications/JDK/src.zip!/java/lang/Math.java" />
     <entry file="file://$PROJECT_DIR$/src/com/vav/Algorithms/Strategies/Heaps/01_HeapsBasics">
       <provider selected="true" editor-type-id="text-editor">
@@ -1301,27 +1302,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Design/ReactiveProgramming/Notes/01_Introduction">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Design/ReactiveProgramming/Notes/02_IteratorPattern">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="107" selection-start-line="4" selection-start-column="107" selection-end-line="4" selection-end-column="107" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Design/ReactiveProgramming/Code/IteratorPattern/Iterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/vav/Design/ReactiveProgramming/Code/IteratorPattern/IntegerStorage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -1329,17 +1309,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Design/ReactiveProgramming/Code/IteratorPattern/KeyValueStorage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/vav/Design/ReactiveProgramming/Code/IteratorPattern/Collection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Design/ReactiveProgramming/Notes/02_IteratorPattern">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Design/ReactiveProgramming/Notes/01_Introduction">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Design/ReactiveProgramming/Code/IteratorPattern/Iterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Design/ReactiveProgramming/Code/IteratorPattern/IntegerStorageIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -1354,13 +1355,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Design/ReactiveProgramming/Code/IteratorPattern/KeyValueStorage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+          <folding>
+            <element signature="e#345#346#0" expanded="true" />
+            <element signature="e#371#372#0" expanded="true" />
+            <element signature="e#403#404#0" expanded="true" />
+            <element signature="e#431#432#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Design/ReactiveProgramming/Code/IteratorPattern/IteratorClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/vav/Design/ReactiveProgramming/Code/IteratorPattern/KeyValueStorageCollection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        <state relative-caret-position="225">
+          <caret line="15" column="44" lean-forward="true" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
           <folding>
-            <element signature="e#177#178#0" expanded="true" />
-            <element signature="e#204#205#0" expanded="true" />
+            <element signature="e#275#276#0" expanded="true" />
+            <element signature="e#318#319#0" expanded="true" />
+            <element signature="e#474#475#0" expanded="true" />
+            <element signature="e#530#531#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vav/Design/ReactiveProgramming/Code/IteratorPattern/KeyValueStorageIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+          <folding>
+            <element signature="e#240#241#0" expanded="true" />
+            <element signature="e#272#273#0" expanded="true" />
+            <element signature="e#463#464#0" expanded="true" />
+            <element signature="e#499#500#0" expanded="true" />
           </folding>
         </state>
       </provider>
