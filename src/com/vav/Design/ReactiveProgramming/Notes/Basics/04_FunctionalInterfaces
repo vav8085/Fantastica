@@ -1,0 +1,5 @@
+Functional Interfaces:
+
+1.  A functional interface is an interface that contains only one abstract method. It can have any number of default methods(methods with body).
+2.  It can also have static methods.
+3.  The single abstract method makes them eligible for converting to Lambdas.
