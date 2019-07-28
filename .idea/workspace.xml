@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0dc95c9b-b3e3-479e-88e2-7ef2b3d4dd5c" name="Default" comment="" />
-    <ignored path="CODE.iws" />
-    <ignored path=".idea/workspace.xml" />
-    <ignored path="$PROJECT_DIR$/out/" />
+    <list default="true" id="0dc95c9b-b3e3-479e-88e2-7ef2b3d4dd5c" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Reference/educative/DSInJavaInterviewRefresher/Arrays/TwoDimensionalArray_01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/educative/DSInJavaInterviewRefresher/TwoDimensionalArray_01.java" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,19 +25,6 @@
   </component>
   <component name="FavoritesManager">
     <favorites_list name="CODE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/vav/CoursesBooks/educative/DSInJavaInterviewRefresher/TwoDimensionalArray_01.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -59,148 +47,15 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/linkedLists/DeleteKthNodeFromEnd_07.java" />
-        <option value="$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/linkedLists/RemoveDuplicatesSortedLl_8_08.java" />
-        <option value="$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/questions" />
-        <option value="$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/linkedLists/Cyclicity_03.java" />
-        <option value="$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/linkedLists/OperlappingTest_8_04.java" />
-        <option value="$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/strings/StringToInteger_01.java" />
-        <option value="$PROJECT_DIR$/src/com/vav/Strategies/Maths/01_BasicOperations" />
-        <option value="$PROJECT_DIR$/src/com/vav/Strategies/ProblemTypes/StringProblems/02_BaseConversion" />
-        <option value="$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/strings/BaseConversion_02.java" />
-        <option value="$PROJECT_DIR$/src/com/vav/Strategies/ProblemTypes/StringProblems/01_ATOI" />
-        <option value="$PROJECT_DIR$/src/com/vav/CoursesBooks/epi/strings/SpreadSheetColumnsToIntegers_03.java" />
-        <option value="$PROJECT_DIR$/src/com/vav/Strategies/ProblemTypes/StringProblems/03_MoveCharacters" />
-        <option value="$PROJECT_DIR$/src/com/vav/CoursesBooks/iCamp/A_Basics/ReplaceAndRemove_04.java" />
-        <option value="$PROJECT_DIR$/src/com/vav/CoursesBooks/iCamp/A_Basics/ReplaceAndRemove_04_X.java" />
-        <option value="$PROJECT_DIR$/src/com/vav/CoursesBooks/iCamp/A_Basics/Palindromicity_05.java" />
-        <option value="$PROJECT_DIR$/src/com/vav/Strategies/Recursion/05_Memoization" />
-        <option value="$PROJECT_DIR$/src/com/vav/CoursesBooks/iCamp/recursion/PrintCombinations_02.java" />
-        <option value="$PROJECT_DIR$/src/com/vav/Strategies/ProblemTypes/Recursion/01_PrintCombinations" />
-        <option value="$PROJECT_DIR$/src/com/vav/CoursesBooks/iCamp/recursion/PhoneNumberToText_03.java" />
-        <option value="$PROJECT_DIR$/src/com/vav/Strategies/Hashing/HashingNotes" />
-        <option value="$PROJECT_DIR$/src/com/vav/Strategies/Strings/Strings" />
-        <option value="$PROJECT_DIR$/src/com/vav/Common/Strings/RabinKarpStringSearch.java" />
-        <option value="$PROJECT_DIR$/src/com/vav/Strategies/ProblemTypes/Hashing/PatternSearch" />
-        <option value="$PROJECT_DIR$/src/com/vav/Strategies/ProblemTypes/Hashing/02_LRU_Cache" />
-        <option value="$PROJECT_DIR$/src/com/vav/Common/ProblemTypes/hashing/LruCache.java" />
-        <option value="$PROJECT_DIR$/src/com/vav/CoursesBooks/CTCI/Archive/work_2017/Common/LinkedList/LinkedList.java" />
-        <option value="$PROJECT_DIR$/src/com/vav/Common/ProblemTypes/linkedLists/SortingLinkedList_01.java" />
-        <option value="$PROJECT_DIR$/src/com/vav/CoursesBooks/CTCI/Archive/work_2017/Common/LinkedList/EmptyListException.java" />
-        <option value="$PROJECT_DIR$/src/com/vav/Common/ProblemTypes/linkedLists/OddEvenSeparation_02.java" />
-        <option value="$PROJECT_DIR$/src/com/vav/Common/ProblemTypes/linkedLists/OddEvenSplit_02.java" />
-        <option value="$PROJECT_DIR$/src/com/vav/Design/Redux/Introduction" />
-        <option value="$PROJECT_DIR$/src/com/vav/Design/ReactiveProgramming/Introduction" />
-        <option value="$PROJECT_DIR$/src/com/vav/Design/ReactiveProgramming/Notes/01_Introduction" />
-        <option value="$PROJECT_DIR$/src/com/vav/Design/ReactiveProgramming/Code/IteratorPattern/Iterator.java" />
-        <option value="$PROJECT_DIR$/src/com/vav/Design/ReactiveProgramming/Code/IteratorPattern/DataStructure.java" />
-        <option value="$PROJECT_DIR$/src/com/vav/Design/ReactiveProgramming/Code/IteratorPattern/DataStructure2.java" />
-        <option value="$PROJECT_DIR$/src/com/vav/Design/ReactiveProgramming/Code/IteratorPattern/IntegerStorage.java" />
-        <option value="$PROJECT_DIR$/src/com/vav/Design/ReactiveProgramming/Code/IteratorPattern/Collection.java" />
-        <option value="$PROJECT_DIR$/src/com/vav/Design/ReactiveProgramming/Code/IteratorPattern/IntegerStorageCollection.java" />
-        <option value="$PROJECT_DIR$/src/com/vav/Design/ReactiveProgramming/Notes/02_IteratorPattern" />
-        <option value="$PROJECT_DIR$/src/com/vav/Design/ReactiveProgramming/Code/IteratorPattern/KeyValueStorage.java" />
-        <option value="$PROJECT_DIR$/src/com/vav/Design/ReactiveProgramming/Code/IteratorPattern/IteratorClient.java" />
-        <option value="$PROJECT_DIR$/src/com/vav/Design/ReactiveProgramming/Code/IteratorPattern/KeyValueStorageCollection.java" />
-        <option value="$PROJECT_DIR$/src/com/vav/Design/ReactiveProgramming/Code/IteratorPattern/KeyValueStorageIterator.java" />
-        <option value="$PROJECT_DIR$/src/com/vav/Design/ReactiveProgramming/Notes/03_AnonymousClasses" />
-        <option value="$PROJECT_DIR$/src/com/vav/Design/ReactiveProgramming/Notes/04_FunctionalInterfaces" />
-        <option value="$PROJECT_DIR$/src/com/vav/Design/ReactiveProgramming/Code/FunctionalInterfaces/ElectricCar.java" />
-        <option value="$PROJECT_DIR$/src/com/vav/Design/ReactiveProgramming/Code/FunctionalInterfaces/ElectricVehicle.java" />
-        <option value="$PROJECT_DIR$/src/com/vav/Design/ReactiveProgramming/Code/FunctionalInterfaces/GasVehicle.java" />
-        <option value="$PROJECT_DIR$/src/com/vav/Design/ReactiveProgramming/Code/FunctionalInterfaces/Vehicle.java" />
-        <option value="$PROJECT_DIR$/src/com/vav/Design/ReactiveProgramming/Code/FunctionalInterfaces/Client.java" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="50" />
-    <option name="width" value="1684" />
-    <option name="height" value="980" />
-  </component>
+  <component name="ProjectId" id="1OYNAZ9HZ05HWYNVnACA77CeT2r" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <hideEmptyPackages ProjectPane="false" />
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="WarPlan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WarPlan" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WarPlan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WarPlan" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WarPlan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WarPlan" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WarPlan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WarPlan" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="vav" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WarPlan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WarPlan" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="vav" type="462c0819:PsiDirectoryNode" />
-              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WarPlan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WarPlan" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="vav" type="462c0819:PsiDirectoryNode" />
-              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="Common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WarPlan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WarPlan" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="vav" type="462c0819:PsiDirectoryNode" />
-              <item name="CoursesBooks" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WarPlan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WarPlan" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="vav" type="462c0819:PsiDirectoryNode" />
-              <item name="CoursesBooks" type="462c0819:PsiDirectoryNode" />
-              <item name="educative" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="Inser&#9;RUN_CONFIGURATION&#9;InsertionSortNonDecreasing&#10;Topo&#9;FILE&#9;file:///Users/vpathak/WarPlan/src/com/vav/Strategies/Graphs/04_TopologicalSorting&#10;heapsor&#9;FILE&#9;file:///Users/z179905/MWC/src/com/vav/Common/Sorting/HeapSort.java" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563752173961" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
@@ -252,7 +107,88 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Client">
+  <component name="RunManager" selected="Application.Challenge_03_FindTwoNumbersAddToN">
+    <configuration default="true" type="AndroidRunConfigurationType">
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <Java />
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType">
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <Java />
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Challenge_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.vav.Reference.educative.DSInJavaInterviewRefresher.Arrays.Challenge_01" />
+      <module name="CODE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vav.Reference.educative.DSInJavaInterviewRefresher.Arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Challenge_03_FindTwoNumbersAddToN" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.vav.Reference.educative.DSInJavaInterviewRefresher.Arrays.Challenge_03_FindTwoNumbersAddToN" />
+      <module name="CODE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vav.Reference.educative.DSInJavaInterviewRefresher.Arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.vav.Design.ReactiveProgramming.Code.FunctionalInterfaces.Client" />
       <module name="CODE" />
@@ -262,6 +198,9 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="IteratorClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.vav.Design.ReactiveProgramming.Code.IteratorPattern.IteratorClient" />
@@ -272,41 +211,25 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="OddEvenSplit_02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.vav.Algorithms.Common.ProblemTypes.linkedLists.OddEvenSplit_02" />
+    <configuration name="TwoDimensionalArray_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.vav.Reference.educative.DSInJavaInterviewRefresher.Arrays.TwoDimensionalArray_01" />
       <module name="CODE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.vav.Algorithms.Common.ProblemTypes.linkedLists.*" />
+          <option name="PATTERN" value="com.vav.Reference.educative.DSInJavaInterviewRefresher.Arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-    </configuration>
-    <configuration name="PhoneNumberToText_03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.vav.Reference.iCamp.recursion.PhoneNumberToText_03" />
-      <module name="CODE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.vav.Reference.iCamp.recursion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="SortingLinkedList_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.vav.Algorithms.Common.ProblemTypes.linkedLists.SortingLinkedList_01" />
-      <module name="CODE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.vav.Algorithms.Common.ProblemTypes.linkedLists.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <module name="CODE" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.vav.Junit.Test" />
       <option name="MAIN_CLASS_NAME" value="com.vav.Junit.Test.StringHelperTest" />
       <option name="METHOD_NAME" value="" />
@@ -314,80 +237,24 @@
       <option name="VM_PARAMETERS" value="" />
       <option name="PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-      <method>
+      <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
-      <module name="" />
-      <option name="DEPLOY" value="true" />
-      <option name="ARTIFACT_NAME" value="" />
-      <option name="PM_INSTALL_OPTIONS" value="" />
-      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
-      <option name="MODE" value="default_activity" />
-      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
-      <option name="FORCE_STOP_RUNNING_APP" value="true" />
-      <option name="DEBUGGER_TYPE" value="Java" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <Java />
-      <Profilers>
-        <option name="GAPID_DISABLE_PCS" value="false" />
-      </Profilers>
-      <option name="DEEP_LINK" value="" />
-      <option name="ACTIVITY_CLASS" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
-      <module name="" />
-      <option name="TESTING_TYPE" value="0" />
-      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="EXTRA_OPTIONS" value="" />
-      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
-      <option name="FORCE_STOP_RUNNING_APP" value="true" />
-      <option name="DEBUGGER_TYPE" value="Java" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <Java />
-      <Profilers>
-        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
-        <option name="GAPID_ENABLED" value="false" />
-        <option name="GAPID_DISABLE_PCS" value="false" />
-        <option name="SUPPORT_LIB_ENABLED" value="true" />
-        <option name="INSTRUMENTATION_ENABLED" value="true" />
-      </Profilers>
-      <method />
-    </configuration>
     <list>
-      <item itemvalue="Application.PhoneNumberToText_03" />
-      <item itemvalue="Application.SortingLinkedList_01" />
-      <item itemvalue="Application.OddEvenSplit_02" />
       <item itemvalue="Application.IteratorClient" />
       <item itemvalue="Application.Client" />
+      <item itemvalue="Application.TwoDimensionalArray_01" />
+      <item itemvalue="Application.Challenge_01" />
+      <item itemvalue="Application.Challenge_03_FindTwoNumbersAddToN" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Challenge_03_FindTwoNumbersAddToN" />
+        <item itemvalue="Application.Challenge_01" />
+        <item itemvalue="Application.TwoDimensionalArray_01" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.IteratorClient" />
-        <item itemvalue="Application.OddEvenSplit_02" />
-        <item itemvalue="Application.SortingLinkedList_01" />
-        <item itemvalue="Application.PhoneNumberToText_03" />
       </list>
     </recent_temporary>
   </component>
@@ -436,72 +303,16 @@
       <configuration name="StringHelperTest" configurationId="JUnit" />
     </history-entry>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1577" height="1016" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20144832" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Nl-Palette" order="2" />
-      <window_info id="Capture Tool" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Image Layers" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Palette&#9;" order="7" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4854151" weight="0.1438515" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.51757663" visible="true" weight="0.22857143" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.5084746" weight="0.33571428" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.48242334" side_tool="true" weight="0.30615383" />
-      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.460733" weight="0.31785715" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info anchor="right" id="Designer" order="5" />
-      <window_info anchor="right" id="Properties" order="6" />
-      <window_info anchor="right" id="Coverage" order="7" side_tool="true" weight="0.32909498" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Capture Analysis" order="9" />
-      <window_info anchor="right" id="Maven" order="10" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27298445" />
-      <window_info id="Structure" order="1" weight="0.25" />
-      <window_info id="Nl-Palette" order="2" />
-      <window_info id="Capture Tool" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Image Layers" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Palette&#9;" order="7" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4854151" weight="0.32692307" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.51757663" weight="0.30074257" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.5084746" weight="0.4220297" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.48242334" side_tool="true" weight="0.30615383" />
-      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.460733" weight="0.32054454" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info anchor="right" id="Designer" order="5" />
-      <window_info anchor="right" id="Properties" order="6" />
-      <window_info anchor="right" id="Coverage" order="7" side_tool="true" weight="0.32909498" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Capture Analysis" order="9" />
-    </layout-to-restore>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -517,400 +328,333 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/vav/Algorithms/Common/LinkedLists/SinglyLinkedList.java</url>
           <line>102</line>
-          <properties />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/vav/karumanchi/Trees/BinaryTreeKaru.java</url>
           <line>47</line>
-          <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/vav/karumanchi/Trees/BinaryTreeKaru.java</url>
           <line>216</line>
-          <properties />
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/vav/karumanchi/Hashmaps/RemoveDuplicatesBF_02.java</url>
           <line>10</line>
-          <properties />
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/vav/CTCI/Archive/work_2017/Chapter2/Q3_DeleteOnlyNodeAccess.java</url>
           <line>12</line>
-          <properties />
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/vav/CTCI/Archive/work_2017/Chapter2/Q5_SumOfTwoNumbers.java</url>
           <line>13</line>
-          <properties />
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/vav/CTCI/Archive/work_2017/Chapter2/Q5_SumOfTwoNumbers.java</url>
           <line>37</line>
-          <properties />
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/vav/CTCI/Archive/work_2017/Chapter3/Q1_ThreeStacksOneArray.java</url>
           <line>23</line>
-          <properties />
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/vav/Algorithms/Common/ThousandSorts/Day1/BubbleSort.java</url>
           <line>14</line>
-          <properties />
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/vav/CTCI/Archive/work_2017/Chapter2/Q4_Partition.java</url>
           <line>31</line>
-          <properties />
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/vav/CTCI/Archive/work_2017/Chapter3/Q3_StackOfPlates.java</url>
           <line>40</line>
-          <properties />
           <option name="timeStamp" value="45" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/vav/CTCI/Archive/work_2017/Chapter3/Q5_StackSorting.java</url>
           <line>13</line>
-          <properties />
           <option name="timeStamp" value="64" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/vav/karumanchi/Trees_06/Q1_2_BinaryTreeFindMaxElement.java</url>
           <line>21</line>
-          <properties />
           <option name="timeStamp" value="65" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/vav/karumanchi/Trees_06/Q12_HeightOfBinTree_Queues.java</url>
           <line>33</line>
-          <properties />
           <option name="timeStamp" value="73" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/vav/karumanchi/Trees_06/Q12_HeightOfBinTree_Queues.java</url>
           <line>37</line>
-          <properties />
           <option name="timeStamp" value="74" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/vav/karumanchi/Trees_06/Q12_HeightOfBinTree_Queues.java</url>
           <line>45</line>
-          <properties />
           <option name="timeStamp" value="75" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/vav/karumanchi/Trees_06/Q13_MinimumDepthOfBinaryTree.java</url>
           <line>37</line>
-          <properties />
           <option name="timeStamp" value="76" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/vav/karumanchi/Trees_06/Q15_DeleteANodeFromBinaryTree.java</url>
           <line>74</line>
-          <properties />
           <option name="timeStamp" value="84" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/vav/karumanchi/LinkedList_03/Q5_NthFromEndOneIter.java</url>
           <line>30</line>
-          <properties />
           <option name="timeStamp" value="89" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/vav/karumanchi/LinkedList_03/Q7_CheckCyclicity2LoopUnsuccess.java</url>
           <line>34</line>
-          <properties />
           <option name="timeStamp" value="90" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/vav/karumanchi/LinkedList_03/Q12_FindCyclePosition.java</url>
           <line>30</line>
-          <properties />
           <option name="timeStamp" value="95" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/vav/karumanchi/LinkedList_03/Q16_InsertNodeInSortedLl.java</url>
           <line>45</line>
-          <properties />
           <option name="timeStamp" value="96" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/vav/karumanchi/LinkedList_03/Q17_ReverseASinglyLinkedList.java</url>
           <line>33</line>
-          <properties />
           <option name="timeStamp" value="97" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/vav/Algorithms/Common/Heaps/HeapMain.java</url>
           <line>15</line>
-          <properties />
           <option name="timeStamp" value="104" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/vav/Algorithms/Common/Sorting/CountingSort.java</url>
           <line>27</line>
-          <properties />
           <option name="timeStamp" value="106" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/vav/karumanchi/Stacks_04/Q3_PostfixProcessor.java</url>
           <line>58</line>
-          <properties />
           <option name="timeStamp" value="117" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/vav/karumanchi/Stacks_04/Q3_PostfixProcessor.java</url>
           <line>41</line>
-          <properties />
           <option name="timeStamp" value="118" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/vav/karumanchi/Stacks_04/Q3_PostfixProcessor.java</url>
           <line>45</line>
-          <properties />
           <option name="timeStamp" value="119" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/vav/karumanchi/Stacks_04/Q3_PostfixProcessor.java</url>
           <line>49</line>
-          <properties />
           <option name="timeStamp" value="120" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/vav/karumanchi/Stacks_04/Q3_PostfixProcessor.java</url>
           <line>53</line>
-          <properties />
           <option name="timeStamp" value="122" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/vav/karumanchi/Stacks_04/Q9_CheckPalindromeLinkedList.java</url>
           <line>41</line>
-          <properties />
           <option name="timeStamp" value="128" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/vav/karumanchi/Stacks_04/Q10_CheckPalindromeLinkedListUsingStack.java</url>
           <line>40</line>
-          <properties />
           <option name="timeStamp" value="130" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/vav/karumanchi/Queues_05/Q2_TwoStackOneQueue.java</url>
           <line>35</line>
-          <properties />
           <option name="timeStamp" value="131" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/vav/Algorithms/Common/Hashing/LinearProbingHashMapTest.java</url>
           <line>21</line>
-          <properties />
           <option name="timeStamp" value="133" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/vav/Algorithms/Common/Hashing/SeparateChainingTest.java</url>
           <line>8</line>
-          <properties />
           <option name="timeStamp" value="134" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/vav/USanDieg_DsAlgoSpecialization/Algo_Toolbox/Week2/Code/FibonacciNumbers.java</url>
           <line>31</line>
-          <properties />
           <option name="timeStamp" value="137" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/vav/USanDieg_DsAlgoSpecialization/Algo_Toolbox/Week2/Code/FibonacciNumbers.java</url>
           <line>47</line>
-          <properties />
           <option name="timeStamp" value="138" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/vav/USanDieg_DsAlgoSpecialization/Algo_Toolbox/Week2/Code/FibonacciLastDigit.java</url>
           <line>12</line>
-          <properties />
           <option name="timeStamp" value="140" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/vav/USanDieg_DsAlgoSpecialization/Algo_Toolbox/Week3/Code/CarRefueling.java</url>
           <line>33</line>
-          <properties />
           <option name="timeStamp" value="148" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/vav/USanDieg_DsAlgoSpecialization/Algo_Toolbox/Week3/Code/FractionalKnapsack.java</url>
           <line>26</line>
-          <properties />
           <option name="timeStamp" value="151" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/vav/USanDieg_DsAlgoSpecialization/Algo_Toolbox/Week3/Code/MaximumDotProduct.java</url>
           <line>19</line>
-          <properties />
           <option name="timeStamp" value="156" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/vav/Leetcode/Easy/ValidateParantheses_20.java</url>
           <line>42</line>
-          <properties />
           <option name="timeStamp" value="163" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/vav/Leetcode/Easy/MergeSortedLists_021.java</url>
           <line>43</line>
-          <properties />
           <option name="timeStamp" value="166" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/vav/Leetcode/Easy/NeedleInHaystack_028.java</url>
           <line>19</line>
-          <properties />
           <option name="timeStamp" value="167" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/vav/Leetcode/Easy/LengthOfLastWord_058.java</url>
           <line>31</line>
-          <properties />
           <option name="timeStamp" value="172" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/vav/Leetcode/Medium/AddTwoNumbers_02.java</url>
           <line>38</line>
-          <properties />
           <option name="timeStamp" value="174" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/vav/Algorithms/Common/DivideAndConquer/BinarySearch.java</url>
           <line>31</line>
-          <properties />
           <option name="timeStamp" value="175" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/vav/Leetcode/Easy/AddBinary_67.java</url>
           <line>22</line>
-          <properties />
           <option name="timeStamp" value="179" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/vav/Leetcode/Easy/BinaryTreeLevelOrderTraversal2_107.java</url>
           <line>58</line>
-          <properties />
           <option name="timeStamp" value="190" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/vav/Leetcode/Easy/BinaryTreeLevelOrderTraversal2_107.java</url>
           <line>66</line>
-          <properties />
           <option name="timeStamp" value="191" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/vav/USanDieg_DsAlgoSpecialization/Algo_Toolbox/Week2/Code/GCDOptimised.java</url>
           <line>20</line>
-          <properties />
           <option name="timeStamp" value="192" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/vav/ITA_Cormen/I2_GettingStarted_2/ITA_InsertionSort.java</url>
           <line>7</line>
-          <properties />
           <option name="timeStamp" value="194" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/vav/Algorithms/Common/ProblemTypes/Reference/epi/primitiveTypes_01/ComputeParity_02.java</url>
           <line>53</line>
-          <properties />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/vav/Algorithms/Common/ProblemTypes/Reference/epi/primitiveTypes_01/SwapBits_03.java</url>
           <line>21</line>
-          <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/vav/Algorithms/Common/ProblemTypes/Reference/iCamp/A_Basics/SubstituteEvenWithOneMore_03.java</url>
           <line>19</line>
-          <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/vav/Algorithms/Common/ProblemTypes/Reference/karumanchi/LinkedList_03/SinglyLinkedList.java</url>
           <line>14</line>
-          <properties />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/vav/Algorithms/Common/ProblemTypes/Reference/karumanchi/LinkedList_03/SinglyLinkedList.java</url>
           <line>24</line>
-          <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/vav/Revision/PrincetonAlgo1/W04/PriorityQueue_01.java</url>
           <line>52</line>
-          <properties />
           <option name="timeStamp" value="195" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/vav/Revision/PrincetonAlgo1/W04/PriorityQueue_01.java</url>
           <line>12</line>
-          <properties />
           <option name="timeStamp" value="196" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/vav/Algorithms/Common/ProblemTypes/Reference/epi/linkedLists/MergeSortedLists_8_01.java</url>
           <line>46</line>
-          <properties />
           <option name="timeStamp" value="198" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/vav/Algorithms/Common/ProblemTypes/Reference/epi/linkedLists/ReverseSinglyLinkedList_8_02.java</url>
           <line>32</line>
-          <properties />
           <option name="timeStamp" value="200" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/vav/Algorithms/Common/ProblemTypes/Reference/epi/linkedLists/OperlappingTest_8_04.java</url>
           <line>57</line>
-          <properties />
           <option name="timeStamp" value="201" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/vav/Algorithms/Common/ProblemTypes/Reference/epi/linkedLists/DeleteKthNodeFromEnd_07.java</url>
           <line>30</line>
-          <properties />
           <option name="timeStamp" value="204" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/vav/Algorithms/Common/ProblemTypes/Reference/epi/strings/StringToInteger_01.java</url>
           <line>17</line>
-          <properties />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/vav/Algorithms/Common/ProblemTypes/Reference/epi/strings/BaseConversion_02.java</url>
           <line>10</line>
-          <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/vav/Algorithms/Common/ProblemTypes/Reference/iCamp/recursion/PhoneNumberToText_03.java</url>
           <line>32</line>
-          <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/vav/Algorithms/Common/ProblemTypes/Reference/iCamp/recursion/PhoneNumberToText_03.java</url>
           <line>25</line>
-          <properties />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
@@ -968,125 +712,6 @@
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Reference/epi/linkedLists/RemoveDuplicatesSortedLl_8_08.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Reference/epi/linkedLists/OperlappingTest_8_04.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="53" column="21" lean-forward="true" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Reference/epi/linkedLists/Cyclicity_03.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Math.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Reference/epi/questions">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Algorithms/Strategies/Maths/01_BasicOperations" />
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Algorithms/Strategies/ProblemTypes/StringProblems/02_BaseConversion" />
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Reference/epi/strings/SpreadSheetColumnsToIntegers_03.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Reference/epi/strings/BaseConversion_02.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Reference/epi/strings/StringToInteger_01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="20" column="31" lean-forward="true" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Reference/iCamp/A_Basics/MoveZeroesToEnd_04.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="42" lean-forward="true" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Reference/iCamp/A_Basics/SubstituteEvenWithOneMore_03.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Reference/iCamp/A_Basics/Palindromicity_05.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Reference/iCamp/A_Basics/ReplaceAndRemove_04_X.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Algorithms/Strategies/ProblemTypes/StringProblems/03_ReplaceCharacters" />
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Algorithms/Strategies/Recursion/05_Memoization" />
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Reference/USanDieg_DsAlgoSpecialization/Algo_Toolbox/Week3/Code/MinimumChange.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Algorithms/Strategies/ProblemTypes/Recursion/01_PrintCombinations" />
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Reference/iCamp/recursion/PrintCombinations_02.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Reference/iCamp/recursion/PhoneNumberToText_03.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Algorithms/Strategies/ProblemTypes/StringProblems/01_ATOI" />
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Algorithms/Strategies/Hashing/HashingNotes" />
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Algorithms/Strategies/Strings/Strings" />
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Algorithms/Common/Strings/RabinKarpStringSearch.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Algorithms/Strategies/ProblemTypes/Hashing/01_PatternSearch" />
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Algorithms/Common/ProblemTypes/hashing/LruCache.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Algorithms/Strategies/ProblemTypes/Hashing/02_LRU_Cache" />
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Reference/CTCI/Archive/work_2017/Common/LinkedList/EmptyListException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Algorithms/Common/ProblemTypes/linkedLists/SortingLinkedList_01.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Reference/CTCI/Archive/work_2017/Common/LinkedList/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="685">
-          <caret line="121" selection-start-line="121" selection-end-line="121" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Algorithms/Common/ProblemTypes/linkedLists/OddEvenSplit_02.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Randoms/WorkerSalaries.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Design/Redux/Introduction" />
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Design/ReactiveProgramming/Code/IteratorPattern/IntegerStorage.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Design/ReactiveProgramming/Code/IteratorPattern/Collection.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Design/ReactiveProgramming/Code/IteratorPattern/Iterator.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Design/ReactiveProgramming/Code/IteratorPattern/IntegerStorageIterator.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Design/ReactiveProgramming/Code/IteratorPattern/IntegerStorageCollection.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Design/ReactiveProgramming/Code/IteratorPattern/KeyValueStorage.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Design/ReactiveProgramming/Code/IteratorPattern/IteratorClient.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Design/ReactiveProgramming/Code/IteratorPattern/KeyValueStorageCollection.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Design/ReactiveProgramming/Code/IteratorPattern/KeyValueStorageIterator.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Design/ReactiveProgramming/Notes/Basics/02_IteratorPattern" />
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Design/ReactiveProgramming/Notes/Basics/03_AnonymousClasses" />
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Design/ReactiveProgramming/Notes/Basics/01_Introduction" />
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Design/ReactiveProgramming/Notes/Basics/05_LambdaExpressions" />
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Design/ReactiveProgramming/Notes/Basics/04_FunctionalInterfaces" />
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Design/ReactiveProgramming/Code/FunctionalInterfaces/ElectricVehicle.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Design/ReactiveProgramming/Code/FunctionalInterfaces/Vehicle.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/vav/Design/ReactiveProgramming/Code/FunctionalInterfaces/Client.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/vav/CoursesBooks/educative/DSInJavaInterviewRefresher/TwoDimensionalArray_01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
   </component>
   <component name="masterDetails">
     <states>
