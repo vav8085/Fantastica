@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0dc95c9b-b3e3-479e-88e2-7ef2b3d4dd5c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/educative/DSInJavaInterviewRefresher/Arrays/Challenge_02_MergeSortedArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Reference/educative/DSInJavaInterviewRefresher/Arrays/Challenge_02_MergeSortedArrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/educative/DSInJavaInterviewRefresher/Arrays/Challenge_04_ProductOfAllItemsExceptSelf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Reference/educative/DSInJavaInterviewRefresher/Arrays/Challenge_04_ProductOfAllItemsExceptSelf.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -107,7 +105,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Challenge_05_MinimumValueInArray">
+  <component name="RunManager" selected="Application.Challenge_06_FirstNonrepeatingInteger">
     <configuration default="true" type="AndroidRunConfigurationType">
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
@@ -163,19 +161,6 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Challenge_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.vav.Reference.educative.DSInJavaInterviewRefresher.Arrays.Challenge_01" />
-      <module name="CODE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.vav.Reference.educative.DSInJavaInterviewRefresher.Arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Challenge_02_MergeSortedArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.vav.Reference.educative.DSInJavaInterviewRefresher.Arrays.Challenge_02_MergeSortedArrays" />
       <module name="CODE" />
@@ -228,6 +213,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Challenge_06_FirstNonrepeatingInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.vav.Reference.educative.DSInJavaInterviewRefresher.Arrays.Challenge_06_FirstNonrepeatingInteger" />
+      <module name="CODE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vav.Reference.educative.DSInJavaInterviewRefresher.Arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <module name="CODE" />
       <option name="PACKAGE_NAME" value="com.vav.Junit.Test" />
@@ -242,19 +240,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Challenge_01" />
       <item itemvalue="Application.Challenge_03_FindTwoNumbersAddToN" />
       <item itemvalue="Application.Challenge_04_ProductOfAllItemsExceptSelf" />
       <item itemvalue="Application.Challenge_02_MergeSortedArrays" />
       <item itemvalue="Application.Challenge_05_MinimumValueInArray" />
+      <item itemvalue="Application.Challenge_06_FirstNonrepeatingInteger" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Challenge_06_FirstNonrepeatingInteger" />
         <item itemvalue="Application.Challenge_05_MinimumValueInArray" />
         <item itemvalue="Application.Challenge_02_MergeSortedArrays" />
         <item itemvalue="Application.Challenge_04_ProductOfAllItemsExceptSelf" />
         <item itemvalue="Application.Challenge_03_FindTwoNumbersAddToN" />
-        <item itemvalue="Application.Challenge_01" />
       </list>
     </recent_temporary>
   </component>
