@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0dc95c9b-b3e3-479e-88e2-7ef2b3d4dd5c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Algorithms/Strategies/Recursion/01_Basics" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Strategies/Recursion/01_Basics" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +63,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -268,38 +269,6 @@
       <updated>1478533971349</updated>
     </task>
     <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="CalculatorTest - 2017.01.13 at 18h 27m 15s.xml">
-      <configuration name="CalculatorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculatorTest - 2017.01.13 at 18h 27m 34s.xml">
-      <configuration name="CalculatorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculatorTest - 2017.01.13 at 19h 42m 59s.xml">
-      <configuration name="CalculatorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculatorTest - 2017.01.13 at 19h 43m 12s.xml">
-      <configuration name="CalculatorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculatorTest - 2017.01.13 at 19h 44m 42s.xml">
-      <configuration name="CalculatorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculatorTest - 2017.01.13 at 19h 46m 58s.xml">
-      <configuration name="CalculatorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculatorTest - 2017.01.16 at 11h 01m 42s.xml">
-      <configuration name="CalculatorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StringHelperTest - 2017.01.18 at 11h 42m 19s.xml">
-      <configuration name="StringHelperTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StringHelperTest - 2017.01.18 at 11h 51m 05s.xml">
-      <configuration name="StringHelperTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StringHelperTest - 2017.02.14 at 10h 39m 19s.xml">
-      <configuration name="StringHelperTest" configurationId="JUnit" />
-    </history-entry>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
