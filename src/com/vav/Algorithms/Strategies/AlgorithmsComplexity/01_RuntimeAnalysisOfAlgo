@@ -5,10 +5,17 @@ Runtime Analysis:
 3.  We also cannot count the statements executed as the execution time as it differs from one programming language to
     other.
 *** The ideal solution is to define an algorithm as a function that is independent of machine and the language.
+4.  We define Runtime of the algorithm as a function of size of the problem. So if there are two different algorithms
+    and we draw both of them keeping the size of the problem on the x axis and runtime on y axis we can compare them.
+    The algorithm which has lesser runtime for a specific(Usually very large) size of the problem wins.
+5.  The reason we use very large input is because it gives us worst case of an algorithm.
+6.  Big O, Big theta and Big omega are the values of a single algorithm at some N0. This means an algorithm can take different
+    outputs on the basis of different inputs of same size N0
+7.  To compare different algorithms we can compare their asymptotic values for same input N0.
 
 Rate of Growth:
 
-1.  The rate at which runtime increases as a function of input.
+1.  The rate at which runtime increases as a function of input(problem size). This is the rate of growth function.
 
 Some general rate of growths:
 
