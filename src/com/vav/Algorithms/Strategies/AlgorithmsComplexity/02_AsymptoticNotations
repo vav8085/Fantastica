@@ -1,10 +1,12 @@
 Asymptotic Notations:
 
+**  Asymptotic analysis gives the growth of the running time as n -> infinity
+
 1.  We can represent an algorithm with a function F(N). The functions G(N) that gives the upper and lower
     bounds of the F(N) are called its asymptotes.
 2.  This G(N) gives the closest bounds to F(N).
 
-*Big O Notation:
+*Big O Notation: Also check after trading (https://stackoverflow.com/questions/3230122/big-oh-vs-big-theta)
 
 1.  The notation that gives the upper bound of a function is called its Big O function.
 2.  F(N) = O(G(n)).
@@ -51,6 +53,9 @@ Omega(N) will be N^2
 
 *   Usually we only care about big O of the algorithm because it gives the maximum complexity. we do not care
     much about the big Omega.
+
+*   Best case analysis is often called bogus because any slow algorithm can perform good in its best case. Dosent mean
+    its the best algorithm for solving that problem.
 
 *   Asymptotic Analysis of various algorithm statements:
 

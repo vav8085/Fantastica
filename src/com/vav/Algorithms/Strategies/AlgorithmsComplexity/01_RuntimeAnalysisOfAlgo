@@ -12,6 +12,7 @@ Runtime Analysis:
 6.  Big O, Big theta and Big omega are the values of a single algorithm at some N0. This means an algorithm can take different
     outputs on the basis of different inputs of same size N0
 7.  To compare different algorithms we can compare their asymptotic values for same input N0.
+8.  Note that all the inputs at N0 may not have the same probability, in this case we assume that they are equally likely.
 
 Rate of Growth:
 
@@ -46,3 +47,9 @@ while(i<n){
 }
 Then algorithms complexity will be n not n^2 because i and j are two different variables incrementing in two different loops.
 
+
+So how to compare two algorithms?
+
+****Because big theta notation is the tight upper bound of f(n) we know that an algorithm can perform as worse as this
+    so we can compare their rate of growth and big theta. Note that we can compare big O but big O does not give a tight upper bound so
+    it may not be best to compare algorithms but is good to measure its worst case.
