@@ -5,7 +5,7 @@ import java.util.HashMap;
 
 public class LongestSubstring_03 {
     public static void main(String arg[]){
-        System.out.println(longestSubstring("abcdbcab"));
+        System.out.println(longestSubstring("nfpdmpi"));
     }
 
     /**
@@ -20,7 +20,8 @@ public class LongestSubstring_03 {
         for(int i=0,j=0;j<input.length();j++){
             if(!tempList.contains(input.charAt(j))) {
                 tempList.add(input.charAt(j));
-                finalList = (ArrayList<Character>) tempList.clone();
+                if(finalList.size()<=tempList.size())
+                    finalList = (ArrayList<Character>) tempList.clone();
             }
             else {
                 while (tempList.get(i)!=input.charAt(j)){
