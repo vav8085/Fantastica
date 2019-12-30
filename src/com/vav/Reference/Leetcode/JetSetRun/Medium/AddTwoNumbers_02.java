@@ -23,7 +23,7 @@ public class AddTwoNumbers_02 {
             linkA.setNext(linkB);
             linkB.setNext(linkC);
 
-            Link<Integer> result = addTwoNumbers(link1,linkA);
+            Link<Integer> result = addTwoNumbersAgain(link1,linkA);
 
             while (result!=null){
                 System.out.println(result.getData());
@@ -68,14 +68,39 @@ public class AddTwoNumbers_02 {
             int carry = 0; //carry is initialized to 0
             LinkedList<Integer> result = new LinkedList<>();
 
-            while(number1!=null && number2!=null){
+            while(number1!=null && number2!=null){  // run both lists until one of them is null
                 int sum = number1.getData() + number2.getData() + carry;
                 carry = 0;
-                if(sum > 10){
+                if(sum >= 10){
                     sum = sum % 10;
                     carry = 1;
                 }
                 result.insertAtStart(sum);
+                number1 = number1.getNext();
+                number2 = number2.getNext();
+            }
+            while (number1 != null) { //1->2->5->9   //1->2->5   -> 2->4->0 //for remaining elements, if there is carry then add it and proceed
+                int sum = number1.getData() + carry;
+                carry=0;
+                if(sum >= 10){
+                    sum = sum % 10;
+                    carry = 1;
+                }
+                result.insertAtStart(sum);
+                number1 = number1.getNext();
+            }
+            while (number2!=null){ // do previous step if list 2 has remaining elements
+                int sum = number2.getData() + carry;
+                carry=0;
+                if(sum >= 10){
+                    sum = sum % 10;
+                    carry = 1;
+                }
+                result.insertAtStart(sum);
+                number2 = number2.getNext();
+            }
+            if(carry==1){ // if still a carry is left then add it to the list
+                result.insertAtStart(1);
             }
             return result.getHead();
         }
