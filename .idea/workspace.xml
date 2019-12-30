@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0dc95c9b-b3e3-479e-88e2-7ef2b3d4dd5c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/Leetcode/JetSetRun/Medium/AddTwoNumbers_02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Reference/Leetcode/JetSetRun/Medium/AddTwoNumbers_02.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,8 +29,8 @@
       <list>
         <option value="Interface" />
         <option value="JUnit4 Test Class" />
-        <option value="Class" />
         <option value="Kotlin File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -107,7 +106,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AddTwoNumbers_02">
+  <component name="RunManager" selected="Application.LongestSubstring_03">
     <configuration default="true" type="AndroidRunConfigurationType">
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
@@ -176,19 +175,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Challenge_09_RearrangePositiveNegative" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.vav.Reference.educative.DSInJavaInterviewRefresher.Arrays.Challenge_09_RearrangePositiveNegative" />
-      <module name="CODE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.vav.Reference.educative.DSInJavaInterviewRefresher.Arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Challenge_10_RearrangeInMaxMinForm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.vav.Reference.educative.DSInJavaInterviewRefresher.Arrays.Challenge_10_RearrangeInMaxMinForm" />
       <module name="CODE" />
@@ -208,6 +194,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.vav.Algorithms.Campaign.Basics.Iteration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LongestSubstring_03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.vav.Reference.Leetcode.JetSetRun.Medium.LongestSubstring_03" />
+      <module name="CODE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vav.Reference.Leetcode.JetSetRun.Medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -242,19 +241,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Challenge_09_RearrangePositiveNegative" />
       <item itemvalue="Application.Challenge_10_RearrangeInMaxMinForm" />
       <item itemvalue="Application.ReverseInsertionSort" />
       <item itemvalue="Application.Iteration" />
       <item itemvalue="Application.AddTwoNumbers_02" />
+      <item itemvalue="Application.LongestSubstring_03" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongestSubstring_03" />
         <item itemvalue="Application.AddTwoNumbers_02" />
         <item itemvalue="Application.Iteration" />
         <item itemvalue="Application.ReverseInsertionSort" />
         <item itemvalue="Application.Challenge_10_RearrangeInMaxMinForm" />
-        <item itemvalue="Application.Challenge_09_RearrangePositiveNegative" />
       </list>
     </recent_temporary>
   </component>
@@ -627,61 +626,17 @@
           <line>25</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/vav/Reference/Leetcode/JetSetRun/Medium/LongestSubstring_03.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="207" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
-  </component>
-  <component name="debuggerHistoryManager">
-    <expressions id="evaluateExpression">
-      <expression>
-        <expression-string>number % base2</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>(number* Math.pow(10,i))</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>10^i</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>number* 10^i</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>(str.charAt(i)-'0')</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>queue[i].getPriority()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>item.getPriority()&lt;queue[i].getPriority()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>(input &gt;&gt; i)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>((input &gt;&gt; i) &amp; 1)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-    </expressions>
   </component>
   <component name="masterDetails">
     <states>
