@@ -1,4 +1,4 @@
-package com.vav.Reference.Leetcode.warplan.Easy;
+package com.vav.Reference.Leetcode.JetSetRun.Easy;
 
 import com.vav.Reference.CTCI.Archive.work_2017.Common.LinkedList.Link;
 

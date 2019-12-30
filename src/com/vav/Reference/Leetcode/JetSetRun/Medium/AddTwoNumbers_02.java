@@ -1,6 +1,7 @@
-package com.vav.Reference.Leetcode.warplan.Medium;
+package com.vav.Reference.Leetcode.JetSetRun.Medium;
 
 import com.vav.Reference.CTCI.Archive.work_2017.Common.LinkedList.Link;
+import com.vav.Reference.CTCI.Archive.work_2017.Common.LinkedList.LinkedList;
 
 /**
  * Created by Vaibhav on 2/12/18.
@@ -54,5 +55,28 @@ public class AddTwoNumbers_02 {
                 current.setNext(null);
             }
             return newLink.getNext();
+        }
+
+    /**
+     * The strategy is simple here, just go over both lists in a single for loop and add the numbers and save it to result list
+     * also keep a variable for carry which gets reset once used
+     * @param number1
+     * @param number2
+     * @return
+     */
+        public static Link<Integer> addTwoNumbersAgain(Link<Integer> number1, Link<Integer> number2){
+            int carry = 0; //carry is initialized to 0
+            LinkedList<Integer> result = new LinkedList<>();
+
+            while(number1!=null && number2!=null){
+                int sum = number1.getData() + number2.getData() + carry;
+                carry = 0;
+                if(sum > 10){
+                    sum = sum % 10;
+                    carry = 1;
+                }
+                result.insertAtStart(sum);
+            }
+            return result.getHead();
         }
 }

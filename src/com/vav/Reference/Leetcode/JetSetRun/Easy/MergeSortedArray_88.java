@@ -1,4 +1,4 @@
-package com.vav.Reference.Leetcode.warplan.Easy;
+package com.vav.Reference.Leetcode.JetSetRun.Easy;
 
 public class MergeSortedArray_88 {
     public static int[] mergeSortedArray(int[] nums1, int m, int[] nums2, int n){
