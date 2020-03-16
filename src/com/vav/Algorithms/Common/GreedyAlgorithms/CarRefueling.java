@@ -13,7 +13,7 @@ public class CarRefueling {
         arr[2] = new GasStation(350,"G2");
         arr[3] = new GasStation(500,"G3");
         arr[4] = new GasStation(600,"G4");
-        arr[5] = new GasStation(750,"G5");
+        arr[5] = new GasStation(900,"G5");
         arr[6] = new GasStation(1000,"G6");
 
         System.out.print(optimalRefuels(maxTravel,arr));
