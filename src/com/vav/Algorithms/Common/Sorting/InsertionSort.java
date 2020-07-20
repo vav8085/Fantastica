@@ -5,7 +5,7 @@ package com.vav.Algorithms.Common.Sorting;
  */
 public class InsertionSort {
     public static void main(String arg[]){
-        int arr[] = {10,11,2,1};
+        int arr[] = {11,12};
         arr = insertionSort(arr);
         for (int i=0;i<arr.length;i++){
             System.out.println(arr[i]);

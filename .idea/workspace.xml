@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0dc95c9b-b3e3-479e-88e2-7ef2b3d4dd5c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vav/Algorithms/Common/GreedyAlgorithms/CarRefueling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Common/GreedyAlgorithms/CarRefueling.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Algorithms/Common/Sorting/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Common/Sorting/InsertionSort.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -107,7 +107,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CarRefueling">
+  <component name="RunManager" selected="Application.InsertionSort">
     <configuration default="true" type="AndroidRunConfigurationType">
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
@@ -189,12 +189,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Iteration" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.vav.Algorithms.Campaign.Basics.Iteration.Iteration" />
+    <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.vav.Algorithms.Common.Sorting.InsertionSort" />
       <module name="CODE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.vav.Algorithms.Campaign.Basics.Iteration.*" />
+          <option name="PATTERN" value="com.vav.Algorithms.Common.Sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -242,19 +242,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Iteration" />
       <item itemvalue="Application.AddTwoNumbers_02" />
       <item itemvalue="Application.LongestSubstring_03" />
       <item itemvalue="Application.Q22_LevelWithMaximumSum" />
       <item itemvalue="Application.CarRefueling" />
+      <item itemvalue="Application.InsertionSort" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InsertionSort" />
         <item itemvalue="Application.CarRefueling" />
         <item itemvalue="Application.Q22_LevelWithMaximumSum" />
         <item itemvalue="Application.LongestSubstring_03" />
         <item itemvalue="Application.AddTwoNumbers_02" />
-        <item itemvalue="Application.Iteration" />
       </list>
     </recent_temporary>
   </component>
@@ -631,6 +631,11 @@
           <url>file://$PROJECT_DIR$/src/com/vav/Reference/Leetcode/JetSetRun/Medium/LongestSubstring_03.java</url>
           <line>20</line>
           <option name="timeStamp" value="207" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/vav/Algorithms/Common/Sorting/InsertionSort.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="208" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
