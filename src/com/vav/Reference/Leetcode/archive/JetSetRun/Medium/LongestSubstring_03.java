@@ -1,7 +1,6 @@
-package com.vav.Reference.Leetcode.JetSetRun.Medium;
+package com.vav.Reference.Leetcode.archive.JetSetRun.Medium;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 
 public class LongestSubstring_03 {
     public static void main(String arg[]){

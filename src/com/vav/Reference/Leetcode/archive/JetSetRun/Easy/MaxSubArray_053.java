@@ -1,4 +1,4 @@
-package com.vav.Reference.Leetcode.JetSetRun.Easy;
+package com.vav.Reference.Leetcode.archive.JetSetRun.Easy;
 
 /**
  * Created by vaibhav on 2/6/18.

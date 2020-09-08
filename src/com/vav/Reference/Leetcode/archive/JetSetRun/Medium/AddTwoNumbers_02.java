@@ -1,4 +1,4 @@
-package com.vav.Reference.Leetcode.JetSetRun.Medium;
+package com.vav.Reference.Leetcode.archive.JetSetRun.Medium;
 
 import com.vav.Reference.CTCI.Archive.work_2017.Common.LinkedList.Link;
 import com.vav.Reference.CTCI.Archive.work_2017.Common.LinkedList.LinkedList;

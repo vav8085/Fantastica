@@ -1,4 +1,4 @@
-package com.vav.Reference.Leetcode.JetSetRun.Easy;
+package com.vav.Reference.Leetcode.archive.JetSetRun.Easy;
 
 public class ClimbingStairs_70 {
     public static void main(String arg[]){

@@ -166,11 +166,11 @@
       </method>
     </configuration>
     <configuration name="AddTwoNumbers_02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.vav.Reference.Leetcode.JetSetRun.Medium.AddTwoNumbers_02" />
+      <option name="MAIN_CLASS_NAME" value="com.vav.Reference.Leetcode.archive.JetSetRun.Medium.AddTwoNumbers_02" />
       <module name="CODE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.vav.Reference.Leetcode.JetSetRun.Medium.*" />
+          <option name="PATTERN" value="com.vav.Reference.Leetcode.archive.JetSetRun.Medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -205,11 +205,11 @@
       </method>
     </configuration>
     <configuration name="LongestSubstring_03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.vav.Reference.Leetcode.JetSetRun.Medium.LongestSubstring_03" />
+      <option name="MAIN_CLASS_NAME" value="com.vav.Reference.Leetcode.archive.JetSetRun.Medium.LongestSubstring_03" />
       <module name="CODE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.vav.Reference.Leetcode.JetSetRun.Medium.*" />
+          <option name="PATTERN" value="com.vav.Reference.Leetcode.archive.JetSetRun.Medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
