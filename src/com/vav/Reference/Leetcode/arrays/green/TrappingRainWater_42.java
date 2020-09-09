@@ -22,7 +22,7 @@ import java.util.List;
  */
 public class TrappingRainWater_42 {
     public static void main(String arg[]){
-        int value = totalWaterDP(new int[]{0,1,0,2,1,0,1,3,2,1,2,1});
+        int value = totalWaterDP(new int[]{2,0,2});//{0,1,0,2,1,0,1,3,2,1,2,1});
             System.out.print(value);
     }
 
@@ -65,10 +65,11 @@ public class TrappingRainWater_42 {
         int output = 0;
         int[] leftMax = new int[input.length];
         int[] rightMax = new int[input.length];
-
+        leftMax[0] = input[0];
         for(int i=1;i<input.length;i++){
             leftMax[i] = Integer.max(input[i], leftMax[i-1]);
         }
+        rightMax[input.length-1] = input[input.length-1];
         for(int j=input.length-2;j>0;j--){
             rightMax[j] = Integer.max(input[j], rightMax[j+1]);
         }

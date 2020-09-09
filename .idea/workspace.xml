@@ -109,7 +109,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TrappingRainWater_42">
+  <component name="RunManager" selected="Application.MaximumSubarraySum_53">
     <configuration default="true" type="AndroidRunConfigurationType">
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
@@ -191,12 +191,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestSubstring_03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.vav.Reference.Leetcode.archive.JetSetRun.Medium.LongestSubstring_03" />
+    <configuration name="MaximumSubarraySum_53" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.vav.Reference.Leetcode.arrays.green.MaximumSubarraySum_53" />
       <module name="CODE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.vav.Reference.Leetcode.archive.JetSetRun.Medium.*" />
+          <option name="PATTERN" value="com.vav.Reference.Leetcode.arrays.green.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -244,19 +244,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.LongestSubstring_03" />
       <item itemvalue="Application.Q22_LevelWithMaximumSum" />
       <item itemvalue="Application.CarRefueling" />
       <item itemvalue="Application.InsertionSort" />
       <item itemvalue="Application.TrappingRainWater_42" />
+      <item itemvalue="Application.MaximumSubarraySum_53" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaximumSubarraySum_53" />
         <item itemvalue="Application.TrappingRainWater_42" />
         <item itemvalue="Application.InsertionSort" />
         <item itemvalue="Application.CarRefueling" />
         <item itemvalue="Application.Q22_LevelWithMaximumSum" />
-        <item itemvalue="Application.LongestSubstring_03" />
       </list>
     </recent_temporary>
   </component>
@@ -641,8 +641,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/vav/Reference/Leetcode/arrays/green/TrappingRainWater_42.java</url>
-          <line>76</line>
+          <line>77</line>
           <option name="timeStamp" value="209" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/vav/Reference/Leetcode/arrays/green/TrappingRainWater_42.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="211" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
