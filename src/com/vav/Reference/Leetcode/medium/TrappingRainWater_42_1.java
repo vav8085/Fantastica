@@ -1,4 +1,4 @@
-package com.vav.Reference.Leetcode.arrays.green;
+package com.vav.Reference.Leetcode.medium;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -20,7 +20,7 @@ import java.util.List;
  * Solution is just based on this idea. For each height/value just find out left highest hill and right highest hill
  * accumulated water is calculated by min(left_max,right_max) - height(i) where i is the current height/value.
  */
-public class TrappingRainWater_42 {
+public class TrappingRainWater_42_1 {
     public static void main(String arg[]){
         int value = totalWaterDP(new int[]{2,0,2});//{0,1,0,2,1,0,1,3,2,1,2,1});
             System.out.print(value);

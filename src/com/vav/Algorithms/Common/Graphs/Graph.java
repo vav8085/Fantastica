@@ -111,6 +111,12 @@ public class Graph {
             vertexList[i].setWasVisited(false);
         }
     }
+
+    /**
+     * you can also get a vertex V and find its position in vertex list and send it to this method
+     * @param v
+     * @return
+     */
     public ArrayList<Integer> getAdjascentVertex(int v){
         ArrayList<Integer> adjascentVertices = new ArrayList<>();
         for(int i=0;i<nVerts;i++){
