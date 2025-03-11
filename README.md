@@ -4,6 +4,7 @@ Repository is organized in folders for each subject.
 
 * Algorithms - This package contains various data structures and algorithms and their implementation in Java. 
   Algorithms section is further divided into 2 parts:
+  
         1. Common - This package has implementation of various data structures and algorithms
         2. Strategies - This package has detailed notes about various data structure and algorithms
 
