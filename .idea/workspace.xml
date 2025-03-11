@@ -2,8 +2,214 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0dc95c9b-b3e3-479e-88e2-7ef2b3d4dd5c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/Leetcode/todo" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Reference/Leetcode/todo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Archive/CTCI/Archive/work_2017/Common/LinkedList/EmptyListException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vav/Archive/epi/study2020/Arrays_06/EvenOdd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Algorithms/Common/Hashing/SeparateChaining.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Common/Hashing/SeparateChaining.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Algorithms/Common/ProblemTypes/linkedLists/OddEvenSplit_02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Common/ProblemTypes/linkedLists/OddEvenSplit_02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Algorithms/Common/ProblemTypes/linkedLists/SortingLinkedList_01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Common/ProblemTypes/linkedLists/SortingLinkedList_01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Algorithms/Common/Queues/LinkedQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Common/Queues/LinkedQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Algorithms/Common/Queues/QueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Common/Queues/QueueTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Algorithms/Common/Recursion/PrintLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Common/Recursion/PrintLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Algorithms/Common/Recursion/PrintLinkedListReverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Algorithms/Common/Recursion/PrintLinkedListReverse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Design/FunctionalProgramming/Notes/Lambdas.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Design/ReactiveProgramming/Code/FunctionalInterfaces/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Design/ReactiveProgramming/Code/FunctionalInterfaces/Vehicle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Design/ReactiveProgramming/Code/IteratorPattern/Collection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Design/ReactiveProgramming/Code/IteratorPattern/IntegerStorage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Design/ReactiveProgramming/Code/IteratorPattern/IntegerStorageCollection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Design/ReactiveProgramming/Code/IteratorPattern/IntegerStorageIterator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Design/ReactiveProgramming/Code/IteratorPattern/Iterator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Design/ReactiveProgramming/Code/IteratorPattern/IteratorClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Design/ReactiveProgramming/Code/IteratorPattern/KeyValueStorage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Design/ReactiveProgramming/Code/IteratorPattern/KeyValueStorageCollection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Design/ReactiveProgramming/Code/IteratorPattern/KeyValueStorageIterator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Design/ReactiveProgramming/Notes/Basics/01_Introduction" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Design/ReactiveProgramming/Notes/Basics/02_IteratorPattern" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Design/ReactiveProgramming/Notes/Basics/03_AnonymousClasses" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Design/ReactiveProgramming/Notes/Basics/04_FunctionalInterfaces" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Design/ReactiveProgramming/Notes/Basics/05_LambdaExpressions" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Design/Redux/Introduction" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/CTCI/Archive/work_2017/Chapter1/Q1_CheckStringUnique.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/CTCI/Archive/work_2017/Chapter1/Q1_CheckStringUnique.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/CTCI/Archive/work_2017/Chapter1/Q2_CheckStringsPermutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/CTCI/Archive/work_2017/Chapter1/Q2_CheckStringsPermutation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/CTCI/Archive/work_2017/Chapter1/Q3_URLify.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/CTCI/Archive/work_2017/Chapter1/Q3_URLify.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/CTCI/Archive/work_2017/Chapter1/Q4_PalindromePermutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/CTCI/Archive/work_2017/Chapter1/Q4_PalindromePermutation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/CTCI/Archive/work_2017/Chapter1/Q5_OneAway.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/CTCI/Archive/work_2017/Chapter1/Q5_OneAway.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/CTCI/Archive/work_2017/Chapter1/Q6_StringCompression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/CTCI/Archive/work_2017/Chapter1/Q6_StringCompression.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/CTCI/Archive/work_2017/Chapter1/Q7_RotateImage90.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/CTCI/Archive/work_2017/Chapter1/Q7_RotateImage90.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/CTCI/Archive/work_2017/Chapter1/Q9_StringRotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/CTCI/Archive/work_2017/Chapter1/Q9_StringRotation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/CTCI/Archive/work_2017/Chapter1/QX_RemoveDuplicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/CTCI/Archive/work_2017/Chapter1/QX_RemoveDuplicates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/CTCI/Archive/work_2017/Chapter1/QX_StringAnagrams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/CTCI/Archive/work_2017/Chapter1/QX_StringAnagrams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/CTCI/Archive/work_2017/Chapter2/Q1_RemoveDups.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/CTCI/Archive/work_2017/Chapter2/Q1_RemoveDups.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/CTCI/Archive/work_2017/Chapter2/Q2_KthToLast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/CTCI/Archive/work_2017/Chapter2/Q2_KthToLast.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/CTCI/Archive/work_2017/Chapter2/Q3_DeleteOnlyNodeAccess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/CTCI/Archive/work_2017/Chapter2/Q3_DeleteOnlyNodeAccess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/CTCI/Archive/work_2017/Chapter2/Q4_Partition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/CTCI/Archive/work_2017/Chapter2/Q4_Partition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/CTCI/Archive/work_2017/Chapter2/Q5_SumOfTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/CTCI/Archive/work_2017/Chapter2/Q5_SumOfTwoNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/CTCI/Archive/work_2017/Chapter2/Q8_LoopDetection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/CTCI/Archive/work_2017/Chapter2/Q8_LoopDetection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/CTCI/Archive/work_2017/Chapter3/Q1_ThreeStacksOneArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/CTCI/Archive/work_2017/Chapter3/Q1_ThreeStacksOneArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/CTCI/Archive/work_2017/Chapter3/Q2_MinStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/CTCI/Archive/work_2017/Chapter3/Q2_MinStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/CTCI/Archive/work_2017/Chapter3/Q2_StackMin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/CTCI/Archive/work_2017/Chapter3/Q2_StackMin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/CTCI/Archive/work_2017/Chapter3/Q3_StackOfPlates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/CTCI/Archive/work_2017/Chapter3/Q3_StackOfPlates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/CTCI/Archive/work_2017/Chapter3/Q4_QueueFrom2Stacks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/CTCI/Archive/work_2017/Chapter3/Q4_QueueFrom2Stacks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/CTCI/Archive/work_2017/Chapter3/Q5_StackSorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/CTCI/Archive/work_2017/Chapter3/Q5_StackSorting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/CTCI/Archive/work_2017/Chapter3/Q6_AnimalShelter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/CTCI/Archive/work_2017/Chapter3/Q6_AnimalShelter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/CTCI/Archive/work_2017/Common/CTCICommon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/CTCI/Archive/work_2017/Common/CTCICommon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/CTCI/Archive/work_2017/Common/GenStack/GenStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/CTCI/Archive/work_2017/Common/GenStack/GenStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/CTCI/Archive/work_2017/Common/LinkedList/EmptyListException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/CTCI/Archive/work_2017/Common/LinkedList/Link.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/CTCI/Archive/work_2017/Common/LinkedList/Link.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/CTCI/Archive/work_2017/Common/LinkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/CTCI/Archive/work_2017/Common/LinkedList/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/CTCI/Archive/work_2017/Common/LinkedList/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/CTCI/Archive/work_2017/Common/LinkedList/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/EffectiveJava/Item02/01_Telescoping_Constructors" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/EffectiveJava/Item02/01_Telescoping_Constructors" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/EffectiveJava/Item02/02_JavaBeans_Constructor" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/EffectiveJava/Item02/02_JavaBeans_Constructor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/EffectiveJava/Item02/03_BuilderPattern" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/EffectiveJava/Item02/03_BuilderPattern" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/EffectiveJava/Item02/0x_immutable_class_guidelines" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/EffectiveJava/Item02/0x_immutable_class_guidelines" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/EffectiveJava/Item02/IceCreamBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/EffectiveJava/Item02/IceCreamBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/EffectiveJava/Item02/IceCreamBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/EffectiveJava/Item02/IceCreamBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/EffectiveJava/readme" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/EffectiveJava/readme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/ITA_Cormen/I2_GettingStarted_2/Exercises/InsertionSortNonDecreasing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/ITA_Cormen/I2_GettingStarted_2/Exercises/InsertionSortNonDecreasing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/ITA_Cormen/I2_GettingStarted_2/Exercises/LinearSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/ITA_Cormen/I2_GettingStarted_2/Exercises/LinearSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/ITA_Cormen/I2_GettingStarted_2/ITA_InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/ITA_Cormen/I2_GettingStarted_2/ITA_InsertionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/Leetcode/archive/JetSetRun/Easy/AddBinary_67.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/Leetcode/archive/JetSetRun/Easy/AddBinary_67.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/Leetcode/archive/JetSetRun/Easy/BinaryTreeLevelOrderTraversal2_107.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/Leetcode/archive/JetSetRun/Easy/BinaryTreeLevelOrderTraversal2_107.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/Leetcode/archive/JetSetRun/Easy/ClimbingStairs_70.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/Leetcode/archive/JetSetRun/Easy/ClimbingStairs_70.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/Leetcode/archive/JetSetRun/Easy/IsPalindrome_009.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/Leetcode/archive/JetSetRun/Easy/IsPalindrome_009.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/Leetcode/archive/JetSetRun/Easy/LengthOfLastWord_058.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/Leetcode/archive/JetSetRun/Easy/LengthOfLastWord_058.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/Leetcode/archive/JetSetRun/Easy/MaxSubArray_053.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/Leetcode/archive/JetSetRun/Easy/MaxSubArray_053.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/Leetcode/archive/JetSetRun/Easy/MaximumDepthBinaryTree_104.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/Leetcode/archive/JetSetRun/Easy/MaximumDepthBinaryTree_104.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/Leetcode/archive/JetSetRun/Easy/MergeSortedArray_88.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/Leetcode/archive/JetSetRun/Easy/MergeSortedArray_88.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/Leetcode/archive/JetSetRun/Easy/MergeSortedLists_021.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/Leetcode/archive/JetSetRun/Easy/MergeSortedLists_021.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/Leetcode/archive/JetSetRun/Easy/NeedleInHaystack_028.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/Leetcode/archive/JetSetRun/Easy/NeedleInHaystack_028.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/Leetcode/archive/JetSetRun/Easy/PlusOne_066.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/Leetcode/archive/JetSetRun/Easy/PlusOne_066.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/Leetcode/archive/JetSetRun/Easy/RemoveDuplicatesSortedList_83.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/Leetcode/archive/JetSetRun/Easy/RemoveDuplicatesSortedList_83.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/Leetcode/archive/JetSetRun/Easy/RemoveDuplicates_026.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/Leetcode/archive/JetSetRun/Easy/RemoveDuplicates_026.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/Leetcode/archive/JetSetRun/Easy/RemoveElement_027.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/Leetcode/archive/JetSetRun/Easy/RemoveElement_027.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/Leetcode/archive/JetSetRun/Easy/ReverseInteger_007.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/Leetcode/archive/JetSetRun/Easy/ReverseInteger_007.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/Leetcode/archive/JetSetRun/Easy/RomanToInteger_013.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/Leetcode/archive/JetSetRun/Easy/RomanToInteger_013.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/Leetcode/archive/JetSetRun/Easy/SameTree_100.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/Leetcode/archive/JetSetRun/Easy/SameTree_100.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/Leetcode/archive/JetSetRun/Easy/SearchInsertPosition_035.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/Leetcode/archive/JetSetRun/Easy/SearchInsertPosition_035.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/Leetcode/archive/JetSetRun/Easy/SymmetricTree_101.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/Leetcode/archive/JetSetRun/Easy/SymmetricTree_101.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/Leetcode/archive/JetSetRun/Easy/TwoSum_01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/Leetcode/archive/JetSetRun/Easy/TwoSum_01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/Leetcode/archive/JetSetRun/Easy/ValidateParantheses_20.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/Leetcode/archive/JetSetRun/Easy/ValidateParantheses_20.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/Leetcode/archive/JetSetRun/Medium/AddTwoNumbers_02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/Leetcode/archive/JetSetRun/Medium/AddTwoNumbers_02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/Leetcode/archive/JetSetRun/Medium/LongestSubstring_03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/Leetcode/archive/JetSetRun/Medium/LongestSubstring_03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/Leetcode/easy/ClimbingStairs_070.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/Leetcode/easy/ClimbingStairs_070.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/Leetcode/todo" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/Leetcode/todo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/USanDieg_DsAlgoSpecialization/Algo_Toolbox/Week1/MaxPairwiseProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/USanDieg_DsAlgoSpecialization/Algo_Toolbox/Week1/MaxPairwiseProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/USanDieg_DsAlgoSpecialization/Algo_Toolbox/Week2/Code/FibonacciLastDigit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/USanDieg_DsAlgoSpecialization/Algo_Toolbox/Week2/Code/FibonacciLastDigit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/USanDieg_DsAlgoSpecialization/Algo_Toolbox/Week2/Code/FibonacciNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/USanDieg_DsAlgoSpecialization/Algo_Toolbox/Week2/Code/FibonacciNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/USanDieg_DsAlgoSpecialization/Algo_Toolbox/Week2/Code/GCDNaive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/USanDieg_DsAlgoSpecialization/Algo_Toolbox/Week2/Code/GCDNaive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/USanDieg_DsAlgoSpecialization/Algo_Toolbox/Week2/Code/GCDOptimised.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/USanDieg_DsAlgoSpecialization/Algo_Toolbox/Week2/Code/GCDOptimised.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/USanDieg_DsAlgoSpecialization/Algo_Toolbox/Week3/Code/CarRefueling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/USanDieg_DsAlgoSpecialization/Algo_Toolbox/Week3/Code/CarRefueling.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/USanDieg_DsAlgoSpecialization/Algo_Toolbox/Week3/Code/FractionalKnapsack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/USanDieg_DsAlgoSpecialization/Algo_Toolbox/Week3/Code/FractionalKnapsack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/USanDieg_DsAlgoSpecialization/Algo_Toolbox/Week3/Code/LargestNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/USanDieg_DsAlgoSpecialization/Algo_Toolbox/Week3/Code/LargestNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/USanDieg_DsAlgoSpecialization/Algo_Toolbox/Week3/Code/MaximumDotProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/USanDieg_DsAlgoSpecialization/Algo_Toolbox/Week3/Code/MaximumDotProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/USanDieg_DsAlgoSpecialization/Algo_Toolbox/Week3/Code/MinimumChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/USanDieg_DsAlgoSpecialization/Algo_Toolbox/Week3/Code/MinimumChange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/USanDieg_DsAlgoSpecialization/Algo_Toolbox/Week4/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/USanDieg_DsAlgoSpecialization/Algo_Toolbox/Week4/BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/USanDieg_DsAlgoSpecialization/Algo_Toolbox/Week4/PolynomialMultiplicationNaive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/USanDieg_DsAlgoSpecialization/Algo_Toolbox/Week4/PolynomialMultiplicationNaive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/USanDieg_DsAlgoSpecialization/Algo_Toolbox/Week5/Code/MinimimChangeRecursive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/USanDieg_DsAlgoSpecialization/Algo_Toolbox/Week5/Code/MinimimChangeRecursive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/USanDieg_DsAlgoSpecialization/Data_Structures/info" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/USanDieg_DsAlgoSpecialization/Data_Structures/info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/cleanArchitecture/Chapter1_Notes" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/cleanArchitecture/Chapter1_Notes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/cleanArchitecture/Chapter2_Notes" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/cleanArchitecture/Chapter2_Notes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/cleanArchitecture/Chapter3_Notes" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/cleanArchitecture/Chapter3_Notes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/cleanArchitecture/Chapter4_Notes" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/cleanArchitecture/Chapter4_Notes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/cleanArchitecture/Chapter5_Notes" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/cleanArchitecture/Chapter5_Notes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/cleanArchitecture/Chapter7_Notes" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/cleanArchitecture/Chapter7_Notes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/educative/DSInJavaInterviewRefresher/Arrays/Challenge_01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/educative/DSInJavaInterviewRefresher/Arrays/Challenge_01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/educative/DSInJavaInterviewRefresher/Arrays/Challenge_02_MergeSortedArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/educative/DSInJavaInterviewRefresher/Arrays/Challenge_02_MergeSortedArrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/educative/DSInJavaInterviewRefresher/Arrays/Challenge_03_FindTwoNumbersAddToN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/educative/DSInJavaInterviewRefresher/Arrays/Challenge_03_FindTwoNumbersAddToN.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/educative/DSInJavaInterviewRefresher/Arrays/Challenge_04_ProductOfAllItemsExceptSelf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/educative/DSInJavaInterviewRefresher/Arrays/Challenge_04_ProductOfAllItemsExceptSelf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/educative/DSInJavaInterviewRefresher/Arrays/Challenge_05_MinimumValueInArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/educative/DSInJavaInterviewRefresher/Arrays/Challenge_05_MinimumValueInArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/educative/DSInJavaInterviewRefresher/Arrays/Challenge_06_FirstNonrepeatingInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/educative/DSInJavaInterviewRefresher/Arrays/Challenge_06_FirstNonrepeatingInteger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/educative/DSInJavaInterviewRefresher/Arrays/Challenge_07_SecondMaximumValueInArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/educative/DSInJavaInterviewRefresher/Arrays/Challenge_07_SecondMaximumValueInArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/educative/DSInJavaInterviewRefresher/Arrays/Challenge_08_RightRotate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/educative/DSInJavaInterviewRefresher/Arrays/Challenge_08_RightRotate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/educative/DSInJavaInterviewRefresher/Arrays/Challenge_09_RearrangePositiveNegative.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/educative/DSInJavaInterviewRefresher/Arrays/Challenge_09_RearrangePositiveNegative.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/educative/DSInJavaInterviewRefresher/Arrays/Challenge_10_RearrangeInMaxMinForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/educative/DSInJavaInterviewRefresher/Arrays/Challenge_10_RearrangeInMaxMinForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/educative/DSInJavaInterviewRefresher/Arrays/TwoDimensionalArray_01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/educative/DSInJavaInterviewRefresher/Arrays/TwoDimensionalArray_01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/epi/linkedLists/Cyclicity_03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/epi/linkedLists/Cyclicity_03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/epi/linkedLists/DeleteANode_8_06.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/epi/linkedLists/DeleteANode_8_06.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/epi/linkedLists/DeleteKthNodeFromEnd_07.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/epi/linkedLists/DeleteKthNodeFromEnd_07.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/epi/linkedLists/MergeSortedLists_8_01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/epi/linkedLists/MergeSortedLists_8_01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/epi/linkedLists/OperlappingTest_8_04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/epi/linkedLists/OperlappingTest_8_04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/epi/linkedLists/RemoveDuplicatesSortedLl_8_08.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/epi/linkedLists/RemoveDuplicatesSortedLl_8_08.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/epi/linkedLists/ReverseSinglyLinkedList_8_02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/epi/linkedLists/ReverseSinglyLinkedList_8_02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/epi/primitiveTypes_01/ComputeParity_02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/epi/primitiveTypes_01/ComputeParity_02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/epi/primitiveTypes_01/CountBits_01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/epi/primitiveTypes_01/CountBits_01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/epi/primitiveTypes_01/SwapBits_03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/epi/primitiveTypes_01/SwapBits_03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/epi/questions" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/epi/questions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/epi/strings/BaseConversion_02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/epi/strings/BaseConversion_02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/epi/strings/SpreadSheetColumnsToIntegers_03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/epi/strings/SpreadSheetColumnsToIntegers_03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/epi/strings/StringToInteger_01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/epi/strings/StringToInteger_01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/epi/study2020/Arrays_06/EvenOdd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/iCamp/A_Basics/FindDuplicates_01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/iCamp/A_Basics/FindDuplicates_01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/iCamp/A_Basics/MoveZeroesToEnd_04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/iCamp/A_Basics/MoveZeroesToEnd_04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/iCamp/A_Basics/NumbersSumToValue_02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/iCamp/A_Basics/NumbersSumToValue_02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/iCamp/A_Basics/Palindromicity_05.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/iCamp/A_Basics/Palindromicity_05.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/iCamp/A_Basics/ReplaceAndRemove_04_X.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/iCamp/A_Basics/ReplaceAndRemove_04_X.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/iCamp/A_Basics/SubstituteEvenWithOneMore_03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/iCamp/A_Basics/SubstituteEvenWithOneMore_03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/iCamp/ArraysAndStrings_01/DutchNationalFlag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/iCamp/ArraysAndStrings_01/DutchNationalFlag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/iCamp/ArraysAndStrings_01/LargestSubarraySum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/iCamp/ArraysAndStrings_01/LargestSubarraySum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/iCamp/binarySearch/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/iCamp/binarySearch/BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/iCamp/recursion/PhoneNumberToText_03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/iCamp/recursion/PhoneNumberToText_03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/iCamp/recursion/PrintCombinations_02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/iCamp/recursion/PrintCombinations_02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/LinkedList_03/SinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/karumanchi/LinkedList_03/SinglyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/Trees_06/BinaryTreeInsert_05_06.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/karumanchi/Trees_06/BinaryTreeInsert_05_06.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/Trees_06/BinaryTreeSearch_03_04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/karumanchi/Trees_06/BinaryTreeSearch_03_04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/Trees_06/FindMaximumElement_01_02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/karumanchi/Trees_06/FindMaximumElement_01_02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/LinkedList_03/Q10_CheckCyclicFloydAlgo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/karumanchi/archieve/LinkedList_03/Q10_CheckCyclicFloydAlgo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/LinkedList_03/Q11_SnakeOrSnail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/karumanchi/archieve/LinkedList_03/Q11_SnakeOrSnail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/LinkedList_03/Q12_FindCyclePosition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/karumanchi/archieve/LinkedList_03/Q12_FindCyclePosition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/LinkedList_03/Q13_FindCyclePositionExplaination.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/karumanchi/archieve/LinkedList_03/Q13_FindCyclePositionExplaination.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/LinkedList_03/Q15_FindCycleLength.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/karumanchi/archieve/LinkedList_03/Q15_FindCycleLength.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/LinkedList_03/Q16_InsertNodeInSortedLl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/karumanchi/archieve/LinkedList_03/Q16_InsertNodeInSortedLl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/LinkedList_03/Q17_ReverseASinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/karumanchi/archieve/LinkedList_03/Q17_ReverseASinglyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/LinkedList_03/Q1_StackUsingLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/karumanchi/archieve/LinkedList_03/Q1_StackUsingLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/LinkedList_03/Q2_4_NthNodeFromEnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/karumanchi/archieve/LinkedList_03/Q2_4_NthNodeFromEnd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/LinkedList_03/Q3_NthNodeFromEndHashmap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/karumanchi/archieve/LinkedList_03/Q3_NthNodeFromEndHashmap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/LinkedList_03/Q5_NthFromEndOneIter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/karumanchi/archieve/LinkedList_03/Q5_NthFromEndOneIter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/LinkedList_03/Q6_NthNodeFromEndRecursive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/karumanchi/archieve/LinkedList_03/Q6_NthNodeFromEndRecursive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/LinkedList_03/Q7_CheckCyclicity2LoopUnsuccess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/karumanchi/archieve/LinkedList_03/Q7_CheckCyclicity2LoopUnsuccess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/LinkedList_03/Q8_CheckCycleUsingHashmaps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/karumanchi/archieve/LinkedList_03/Q8_CheckCycleUsingHashmaps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/LinkedList_03/Q9_CheckCyclicSortingUnsuccess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/karumanchi/archieve/LinkedList_03/Q9_CheckCyclicSortingUnsuccess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/Queues_05/Q1_ReverseQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/karumanchi/archieve/Queues_05/Q1_ReverseQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/Queues_05/Q2_TwoStackOneQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/karumanchi/archieve/Queues_05/Q2_TwoStackOneQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/Queues_05/Q3_TwoQueueOneStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/karumanchi/archieve/Queues_05/Q3_TwoQueueOneStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/Queues_05/Q4_MaximumSumSlidingWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/karumanchi/archieve/Queues_05/Q4_MaximumSumSlidingWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/Queues_05/Q5_TransferToStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/karumanchi/archieve/Queues_05/Q5_TransferToStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/Queues_05/Q6_QueueOnCircularArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/karumanchi/archieve/Queues_05/Q6_QueueOnCircularArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/Queues_05/Q7_ReverseQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/karumanchi/archieve/Queues_05/Q7_ReverseQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/Sorting_10/Q1_CheckRepetition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/karumanchi/archieve/Sorting_10/Q1_CheckRepetition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/Stacks_04/Q10_CheckPalindromeLinkedListUsingStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/karumanchi/archieve/Stacks_04/Q10_CheckPalindromeLinkedListUsingStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/Stacks_04/Q11_ReverseStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/karumanchi/archieve/Stacks_04/Q11_ReverseStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/Stacks_04/Q1_BalancingSymbols.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/karumanchi/archieve/Stacks_04/Q1_BalancingSymbols.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/Stacks_04/Q2_InfixToPostfix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/karumanchi/archieve/Stacks_04/Q2_InfixToPostfix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/Stacks_04/Q3_PostfixProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/karumanchi/archieve/Stacks_04/Q3_PostfixProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/Stacks_04/Q4_FindStackPermutations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/karumanchi/archieve/Stacks_04/Q4_FindStackPermutations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/Stacks_04/Q5_InfixToPostfixProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/karumanchi/archieve/Stacks_04/Q5_InfixToPostfixProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/Stacks_04/Q6_GetMinStackO1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/karumanchi/archieve/Stacks_04/Q6_GetMinStackO1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/Stacks_04/Q7_GetMinStackO1Optimal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/karumanchi/archieve/Stacks_04/Q7_GetMinStackO1Optimal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/Stacks_04/Q8_CheckPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/karumanchi/archieve/Stacks_04/Q8_CheckPalindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/Stacks_04/Q9_CheckPalindromeLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/karumanchi/archieve/Stacks_04/Q9_CheckPalindromeLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/Trees_06/Q10_HeightOfBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/karumanchi/archieve/Trees_06/Q10_HeightOfBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/Trees_06/Q12_HeightOfBinTree_Queues.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/karumanchi/archieve/Trees_06/Q12_HeightOfBinTree_Queues.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/Trees_06/Q13_MinimumDepthOfBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/karumanchi/archieve/Trees_06/Q13_MinimumDepthOfBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/Trees_06/Q14_DeepestNodeOfBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/karumanchi/archieve/Trees_06/Q14_DeepestNodeOfBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/Trees_06/Q15_DeleteANodeFromBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/karumanchi/archieve/Trees_06/Q15_DeleteANodeFromBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/Trees_06/Q16_LeavesOfBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/karumanchi/archieve/Trees_06/Q16_LeavesOfBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/Trees_06/Q17_FullNodesOfBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/karumanchi/archieve/Trees_06/Q17_FullNodesOfBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/Trees_06/Q18_HalfNodesInBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/karumanchi/archieve/Trees_06/Q18_HalfNodesInBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/Trees_06/Q19_StructurallyIdenticalTrees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/karumanchi/archieve/Trees_06/Q19_StructurallyIdenticalTrees.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/Trees_06/Q1_2_BinaryTreeFindMaxElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/karumanchi/archieve/Trees_06/Q1_2_BinaryTreeFindMaxElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/Trees_06/Q22_LevelWithMaximumSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/karumanchi/archieve/Trees_06/Q22_LevelWithMaximumSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/Trees_06/Q3_4_SearchBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/karumanchi/archieve/Trees_06/Q3_4_SearchBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/Trees_06/Q5_BinaryTreeInsertion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/karumanchi/archieve/Trees_06/Q5_BinaryTreeInsertion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/Trees_06/Q6_SizeOfBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/karumanchi/archieve/Trees_06/Q6_SizeOfBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/Trees_06/Q8_DeletingTheTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/karumanchi/archieve/Trees_06/Q8_DeletingTheTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/archieve/Trees_06/Q9_LevelOrderInReverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/karumanchi/archieve/Trees_06/Q9_LevelOrderInReverse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/karumanchi/info" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/karumanchi/info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/mitNotes/mit6042/01_Chapter" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/mitNotes/mit6042/01_Chapter" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/refactoring/00_readme" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/refactoring/00_readme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/refactoring/Chapter1/01_starting_point" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/refactoring/Chapter1/01_starting_point" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vav/Reference/refactoring/Chapter1/02_TheFirstStep" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vav/Archive/refactoring/Chapter1/02_TheFirstStep" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +249,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
   <component name="ProjectId" id="1OYNAZ9HZ05HWYNVnACA77CeT2r" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -50,23 +259,15 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="Downloaded.Files.Path.Enabled" value="false" />
-    <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="Repository.Attach.Sources" value="false" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="Inser&#9;RUN_CONFIGURATION&#9;InsertionSortNonDecreasing&#10;Topo&#9;FILE&#9;file:///Users/vpathak/WarPlan/src/com/vav/Strategies/Graphs/04_TopologicalSorting&#10;heapsor&#9;FILE&#9;file:///Users/z179905/MWC/src/com/vav/Common/Sorting/HeapSort.java" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563752173961" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/sandglass/Fantastica"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.vav.Junit.Test" />
@@ -163,11 +364,11 @@
       </method>
     </configuration>
     <configuration name="ClimbingStairs_70" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.vav.Reference.Leetcode.archive.JetSetRun.Easy.ClimbingStairs_70" />
+      <option name="MAIN_CLASS_NAME" value="com.vav.Archive.Leetcode.archive.JetSetRun.Easy.ClimbingStairs_70" />
       <module name="CODE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.vav.Reference.Leetcode.archive.JetSetRun.Easy.*" />
+          <option name="PATTERN" value="com.vav.Archive.Leetcode.archive.JetSetRun.Easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -268,7 +469,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -614,7 +814,7 @@
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/vav/Reference/Leetcode/archive/JetSetRun/Medium/LongestSubstring_03.java</url>
+          <url>file://$PROJECT_DIR$/src/com/vav/Archive/Leetcode/archive/JetSetRun/Medium/LongestSubstring_03.java</url>
           <line>20</line>
           <option name="timeStamp" value="207" />
         </line-breakpoint>

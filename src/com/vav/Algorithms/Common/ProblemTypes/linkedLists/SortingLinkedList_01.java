@@ -1,9 +1,9 @@
 package com.vav.Algorithms.Common.ProblemTypes.linkedLists;
 
 
-import com.vav.Reference.CTCI.Archive.work_2017.Common.LinkedList.EmptyListException;
-import com.vav.Reference.CTCI.Archive.work_2017.Common.LinkedList.Link;
-import com.vav.Reference.CTCI.Archive.work_2017.Common.LinkedList.LinkedList;
+import com.vav.Archive.CTCI.Archive.work_2017.Common.LinkedList.EmptyListException;
+import com.vav.Archive.CTCI.Archive.work_2017.Common.LinkedList.Link;
+import com.vav.Archive.CTCI.Archive.work_2017.Common.LinkedList.LinkedList;
 
 public class SortingLinkedList_01 {
     /**

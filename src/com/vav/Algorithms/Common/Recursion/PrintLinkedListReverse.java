@@ -1,6 +1,6 @@
 package com.vav.Algorithms.Common.Recursion;
 
-import com.vav.Reference.CTCI.Archive.work_2017.Common.LinkedList.Link;
+import com.vav.Archive.CTCI.Archive.work_2017.Common.LinkedList.Link;
 
 /**
  * Created by Vaibhav on 1/15/18.

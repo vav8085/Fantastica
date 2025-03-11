@@ -1,7 +1,7 @@
 package com.vav.Algorithms.Common.Queues;
 
-import com.vav.Reference.CTCI.Archive.work_2017.Common.LinkedList.Link;
-import com.vav.Reference.CTCI.Archive.work_2017.Common.LinkedList.LinkedList;
+import com.vav.Archive.CTCI.Archive.work_2017.Common.LinkedList.Link;
+import com.vav.Archive.CTCI.Archive.work_2017.Common.LinkedList.LinkedList;
 
 public class LinkedQueue {
     int count=0;
